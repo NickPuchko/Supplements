@@ -1,0 +1,16 @@
+version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+options: "f365e36807876d010c83d16dc4426966"
+build_time: [1624050408, 234391000]
+inputs:
+  "/Users/sapientisat/Projects/Supplements/Supplements/Supplements/Login/LoginModel.swift": [1624036799, 628053177]
+  "/Users/sapientisat/Projects/Supplements/Supplements/Supplements/Login/LoginViewController.swift": [1624037260, 205020535]
+  "/Users/sapientisat/Projects/Supplements/Supplements/Supplements/Form/FormViewController.swift": [1624037163, 421236662]
+  "/Users/sapientisat/Projects/Supplements/Supplements/Supplements/AppDelegate.swift": [1624047507, 206335721]
+  "/Users/sapientisat/Projects/Supplements/Supplements/Supplements/Googleuser.swift": [1624047223, 149282904]
+  "/Users/sapientisat/Projects/Supplements/Supplements/Supplements/Form/FormModel.swift": [1624036895, 628359875]
+  "/Users/sapientisat/Projects/Supplements/Supplements/Supplements/Symptoms/SymptomsModel.swift": [1624046420, 978612056]
+  "/Users/sapientisat/Projects/Supplements/Supplements/Supplements/UserNetworkService.swift": [1624040931, 558976049]
+  "/Users/sapientisat/Projects/Supplements/Supplements/Supplements/Errors.swift": [1624038332, 275929001]
+  "/Users/sapientisat/Projects/Supplements/Supplements/Supplements/Symptoms/QuestionCell.swift": [1624050407, 289853582]
+  "/Users/sapientisat/Projects/Supplements/Supplements/Supplements/Symptoms/SymptomsViewController.swift": [1624050407, 677879942]
+  "/Users/sapientisat/Projects/Supplements/Supplements/Supplements/Constants.swift": [1624037260, 192331155]

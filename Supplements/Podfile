@@ -1,0 +1,13 @@
+
+platform :ios, '14.1'
+workspace 'Supplements'
+target 'Supplements' do
+  use_frameworks! :linkage => :static
+  pod 'SnapKit'
+  pod 'GoogleSignIn'
+  pod 'Onboard'
+  pod 'CollectionViewPagingLayout'
+  pod 'Alamofire'
+  pod 'LinearProgressView'
+
+end

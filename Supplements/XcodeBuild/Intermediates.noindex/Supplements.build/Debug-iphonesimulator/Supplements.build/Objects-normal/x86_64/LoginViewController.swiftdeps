@@ -1,0 +1,853 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "LoginViewController"
+provides-nominal:
+- "11Supplements19LoginViewControllerC"
+provides-member:
+- ["11Supplements19LoginViewControllerC", ""]
+provides-dynamic-lookup:
+- "$__lazy_storage_$_GIDService"
+- "$__lazy_storage_$_googleSignInButton"
+- "$__lazy_storage_$_model"
+- "GIDService"
+- "googleSignInButton"
+- "model"
+- "viewDidLoad"
+depends-top-level:
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- "FloatLiteralType"
+- !private "GIDService"
+- "GIDSignIn"
+- "GIDSignInButton"
+- "IntegerLiteralType"
+- "LoginModel"
+- "LoginViewController"
+- "UIViewController"
+- !private "googleSignInButton"
+- !private "navigationController"
+- "self"
+- "view"
+depends-member:
+- ["SK", ""]
+- !private ["So15CALayerDelegateP", ""]
+- !private ["So15CALayerDelegateP", "addSubview"]
+- !private ["So15CALayerDelegateP", "backgroundColor"]
+- ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "safeAreaLayoutGuide"]
+- !private ["So15CALayerDelegateP", "snp"]
+- !private ["So15CALayerDelegateP", "style"]
+- !private ["s7CVarArgP", "GIDService"]
+- ["s7CVarArgP", "GIDSignIn"]
+- ["s7CVarArgP", "GIDSignInButton"]
+- ["s7CVarArgP", "LoginModel"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "addSubview"]
+- !private ["s7CVarArgP", "backgroundColor"]
+- !private ["s7CVarArgP", "black"]
+- !private ["s7CVarArgP", "googleSignInButton"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "navigationController"]
+- !private ["s7CVarArgP", "presentingViewController"]
+- !private ["s7CVarArgP", "restorePreviousSignIn"]
+- !private ["s7CVarArgP", "safeAreaLayoutGuide"]
+- ["s7CVarArgP", "self"]
+- !private ["s7CVarArgP", "setNavigationBarHidden"]
+- ["s7CVarArgP", "sharedInstance"]
+- !private ["s7CVarArgP", "snp"]
+- !private ["s7CVarArgP", "style"]
+- !private ["s7CVarArgP", "view"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- ["Sl", ""]
+- ["SL", ""]
+- !private ["7SnapKit23ConstraintAttributesDSLP", "bottom"]
+- !private ["7SnapKit23ConstraintAttributesDSLP", "makeConstraints"]
+- !private ["7SnapKit28ConstraintBasicAttributesDSLP", ""]
+- !private ["7SnapKit28ConstraintBasicAttributesDSLP", "bottom"]
+- !private ["7SnapKit28ConstraintBasicAttributesDSLP", "makeConstraints"]
+- !private ["7SnapKit13ConstraintDSLP", ""]
+- !private ["7SnapKit13ConstraintDSLP", "bottom"]
+- !private ["7SnapKit13ConstraintDSLP", "makeConstraints"]
+- !private ["7SnapKit24ConstraintLayoutGuideDSLV", "bottom"]
+- !private ["7SnapKit15ConstraintMakerC", "bottom"]
+- !private ["7SnapKit15ConstraintMakerC", "centerX"]
+- !private ["7SnapKit15ConstraintMakerC", "height"]
+- !private ["7SnapKit15ConstraintMakerC", "width"]
+- !private ["7SnapKit23ConstraintMakerEditableC", "multipliedBy"]
+- !private ["7SnapKit23ConstraintMakerEditableC", "offset"]
+- !private ["7SnapKit25ConstraintMakerExtendableC", "equalTo"]
+- !private ["7SnapKit25ConstraintMakerExtendableC", "equalToSuperview"]
+- ["7SnapKit26ConstraintMakerFinalizableC", ""]
+- !private ["7SnapKit26ConstraintMakerFinalizableC", "multipliedBy"]
+- !private ["7SnapKit26ConstraintMakerFinalizableC", "offset"]
+- ["7SnapKit27ConstraintMakerPriortizableC", ""]
+- !private ["7SnapKit27ConstraintMakerPriortizableC", "multipliedBy"]
+- !private ["7SnapKit27ConstraintMakerPriortizableC", "offset"]
+- ["7SnapKit24ConstraintMakerRelatableC", ""]
+- !private ["7SnapKit24ConstraintMakerRelatableC", "equalTo"]
+- !private ["7SnapKit24ConstraintMakerRelatableC", "equalToSuperview"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "addSubview"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "backgroundColor"]
+- ["7SnapKit25ConstraintRelatableTargetP", "init"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "safeAreaLayoutGuide"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "snp"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "style"]
+- !private ["7SnapKit17ConstraintViewDSLV", "makeConstraints"]
+- !private ["s28CustomDebugStringConvertibleP", "GIDService"]
+- ["s28CustomDebugStringConvertibleP", "GIDSignIn"]
+- ["s28CustomDebugStringConvertibleP", "GIDSignInButton"]
+- ["s28CustomDebugStringConvertibleP", "LoginModel"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "addSubview"]
+- !private ["s28CustomDebugStringConvertibleP", "backgroundColor"]
+- !private ["s28CustomDebugStringConvertibleP", "black"]
+- !private ["s28CustomDebugStringConvertibleP", "googleSignInButton"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "navigationController"]
+- !private ["s28CustomDebugStringConvertibleP", "presentingViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "restorePreviousSignIn"]
+- !private ["s28CustomDebugStringConvertibleP", "safeAreaLayoutGuide"]
+- ["s28CustomDebugStringConvertibleP", "self"]
+- !private ["s28CustomDebugStringConvertibleP", "setNavigationBarHidden"]
+- ["s28CustomDebugStringConvertibleP", "sharedInstance"]
+- !private ["s28CustomDebugStringConvertibleP", "snp"]
+- !private ["s28CustomDebugStringConvertibleP", "style"]
+- !private ["s28CustomDebugStringConvertibleP", "view"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s17CustomReflectableP", "addSubview"]
+- !private ["s17CustomReflectableP", "backgroundColor"]
+- !private ["s17CustomReflectableP", "black"]
+- !private ["s17CustomReflectableP", "safeAreaLayoutGuide"]
+- !private ["s23CustomStringConvertibleP", "GIDService"]
+- ["s23CustomStringConvertibleP", "GIDSignIn"]
+- ["s23CustomStringConvertibleP", "GIDSignInButton"]
+- ["s23CustomStringConvertibleP", "LoginModel"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "addSubview"]
+- !private ["s23CustomStringConvertibleP", "backgroundColor"]
+- !private ["s23CustomStringConvertibleP", "black"]
+- !private ["s23CustomStringConvertibleP", "googleSignInButton"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "navigationController"]
+- !private ["s23CustomStringConvertibleP", "presentingViewController"]
+- !private ["s23CustomStringConvertibleP", "restorePreviousSignIn"]
+- !private ["s23CustomStringConvertibleP", "safeAreaLayoutGuide"]
+- ["s23CustomStringConvertibleP", "self"]
+- !private ["s23CustomStringConvertibleP", "setNavigationBarHidden"]
+- ["s23CustomStringConvertibleP", "sharedInstance"]
+- !private ["s23CustomStringConvertibleP", "snp"]
+- !private ["s23CustomStringConvertibleP", "style"]
+- !private ["s23CustomStringConvertibleP", "view"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["Se", "addSubview"]
+- !private ["Se", "backgroundColor"]
+- !private ["Se", "black"]
+- !private ["Se", "safeAreaLayoutGuide"]
+- !private ["SE", "addSubview"]
+- !private ["SE", "backgroundColor"]
+- !private ["SE", "black"]
+- !private ["SE", "safeAreaLayoutGuide"]
+- !private ["SQ", "GIDService"]
+- ["SQ", "GIDSignIn"]
+- ["SQ", "GIDSignInButton"]
+- ["SQ", "LoginModel"]
+- ["SQ", ""]
+- !private ["SQ", "addSubview"]
+- !private ["SQ", "backgroundColor"]
+- !private ["SQ", "black"]
+- !private ["SQ", "googleSignInButton"]
+- ["SQ", "init"]
+- !private ["SQ", "navigationController"]
+- !private ["SQ", "presentingViewController"]
+- !private ["SQ", "restorePreviousSignIn"]
+- !private ["SQ", "safeAreaLayoutGuide"]
+- ["SQ", "self"]
+- !private ["SQ", "setNavigationBarHidden"]
+- ["SQ", "sharedInstance"]
+- !private ["SQ", "snp"]
+- !private ["SQ", "style"]
+- !private ["SQ", "view"]
+- !private ["SQ", "viewDidLoad"]
+- !private ["SQ", "wide"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s23ExpressibleByNilLiteralP", "addSubview"]
+- !private ["s23ExpressibleByNilLiteralP", "backgroundColor"]
+- !private ["s23ExpressibleByNilLiteralP", "black"]
+- !private ["s23ExpressibleByNilLiteralP", "safeAreaLayoutGuide"]
+- ["s32ExpressibleByStringInterpolationP", ""]
+- ["s26ExpressibleByStringLiteralP", ""]
+- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["So9GIDSignInC", "presentingViewController"]
+- !private ["So9GIDSignInC", "restorePreviousSignIn"]
+- ["So9GIDSignInC", "sharedInstance"]
+- ["So15GIDSignInButtonC", "init"]
+- !private ["So15GIDSignInButtonC", "snp"]
+- !private ["So15GIDSignInButtonC", "style"]
+- !private ["So20GIDSignInButtonStyleV", "wide"]
+- !private ["7SwiftUI7GestureP", "addSubview"]
+- !private ["7SwiftUI7GestureP", "backgroundColor"]
+- !private ["7SwiftUI7GestureP", "black"]
+- !private ["7SwiftUI7GestureP", "safeAreaLayoutGuide"]
+- !private ["SH", "GIDService"]
+- ["SH", "GIDSignIn"]
+- ["SH", "GIDSignInButton"]
+- ["SH", "LoginModel"]
+- ["SH", ""]
+- !private ["SH", "addSubview"]
+- !private ["SH", "backgroundColor"]
+- !private ["SH", "black"]
+- !private ["SH", "googleSignInButton"]
+- ["SH", "init"]
+- !private ["SH", "navigationController"]
+- !private ["SH", "presentingViewController"]
+- !private ["SH", "restorePreviousSignIn"]
+- !private ["SH", "safeAreaLayoutGuide"]
+- ["SH", "self"]
+- !private ["SH", "setNavigationBarHidden"]
+- ["SH", "sharedInstance"]
+- !private ["SH", "snp"]
+- !private ["SH", "style"]
+- !private ["SH", "view"]
+- !private ["SH", "viewDidLoad"]
+- !private ["SH", "wide"]
+- !private ["7SnapKit20LayoutConstraintItemP", "addSubview"]
+- !private ["7SnapKit20LayoutConstraintItemP", "backgroundColor"]
+- ["7SnapKit20LayoutConstraintItemP", "init"]
+- !private ["7SnapKit20LayoutConstraintItemP", "safeAreaLayoutGuide"]
+- !private ["7SnapKit20LayoutConstraintItemP", "snp"]
+- !private ["7SnapKit20LayoutConstraintItemP", "style"]
+- ["11Supplements10LoginModelC", "init"]
+- !private ["11Supplements19LoginViewControllerC", "$__lazy_storage_$_GIDService"]
+- !private ["11Supplements19LoginViewControllerC", "$__lazy_storage_$_googleSignInButton"]
+- !private ["11Supplements19LoginViewControllerC", "$__lazy_storage_$_model"]
+- !private ["11Supplements19LoginViewControllerC", "GIDService"]
+- ["11Supplements19LoginViewControllerC", "GIDSignIn"]
+- ["11Supplements19LoginViewControllerC", "GIDSignInButton"]
+- ["11Supplements19LoginViewControllerC", "LoginModel"]
+- ["11Supplements19LoginViewControllerC", ""]
+- ["11Supplements19LoginViewControllerC", "deinit"]
+- !private ["11Supplements19LoginViewControllerC", "googleSignInButton"]
+- ["11Supplements19LoginViewControllerC", "init"]
+- !private ["11Supplements19LoginViewControllerC", "model"]
+- !private ["11Supplements19LoginViewControllerC", "navigationController"]
+- ["11Supplements19LoginViewControllerC", "self"]
+- !private ["11Supplements19LoginViewControllerC", "view"]
+- ["11Supplements19LoginViewControllerC", "viewDidLoad"]
+- ["s25LosslessStringConvertibleP", ""]
+- ["So8NSCodingP", "$__lazy_storage_$_GIDService"]
+- ["So8NSCodingP", "$__lazy_storage_$_googleSignInButton"]
+- ["So8NSCodingP", "$__lazy_storage_$_model"]
+- ["So8NSCodingP", "GIDService"]
+- ["So8NSCodingP", "GIDSignIn"]
+- ["So8NSCodingP", "GIDSignInButton"]
+- ["So8NSCodingP", "LoginModel"]
+- ["So8NSCodingP", ""]
+- ["So8NSCodingP", "__lazy_storage_$_GIDService"]
+- ["So8NSCodingP", "__lazy_storage_$_googleSignInButton"]
+- ["So8NSCodingP", "__lazy_storage_$_model"]
+- !private ["So8NSCodingP", "addSubview"]
+- !private ["So8NSCodingP", "backgroundColor"]
+- !private ["So8NSCodingP", "black"]
+- ["So8NSCodingP", "googleSignInButton"]
+- ["So8NSCodingP", "init"]
+- ["So8NSCodingP", "model"]
+- !private ["So8NSCodingP", "navigationController"]
+- !private ["So8NSCodingP", "safeAreaLayoutGuide"]
+- ["So8NSCodingP", "self"]
+- !private ["So8NSCodingP", "setNavigationBarHidden"]
+- !private ["So8NSCodingP", "snp"]
+- !private ["So8NSCodingP", "style"]
+- !private ["So8NSCodingP", "view"]
+- ["So8NSCodingP", "viewDidLoad"]
+- !private ["So9NSCopyingP", "black"]
+- ["So26NSExtensionRequestHandlingP", "$__lazy_storage_$_GIDService"]
+- ["So26NSExtensionRequestHandlingP", "$__lazy_storage_$_googleSignInButton"]
+- ["So26NSExtensionRequestHandlingP", "$__lazy_storage_$_model"]
+- ["So26NSExtensionRequestHandlingP", "GIDService"]
+- ["So26NSExtensionRequestHandlingP", "GIDSignIn"]
+- ["So26NSExtensionRequestHandlingP", "GIDSignInButton"]
+- ["So26NSExtensionRequestHandlingP", "LoginModel"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- ["So26NSExtensionRequestHandlingP", "__lazy_storage_$_GIDService"]
+- ["So26NSExtensionRequestHandlingP", "__lazy_storage_$_googleSignInButton"]
+- ["So26NSExtensionRequestHandlingP", "__lazy_storage_$_model"]
+- ["So26NSExtensionRequestHandlingP", "googleSignInButton"]
+- ["So26NSExtensionRequestHandlingP", "init"]
+- ["So26NSExtensionRequestHandlingP", "model"]
+- !private ["So26NSExtensionRequestHandlingP", "navigationController"]
+- ["So26NSExtensionRequestHandlingP", "self"]
+- !private ["So26NSExtensionRequestHandlingP", "setNavigationBarHidden"]
+- !private ["So26NSExtensionRequestHandlingP", "view"]
+- ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- !private ["So21NSItemProviderReadingP", "black"]
+- !private ["So21NSItemProviderWritingP", "black"]
+- ["So8NSObjectC", "$__lazy_storage_$_GIDService"]
+- ["So8NSObjectC", "$__lazy_storage_$_googleSignInButton"]
+- ["So8NSObjectC", "$__lazy_storage_$_model"]
+- ["So8NSObjectC", "GIDService"]
+- ["So8NSObjectC", "GIDSignIn"]
+- ["So8NSObjectC", "GIDSignInButton"]
+- ["So8NSObjectC", "LoginModel"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "__lazy_storage_$_GIDService"]
+- ["So8NSObjectC", "__lazy_storage_$_googleSignInButton"]
+- ["So8NSObjectC", "__lazy_storage_$_model"]
+- !private ["So8NSObjectC", "addSubview"]
+- !private ["So8NSObjectC", "backgroundColor"]
+- !private ["So8NSObjectC", "black"]
+- ["So8NSObjectC", "googleSignInButton"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "model"]
+- !private ["So8NSObjectC", "navigationController"]
+- !private ["So8NSObjectC", "presentingViewController"]
+- !private ["So8NSObjectC", "restorePreviousSignIn"]
+- !private ["So8NSObjectC", "safeAreaLayoutGuide"]
+- ["So8NSObjectC", "self"]
+- !private ["So8NSObjectC", "setNavigationBarHidden"]
+- ["So8NSObjectC", "sharedInstance"]
+- !private ["So8NSObjectC", "snp"]
+- !private ["So8NSObjectC", "style"]
+- !private ["So8NSObjectC", "view"]
+- ["So8NSObjectC", "viewDidLoad"]
+- ["So8NSObjectP", "$__lazy_storage_$_GIDService"]
+- ["So8NSObjectP", "$__lazy_storage_$_googleSignInButton"]
+- ["So8NSObjectP", "$__lazy_storage_$_model"]
+- ["So8NSObjectP", "GIDService"]
+- ["So8NSObjectP", "GIDSignIn"]
+- ["So8NSObjectP", "GIDSignInButton"]
+- ["So8NSObjectP", "LoginModel"]
+- ["So8NSObjectP", ""]
+- ["So8NSObjectP", "__lazy_storage_$_GIDService"]
+- ["So8NSObjectP", "__lazy_storage_$_googleSignInButton"]
+- ["So8NSObjectP", "__lazy_storage_$_model"]
+- !private ["So8NSObjectP", "addSubview"]
+- !private ["So8NSObjectP", "backgroundColor"]
+- !private ["So8NSObjectP", "black"]
+- ["So8NSObjectP", "googleSignInButton"]
+- ["So8NSObjectP", "init"]
+- ["So8NSObjectP", "model"]
+- !private ["So8NSObjectP", "navigationController"]
+- !private ["So8NSObjectP", "presentingViewController"]
+- !private ["So8NSObjectP", "restorePreviousSignIn"]
+- !private ["So8NSObjectP", "safeAreaLayoutGuide"]
+- ["So8NSObjectP", "self"]
+- !private ["So8NSObjectP", "setNavigationBarHidden"]
+- ["So8NSObjectP", "sharedInstance"]
+- !private ["So8NSObjectP", "snp"]
+- !private ["So8NSObjectP", "style"]
+- !private ["So8NSObjectP", "view"]
+- ["So8NSObjectP", "viewDidLoad"]
+- !private ["So14NSSecureCodingP", "black"]
+- !private ["Sq", "addSubview"]
+- !private ["Sq", "backgroundColor"]
+- !private ["Sq", "black"]
+- !private ["Sq", "safeAreaLayoutGuide"]
+- !private ["SY", "wide"]
+- ["ST", ""]
+- ["s16TextOutputStreamP", ""]
+- ["s20TextOutputStreamableP", ""]
+- !private ["So29UIAccessibilityIdentificationP", ""]
+- !private ["So29UIAccessibilityIdentificationP", "addSubview"]
+- !private ["So29UIAccessibilityIdentificationP", "backgroundColor"]
+- ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "safeAreaLayoutGuide"]
+- !private ["So29UIAccessibilityIdentificationP", "snp"]
+- !private ["So29UIAccessibilityIdentificationP", "style"]
+- !private ["So12UIAppearanceP", ""]
+- !private ["So12UIAppearanceP", "addSubview"]
+- !private ["So12UIAppearanceP", "backgroundColor"]
+- ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "safeAreaLayoutGuide"]
+- !private ["So12UIAppearanceP", "snp"]
+- !private ["So12UIAppearanceP", "style"]
+- ["So21UIAppearanceContainerP", "$__lazy_storage_$_GIDService"]
+- ["So21UIAppearanceContainerP", "$__lazy_storage_$_googleSignInButton"]
+- ["So21UIAppearanceContainerP", "$__lazy_storage_$_model"]
+- ["So21UIAppearanceContainerP", "GIDService"]
+- ["So21UIAppearanceContainerP", "GIDSignIn"]
+- ["So21UIAppearanceContainerP", "GIDSignInButton"]
+- ["So21UIAppearanceContainerP", "LoginModel"]
+- ["So21UIAppearanceContainerP", ""]
+- ["So21UIAppearanceContainerP", "__lazy_storage_$_GIDService"]
+- ["So21UIAppearanceContainerP", "__lazy_storage_$_googleSignInButton"]
+- ["So21UIAppearanceContainerP", "__lazy_storage_$_model"]
+- !private ["So21UIAppearanceContainerP", "addSubview"]
+- !private ["So21UIAppearanceContainerP", "backgroundColor"]
+- ["So21UIAppearanceContainerP", "googleSignInButton"]
+- ["So21UIAppearanceContainerP", "init"]
+- ["So21UIAppearanceContainerP", "model"]
+- !private ["So21UIAppearanceContainerP", "navigationController"]
+- !private ["So21UIAppearanceContainerP", "safeAreaLayoutGuide"]
+- ["So21UIAppearanceContainerP", "self"]
+- !private ["So21UIAppearanceContainerP", "setNavigationBarHidden"]
+- !private ["So21UIAppearanceContainerP", "snp"]
+- !private ["So21UIAppearanceContainerP", "style"]
+- !private ["So21UIAppearanceContainerP", "view"]
+- ["So21UIAppearanceContainerP", "viewDidLoad"]
+- !private ["So7UIColorC", "black"]
+- ["So18UIContentContainerP", "$__lazy_storage_$_GIDService"]
+- ["So18UIContentContainerP", "$__lazy_storage_$_googleSignInButton"]
+- ["So18UIContentContainerP", "$__lazy_storage_$_model"]
+- ["So18UIContentContainerP", "GIDService"]
+- ["So18UIContentContainerP", "GIDSignIn"]
+- ["So18UIContentContainerP", "GIDSignInButton"]
+- ["So18UIContentContainerP", "LoginModel"]
+- ["So18UIContentContainerP", ""]
+- ["So18UIContentContainerP", "__lazy_storage_$_GIDService"]
+- ["So18UIContentContainerP", "__lazy_storage_$_googleSignInButton"]
+- ["So18UIContentContainerP", "__lazy_storage_$_model"]
+- ["So18UIContentContainerP", "googleSignInButton"]
+- ["So18UIContentContainerP", "init"]
+- ["So18UIContentContainerP", "model"]
+- !private ["So18UIContentContainerP", "navigationController"]
+- ["So18UIContentContainerP", "self"]
+- !private ["So18UIContentContainerP", "setNavigationBarHidden"]
+- !private ["So18UIContentContainerP", "view"]
+- ["So18UIContentContainerP", "viewDidLoad"]
+- !private ["So32UIContextMenuInteractionDelegateP", ""]
+- ["So32UIContextMenuInteractionDelegateP", "init"]
+- !private ["So32UIContextMenuInteractionDelegateP", "snp"]
+- !private ["So32UIContextMenuInteractionDelegateP", "style"]
+- ["So9UIControlC", ""]
+- ["So9UIControlC", "init"]
+- !private ["So9UIControlC", "snp"]
+- !private ["So9UIControlC", "style"]
+- !private ["So17UICoordinateSpaceP", ""]
+- !private ["So17UICoordinateSpaceP", "addSubview"]
+- !private ["So17UICoordinateSpaceP", "backgroundColor"]
+- ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "safeAreaLayoutGuide"]
+- !private ["So17UICoordinateSpaceP", "snp"]
+- !private ["So17UICoordinateSpaceP", "style"]
+- !private ["So13UIDynamicItemP", ""]
+- !private ["So13UIDynamicItemP", "addSubview"]
+- !private ["So13UIDynamicItemP", "backgroundColor"]
+- ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "safeAreaLayoutGuide"]
+- !private ["So13UIDynamicItemP", "snp"]
+- !private ["So13UIDynamicItemP", "style"]
+- ["So18UIFocusEnvironmentP", "$__lazy_storage_$_GIDService"]
+- ["So18UIFocusEnvironmentP", "$__lazy_storage_$_googleSignInButton"]
+- ["So18UIFocusEnvironmentP", "$__lazy_storage_$_model"]
+- ["So18UIFocusEnvironmentP", "GIDService"]
+- ["So18UIFocusEnvironmentP", "GIDSignIn"]
+- ["So18UIFocusEnvironmentP", "GIDSignInButton"]
+- ["So18UIFocusEnvironmentP", "LoginModel"]
+- ["So18UIFocusEnvironmentP", ""]
+- ["So18UIFocusEnvironmentP", "__lazy_storage_$_GIDService"]
+- ["So18UIFocusEnvironmentP", "__lazy_storage_$_googleSignInButton"]
+- ["So18UIFocusEnvironmentP", "__lazy_storage_$_model"]
+- !private ["So18UIFocusEnvironmentP", "addSubview"]
+- !private ["So18UIFocusEnvironmentP", "backgroundColor"]
+- ["So18UIFocusEnvironmentP", "googleSignInButton"]
+- ["So18UIFocusEnvironmentP", "init"]
+- ["So18UIFocusEnvironmentP", "model"]
+- !private ["So18UIFocusEnvironmentP", "navigationController"]
+- !private ["So18UIFocusEnvironmentP", "safeAreaLayoutGuide"]
+- ["So18UIFocusEnvironmentP", "self"]
+- !private ["So18UIFocusEnvironmentP", "setNavigationBarHidden"]
+- !private ["So18UIFocusEnvironmentP", "snp"]
+- !private ["So18UIFocusEnvironmentP", "style"]
+- !private ["So18UIFocusEnvironmentP", "view"]
+- ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So11UIFocusItemP", ""]
+- !private ["So11UIFocusItemP", "addSubview"]
+- !private ["So11UIFocusItemP", "backgroundColor"]
+- ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "safeAreaLayoutGuide"]
+- !private ["So11UIFocusItemP", "snp"]
+- !private ["So11UIFocusItemP", "style"]
+- !private ["So20UIFocusItemContainerP", ""]
+- !private ["So20UIFocusItemContainerP", "addSubview"]
+- !private ["So20UIFocusItemContainerP", "backgroundColor"]
+- ["So20UIFocusItemContainerP", "init"]
+- !private ["So20UIFocusItemContainerP", "safeAreaLayoutGuide"]
+- !private ["So20UIFocusItemContainerP", "snp"]
+- !private ["So20UIFocusItemContainerP", "style"]
+- !private ["So24UILargeContentViewerItemP", ""]
+- !private ["So24UILargeContentViewerItemP", "addSubview"]
+- !private ["So24UILargeContentViewerItemP", "backgroundColor"]
+- ["So24UILargeContentViewerItemP", "init"]
+- !private ["So24UILargeContentViewerItemP", "safeAreaLayoutGuide"]
+- !private ["So24UILargeContentViewerItemP", "snp"]
+- !private ["So24UILargeContentViewerItemP", "style"]
+- !private ["So13UILayoutGuideC", "snp"]
+- !private ["So22UINavigationControllerC", "setNavigationBarHidden"]
+- ["So30UIPasteConfigurationSupportingP", "$__lazy_storage_$_GIDService"]
+- ["So30UIPasteConfigurationSupportingP", "$__lazy_storage_$_googleSignInButton"]
+- ["So30UIPasteConfigurationSupportingP", "$__lazy_storage_$_model"]
+- ["So30UIPasteConfigurationSupportingP", "GIDService"]
+- ["So30UIPasteConfigurationSupportingP", "GIDSignIn"]
+- ["So30UIPasteConfigurationSupportingP", "GIDSignInButton"]
+- ["So30UIPasteConfigurationSupportingP", "LoginModel"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- ["So30UIPasteConfigurationSupportingP", "__lazy_storage_$_GIDService"]
+- ["So30UIPasteConfigurationSupportingP", "__lazy_storage_$_googleSignInButton"]
+- ["So30UIPasteConfigurationSupportingP", "__lazy_storage_$_model"]
+- !private ["So30UIPasteConfigurationSupportingP", "addSubview"]
+- !private ["So30UIPasteConfigurationSupportingP", "backgroundColor"]
+- ["So30UIPasteConfigurationSupportingP", "googleSignInButton"]
+- ["So30UIPasteConfigurationSupportingP", "init"]
+- ["So30UIPasteConfigurationSupportingP", "model"]
+- !private ["So30UIPasteConfigurationSupportingP", "navigationController"]
+- !private ["So30UIPasteConfigurationSupportingP", "safeAreaLayoutGuide"]
+- ["So30UIPasteConfigurationSupportingP", "self"]
+- !private ["So30UIPasteConfigurationSupportingP", "setNavigationBarHidden"]
+- !private ["So30UIPasteConfigurationSupportingP", "snp"]
+- !private ["So30UIPasteConfigurationSupportingP", "style"]
+- !private ["So30UIPasteConfigurationSupportingP", "view"]
+- ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- ["So11UIResponderC", "$__lazy_storage_$_GIDService"]
+- ["So11UIResponderC", "$__lazy_storage_$_googleSignInButton"]
+- ["So11UIResponderC", "$__lazy_storage_$_model"]
+- ["So11UIResponderC", "GIDService"]
+- ["So11UIResponderC", "GIDSignIn"]
+- ["So11UIResponderC", "GIDSignInButton"]
+- ["So11UIResponderC", "LoginModel"]
+- ["So11UIResponderC", ""]
+- ["So11UIResponderC", "__lazy_storage_$_GIDService"]
+- ["So11UIResponderC", "__lazy_storage_$_googleSignInButton"]
+- ["So11UIResponderC", "__lazy_storage_$_model"]
+- !private ["So11UIResponderC", "addSubview"]
+- !private ["So11UIResponderC", "backgroundColor"]
+- ["So11UIResponderC", "googleSignInButton"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "model"]
+- !private ["So11UIResponderC", "navigationController"]
+- !private ["So11UIResponderC", "safeAreaLayoutGuide"]
+- ["So11UIResponderC", "self"]
+- !private ["So11UIResponderC", "setNavigationBarHidden"]
+- !private ["So11UIResponderC", "snp"]
+- !private ["So11UIResponderC", "style"]
+- !private ["So11UIResponderC", "view"]
+- ["So11UIResponderC", "viewDidLoad"]
+- ["So30UIResponderStandardEditActionsP", "$__lazy_storage_$_GIDService"]
+- ["So30UIResponderStandardEditActionsP", "$__lazy_storage_$_googleSignInButton"]
+- ["So30UIResponderStandardEditActionsP", "$__lazy_storage_$_model"]
+- ["So30UIResponderStandardEditActionsP", "GIDService"]
+- ["So30UIResponderStandardEditActionsP", "GIDSignIn"]
+- ["So30UIResponderStandardEditActionsP", "GIDSignInButton"]
+- ["So30UIResponderStandardEditActionsP", "LoginModel"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- ["So30UIResponderStandardEditActionsP", "__lazy_storage_$_GIDService"]
+- ["So30UIResponderStandardEditActionsP", "__lazy_storage_$_googleSignInButton"]
+- ["So30UIResponderStandardEditActionsP", "__lazy_storage_$_model"]
+- !private ["So30UIResponderStandardEditActionsP", "addSubview"]
+- !private ["So30UIResponderStandardEditActionsP", "backgroundColor"]
+- ["So30UIResponderStandardEditActionsP", "googleSignInButton"]
+- ["So30UIResponderStandardEditActionsP", "init"]
+- ["So30UIResponderStandardEditActionsP", "model"]
+- !private ["So30UIResponderStandardEditActionsP", "navigationController"]
+- !private ["So30UIResponderStandardEditActionsP", "safeAreaLayoutGuide"]
+- ["So30UIResponderStandardEditActionsP", "self"]
+- !private ["So30UIResponderStandardEditActionsP", "setNavigationBarHidden"]
+- !private ["So30UIResponderStandardEditActionsP", "snp"]
+- !private ["So30UIResponderStandardEditActionsP", "style"]
+- !private ["So30UIResponderStandardEditActionsP", "view"]
+- ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- ["So16UIStateRestoringP", "$__lazy_storage_$_GIDService"]
+- ["So16UIStateRestoringP", "$__lazy_storage_$_googleSignInButton"]
+- ["So16UIStateRestoringP", "$__lazy_storage_$_model"]
+- ["So16UIStateRestoringP", "GIDService"]
+- ["So16UIStateRestoringP", "GIDSignIn"]
+- ["So16UIStateRestoringP", "GIDSignInButton"]
+- ["So16UIStateRestoringP", "LoginModel"]
+- ["So16UIStateRestoringP", ""]
+- ["So16UIStateRestoringP", "__lazy_storage_$_GIDService"]
+- ["So16UIStateRestoringP", "__lazy_storage_$_googleSignInButton"]
+- ["So16UIStateRestoringP", "__lazy_storage_$_model"]
+- ["So16UIStateRestoringP", "googleSignInButton"]
+- ["So16UIStateRestoringP", "init"]
+- ["So16UIStateRestoringP", "model"]
+- !private ["So16UIStateRestoringP", "navigationController"]
+- ["So16UIStateRestoringP", "self"]
+- !private ["So16UIStateRestoringP", "setNavigationBarHidden"]
+- !private ["So16UIStateRestoringP", "view"]
+- ["So16UIStateRestoringP", "viewDidLoad"]
+- ["So18UITraitEnvironmentP", "$__lazy_storage_$_GIDService"]
+- ["So18UITraitEnvironmentP", "$__lazy_storage_$_googleSignInButton"]
+- ["So18UITraitEnvironmentP", "$__lazy_storage_$_model"]
+- ["So18UITraitEnvironmentP", "GIDService"]
+- ["So18UITraitEnvironmentP", "GIDSignIn"]
+- ["So18UITraitEnvironmentP", "GIDSignInButton"]
+- ["So18UITraitEnvironmentP", "LoginModel"]
+- ["So18UITraitEnvironmentP", ""]
+- ["So18UITraitEnvironmentP", "__lazy_storage_$_GIDService"]
+- ["So18UITraitEnvironmentP", "__lazy_storage_$_googleSignInButton"]
+- ["So18UITraitEnvironmentP", "__lazy_storage_$_model"]
+- !private ["So18UITraitEnvironmentP", "addSubview"]
+- !private ["So18UITraitEnvironmentP", "backgroundColor"]
+- ["So18UITraitEnvironmentP", "googleSignInButton"]
+- ["So18UITraitEnvironmentP", "init"]
+- ["So18UITraitEnvironmentP", "model"]
+- !private ["So18UITraitEnvironmentP", "navigationController"]
+- !private ["So18UITraitEnvironmentP", "safeAreaLayoutGuide"]
+- ["So18UITraitEnvironmentP", "self"]
+- !private ["So18UITraitEnvironmentP", "setNavigationBarHidden"]
+- !private ["So18UITraitEnvironmentP", "snp"]
+- !private ["So18UITraitEnvironmentP", "style"]
+- !private ["So18UITraitEnvironmentP", "view"]
+- ["So18UITraitEnvironmentP", "viewDidLoad"]
+- ["So23UIUserActivityRestoringP", "$__lazy_storage_$_GIDService"]
+- ["So23UIUserActivityRestoringP", "$__lazy_storage_$_googleSignInButton"]
+- ["So23UIUserActivityRestoringP", "$__lazy_storage_$_model"]
+- ["So23UIUserActivityRestoringP", "GIDService"]
+- ["So23UIUserActivityRestoringP", "GIDSignIn"]
+- ["So23UIUserActivityRestoringP", "GIDSignInButton"]
+- ["So23UIUserActivityRestoringP", "LoginModel"]
+- ["So23UIUserActivityRestoringP", ""]
+- ["So23UIUserActivityRestoringP", "__lazy_storage_$_GIDService"]
+- ["So23UIUserActivityRestoringP", "__lazy_storage_$_googleSignInButton"]
+- ["So23UIUserActivityRestoringP", "__lazy_storage_$_model"]
+- !private ["So23UIUserActivityRestoringP", "addSubview"]
+- !private ["So23UIUserActivityRestoringP", "backgroundColor"]
+- ["So23UIUserActivityRestoringP", "googleSignInButton"]
+- ["So23UIUserActivityRestoringP", "init"]
+- ["So23UIUserActivityRestoringP", "model"]
+- !private ["So23UIUserActivityRestoringP", "navigationController"]
+- !private ["So23UIUserActivityRestoringP", "safeAreaLayoutGuide"]
+- ["So23UIUserActivityRestoringP", "self"]
+- !private ["So23UIUserActivityRestoringP", "setNavigationBarHidden"]
+- !private ["So23UIUserActivityRestoringP", "snp"]
+- !private ["So23UIUserActivityRestoringP", "style"]
+- !private ["So23UIUserActivityRestoringP", "view"]
+- ["So23UIUserActivityRestoringP", "viewDidLoad"]
+- ["So6UIViewC", ""]
+- !private ["So6UIViewC", "addSubview"]
+- !private ["So6UIViewC", "backgroundColor"]
+- ["So6UIViewC", "init"]
+- !private ["So6UIViewC", "safeAreaLayoutGuide"]
+- !private ["So6UIViewC", "snp"]
+- !private ["So6UIViewC", "style"]
+- ["So16UIViewControllerC", "$__lazy_storage_$_GIDService"]
+- ["So16UIViewControllerC", "$__lazy_storage_$_googleSignInButton"]
+- ["So16UIViewControllerC", "$__lazy_storage_$_model"]
+- ["So16UIViewControllerC", "GIDService"]
+- ["So16UIViewControllerC", "GIDSignIn"]
+- ["So16UIViewControllerC", "GIDSignInButton"]
+- ["So16UIViewControllerC", "LoginModel"]
+- ["So16UIViewControllerC", ""]
+- ["So16UIViewControllerC", "__lazy_storage_$_GIDService"]
+- ["So16UIViewControllerC", "__lazy_storage_$_googleSignInButton"]
+- ["So16UIViewControllerC", "__lazy_storage_$_model"]
+- ["So16UIViewControllerC", "googleSignInButton"]
+- ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "model"]
+- !private ["So16UIViewControllerC", "navigationController"]
+- ["So16UIViewControllerC", "self"]
+- !private ["So16UIViewControllerC", "setNavigationBarHidden"]
+- !private ["So16UIViewControllerC", "view"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- !private ["7SwiftUI4ViewP", "addSubview"]
+- !private ["7SwiftUI4ViewP", "backgroundColor"]
+- !private ["7SwiftUI4ViewP", "black"]
+- !private ["7SwiftUI4ViewP", "safeAreaLayoutGuide"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["s26_ExpressibleByColorLiteralP", "black"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "GIDService"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "GIDSignIn"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "GIDSignInButton"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "LoginModel"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addSubview"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "backgroundColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "black"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "googleSignInButton"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "navigationController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "presentingViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "restorePreviousSignIn"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "safeAreaLayoutGuide"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "self"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setNavigationBarHidden"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "sharedInstance"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "snp"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "style"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "view"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "GIDService"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "GIDSignIn"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "GIDSignInButton"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "LoginModel"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "addSubview"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "backgroundColor"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "black"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "googleSignInButton"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "navigationController"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "presentingViewController"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "restorePreviousSignIn"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "safeAreaLayoutGuide"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "self"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "setNavigationBarHidden"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "sharedInstance"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "snp"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "style"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "view"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "viewDidLoad"]
+- !private ["s21_ObjectiveCBridgeableP", "addSubview"]
+- !private ["s21_ObjectiveCBridgeableP", "backgroundColor"]
+- !private ["s21_ObjectiveCBridgeableP", "black"]
+- !private ["s21_ObjectiveCBridgeableP", "safeAreaLayoutGuide"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "addSubview"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "backgroundColor"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "safeAreaLayoutGuide"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "snp"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "style"]
+depends-nominal:
+- "SK"
+- "So15CALayerDelegateP"
+- "s7CVarArgP"
+- "Sl"
+- "SL"
+- !private "7SnapKit23ConstraintAttributesDSLP"
+- !private "7SnapKit28ConstraintBasicAttributesDSLP"
+- !private "7SnapKit13ConstraintDSLP"
+- !private "7SnapKit24ConstraintLayoutGuideDSLV"
+- !private "7SnapKit15ConstraintMakerC"
+- !private "7SnapKit23ConstraintMakerEditableC"
+- !private "7SnapKit25ConstraintMakerExtendableC"
+- "7SnapKit26ConstraintMakerFinalizableC"
+- "7SnapKit27ConstraintMakerPriortizableC"
+- "7SnapKit24ConstraintMakerRelatableC"
+- "7SnapKit25ConstraintRelatableTargetP"
+- !private "7SnapKit17ConstraintViewDSLV"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- "s32ExpressibleByStringInterpolationP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "So9GIDSignInC"
+- "So15GIDSignInButtonC"
+- !private "So20GIDSignInButtonStyleV"
+- !private "7SwiftUI7GestureP"
+- "SH"
+- "7SnapKit20LayoutConstraintItemP"
+- "11Supplements10LoginModelC"
+- "11Supplements19LoginViewControllerC"
+- "s25LosslessStringConvertibleP"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- "So26NSExtensionRequestHandlingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "Sq"
+- !private "SY"
+- "ST"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- !private "So7UIColorC"
+- "So18UIContentContainerP"
+- "So32UIContextMenuInteractionDelegateP"
+- "So9UIControlC"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So20UIFocusItemContainerP"
+- "So24UILargeContentViewerItemP"
+- !private "So13UILayoutGuideC"
+- !private "So22UINavigationControllerC"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So16UIStateRestoringP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "7SwiftUI4ViewP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s26_ExpressibleByColorLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftUI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/os.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UniformTypeIdentifiers.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CloudKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework/Modules/SnapKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/DeveloperToolsSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/CollectionViewPagingLayout/CollectionViewPagingLayout.framework/Modules/CollectionViewPagingLayout.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/LinearProgressView/LinearProgressView.framework/Modules/LinearProgressView.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework/Headers/SnapKit-umbrella.h"
+- "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/CollectionViewPagingLayout/CollectionViewPagingLayout.framework/Headers/CollectionViewPagingLayout-umbrella.h"
+- "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/LinearProgressView/LinearProgressView.framework/Headers/LinearProgressView-umbrella.h"
+- "/Users/sapientisat/Projects/Supplements/Supplements/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDProfileData.h"
+- "/Users/sapientisat/Projects/Supplements/Supplements/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDSignIn.h"
+- "/Users/sapientisat/Projects/Supplements/Supplements/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GoogleSignIn.h"
+- "/Users/sapientisat/Projects/Supplements/Supplements/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDAuthentication.h"
+- "/Users/sapientisat/Projects/Supplements/Supplements/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDSignInButton.h"
+- "/Users/sapientisat/Projects/Supplements/Supplements/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDGoogleUser.h"
+- "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework/Headers/SnapKit-Swift.h"
+- "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/CollectionViewPagingLayout/CollectionViewPagingLayout.framework/Headers/CollectionViewPagingLayout-Swift.h"
+- "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/LinearProgressView/LinearProgressView.framework/Headers/LinearProgressView-Swift.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/sapientisat/Projects/Supplements/Supplements/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Modules/module.modulemap"
+- "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework/Modules/module.modulemap"
+- "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/CollectionViewPagingLayout/CollectionViewPagingLayout.framework/Modules/module.modulemap"
+- "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/LinearProgressView/LinearProgressView.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UniformTypeIdentifiers.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "41280ebabc48b98f6040773f44038142"
