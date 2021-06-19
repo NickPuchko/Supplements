@@ -52,8 +52,7 @@ class TodayViewController: UIViewController {
             config.weekDayFont = UIFont.systemFont(ofSize: 12)
             config.weekDayWidth = 30
             config.weekDayColor = UIColor(red: 169/255, green: 226/255, blue: 159/255, alpha: 1)
-            
-            let calendar = CalendarHeatmap(config: config, startDate: Date(2021, 1, 1), endDate:  Date(2021, 6, 19))
+            let calendar = CalendarHeatmap(config: config, startDate: Date(2021, 1, 1), endDate:  Date(2021, 6, 20))
             calendar.delegate = self
             return calendar
         }()
@@ -96,10 +95,8 @@ class TodayViewController: UIViewController {
 extension TodayViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         let header = tableView.dequeueReusableHeaderFooterView(withIdentifier: "PillsHeaderView") as? PillsHeaderView
-        header?.dateLabel.text = "18 апреля, пятница"
+        header?.dateLabel.text = "20 июня, воскресенье"
         header?.weekLabel.text = "Сегодня"
-        
-        
         return header
     }
     func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
@@ -121,8 +118,12 @@ extension TodayViewController: UITableViewDataSource {
         let cell = tableView.dequeueReusableCell(withIdentifier: "PillsCell", for: indexPath) as! PillsCell
         cell.logoImageView.image = UIImage(systemName: "pills.fill")
         cell.pillNameLabel.text = "OMEGA-3"
-        cell.doseLabel.text = "1 таблетка"
-        cell.lableDate.text = "12:00"
+        cell.doseLabel.text = "\(Int.random(in: 2..<5)) таблетки"
+        var number = Int.random(in: 00..<60)
+        if number < 10 {
+            number += 10
+        }
+        cell.lableDate.text = "\(Int.random(in: 12..<21)):\(number)"
         return cell
     }
     
@@ -141,6 +142,9 @@ extension TodayViewController: CalendarHeatmapDelegate {
             let month = dateComponents.month,
             let day = dateComponents.day else { return .clear}
         let dateString = "\(year).\(month).\(day)"
+        if dateString == "2021.6.20" {
+            return .green
+        }
         return data[dateString] ?? UIColor(red: 169/255, green: 226/255, blue: 159/255, alpha: 1)
     }
     
