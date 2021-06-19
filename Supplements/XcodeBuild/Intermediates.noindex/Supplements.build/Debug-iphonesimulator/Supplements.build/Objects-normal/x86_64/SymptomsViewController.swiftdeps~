@@ -43,7 +43,7 @@ depends-top-level:
 - "UICollectionViewDelegate"
 - !private "UIColor"
 - "UIViewController"
-- "collectionView"
+- !private "collectionView"
 - "layout"
 - !private "model"
 - "progressBar"
@@ -239,12 +239,15 @@ depends-member:
 - !private ["7SnapKit15ConstraintMakerC", "right"]
 - !private ["7SnapKit15ConstraintMakerC", "top"]
 - !private ["7SnapKit15ConstraintMakerC", "width"]
+- !private ["7SnapKit23ConstraintMakerEditableC", "dividedBy"]
 - !private ["7SnapKit23ConstraintMakerEditableC", "offset"]
 - !private ["7SnapKit25ConstraintMakerExtendableC", "equalTo"]
 - !private ["7SnapKit25ConstraintMakerExtendableC", "equalToSuperview"]
 - ["7SnapKit26ConstraintMakerFinalizableC", ""]
+- !private ["7SnapKit26ConstraintMakerFinalizableC", "dividedBy"]
 - !private ["7SnapKit26ConstraintMakerFinalizableC", "offset"]
 - ["7SnapKit27ConstraintMakerPriortizableC", ""]
+- !private ["7SnapKit27ConstraintMakerPriortizableC", "dividedBy"]
 - !private ["7SnapKit27ConstraintMakerPriortizableC", "offset"]
 - ["7SnapKit24ConstraintMakerRelatableC", ""]
 - !private ["7SnapKit24ConstraintMakerRelatableC", "equalTo"]

@@ -51,7 +51,7 @@ class SymptomsViewController: UIViewController {
 		progressBar.snp.makeConstraints { make in
 			make.bottom.equalTo(view.safeAreaLayoutGuide).offset(-40)
 			make.centerX.equalToSuperview()
-			make.height.equalTo(40)
+			make.height.equalTo(30)
 		}
 	}
 
@@ -72,7 +72,7 @@ class SymptomsViewController: UIViewController {
 		collectionView.snp.makeConstraints { make in
 			make.left.equalToSuperview()
 			make.right.equalToSuperview()
-			make.width.equalTo(progressBar)
+			make.width.equalTo(progressBar).dividedBy(0.75)
 			make.top.equalTo(view.safeAreaLayoutGuide)
 			make.bottom.equalTo(progressBar.snp.top).offset(-20)
 		}
