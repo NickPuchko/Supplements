@@ -42,6 +42,8 @@
 		AA851CD9267DE12B00809A47 /* HealthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA851CD8267DE12B00809A47 /* HealthService.swift */; };
 		AA851CEC267DFB4800809A47 /* QuestionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA851CEB267DFB4800809A47 /* QuestionCell.swift */; };
 		AA851CF0267E024700809A47 /* UIImage+imageResize.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA851CEF267E024700809A47 /* UIImage+imageResize.swift */; };
+		AA851D14267E615500809A47 /* DeficitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA851D12267E615500809A47 /* DeficitModel.swift */; };
+		AA851D15267E615500809A47 /* DeficitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA851D13267E615500809A47 /* DeficitViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -83,6 +85,8 @@
 		AA851CD8267DE12B00809A47 /* HealthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthService.swift; sourceTree = "<group>"; };
 		AA851CEB267DFB4800809A47 /* QuestionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionCell.swift; sourceTree = "<group>"; };
 		AA851CEF267E024700809A47 /* UIImage+imageResize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+imageResize.swift"; sourceTree = "<group>"; };
+		AA851D12267E615500809A47 /* DeficitModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeficitModel.swift; sourceTree = "<group>"; };
+		AA851D13267E615500809A47 /* DeficitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeficitViewController.swift; sourceTree = "<group>"; };
 		BEB40AEC1D0CC127476CA557 /* Pods_Supplements.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Supplements.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -200,6 +204,7 @@
 		AA851C44267D08D500809A47 /* Supplements */ = {
 			isa = PBXGroup;
 			children = (
+				AA851D0E267E60D400809A47 /* Deficit */,
 				AA851C45267D08D500809A47 /* AppDelegate.swift */,
 				AA851CAA267D318700809A47 /* Symptoms */,
 				AA851C72267D0DF700809A47 /* Login */,
@@ -253,6 +258,15 @@
 				AA851CEB267DFB4800809A47 /* QuestionCell.swift */,
 			);
 			path = Symptoms;
+			sourceTree = "<group>";
+		};
+		AA851D0E267E60D400809A47 /* Deficit */ = {
+			isa = PBXGroup;
+			children = (
+				AA851D12267E615500809A47 /* DeficitModel.swift */,
+				AA851D13267E615500809A47 /* DeficitViewController.swift */,
+			);
+			path = Deficit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -370,6 +384,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA851D15267E615500809A47 /* DeficitViewController.swift in Sources */,
 				73061468267E021900591F27 /* ContentView.swift in Sources */,
 				AA851C77267D0E1700809A47 /* LoginModel.swift in Sources */,
 				AA851CC0267D67F300809A47 /* QuestionsCollectionViewController.swift in Sources */,
@@ -389,10 +404,10 @@
 				73061472267E389C00591F27 /* BlogViewController.swift in Sources */,
 				AA851C7E267D0F4900809A47 /* UserNetworkService.swift in Sources */,
 				7306146F267E2C1500591F27 /* Enum+Sex.swift in Sources */,
-				AA851CC8267D87BD00809A47 /* QuestionCell.swift in Sources */,
 				AA851CC3267D686400809A47 /* PagesNetworkService.swift in Sources */,
 				73061476267E3BF300591F27 /* CustomCollectionViewCell.swift in Sources */,
 				AA851C8E267D108B00809A47 /* Errors.swift in Sources */,
+				AA851D14267E615500809A47 /* DeficitModel.swift in Sources */,
 				AA851CBD267D424800809A47 /* PageCell.swift in Sources */,
 				AA851CBD267D424800809A47 /* PageCell.swift in Sources */,
 				737D3458267D4A0100E67EEF /* TodayModel.swift in Sources */,

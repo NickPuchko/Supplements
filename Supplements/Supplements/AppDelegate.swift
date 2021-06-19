@@ -7,6 +7,7 @@
 
 import UIKit
 import GoogleSignIn
+import SwipeableTabBarController
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
@@ -20,6 +21,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
 		GIDSignIn.sharedInstance().delegate = self
 		// Override point for customization after application launch.
 		window = UIWindow(frame: UIScreen.main.bounds)
+		window?.backgroundColor = .white
 		let rootViewController = LoginViewController()
 		let navigationController = UINavigationController(rootViewController: rootViewController)
 		navigationController.navigationBar.prefersLargeTitles = true
@@ -60,33 +62,34 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
 //		userNetworkService.createUser(user: user.profile.name) { result in
 //			print(result)
 //		}
-        let symptomsViewController = BlogViewController()
-//        let vc2 = SecondViewController()
-//        let vc3 = ThirdViewController()
-//        let tabbarVC = UITabBarController()
-//        tabbarVC.setViewControllers([symptomsViewController, vc2, vc3], animated: false)
-//        
-//        present(tabbarVC, animated: true)
-	  (signIn.presentingViewController as? LoginViewController)?
-		.navigationController?
-		.pushViewController(symptomsViewController, animated: true)
+
+		// TODO: check flag for opening symptoms for first time
+		let todayViewController = TodayViewController()
+		let blogViewController = BlogViewController()
+		let deficitViewController = DeficitViewController()
+		let profileViewController = UIViewController()
+
+		let todayItem = UITabBarItem(title: "Сегодня", image: UIImage(named: "today"), tag: 0)
+		let blogItem = UITabBarItem(title: "Блог", image: UIImage(named: "blog"), tag: 1)
+		let deficitItem = UITabBarItem(title: "Дефициты", image: UIImage(named: "deficit"), tag: 2)
+		let profileItem = UITabBarItem(title: "Профиль", image: UIImage(named: "profile"), tag: 3)
+
+		todayViewController.tabBarItem = todayItem
+		blogViewController.tabBarItem = blogItem
+		deficitViewController.tabBarItem = deficitItem
+		profileViewController.tabBarItem = profileItem
+		let tabBar = SwipeableTabBarController()
+		tabBar.setViewControllers([todayViewController, blogViewController, deficitViewController, profileViewController], animated: true)
+		tabBar.selectedViewController = deficitViewController
+		tabBar.tabBar.tintColor = .systemYellow
+		tabBar.tabBar.backgroundColor = UIColor.clear
+		tabBar.tabBar.backgroundImage = UIImage()
+		tabBar.tabBar.shadowImage = UIImage()  
+		window?.rootViewController = tabBar
+
+//	  (signIn.presentingViewController as? LoginViewController)?
+//		.navigationController?
+//		.pushViewController(symptomsViewController, animated: true)
         
 	}
 }
-
-class SecondViewController: UIViewController {
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        view.backgroundColor = .yellow
-        title = "vc2"
-    }
-}
-class ThirdViewController: UIViewController {
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        view.backgroundColor = .green
-        title = "vc3"
-    }
-}
-
-

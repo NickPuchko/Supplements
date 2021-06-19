@@ -75,7 +75,7 @@ depends-top-level:
 - !private "setupProgressbar"
 - "view"
 depends-member:
-- ["s18AdditiveArithmeticP", ""]
+- !private ["s18AdditiveArithmeticP", ""]
 - !private ["s18AdditiveArithmeticP", "init"]
 - !private ["9Alamofire0A8ExtendedP", "count"]
 - !private ["9Alamofire0A8ExtendedP", "subscript"]
@@ -84,7 +84,7 @@ depends-member:
 - ["7SwiftUI10AnimatableP", "zero"]
 - !private ["Sa", "count"]
 - !private ["Sa", "subscript"]
-- ["SK", ""]
+- !private ["SK", ""]
 - !private ["SK", "count"]
 - !private ["SK", "row"]
 - !private ["SK", "subscript"]
@@ -93,14 +93,13 @@ depends-member:
 - !private ["So7CALayerC", "borderColor"]
 - !private ["So7CALayerC", "borderWidth"]
 - !private ["So7CALayerC", "cornerRadius"]
-- !private ["So15CALayerDelegateP", ""]
 - ["So15CALayerDelegateP", "__buttonWithType"]
 - !private ["So15CALayerDelegateP", "addSubview"]
 - !private ["So15CALayerDelegateP", "backgroundColor"]
 - !private ["So15CALayerDelegateP", "barColor"]
 - !private ["So15CALayerDelegateP", "barInset"]
 - ["So15CALayerDelegateP", "buttonWithType"]
-- ["So15CALayerDelegateP", "configure"]
+- !private ["So15CALayerDelegateP", "configure"]
 - !private ["So15CALayerDelegateP", "dataSource"]
 - !private ["So15CALayerDelegateP", "delegate"]
 - !private ["So15CALayerDelegateP", "dequeueReusableCell"]
@@ -237,7 +236,7 @@ depends-member:
 - ["s7CVarArgP", "viewForZoomingInScrollView"]
 - !private ["s7CVarArgP", "white"]
 - !private ["s7CVarArgP", "zPositionHandler"]
-- ["Sl", ""]
+- !private ["Sl", ""]
 - !private ["Sl", "count"]
 - !private ["Sl", "row"]
 - !private ["Sl", "subscript"]
@@ -301,7 +300,7 @@ depends-member:
 - ["26CollectionViewPagingLayout0abcD8DelegateP", "viewForZooming"]
 - ["26CollectionViewPagingLayout0abcD8DelegateP", "viewForZoomingInScrollView"]
 - !private ["11Supplements6ColorsO", "tightGray"]
-- ["SL", ""]
+- !private ["SL", ""]
 - !private ["SL", "init"]
 - !private ["SL", "row"]
 - !private ["7SnapKit23ConstraintAttributesDSLP", "bottom"]
@@ -330,11 +329,9 @@ depends-member:
 - !private ["7SnapKit23ConstraintMakerEditableC", "offset"]
 - !private ["7SnapKit25ConstraintMakerExtendableC", "equalTo"]
 - !private ["7SnapKit25ConstraintMakerExtendableC", "equalToSuperview"]
-- ["7SnapKit26ConstraintMakerFinalizableC", ""]
 - !private ["7SnapKit26ConstraintMakerFinalizableC", "dividedBy"]
 - !private ["7SnapKit26ConstraintMakerFinalizableC", "multipliedBy"]
 - !private ["7SnapKit26ConstraintMakerFinalizableC", "offset"]
-- ["7SnapKit27ConstraintMakerPriortizableC", ""]
 - !private ["7SnapKit27ConstraintMakerPriortizableC", "dividedBy"]
 - !private ["7SnapKit27ConstraintMakerPriortizableC", "multipliedBy"]
 - !private ["7SnapKit27ConstraintMakerPriortizableC", "offset"]
@@ -727,22 +724,18 @@ depends-member:
 - !private ["s25ExpressibleByArrayLiteralP", "normal"]
 - !private ["s25ExpressibleByArrayLiteralP", "row"]
 - !private ["s25ExpressibleByArrayLiteralP", "subscript"]
-- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
-- ["s25ExpressibleByFloatLiteralP", ""]
+- !private ["s25ExpressibleByFloatLiteralP", ""]
 - !private ["s25ExpressibleByFloatLiteralP", "init"]
 - !private ["s27ExpressibleByIntegerLiteralP", "IntegerLiteralType"]
-- ["s27ExpressibleByIntegerLiteralP", ""]
+- !private ["s27ExpressibleByIntegerLiteralP", ""]
 - !private ["s27ExpressibleByIntegerLiteralP", "init"]
 - !private ["s23ExpressibleByNilLiteralP", "addSubview"]
 - !private ["s23ExpressibleByNilLiteralP", "backgroundColor"]
 - !private ["s23ExpressibleByNilLiteralP", "clear"]
 - !private ["s23ExpressibleByNilLiteralP", "frame"]
 - !private ["s23ExpressibleByNilLiteralP", "safeAreaLayoutGuide"]
-- ["s32ExpressibleByStringInterpolationP", ""]
-- ["s26ExpressibleByStringLiteralP", ""]
-- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
 - !private ["Sf", "init"]
-- ["SF", ""]
+- !private ["SF", ""]
 - !private ["SF", "init"]
 - !private ["11Supplements5FontsO", "HelveticaNeue"]
 - !private ["7SwiftUI7GestureP", "addSubview"]
@@ -893,7 +886,6 @@ depends-member:
 - !private ["18LinearProgressViewAAC", "setProgress"]
 - !private ["18LinearProgressViewAAC", "snp"]
 - !private ["18LinearProgressViewAAC", "trackColor"]
-- ["s25LosslessStringConvertibleP", ""]
 - !private ["s25LosslessStringConvertibleP", "init"]
 - !private ["26CollectionViewPagingLayout21MultipliableToCGFloatP", "init"]
 - !private ["26CollectionViewPagingLayout18MultipliableToSelfP", "init"]
@@ -916,14 +908,12 @@ depends-member:
 - !private ["So8NSCodingP", "Colors"]
 - !private ["So8NSCodingP", "Float"]
 - !private ["So8NSCodingP", "Fonts"]
-- ["So8NSCodingP", "IndexPath"]
-- ["So8NSCodingP", "Int"]
 - ["So8NSCodingP", "LinearProgressView"]
 - !private ["So8NSCodingP", "PageCell"]
 - ["So8NSCodingP", "SymptomsModel"]
 - ["So8NSCodingP", "UIButton"]
 - ["So8NSCodingP", "UICollectionView"]
-- ["So8NSCodingP", "UICollectionViewCell"]
+- !private ["So8NSCodingP", "UICollectionViewCell"]
 - !private ["So8NSCodingP", "UIColor"]
 - !private ["So8NSCodingP", "UIFont"]
 - ["So8NSCodingP", "UIImage"]
@@ -949,7 +939,7 @@ depends-member:
 - !private ["So8NSCodingP", "clear"]
 - ["So8NSCodingP", "collectionView"]
 - ["So8NSCodingP", "collectionViewDidEndMultipleSelectionInteraction"]
-- ["So8NSCodingP", "configure"]
+- !private ["So8NSCodingP", "configure"]
 - !private ["So8NSCodingP", "cornerRadius"]
 - !private ["So8NSCodingP", "currentPage"]
 - !private ["So8NSCodingP", "dataSource"]
@@ -1039,14 +1029,12 @@ depends-member:
 - !private ["So26NSExtensionRequestHandlingP", "Colors"]
 - !private ["So26NSExtensionRequestHandlingP", "Float"]
 - !private ["So26NSExtensionRequestHandlingP", "Fonts"]
-- ["So26NSExtensionRequestHandlingP", "IndexPath"]
-- ["So26NSExtensionRequestHandlingP", "Int"]
 - ["So26NSExtensionRequestHandlingP", "LinearProgressView"]
 - !private ["So26NSExtensionRequestHandlingP", "PageCell"]
 - ["So26NSExtensionRequestHandlingP", "SymptomsModel"]
 - ["So26NSExtensionRequestHandlingP", "UIButton"]
 - ["So26NSExtensionRequestHandlingP", "UICollectionView"]
-- ["So26NSExtensionRequestHandlingP", "UICollectionViewCell"]
+- !private ["So26NSExtensionRequestHandlingP", "UICollectionViewCell"]
 - !private ["So26NSExtensionRequestHandlingP", "UIColor"]
 - !private ["So26NSExtensionRequestHandlingP", "UIFont"]
 - ["So26NSExtensionRequestHandlingP", "UIImage"]
@@ -1176,8 +1164,6 @@ depends-member:
 - !private ["So8NSObjectC", "dequeueReusableCellWithReuseIdentifier"]
 - ["So8NSObjectC", "finishButton"]
 - !private ["So8NSObjectC", "font"]
-- !private ["So8NSObjectC", "fontWithDescriptor"]
-- !private ["So8NSObjectC", "fontWithName"]
 - !private ["So8NSObjectC", "frame"]
 - !private ["So8NSObjectC", "frameForAlignmentRect"]
 - ["So8NSObjectC", "iherbImageView"]
@@ -1263,14 +1249,12 @@ depends-member:
 - !private ["So8NSObjectP", "Colors"]
 - !private ["So8NSObjectP", "Float"]
 - !private ["So8NSObjectP", "Fonts"]
-- ["So8NSObjectP", "IndexPath"]
-- ["So8NSObjectP", "Int"]
 - ["So8NSObjectP", "LinearProgressView"]
 - !private ["So8NSObjectP", "PageCell"]
 - ["So8NSObjectP", "SymptomsModel"]
 - ["So8NSObjectP", "UIButton"]
 - ["So8NSObjectP", "UICollectionView"]
-- ["So8NSObjectP", "UICollectionViewCell"]
+- !private ["So8NSObjectP", "UICollectionViewCell"]
 - !private ["So8NSObjectP", "UIColor"]
 - !private ["So8NSObjectP", "UIFont"]
 - ["So8NSObjectP", "UIImage"]
@@ -1305,7 +1289,7 @@ depends-member:
 - !private ["So8NSObjectP", "colorWithPatternImage"]
 - !private ["So8NSObjectP", "colorWithRed"]
 - !private ["So8NSObjectP", "colorWithWhite"]
-- ["So8NSObjectP", "configure"]
+- !private ["So8NSObjectP", "configure"]
 - !private ["So8NSObjectP", "cornerRadius"]
 - !private ["So8NSObjectP", "currentPage"]
 - !private ["So8NSObjectP", "dataSource"]
@@ -1314,8 +1298,6 @@ depends-member:
 - !private ["So8NSObjectP", "dequeueReusableCellWithReuseIdentifier"]
 - ["So8NSObjectP", "finishButton"]
 - !private ["So8NSObjectP", "font"]
-- !private ["So8NSObjectP", "fontWithDescriptor"]
-- !private ["So8NSObjectP", "fontWithName"]
 - !private ["So8NSObjectP", "frame"]
 - !private ["So8NSObjectP", "frameForAlignmentRect"]
 - ["So8NSObjectP", "iherbImageView"]
@@ -1398,7 +1380,7 @@ depends-member:
 - !private ["So14NSSecureCodingP", "systemGreen"]
 - !private ["So14NSSecureCodingP", "white"]
 - !private ["So15NSTextAlignmentV", "center"]
-- ["Sj", ""]
+- !private ["Sj", ""]
 - !private ["Sj", "init"]
 - !private ["s9OptionSetP", "normal"]
 - !private ["Sq", "addSubview"]
@@ -1420,17 +1402,17 @@ depends-member:
 - !private ["SY", "normal"]
 - !private ["10Foundation20ReferenceConvertibleP", "row"]
 - !private ["s10SIMDScalarP", "init"]
-- ["ST", ""]
+- !private ["ST", ""]
 - !private ["ST", "count"]
 - !private ["ST", "row"]
 - !private ["ST", "subscript"]
 - !private ["s10SetAlgebraP", ""]
 - !private ["s10SetAlgebraP", "normal"]
-- ["s13SignedNumericP", ""]
+- !private ["s13SignedNumericP", ""]
 - !private ["s13SignedNumericP", "init"]
 - !private ["26CollectionViewPagingLayout014StackTransformB0P", "configure"]
 - !private ["So14UIControlStateV", "normal"]
-- ["Sx", ""]
+- !private ["Sx", ""]
 - !private ["Sx", "init"]
 - !private ["26CollectionViewPagingLayout17SummableToCGFloatP", "init"]
 - !private ["26CollectionViewPagingLayout14SummableToSelfP", "init"]
@@ -1504,8 +1486,6 @@ depends-member:
 - ["11Supplements22SymptomsViewControllerC", "viewDidLoad"]
 - ["11Supplements22SymptomsViewControllerC", "viewForZooming"]
 - ["11Supplements22SymptomsViewControllerC", "viewForZoomingInScrollView"]
-- ["s16TextOutputStreamP", ""]
-- ["s20TextOutputStreamableP", ""]
 - !private ["s20TextOutputStreamableP", "init"]
 - !private ["26CollectionViewPagingLayout013TransformableB0P", ""]
 - !private ["26CollectionViewPagingLayout013TransformableB0P", "configure"]
@@ -1517,14 +1497,13 @@ depends-member:
 - !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "setTitle"]
 - !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "snp"]
 - !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "titleLabel"]
-- !private ["So29UIAccessibilityIdentificationP", ""]
 - ["So29UIAccessibilityIdentificationP", "__buttonWithType"]
 - !private ["So29UIAccessibilityIdentificationP", "addSubview"]
 - !private ["So29UIAccessibilityIdentificationP", "backgroundColor"]
 - !private ["So29UIAccessibilityIdentificationP", "barColor"]
 - !private ["So29UIAccessibilityIdentificationP", "barInset"]
 - ["So29UIAccessibilityIdentificationP", "buttonWithType"]
-- ["So29UIAccessibilityIdentificationP", "configure"]
+- !private ["So29UIAccessibilityIdentificationP", "configure"]
 - !private ["So29UIAccessibilityIdentificationP", "dataSource"]
 - !private ["So29UIAccessibilityIdentificationP", "delegate"]
 - !private ["So29UIAccessibilityIdentificationP", "dequeueReusableCell"]
@@ -1553,14 +1532,13 @@ depends-member:
 - !private ["So29UIAccessibilityIdentificationP", "textAlignment"]
 - !private ["So29UIAccessibilityIdentificationP", "titleLabel"]
 - !private ["So29UIAccessibilityIdentificationP", "trackColor"]
-- !private ["So12UIAppearanceP", ""]
 - ["So12UIAppearanceP", "__buttonWithType"]
 - !private ["So12UIAppearanceP", "addSubview"]
 - !private ["So12UIAppearanceP", "backgroundColor"]
 - !private ["So12UIAppearanceP", "barColor"]
 - !private ["So12UIAppearanceP", "barInset"]
 - ["So12UIAppearanceP", "buttonWithType"]
-- ["So12UIAppearanceP", "configure"]
+- !private ["So12UIAppearanceP", "configure"]
 - !private ["So12UIAppearanceP", "dataSource"]
 - !private ["So12UIAppearanceP", "delegate"]
 - !private ["So12UIAppearanceP", "dequeueReusableCell"]
@@ -1601,14 +1579,12 @@ depends-member:
 - !private ["So21UIAppearanceContainerP", "Colors"]
 - !private ["So21UIAppearanceContainerP", "Float"]
 - !private ["So21UIAppearanceContainerP", "Fonts"]
-- ["So21UIAppearanceContainerP", "IndexPath"]
-- ["So21UIAppearanceContainerP", "Int"]
 - ["So21UIAppearanceContainerP", "LinearProgressView"]
 - !private ["So21UIAppearanceContainerP", "PageCell"]
 - ["So21UIAppearanceContainerP", "SymptomsModel"]
 - ["So21UIAppearanceContainerP", "UIButton"]
 - ["So21UIAppearanceContainerP", "UICollectionView"]
-- ["So21UIAppearanceContainerP", "UICollectionViewCell"]
+- !private ["So21UIAppearanceContainerP", "UICollectionViewCell"]
 - !private ["So21UIAppearanceContainerP", "UIColor"]
 - !private ["So21UIAppearanceContainerP", "UIFont"]
 - ["So21UIAppearanceContainerP", "UIImage"]
@@ -1630,7 +1606,7 @@ depends-member:
 - ["So21UIAppearanceContainerP", "buttonWithType"]
 - ["So21UIAppearanceContainerP", "collectionView"]
 - ["So21UIAppearanceContainerP", "collectionViewDidEndMultipleSelectionInteraction"]
-- ["So21UIAppearanceContainerP", "configure"]
+- !private ["So21UIAppearanceContainerP", "configure"]
 - !private ["So21UIAppearanceContainerP", "dataSource"]
 - !private ["So21UIAppearanceContainerP", "delegate"]
 - !private ["So21UIAppearanceContainerP", "dequeueReusableCell"]
@@ -1870,14 +1846,12 @@ depends-member:
 - !private ["So18UIContentContainerP", "Colors"]
 - !private ["So18UIContentContainerP", "Float"]
 - !private ["So18UIContentContainerP", "Fonts"]
-- ["So18UIContentContainerP", "IndexPath"]
-- ["So18UIContentContainerP", "Int"]
 - ["So18UIContentContainerP", "LinearProgressView"]
 - !private ["So18UIContentContainerP", "PageCell"]
 - ["So18UIContentContainerP", "SymptomsModel"]
 - ["So18UIContentContainerP", "UIButton"]
 - ["So18UIContentContainerP", "UICollectionView"]
-- ["So18UIContentContainerP", "UICollectionViewCell"]
+- !private ["So18UIContentContainerP", "UICollectionViewCell"]
 - !private ["So18UIContentContainerP", "UIColor"]
 - !private ["So18UIContentContainerP", "UIFont"]
 - ["So18UIContentContainerP", "UIImage"]
@@ -1937,7 +1911,6 @@ depends-member:
 - !private ["So30UIContentSizeCategoryAdjustingP", "snp"]
 - !private ["So30UIContentSizeCategoryAdjustingP", "text"]
 - !private ["So30UIContentSizeCategoryAdjustingP", "textAlignment"]
-- ["So33UIContextMenuInteractionAnimatingP", ""]
 - !private ["So32UIContextMenuInteractionDelegateP", ""]
 - ["So32UIContextMenuInteractionDelegateP", "__buttonWithType"]
 - !private ["So32UIContextMenuInteractionDelegateP", "backgroundColor"]
@@ -1958,14 +1931,13 @@ depends-member:
 - !private ["So9UIControlC", "setTitle"]
 - !private ["So9UIControlC", "snp"]
 - !private ["So9UIControlC", "titleLabel"]
-- !private ["So17UICoordinateSpaceP", ""]
 - ["So17UICoordinateSpaceP", "__buttonWithType"]
 - !private ["So17UICoordinateSpaceP", "addSubview"]
 - !private ["So17UICoordinateSpaceP", "backgroundColor"]
 - !private ["So17UICoordinateSpaceP", "barColor"]
 - !private ["So17UICoordinateSpaceP", "barInset"]
 - ["So17UICoordinateSpaceP", "buttonWithType"]
-- ["So17UICoordinateSpaceP", "configure"]
+- !private ["So17UICoordinateSpaceP", "configure"]
 - !private ["So17UICoordinateSpaceP", "dataSource"]
 - !private ["So17UICoordinateSpaceP", "delegate"]
 - !private ["So17UICoordinateSpaceP", "dequeueReusableCell"]
@@ -2003,14 +1975,13 @@ depends-member:
 - !private ["So23UIDataSourceTranslatingP", "reloadData"]
 - !private ["So23UIDataSourceTranslatingP", "showsHorizontalScrollIndicator"]
 - !private ["So23UIDataSourceTranslatingP", "snp"]
-- !private ["So13UIDynamicItemP", ""]
 - ["So13UIDynamicItemP", "__buttonWithType"]
 - !private ["So13UIDynamicItemP", "addSubview"]
 - !private ["So13UIDynamicItemP", "backgroundColor"]
 - !private ["So13UIDynamicItemP", "barColor"]
 - !private ["So13UIDynamicItemP", "barInset"]
 - ["So13UIDynamicItemP", "buttonWithType"]
-- ["So13UIDynamicItemP", "configure"]
+- !private ["So13UIDynamicItemP", "configure"]
 - !private ["So13UIDynamicItemP", "dataSource"]
 - !private ["So13UIDynamicItemP", "delegate"]
 - !private ["So13UIDynamicItemP", "dequeueReusableCell"]
@@ -2051,14 +2022,12 @@ depends-member:
 - !private ["So18UIFocusEnvironmentP", "Colors"]
 - !private ["So18UIFocusEnvironmentP", "Float"]
 - !private ["So18UIFocusEnvironmentP", "Fonts"]
-- ["So18UIFocusEnvironmentP", "IndexPath"]
-- ["So18UIFocusEnvironmentP", "Int"]
 - ["So18UIFocusEnvironmentP", "LinearProgressView"]
 - !private ["So18UIFocusEnvironmentP", "PageCell"]
 - ["So18UIFocusEnvironmentP", "SymptomsModel"]
 - ["So18UIFocusEnvironmentP", "UIButton"]
 - ["So18UIFocusEnvironmentP", "UICollectionView"]
-- ["So18UIFocusEnvironmentP", "UICollectionViewCell"]
+- !private ["So18UIFocusEnvironmentP", "UICollectionViewCell"]
 - !private ["So18UIFocusEnvironmentP", "UIColor"]
 - !private ["So18UIFocusEnvironmentP", "UIFont"]
 - ["So18UIFocusEnvironmentP", "UIImage"]
@@ -2080,7 +2049,7 @@ depends-member:
 - ["So18UIFocusEnvironmentP", "buttonWithType"]
 - ["So18UIFocusEnvironmentP", "collectionView"]
 - ["So18UIFocusEnvironmentP", "collectionViewDidEndMultipleSelectionInteraction"]
-- ["So18UIFocusEnvironmentP", "configure"]
+- !private ["So18UIFocusEnvironmentP", "configure"]
 - !private ["So18UIFocusEnvironmentP", "dataSource"]
 - !private ["So18UIFocusEnvironmentP", "delegate"]
 - !private ["So18UIFocusEnvironmentP", "dequeueReusableCell"]
@@ -2145,14 +2114,13 @@ depends-member:
 - ["So18UIFocusEnvironmentP", "viewDidLoad"]
 - ["So18UIFocusEnvironmentP", "viewForZooming"]
 - ["So18UIFocusEnvironmentP", "viewForZoomingInScrollView"]
-- !private ["So11UIFocusItemP", ""]
 - ["So11UIFocusItemP", "__buttonWithType"]
 - !private ["So11UIFocusItemP", "addSubview"]
 - !private ["So11UIFocusItemP", "backgroundColor"]
 - !private ["So11UIFocusItemP", "barColor"]
 - !private ["So11UIFocusItemP", "barInset"]
 - ["So11UIFocusItemP", "buttonWithType"]
-- ["So11UIFocusItemP", "configure"]
+- !private ["So11UIFocusItemP", "configure"]
 - !private ["So11UIFocusItemP", "dataSource"]
 - !private ["So11UIFocusItemP", "delegate"]
 - !private ["So11UIFocusItemP", "dequeueReusableCell"]
@@ -2187,7 +2155,7 @@ depends-member:
 - !private ["So20UIFocusItemContainerP", "barColor"]
 - !private ["So20UIFocusItemContainerP", "barInset"]
 - ["So20UIFocusItemContainerP", "buttonWithType"]
-- ["So20UIFocusItemContainerP", "configure"]
+- !private ["So20UIFocusItemContainerP", "configure"]
 - !private ["So20UIFocusItemContainerP", "dataSource"]
 - !private ["So20UIFocusItemContainerP", "delegate"]
 - !private ["So20UIFocusItemContainerP", "dequeueReusableCell"]
@@ -2243,14 +2211,13 @@ depends-member:
 - !private ["So7UILabelC", "snp"]
 - !private ["So7UILabelC", "text"]
 - !private ["So7UILabelC", "textAlignment"]
-- !private ["So24UILargeContentViewerItemP", ""]
 - ["So24UILargeContentViewerItemP", "__buttonWithType"]
 - !private ["So24UILargeContentViewerItemP", "addSubview"]
 - !private ["So24UILargeContentViewerItemP", "backgroundColor"]
 - !private ["So24UILargeContentViewerItemP", "barColor"]
 - !private ["So24UILargeContentViewerItemP", "barInset"]
 - ["So24UILargeContentViewerItemP", "buttonWithType"]
-- ["So24UILargeContentViewerItemP", "configure"]
+- !private ["So24UILargeContentViewerItemP", "configure"]
 - !private ["So24UILargeContentViewerItemP", "dataSource"]
 - !private ["So24UILargeContentViewerItemP", "delegate"]
 - !private ["So24UILargeContentViewerItemP", "dequeueReusableCell"]
@@ -2292,14 +2259,12 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "Colors"]
 - !private ["So30UIPasteConfigurationSupportingP", "Float"]
 - !private ["So30UIPasteConfigurationSupportingP", "Fonts"]
-- ["So30UIPasteConfigurationSupportingP", "IndexPath"]
-- ["So30UIPasteConfigurationSupportingP", "Int"]
 - ["So30UIPasteConfigurationSupportingP", "LinearProgressView"]
 - !private ["So30UIPasteConfigurationSupportingP", "PageCell"]
 - ["So30UIPasteConfigurationSupportingP", "SymptomsModel"]
 - ["So30UIPasteConfigurationSupportingP", "UIButton"]
 - ["So30UIPasteConfigurationSupportingP", "UICollectionView"]
-- ["So30UIPasteConfigurationSupportingP", "UICollectionViewCell"]
+- !private ["So30UIPasteConfigurationSupportingP", "UICollectionViewCell"]
 - !private ["So30UIPasteConfigurationSupportingP", "UIColor"]
 - !private ["So30UIPasteConfigurationSupportingP", "UIFont"]
 - ["So30UIPasteConfigurationSupportingP", "UIImage"]
@@ -2321,7 +2286,7 @@ depends-member:
 - ["So30UIPasteConfigurationSupportingP", "buttonWithType"]
 - ["So30UIPasteConfigurationSupportingP", "collectionView"]
 - ["So30UIPasteConfigurationSupportingP", "collectionViewDidEndMultipleSelectionInteraction"]
-- ["So30UIPasteConfigurationSupportingP", "configure"]
+- !private ["So30UIPasteConfigurationSupportingP", "configure"]
 - !private ["So30UIPasteConfigurationSupportingP", "dataSource"]
 - !private ["So30UIPasteConfigurationSupportingP", "delegate"]
 - !private ["So30UIPasteConfigurationSupportingP", "dequeueReusableCell"]
@@ -2508,14 +2473,12 @@ depends-member:
 - !private ["So30UIResponderStandardEditActionsP", "Colors"]
 - !private ["So30UIResponderStandardEditActionsP", "Float"]
 - !private ["So30UIResponderStandardEditActionsP", "Fonts"]
-- ["So30UIResponderStandardEditActionsP", "IndexPath"]
-- ["So30UIResponderStandardEditActionsP", "Int"]
 - ["So30UIResponderStandardEditActionsP", "LinearProgressView"]
 - !private ["So30UIResponderStandardEditActionsP", "PageCell"]
 - ["So30UIResponderStandardEditActionsP", "SymptomsModel"]
 - ["So30UIResponderStandardEditActionsP", "UIButton"]
 - ["So30UIResponderStandardEditActionsP", "UICollectionView"]
-- ["So30UIResponderStandardEditActionsP", "UICollectionViewCell"]
+- !private ["So30UIResponderStandardEditActionsP", "UICollectionViewCell"]
 - !private ["So30UIResponderStandardEditActionsP", "UIColor"]
 - !private ["So30UIResponderStandardEditActionsP", "UIFont"]
 - ["So30UIResponderStandardEditActionsP", "UIImage"]
@@ -2537,7 +2500,7 @@ depends-member:
 - ["So30UIResponderStandardEditActionsP", "buttonWithType"]
 - ["So30UIResponderStandardEditActionsP", "collectionView"]
 - ["So30UIResponderStandardEditActionsP", "collectionViewDidEndMultipleSelectionInteraction"]
-- ["So30UIResponderStandardEditActionsP", "configure"]
+- !private ["So30UIResponderStandardEditActionsP", "configure"]
 - !private ["So30UIResponderStandardEditActionsP", "dataSource"]
 - !private ["So30UIResponderStandardEditActionsP", "delegate"]
 - !private ["So30UIResponderStandardEditActionsP", "dequeueReusableCell"]
@@ -2708,14 +2671,12 @@ depends-member:
 - !private ["So16UIStateRestoringP", "Colors"]
 - !private ["So16UIStateRestoringP", "Float"]
 - !private ["So16UIStateRestoringP", "Fonts"]
-- ["So16UIStateRestoringP", "IndexPath"]
-- ["So16UIStateRestoringP", "Int"]
 - ["So16UIStateRestoringP", "LinearProgressView"]
 - !private ["So16UIStateRestoringP", "PageCell"]
 - ["So16UIStateRestoringP", "SymptomsModel"]
 - ["So16UIStateRestoringP", "UIButton"]
 - ["So16UIStateRestoringP", "UICollectionView"]
-- ["So16UIStateRestoringP", "UICollectionViewCell"]
+- !private ["So16UIStateRestoringP", "UICollectionViewCell"]
 - !private ["So16UIStateRestoringP", "UIColor"]
 - !private ["So16UIStateRestoringP", "UIFont"]
 - ["So16UIStateRestoringP", "UIImage"]
@@ -2782,14 +2743,12 @@ depends-member:
 - !private ["So18UITraitEnvironmentP", "Colors"]
 - !private ["So18UITraitEnvironmentP", "Float"]
 - !private ["So18UITraitEnvironmentP", "Fonts"]
-- ["So18UITraitEnvironmentP", "IndexPath"]
-- ["So18UITraitEnvironmentP", "Int"]
 - ["So18UITraitEnvironmentP", "LinearProgressView"]
 - !private ["So18UITraitEnvironmentP", "PageCell"]
 - ["So18UITraitEnvironmentP", "SymptomsModel"]
 - ["So18UITraitEnvironmentP", "UIButton"]
 - ["So18UITraitEnvironmentP", "UICollectionView"]
-- ["So18UITraitEnvironmentP", "UICollectionViewCell"]
+- !private ["So18UITraitEnvironmentP", "UICollectionViewCell"]
 - !private ["So18UITraitEnvironmentP", "UIColor"]
 - !private ["So18UITraitEnvironmentP", "UIFont"]
 - ["So18UITraitEnvironmentP", "UIImage"]
@@ -2811,7 +2770,7 @@ depends-member:
 - ["So18UITraitEnvironmentP", "buttonWithType"]
 - ["So18UITraitEnvironmentP", "collectionView"]
 - ["So18UITraitEnvironmentP", "collectionViewDidEndMultipleSelectionInteraction"]
-- ["So18UITraitEnvironmentP", "configure"]
+- !private ["So18UITraitEnvironmentP", "configure"]
 - !private ["So18UITraitEnvironmentP", "dataSource"]
 - !private ["So18UITraitEnvironmentP", "delegate"]
 - !private ["So18UITraitEnvironmentP", "dequeueReusableCell"]
@@ -2889,14 +2848,12 @@ depends-member:
 - !private ["So23UIUserActivityRestoringP", "Colors"]
 - !private ["So23UIUserActivityRestoringP", "Float"]
 - !private ["So23UIUserActivityRestoringP", "Fonts"]
-- ["So23UIUserActivityRestoringP", "IndexPath"]
-- ["So23UIUserActivityRestoringP", "Int"]
 - ["So23UIUserActivityRestoringP", "LinearProgressView"]
 - !private ["So23UIUserActivityRestoringP", "PageCell"]
 - ["So23UIUserActivityRestoringP", "SymptomsModel"]
 - ["So23UIUserActivityRestoringP", "UIButton"]
 - ["So23UIUserActivityRestoringP", "UICollectionView"]
-- ["So23UIUserActivityRestoringP", "UICollectionViewCell"]
+- !private ["So23UIUserActivityRestoringP", "UICollectionViewCell"]
 - !private ["So23UIUserActivityRestoringP", "UIColor"]
 - !private ["So23UIUserActivityRestoringP", "UIFont"]
 - ["So23UIUserActivityRestoringP", "UIImage"]
@@ -2918,7 +2875,7 @@ depends-member:
 - ["So23UIUserActivityRestoringP", "buttonWithType"]
 - ["So23UIUserActivityRestoringP", "collectionView"]
 - ["So23UIUserActivityRestoringP", "collectionViewDidEndMultipleSelectionInteraction"]
-- ["So23UIUserActivityRestoringP", "configure"]
+- !private ["So23UIUserActivityRestoringP", "configure"]
 - !private ["So23UIUserActivityRestoringP", "dataSource"]
 - !private ["So23UIUserActivityRestoringP", "delegate"]
 - !private ["So23UIUserActivityRestoringP", "dequeueReusableCell"]
@@ -3110,11 +3067,9 @@ depends-member:
 - !private ["s24_DestructorSafeContainerP", "count"]
 - !private ["s24_DestructorSafeContainerP", "subscript"]
 - !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
-- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
 - !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
-- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
 - ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
-- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
 - !private ["s26_ExpressibleByColorLiteralP", "cgColor"]
 - !private ["s26_ExpressibleByColorLiteralP", "clear"]
 - !private ["s26_ExpressibleByColorLiteralP", "init"]
@@ -3364,11 +3319,11 @@ depends-member:
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "titleLabel"]
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "trackColor"]
 depends-nominal:
-- "s18AdditiveArithmeticP"
+- !private "s18AdditiveArithmeticP"
 - !private "9Alamofire0A8ExtendedP"
 - "7SwiftUI10AnimatableP"
 - !private "Sa"
-- "SK"
+- !private "SK"
 - !private "SB"
 - "So12UIButtonTypeV"
 - !private "So7CALayerC"
@@ -3378,11 +3333,11 @@ depends-nominal:
 - !private "So6CGSizeV"
 - !private "8CloudKit21CKRecordValueProtocolP"
 - "s7CVarArgP"
-- "Sl"
+- !private "Sl"
 - "26CollectionViewPagingLayoutAAC"
 - "26CollectionViewPagingLayout0abcD8DelegateP"
 - !private "11Supplements6ColorsO"
-- "SL"
+- !private "SL"
 - !private "7SnapKit23ConstraintAttributesDSLP"
 - !private "7SnapKit28ConstraintBasicAttributesDSLP"
 - !private "7SnapKit24ConstraintConstantTargetP"
@@ -3391,8 +3346,8 @@ depends-nominal:
 - !private "7SnapKit15ConstraintMakerC"
 - !private "7SnapKit23ConstraintMakerEditableC"
 - !private "7SnapKit25ConstraintMakerExtendableC"
-- "7SnapKit26ConstraintMakerFinalizableC"
-- "7SnapKit27ConstraintMakerPriortizableC"
+- !private "7SnapKit26ConstraintMakerFinalizableC"
+- !private "7SnapKit27ConstraintMakerPriortizableC"
 - "7SnapKit24ConstraintMakerRelatableC"
 - !private "7SnapKit26ConstraintMultiplierTargetP"
 - !private "7SnapKit22ConstraintOffsetTargetP"
@@ -3408,22 +3363,18 @@ depends-nominal:
 - "SE"
 - "SQ"
 - !private "s25ExpressibleByArrayLiteralP"
-- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
-- "s25ExpressibleByFloatLiteralP"
-- "s27ExpressibleByIntegerLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
 - !private "s23ExpressibleByNilLiteralP"
-- "s32ExpressibleByStringInterpolationP"
-- "s26ExpressibleByStringLiteralP"
-- "s33ExpressibleByUnicodeScalarLiteralP"
 - !private "Sf"
-- "SF"
+- !private "SF"
 - !private "11Supplements5FontsO"
 - !private "7SwiftUI7GestureP"
 - "SH"
 - !private "10Foundation9IndexPathV"
 - "7SnapKit20LayoutConstraintItemP"
 - "18LinearProgressViewAAC"
-- "s25LosslessStringConvertibleP"
+- !private "s25LosslessStringConvertibleP"
 - !private "26CollectionViewPagingLayout21MultipliableToCGFloatP"
 - !private "26CollectionViewPagingLayout18MultipliableToSelfP"
 - !private "SM"
@@ -3437,7 +3388,7 @@ depends-nominal:
 - "So8NSObjectP"
 - "So14NSSecureCodingP"
 - !private "So15NSTextAlignmentV"
-- "Sj"
+- !private "Sj"
 - !private "s9OptionSetP"
 - !private "Sq"
 - !private "11Supplements8PageCellC"
@@ -3446,18 +3397,17 @@ depends-nominal:
 - "SY"
 - !private "10Foundation20ReferenceConvertibleP"
 - !private "s10SIMDScalarP"
-- "ST"
+- !private "ST"
 - !private "s10SetAlgebraP"
-- "s13SignedNumericP"
+- !private "s13SignedNumericP"
 - !private "26CollectionViewPagingLayout014StackTransformB0P"
 - !private "So14UIControlStateV"
-- "Sx"
+- !private "Sx"
 - !private "26CollectionViewPagingLayout17SummableToCGFloatP"
 - !private "26CollectionViewPagingLayout14SummableToSelfP"
 - "11Supplements13SymptomsModelC"
 - "11Supplements22SymptomsViewControllerC"
-- "s16TextOutputStreamP"
-- "s20TextOutputStreamableP"
+- !private "s20TextOutputStreamableP"
 - !private "26CollectionViewPagingLayout013TransformableB0P"
 - "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
 - "So29UIAccessibilityIdentificationP"
@@ -3473,7 +3423,6 @@ depends-nominal:
 - !private "So7UIColorC"
 - "So18UIContentContainerP"
 - "So30UIContentSizeCategoryAdjustingP"
-- "So33UIContextMenuInteractionAnimatingP"
 - "So32UIContextMenuInteractionDelegateP"
 - "So9UIControlC"
 - "So17UICoordinateSpaceP"
@@ -3510,11 +3459,9 @@ depends-nominal:
 - "s30_CustomPlaygroundQuickLookableP"
 - !private "s24_DestructorSafeContainerP"
 - !private "s35_ExpressibleByBuiltinBooleanLiteralP"
-- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
 - !private "s33_ExpressibleByBuiltinFloatLiteralP"
-- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
 - "s34_ExpressibleByBuiltinStringLiteralP"
-- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
 - !private "s26_ExpressibleByColorLiteralP"
 - "s26_ExpressibleByImageLiteralP"
 - !private "7SwiftUI18_FormatSpecifiableP"
@@ -3540,6 +3487,7 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/CalendarHeatmap/CalendarHeatmap.framework/Modules/CalendarHeatmap.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/SwipeableTabBarController/SwipeableTabBarController.framework/Modules/SwipeableTabBarController.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/Popover/Popover.framework/Modules/Popover.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/os.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
@@ -3555,6 +3503,7 @@ depends-external:
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/LinearProgressView/LinearProgressView.framework/Modules/LinearProgressView.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/CalendarHeatmap/CalendarHeatmap.framework/Headers/CalendarHeatmap-umbrella.h"
+- "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/SwipeableTabBarController/SwipeableTabBarController.framework/Headers/SwipeableTabBarController-umbrella.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/Popover/Popover.framework/Headers/Popover-umbrella.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework/Headers/SnapKit-umbrella.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/CollectionViewPagingLayout/CollectionViewPagingLayout.framework/Headers/CollectionViewPagingLayout-umbrella.h"
@@ -3567,6 +3516,7 @@ depends-external:
 - "/Users/sapientisat/Projects/Supplements/Supplements/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDGoogleUser.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/CalendarHeatmap/CalendarHeatmap.framework/Headers/CalendarHeatmap-Swift.h"
+- "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/SwipeableTabBarController/SwipeableTabBarController.framework/Headers/SwipeableTabBarController-Swift.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/Popover/Popover.framework/Headers/Popover-Swift.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework/Headers/SnapKit-Swift.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/CollectionViewPagingLayout/CollectionViewPagingLayout.framework/Headers/CollectionViewPagingLayout-Swift.h"
@@ -3575,6 +3525,7 @@ depends-external:
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
 - "/Users/sapientisat/Projects/Supplements/Supplements/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Modules/module.modulemap"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/CalendarHeatmap/CalendarHeatmap.framework/Modules/module.modulemap"
+- "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/SwipeableTabBarController/SwipeableTabBarController.framework/Modules/module.modulemap"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/Popover/Popover.framework/Modules/module.modulemap"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework/Modules/module.modulemap"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/CollectionViewPagingLayout/CollectionViewPagingLayout.framework/Modules/module.modulemap"

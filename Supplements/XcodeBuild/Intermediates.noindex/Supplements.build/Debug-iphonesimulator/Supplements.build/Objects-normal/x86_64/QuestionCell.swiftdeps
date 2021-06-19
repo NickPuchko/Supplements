@@ -9,7 +9,6 @@ provides-dynamic-lookup:
 - "$__lazy_storage_$_label"
 - "label"
 depends-top-level:
-- "/"
 - "AssignmentPrecedence"
 - !private "BooleanLiteralType"
 - "CGRect"
@@ -29,12 +28,10 @@ depends-top-level:
 - !private "label"
 depends-member:
 - !private ["7SwiftUI10AnimatableP", "zero"]
-- ["SK", ""]
 - !private ["So7CALayerC", "borderColor"]
 - !private ["So7CALayerC", "borderWidth"]
 - !private ["So7CALayerC", "cornerRadius"]
 - ["So15CALayerDelegateP", "$__lazy_storage_$_label"]
-- ["So15CALayerDelegateP", "CGRect"]
 - !private ["So15CALayerDelegateP", "Colors"]
 - !private ["So15CALayerDelegateP", "Fonts"]
 - ["So15CALayerDelegateP", "InsetLabel"]
@@ -79,9 +76,7 @@ depends-member:
 - !private ["s7CVarArgP", "snp"]
 - !private ["s7CVarArgP", "textColor"]
 - !private ["s7CVarArgP", "white"]
-- ["Sl", ""]
 - !private ["11Supplements6ColorsO", "tightGray"]
-- ["SL", ""]
 - !private ["7SnapKit23ConstraintAttributesDSLP", "makeConstraints"]
 - !private ["7SnapKit28ConstraintBasicAttributesDSLP", ""]
 - !private ["7SnapKit28ConstraintBasicAttributesDSLP", "makeConstraints"]
@@ -193,15 +188,11 @@ depends-member:
 - !private ["SQ", "textColor"]
 - !private ["SQ", "white"]
 - !private ["SQ", "zero"]
-- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
 - !private ["s25ExpressibleByFloatLiteralP", "FloatLiteralType"]
 - !private ["s25ExpressibleByFloatLiteralP", "init"]
 - ["s27ExpressibleByIntegerLiteralP", "IntegerLiteralType"]
 - ["s27ExpressibleByIntegerLiteralP", "init"]
 - !private ["s23ExpressibleByNilLiteralP", "white"]
-- ["s32ExpressibleByStringInterpolationP", ""]
-- ["s26ExpressibleByStringLiteralP", ""]
-- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
 - !private ["11Supplements5FontsO", "HelveticaNeue"]
 - !private ["7SwiftUI7GestureP", "white"]
 - !private ["SH", "Colors"]
@@ -251,9 +242,7 @@ depends-member:
 - !private ["7SnapKit20LayoutConstraintItemP", "layer"]
 - !private ["7SnapKit20LayoutConstraintItemP", "snp"]
 - !private ["7SnapKit20LayoutConstraintItemP", "textColor"]
-- ["s25LosslessStringConvertibleP", ""]
 - ["So8NSCodingP", "$__lazy_storage_$_label"]
-- ["So8NSCodingP", "CGRect"]
 - !private ["So8NSCodingP", "Colors"]
 - !private ["So8NSCodingP", "Fonts"]
 - ["So8NSCodingP", "InsetLabel"]
@@ -310,7 +299,6 @@ depends-member:
 - !private ["So8NSObjectC", "textColor"]
 - !private ["So8NSObjectC", "white"]
 - ["So8NSObjectP", "$__lazy_storage_$_label"]
-- ["So8NSObjectP", "CGRect"]
 - !private ["So8NSObjectP", "Colors"]
 - !private ["So8NSObjectP", "Fonts"]
 - ["So8NSObjectP", "InsetLabel"]
@@ -354,11 +342,7 @@ depends-member:
 - !private ["11Supplements12QuestionCellC", "fatalError"]
 - ["11Supplements12QuestionCellC", "init"]
 - ["11Supplements12QuestionCellC", "label"]
-- ["ST", ""]
-- ["s16TextOutputStreamP", ""]
-- ["s20TextOutputStreamableP", ""]
 - ["So29UIAccessibilityIdentificationP", "$__lazy_storage_$_label"]
-- ["So29UIAccessibilityIdentificationP", "CGRect"]
 - !private ["So29UIAccessibilityIdentificationP", "Colors"]
 - !private ["So29UIAccessibilityIdentificationP", "Fonts"]
 - ["So29UIAccessibilityIdentificationP", "InsetLabel"]
@@ -378,7 +362,6 @@ depends-member:
 - !private ["So29UIAccessibilityIdentificationP", "snp"]
 - !private ["So29UIAccessibilityIdentificationP", "textColor"]
 - ["So12UIAppearanceP", "$__lazy_storage_$_label"]
-- ["So12UIAppearanceP", "CGRect"]
 - !private ["So12UIAppearanceP", "Colors"]
 - !private ["So12UIAppearanceP", "Fonts"]
 - ["So12UIAppearanceP", "InsetLabel"]
@@ -398,7 +381,6 @@ depends-member:
 - !private ["So12UIAppearanceP", "snp"]
 - !private ["So12UIAppearanceP", "textColor"]
 - ["So21UIAppearanceContainerP", "$__lazy_storage_$_label"]
-- ["So21UIAppearanceContainerP", "CGRect"]
 - !private ["So21UIAppearanceContainerP", "Colors"]
 - !private ["So21UIAppearanceContainerP", "Fonts"]
 - ["So21UIAppearanceContainerP", "InsetLabel"]
@@ -455,7 +437,6 @@ depends-member:
 - !private ["So30UIContentSizeCategoryAdjustingP", "snp"]
 - !private ["So30UIContentSizeCategoryAdjustingP", "textColor"]
 - ["So17UICoordinateSpaceP", "$__lazy_storage_$_label"]
-- ["So17UICoordinateSpaceP", "CGRect"]
 - !private ["So17UICoordinateSpaceP", "Colors"]
 - !private ["So17UICoordinateSpaceP", "Fonts"]
 - ["So17UICoordinateSpaceP", "InsetLabel"]
@@ -475,7 +456,6 @@ depends-member:
 - !private ["So17UICoordinateSpaceP", "snp"]
 - !private ["So17UICoordinateSpaceP", "textColor"]
 - ["So13UIDynamicItemP", "$__lazy_storage_$_label"]
-- ["So13UIDynamicItemP", "CGRect"]
 - !private ["So13UIDynamicItemP", "Colors"]
 - !private ["So13UIDynamicItemP", "Fonts"]
 - ["So13UIDynamicItemP", "InsetLabel"]
@@ -496,7 +476,6 @@ depends-member:
 - !private ["So13UIDynamicItemP", "textColor"]
 - ["So12UIEdgeInsetsV", "init"]
 - ["So18UIFocusEnvironmentP", "$__lazy_storage_$_label"]
-- ["So18UIFocusEnvironmentP", "CGRect"]
 - !private ["So18UIFocusEnvironmentP", "Colors"]
 - !private ["So18UIFocusEnvironmentP", "Fonts"]
 - ["So18UIFocusEnvironmentP", "InsetLabel"]
@@ -516,7 +495,6 @@ depends-member:
 - !private ["So18UIFocusEnvironmentP", "snp"]
 - !private ["So18UIFocusEnvironmentP", "textColor"]
 - ["So11UIFocusItemP", "$__lazy_storage_$_label"]
-- ["So11UIFocusItemP", "CGRect"]
 - !private ["So11UIFocusItemP", "Colors"]
 - !private ["So11UIFocusItemP", "Fonts"]
 - ["So11UIFocusItemP", "InsetLabel"]
@@ -536,7 +514,6 @@ depends-member:
 - !private ["So11UIFocusItemP", "snp"]
 - !private ["So11UIFocusItemP", "textColor"]
 - ["So20UIFocusItemContainerP", "$__lazy_storage_$_label"]
-- ["So20UIFocusItemContainerP", "CGRect"]
 - !private ["So20UIFocusItemContainerP", "Colors"]
 - !private ["So20UIFocusItemContainerP", "Fonts"]
 - ["So20UIFocusItemContainerP", "InsetLabel"]
@@ -559,12 +536,10 @@ depends-member:
 - !private ["So7UILabelC", "backgroundColor"]
 - !private ["So7UILabelC", "clipsToBounds"]
 - !private ["So7UILabelC", "font"]
-- ["So7UILabelC", "init"]
 - !private ["So7UILabelC", "layer"]
 - !private ["So7UILabelC", "snp"]
 - !private ["So7UILabelC", "textColor"]
 - ["So24UILargeContentViewerItemP", "$__lazy_storage_$_label"]
-- ["So24UILargeContentViewerItemP", "CGRect"]
 - !private ["So24UILargeContentViewerItemP", "Colors"]
 - !private ["So24UILargeContentViewerItemP", "Fonts"]
 - ["So24UILargeContentViewerItemP", "InsetLabel"]
@@ -584,7 +559,6 @@ depends-member:
 - !private ["So24UILargeContentViewerItemP", "snp"]
 - !private ["So24UILargeContentViewerItemP", "textColor"]
 - ["So30UIPasteConfigurationSupportingP", "$__lazy_storage_$_label"]
-- ["So30UIPasteConfigurationSupportingP", "CGRect"]
 - !private ["So30UIPasteConfigurationSupportingP", "Colors"]
 - !private ["So30UIPasteConfigurationSupportingP", "Fonts"]
 - ["So30UIPasteConfigurationSupportingP", "InsetLabel"]
@@ -625,7 +599,6 @@ depends-member:
 - !private ["So11UIResponderC", "snp"]
 - !private ["So11UIResponderC", "textColor"]
 - ["So30UIResponderStandardEditActionsP", "$__lazy_storage_$_label"]
-- ["So30UIResponderStandardEditActionsP", "CGRect"]
 - !private ["So30UIResponderStandardEditActionsP", "Colors"]
 - !private ["So30UIResponderStandardEditActionsP", "Fonts"]
 - ["So30UIResponderStandardEditActionsP", "InsetLabel"]
@@ -645,7 +618,6 @@ depends-member:
 - !private ["So30UIResponderStandardEditActionsP", "snp"]
 - !private ["So30UIResponderStandardEditActionsP", "textColor"]
 - ["So18UITraitEnvironmentP", "$__lazy_storage_$_label"]
-- ["So18UITraitEnvironmentP", "CGRect"]
 - !private ["So18UITraitEnvironmentP", "Colors"]
 - !private ["So18UITraitEnvironmentP", "Fonts"]
 - ["So18UITraitEnvironmentP", "InsetLabel"]
@@ -665,7 +637,6 @@ depends-member:
 - !private ["So18UITraitEnvironmentP", "snp"]
 - !private ["So18UITraitEnvironmentP", "textColor"]
 - ["So23UIUserActivityRestoringP", "$__lazy_storage_$_label"]
-- ["So23UIUserActivityRestoringP", "CGRect"]
 - !private ["So23UIUserActivityRestoringP", "Colors"]
 - !private ["So23UIUserActivityRestoringP", "Fonts"]
 - ["So23UIUserActivityRestoringP", "InsetLabel"]
@@ -708,13 +679,10 @@ depends-member:
 - !private ["7SwiftUI4ViewP", "white"]
 - !private ["s30_CustomPlaygroundQuickLookableP", "zero"]
 - !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
-- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
 - !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
 - ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
 - !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
-- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
 - !private ["s26_ExpressibleByColorLiteralP", "cgColor"]
-- !private ["s26_ExpressibleByColorLiteralP", "init"]
 - !private ["s26_ExpressibleByColorLiteralP", "white"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "Colors"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "Fonts"]
@@ -782,15 +750,12 @@ depends-member:
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "textColor"]
 depends-nominal:
 - !private "7SwiftUI10AnimatableP"
-- "SK"
 - !private "So7CALayerC"
 - "So15CALayerDelegateP"
 - !private "So13CAMediaTimingP"
 - !private "So6CGRectV"
 - "s7CVarArgP"
-- "Sl"
 - !private "11Supplements6ColorsO"
-- "SL"
 - !private "7SnapKit23ConstraintAttributesDSLP"
 - !private "7SnapKit28ConstraintBasicAttributesDSLP"
 - "7SnapKit24ConstraintConstantTargetP"
@@ -807,19 +772,14 @@ depends-nominal:
 - "Se"
 - "SE"
 - "SQ"
-- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
 - !private "s25ExpressibleByFloatLiteralP"
 - "s27ExpressibleByIntegerLiteralP"
 - !private "s23ExpressibleByNilLiteralP"
-- "s32ExpressibleByStringInterpolationP"
-- "s26ExpressibleByStringLiteralP"
-- "s33ExpressibleByUnicodeScalarLiteralP"
 - !private "11Supplements5FontsO"
 - !private "7SwiftUI7GestureP"
 - "SH"
 - "11Supplements10InsetLabelC"
 - "7SnapKit20LayoutConstraintItemP"
-- "s25LosslessStringConvertibleP"
 - "So8NSCodingP"
 - !private "So9NSCopyingP"
 - !private "So21NSItemProviderReadingP"
@@ -829,9 +789,6 @@ depends-nominal:
 - !private "So14NSSecureCodingP"
 - !private "Sq"
 - "11Supplements12QuestionCellC"
-- "ST"
-- "s16TextOutputStreamP"
-- "s20TextOutputStreamableP"
 - "So29UIAccessibilityIdentificationP"
 - "So12UIAppearanceP"
 - "So21UIAppearanceContainerP"
@@ -856,11 +813,9 @@ depends-nominal:
 - !private "7SwiftUI4ViewP"
 - !private "s30_CustomPlaygroundQuickLookableP"
 - !private "s35_ExpressibleByBuiltinBooleanLiteralP"
-- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
 - !private "s33_ExpressibleByBuiltinFloatLiteralP"
 - "s35_ExpressibleByBuiltinIntegerLiteralP"
 - !private "s34_ExpressibleByBuiltinStringLiteralP"
-- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
 - !private "s26_ExpressibleByColorLiteralP"
 - "10Foundation27_KeyValueCodingAndObservingP"
 - "10Foundation37_KeyValueCodingAndObservingPublishingP"
@@ -882,6 +837,7 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/CalendarHeatmap/CalendarHeatmap.framework/Modules/CalendarHeatmap.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/SwipeableTabBarController/SwipeableTabBarController.framework/Modules/SwipeableTabBarController.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/Popover/Popover.framework/Modules/Popover.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/os.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
@@ -897,6 +853,7 @@ depends-external:
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/LinearProgressView/LinearProgressView.framework/Modules/LinearProgressView.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/CalendarHeatmap/CalendarHeatmap.framework/Headers/CalendarHeatmap-umbrella.h"
+- "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/SwipeableTabBarController/SwipeableTabBarController.framework/Headers/SwipeableTabBarController-umbrella.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/Popover/Popover.framework/Headers/Popover-umbrella.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework/Headers/SnapKit-umbrella.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/CollectionViewPagingLayout/CollectionViewPagingLayout.framework/Headers/CollectionViewPagingLayout-umbrella.h"
@@ -909,6 +866,7 @@ depends-external:
 - "/Users/sapientisat/Projects/Supplements/Supplements/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDGoogleUser.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/CalendarHeatmap/CalendarHeatmap.framework/Headers/CalendarHeatmap-Swift.h"
+- "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/SwipeableTabBarController/SwipeableTabBarController.framework/Headers/SwipeableTabBarController-Swift.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/Popover/Popover.framework/Headers/Popover-Swift.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework/Headers/SnapKit-Swift.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/CollectionViewPagingLayout/CollectionViewPagingLayout.framework/Headers/CollectionViewPagingLayout-Swift.h"
@@ -917,6 +875,7 @@ depends-external:
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
 - "/Users/sapientisat/Projects/Supplements/Supplements/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Modules/module.modulemap"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/CalendarHeatmap/CalendarHeatmap.framework/Modules/module.modulemap"
+- "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/SwipeableTabBarController/SwipeableTabBarController.framework/Modules/module.modulemap"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/Popover/Popover.framework/Modules/module.modulemap"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework/Modules/module.modulemap"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/CollectionViewPagingLayout/CollectionViewPagingLayout.framework/Modules/module.modulemap"

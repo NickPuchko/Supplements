@@ -89,7 +89,7 @@ depends-member:
 - !private ["SK", "row"]
 - !private ["SK", "subscript"]
 - !private ["SB", "init"]
-- ["So12UIButtonTypeV", "system"]
+- ["So12UIButtonTypeV", "custom"]
 - !private ["So7CALayerC", "borderColor"]
 - !private ["So7CALayerC", "borderWidth"]
 - !private ["So7CALayerC", "cornerRadius"]
@@ -649,6 +649,7 @@ depends-member:
 - !private ["SQ", "cornerRadius"]
 - !private ["SQ", "count"]
 - !private ["SQ", "currentPage"]
+- ["SQ", "custom"]
 - !private ["SQ", "dataSource"]
 - !private ["SQ", "delegate"]
 - !private ["SQ", "dequeueReusableCell"]
@@ -708,7 +709,6 @@ depends-member:
 - !private ["SQ", "showsHorizontalScrollIndicator"]
 - !private ["SQ", "snp"]
 - !private ["SQ", "subscript"]
-- ["SQ", "system"]
 - !private ["SQ", "systemGreen"]
 - !private ["SQ", "text"]
 - !private ["SQ", "textAlignment"]
@@ -783,6 +783,7 @@ depends-member:
 - !private ["SH", "cornerRadius"]
 - !private ["SH", "count"]
 - !private ["SH", "currentPage"]
+- ["SH", "custom"]
 - !private ["SH", "dataSource"]
 - !private ["SH", "delegate"]
 - !private ["SH", "dequeueReusableCell"]
@@ -841,7 +842,6 @@ depends-member:
 - !private ["SH", "showsHorizontalScrollIndicator"]
 - !private ["SH", "snp"]
 - !private ["SH", "subscript"]
-- ["SH", "system"]
 - !private ["SH", "systemGreen"]
 - !private ["SH", "text"]
 - !private ["SH", "textAlignment"]
@@ -1416,8 +1416,8 @@ depends-member:
 - !private ["Sm", "subscript"]
 - !private ["SY", ""]
 - !private ["SY", "center"]
+- ["SY", "custom"]
 - !private ["SY", "normal"]
-- ["SY", "system"]
 - !private ["10Foundation20ReferenceConvertibleP", "row"]
 - !private ["s10SIMDScalarP", "init"]
 - ["ST", ""]
@@ -3599,4 +3599,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/HealthKit.framework/Headers/HealthKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "a988b833287895484e177467b2966dfc"
+interface-hash: "36e4bd6baa3e00d9d5337ad016bc9dad"

@@ -9,10 +9,10 @@ provides-dynamic-lookup:
 - "$__lazy_storage_$_label"
 - "label"
 depends-top-level:
-- !private "/"
 - "AssignmentPrecedence"
 - !private "BooleanLiteralType"
 - "CGRect"
+- !private "Colors"
 - "FloatLiteralType"
 - !private "Fonts"
 - "InsetLabel"
@@ -28,12 +28,11 @@ depends-top-level:
 - !private "label"
 depends-member:
 - !private ["7SwiftUI10AnimatableP", "zero"]
-- ["SK", ""]
 - !private ["So7CALayerC", "borderColor"]
 - !private ["So7CALayerC", "borderWidth"]
 - !private ["So7CALayerC", "cornerRadius"]
 - ["So15CALayerDelegateP", "$__lazy_storage_$_label"]
-- ["So15CALayerDelegateP", "CGRect"]
+- !private ["So15CALayerDelegateP", "Colors"]
 - !private ["So15CALayerDelegateP", "Fonts"]
 - ["So15CALayerDelegateP", "InsetLabel"]
 - !private ["So15CALayerDelegateP", "UIColor"]
@@ -55,6 +54,7 @@ depends-member:
 - !private ["So13CAMediaTimingP", "borderWidth"]
 - !private ["So13CAMediaTimingP", "cornerRadius"]
 - !private ["So6CGRectV", "zero"]
+- !private ["s7CVarArgP", "Colors"]
 - !private ["s7CVarArgP", "Fonts"]
 - ["s7CVarArgP", "InsetLabel"]
 - !private ["s7CVarArgP", "UIColor"]
@@ -76,8 +76,7 @@ depends-member:
 - !private ["s7CVarArgP", "snp"]
 - !private ["s7CVarArgP", "textColor"]
 - !private ["s7CVarArgP", "white"]
-- ["Sl", ""]
-- ["SL", ""]
+- !private ["11Supplements6ColorsO", "tightGray"]
 - !private ["7SnapKit23ConstraintAttributesDSLP", "makeConstraints"]
 - !private ["7SnapKit28ConstraintBasicAttributesDSLP", ""]
 - !private ["7SnapKit28ConstraintBasicAttributesDSLP", "makeConstraints"]
@@ -95,6 +94,7 @@ depends-member:
 - !private ["7SnapKit24ConstraintMakerRelatableC", "equalToSuperview"]
 - !private ["7SnapKit24ConstraintMakerRelatableC", "left"]
 - !private ["7SnapKit24ConstraintMakerRelatableC", "right"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "Colors"]
 - !private ["7SnapKit25ConstraintRelatableTargetP", "Fonts"]
 - ["7SnapKit25ConstraintRelatableTargetP", "InsetLabel"]
 - !private ["7SnapKit25ConstraintRelatableTargetP", "UIColor"]
@@ -112,6 +112,7 @@ depends-member:
 - !private ["7SnapKit25ConstraintRelatableTargetP", "snp"]
 - !private ["7SnapKit25ConstraintRelatableTargetP", "textColor"]
 - !private ["7SnapKit17ConstraintViewDSLV", "makeConstraints"]
+- !private ["s28CustomDebugStringConvertibleP", "Colors"]
 - !private ["s28CustomDebugStringConvertibleP", "Fonts"]
 - ["s28CustomDebugStringConvertibleP", "InsetLabel"]
 - !private ["s28CustomDebugStringConvertibleP", "UIColor"]
@@ -136,6 +137,7 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "zero"]
 - !private ["s17CustomReflectableP", "white"]
 - !private ["s17CustomReflectableP", "zero"]
+- !private ["s23CustomStringConvertibleP", "Colors"]
 - !private ["s23CustomStringConvertibleP", "Fonts"]
 - ["s23CustomStringConvertibleP", "InsetLabel"]
 - !private ["s23CustomStringConvertibleP", "UIColor"]
@@ -163,6 +165,7 @@ depends-member:
 - ["SE", "init"]
 - !private ["SE", "white"]
 - !private ["SE", "zero"]
+- !private ["SQ", "Colors"]
 - !private ["SQ", "Fonts"]
 - ["SQ", "InsetLabel"]
 - !private ["SQ", "UIColor"]
@@ -185,17 +188,14 @@ depends-member:
 - !private ["SQ", "textColor"]
 - !private ["SQ", "white"]
 - !private ["SQ", "zero"]
-- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
 - !private ["s25ExpressibleByFloatLiteralP", "FloatLiteralType"]
 - !private ["s25ExpressibleByFloatLiteralP", "init"]
 - ["s27ExpressibleByIntegerLiteralP", "IntegerLiteralType"]
 - ["s27ExpressibleByIntegerLiteralP", "init"]
 - !private ["s23ExpressibleByNilLiteralP", "white"]
-- ["s32ExpressibleByStringInterpolationP", ""]
-- ["s26ExpressibleByStringLiteralP", ""]
-- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
 - !private ["11Supplements5FontsO", "HelveticaNeue"]
 - !private ["7SwiftUI7GestureP", "white"]
+- !private ["SH", "Colors"]
 - !private ["SH", "Fonts"]
 - ["SH", "InsetLabel"]
 - !private ["SH", "UIColor"]
@@ -225,6 +225,7 @@ depends-member:
 - !private ["11Supplements10InsetLabelC", "layer"]
 - !private ["11Supplements10InsetLabelC", "snp"]
 - !private ["11Supplements10InsetLabelC", "textColor"]
+- !private ["7SnapKit20LayoutConstraintItemP", "Colors"]
 - !private ["7SnapKit20LayoutConstraintItemP", "Fonts"]
 - ["7SnapKit20LayoutConstraintItemP", "InsetLabel"]
 - !private ["7SnapKit20LayoutConstraintItemP", "UIColor"]
@@ -241,9 +242,8 @@ depends-member:
 - !private ["7SnapKit20LayoutConstraintItemP", "layer"]
 - !private ["7SnapKit20LayoutConstraintItemP", "snp"]
 - !private ["7SnapKit20LayoutConstraintItemP", "textColor"]
-- ["s25LosslessStringConvertibleP", ""]
 - ["So8NSCodingP", "$__lazy_storage_$_label"]
-- ["So8NSCodingP", "CGRect"]
+- !private ["So8NSCodingP", "Colors"]
 - !private ["So8NSCodingP", "Fonts"]
 - ["So8NSCodingP", "InsetLabel"]
 - !private ["So8NSCodingP", "UIColor"]
@@ -267,16 +267,14 @@ depends-member:
 - !private ["So8NSCodingP", "textColor"]
 - !private ["So8NSCodingP", "white"]
 - !private ["So9NSCopyingP", "cgColor"]
-- !private ["So9NSCopyingP", "init"]
 - !private ["So9NSCopyingP", "white"]
 - !private ["So21NSItemProviderReadingP", "cgColor"]
-- !private ["So21NSItemProviderReadingP", "init"]
 - !private ["So21NSItemProviderReadingP", "white"]
 - !private ["So21NSItemProviderWritingP", "cgColor"]
-- !private ["So21NSItemProviderWritingP", "init"]
 - !private ["So21NSItemProviderWritingP", "white"]
 - ["So8NSObjectC", "$__lazy_storage_$_label"]
 - ["So8NSObjectC", "CGRect"]
+- !private ["So8NSObjectC", "Colors"]
 - !private ["So8NSObjectC", "Fonts"]
 - ["So8NSObjectC", "InsetLabel"]
 - ["So8NSObjectC", "NSCoder"]
@@ -290,15 +288,6 @@ depends-member:
 - !private ["So8NSObjectC", "borderWidth"]
 - !private ["So8NSObjectC", "cgColor"]
 - !private ["So8NSObjectC", "clipsToBounds"]
-- !private ["So8NSObjectC", "colorNamed"]
-- !private ["So8NSObjectC", "colorWithCGColor"]
-- !private ["So8NSObjectC", "colorWithCIColor"]
-- !private ["So8NSObjectC", "colorWithDisplayP3Red"]
-- !private ["So8NSObjectC", "colorWithDynamicProvider"]
-- !private ["So8NSObjectC", "colorWithHue"]
-- !private ["So8NSObjectC", "colorWithPatternImage"]
-- !private ["So8NSObjectC", "colorWithRed"]
-- !private ["So8NSObjectC", "colorWithWhite"]
 - !private ["So8NSObjectC", "contentView"]
 - !private ["So8NSObjectC", "cornerRadius"]
 - !private ["So8NSObjectC", "fatalError"]
@@ -310,7 +299,7 @@ depends-member:
 - !private ["So8NSObjectC", "textColor"]
 - !private ["So8NSObjectC", "white"]
 - ["So8NSObjectP", "$__lazy_storage_$_label"]
-- ["So8NSObjectP", "CGRect"]
+- !private ["So8NSObjectP", "Colors"]
 - !private ["So8NSObjectP", "Fonts"]
 - ["So8NSObjectP", "InsetLabel"]
 - !private ["So8NSObjectP", "UIColor"]
@@ -323,15 +312,6 @@ depends-member:
 - !private ["So8NSObjectP", "borderWidth"]
 - !private ["So8NSObjectP", "cgColor"]
 - !private ["So8NSObjectP", "clipsToBounds"]
-- !private ["So8NSObjectP", "colorNamed"]
-- !private ["So8NSObjectP", "colorWithCGColor"]
-- !private ["So8NSObjectP", "colorWithCIColor"]
-- !private ["So8NSObjectP", "colorWithDisplayP3Red"]
-- !private ["So8NSObjectP", "colorWithDynamicProvider"]
-- !private ["So8NSObjectP", "colorWithHue"]
-- !private ["So8NSObjectP", "colorWithPatternImage"]
-- !private ["So8NSObjectP", "colorWithRed"]
-- !private ["So8NSObjectP", "colorWithWhite"]
 - !private ["So8NSObjectP", "contentView"]
 - !private ["So8NSObjectP", "cornerRadius"]
 - !private ["So8NSObjectP", "fatalError"]
@@ -346,11 +326,11 @@ depends-member:
 - !private ["So14NSSecureCodingP", "borderWidth"]
 - !private ["So14NSSecureCodingP", "cgColor"]
 - !private ["So14NSSecureCodingP", "cornerRadius"]
-- !private ["So14NSSecureCodingP", "init"]
 - !private ["So14NSSecureCodingP", "white"]
 - !private ["Sq", "white"]
 - !private ["11Supplements12QuestionCellC", "$__lazy_storage_$_label"]
 - ["11Supplements12QuestionCellC", "CGRect"]
+- !private ["11Supplements12QuestionCellC", "Colors"]
 - !private ["11Supplements12QuestionCellC", "Fonts"]
 - ["11Supplements12QuestionCellC", "InsetLabel"]
 - ["11Supplements12QuestionCellC", "NSCoder"]
@@ -362,11 +342,8 @@ depends-member:
 - !private ["11Supplements12QuestionCellC", "fatalError"]
 - ["11Supplements12QuestionCellC", "init"]
 - ["11Supplements12QuestionCellC", "label"]
-- ["ST", ""]
-- ["s16TextOutputStreamP", ""]
-- ["s20TextOutputStreamableP", ""]
 - ["So29UIAccessibilityIdentificationP", "$__lazy_storage_$_label"]
-- ["So29UIAccessibilityIdentificationP", "CGRect"]
+- !private ["So29UIAccessibilityIdentificationP", "Colors"]
 - !private ["So29UIAccessibilityIdentificationP", "Fonts"]
 - ["So29UIAccessibilityIdentificationP", "InsetLabel"]
 - !private ["So29UIAccessibilityIdentificationP", "UIColor"]
@@ -385,7 +362,7 @@ depends-member:
 - !private ["So29UIAccessibilityIdentificationP", "snp"]
 - !private ["So29UIAccessibilityIdentificationP", "textColor"]
 - ["So12UIAppearanceP", "$__lazy_storage_$_label"]
-- ["So12UIAppearanceP", "CGRect"]
+- !private ["So12UIAppearanceP", "Colors"]
 - !private ["So12UIAppearanceP", "Fonts"]
 - ["So12UIAppearanceP", "InsetLabel"]
 - !private ["So12UIAppearanceP", "UIColor"]
@@ -404,7 +381,7 @@ depends-member:
 - !private ["So12UIAppearanceP", "snp"]
 - !private ["So12UIAppearanceP", "textColor"]
 - ["So21UIAppearanceContainerP", "$__lazy_storage_$_label"]
-- ["So21UIAppearanceContainerP", "CGRect"]
+- !private ["So21UIAppearanceContainerP", "Colors"]
 - !private ["So21UIAppearanceContainerP", "Fonts"]
 - ["So21UIAppearanceContainerP", "InsetLabel"]
 - !private ["So21UIAppearanceContainerP", "UIColor"]
@@ -424,6 +401,7 @@ depends-member:
 - !private ["So21UIAppearanceContainerP", "textColor"]
 - ["So24UICollectionReusableViewC", "$__lazy_storage_$_label"]
 - ["So24UICollectionReusableViewC", "CGRect"]
+- !private ["So24UICollectionReusableViewC", "Colors"]
 - !private ["So24UICollectionReusableViewC", "Fonts"]
 - ["So24UICollectionReusableViewC", "InsetLabel"]
 - ["So24UICollectionReusableViewC", "NSCoder"]
@@ -437,6 +415,7 @@ depends-member:
 - ["So24UICollectionReusableViewC", "label"]
 - ["So20UICollectionViewCellC", "$__lazy_storage_$_label"]
 - ["So20UICollectionViewCellC", "CGRect"]
+- !private ["So20UICollectionViewCellC", "Colors"]
 - !private ["So20UICollectionViewCellC", "Fonts"]
 - ["So20UICollectionViewCellC", "InsetLabel"]
 - ["So20UICollectionViewCellC", "NSCoder"]
@@ -449,7 +428,6 @@ depends-member:
 - ["So20UICollectionViewCellC", "init"]
 - ["So20UICollectionViewCellC", "label"]
 - !private ["So7UIColorC", "cgColor"]
-- !private ["So7UIColorC", "init"]
 - !private ["So7UIColorC", "white"]
 - !private ["So30UIContentSizeCategoryAdjustingP", "backgroundColor"]
 - !private ["So30UIContentSizeCategoryAdjustingP", "clipsToBounds"]
@@ -459,7 +437,7 @@ depends-member:
 - !private ["So30UIContentSizeCategoryAdjustingP", "snp"]
 - !private ["So30UIContentSizeCategoryAdjustingP", "textColor"]
 - ["So17UICoordinateSpaceP", "$__lazy_storage_$_label"]
-- ["So17UICoordinateSpaceP", "CGRect"]
+- !private ["So17UICoordinateSpaceP", "Colors"]
 - !private ["So17UICoordinateSpaceP", "Fonts"]
 - ["So17UICoordinateSpaceP", "InsetLabel"]
 - !private ["So17UICoordinateSpaceP", "UIColor"]
@@ -478,7 +456,7 @@ depends-member:
 - !private ["So17UICoordinateSpaceP", "snp"]
 - !private ["So17UICoordinateSpaceP", "textColor"]
 - ["So13UIDynamicItemP", "$__lazy_storage_$_label"]
-- ["So13UIDynamicItemP", "CGRect"]
+- !private ["So13UIDynamicItemP", "Colors"]
 - !private ["So13UIDynamicItemP", "Fonts"]
 - ["So13UIDynamicItemP", "InsetLabel"]
 - !private ["So13UIDynamicItemP", "UIColor"]
@@ -498,7 +476,7 @@ depends-member:
 - !private ["So13UIDynamicItemP", "textColor"]
 - ["So12UIEdgeInsetsV", "init"]
 - ["So18UIFocusEnvironmentP", "$__lazy_storage_$_label"]
-- ["So18UIFocusEnvironmentP", "CGRect"]
+- !private ["So18UIFocusEnvironmentP", "Colors"]
 - !private ["So18UIFocusEnvironmentP", "Fonts"]
 - ["So18UIFocusEnvironmentP", "InsetLabel"]
 - !private ["So18UIFocusEnvironmentP", "UIColor"]
@@ -517,7 +495,7 @@ depends-member:
 - !private ["So18UIFocusEnvironmentP", "snp"]
 - !private ["So18UIFocusEnvironmentP", "textColor"]
 - ["So11UIFocusItemP", "$__lazy_storage_$_label"]
-- ["So11UIFocusItemP", "CGRect"]
+- !private ["So11UIFocusItemP", "Colors"]
 - !private ["So11UIFocusItemP", "Fonts"]
 - ["So11UIFocusItemP", "InsetLabel"]
 - !private ["So11UIFocusItemP", "UIColor"]
@@ -536,7 +514,7 @@ depends-member:
 - !private ["So11UIFocusItemP", "snp"]
 - !private ["So11UIFocusItemP", "textColor"]
 - ["So20UIFocusItemContainerP", "$__lazy_storage_$_label"]
-- ["So20UIFocusItemContainerP", "CGRect"]
+- !private ["So20UIFocusItemContainerP", "Colors"]
 - !private ["So20UIFocusItemContainerP", "Fonts"]
 - ["So20UIFocusItemContainerP", "InsetLabel"]
 - !private ["So20UIFocusItemContainerP", "UIColor"]
@@ -558,12 +536,11 @@ depends-member:
 - !private ["So7UILabelC", "backgroundColor"]
 - !private ["So7UILabelC", "clipsToBounds"]
 - !private ["So7UILabelC", "font"]
-- ["So7UILabelC", "init"]
 - !private ["So7UILabelC", "layer"]
 - !private ["So7UILabelC", "snp"]
 - !private ["So7UILabelC", "textColor"]
 - ["So24UILargeContentViewerItemP", "$__lazy_storage_$_label"]
-- ["So24UILargeContentViewerItemP", "CGRect"]
+- !private ["So24UILargeContentViewerItemP", "Colors"]
 - !private ["So24UILargeContentViewerItemP", "Fonts"]
 - ["So24UILargeContentViewerItemP", "InsetLabel"]
 - !private ["So24UILargeContentViewerItemP", "UIColor"]
@@ -582,7 +559,7 @@ depends-member:
 - !private ["So24UILargeContentViewerItemP", "snp"]
 - !private ["So24UILargeContentViewerItemP", "textColor"]
 - ["So30UIPasteConfigurationSupportingP", "$__lazy_storage_$_label"]
-- ["So30UIPasteConfigurationSupportingP", "CGRect"]
+- !private ["So30UIPasteConfigurationSupportingP", "Colors"]
 - !private ["So30UIPasteConfigurationSupportingP", "Fonts"]
 - ["So30UIPasteConfigurationSupportingP", "InsetLabel"]
 - !private ["So30UIPasteConfigurationSupportingP", "UIColor"]
@@ -602,6 +579,7 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "textColor"]
 - ["So11UIResponderC", "$__lazy_storage_$_label"]
 - ["So11UIResponderC", "CGRect"]
+- !private ["So11UIResponderC", "Colors"]
 - !private ["So11UIResponderC", "Fonts"]
 - ["So11UIResponderC", "InsetLabel"]
 - ["So11UIResponderC", "NSCoder"]
@@ -621,7 +599,7 @@ depends-member:
 - !private ["So11UIResponderC", "snp"]
 - !private ["So11UIResponderC", "textColor"]
 - ["So30UIResponderStandardEditActionsP", "$__lazy_storage_$_label"]
-- ["So30UIResponderStandardEditActionsP", "CGRect"]
+- !private ["So30UIResponderStandardEditActionsP", "Colors"]
 - !private ["So30UIResponderStandardEditActionsP", "Fonts"]
 - ["So30UIResponderStandardEditActionsP", "InsetLabel"]
 - !private ["So30UIResponderStandardEditActionsP", "UIColor"]
@@ -640,7 +618,7 @@ depends-member:
 - !private ["So30UIResponderStandardEditActionsP", "snp"]
 - !private ["So30UIResponderStandardEditActionsP", "textColor"]
 - ["So18UITraitEnvironmentP", "$__lazy_storage_$_label"]
-- ["So18UITraitEnvironmentP", "CGRect"]
+- !private ["So18UITraitEnvironmentP", "Colors"]
 - !private ["So18UITraitEnvironmentP", "Fonts"]
 - ["So18UITraitEnvironmentP", "InsetLabel"]
 - !private ["So18UITraitEnvironmentP", "UIColor"]
@@ -659,7 +637,7 @@ depends-member:
 - !private ["So18UITraitEnvironmentP", "snp"]
 - !private ["So18UITraitEnvironmentP", "textColor"]
 - ["So23UIUserActivityRestoringP", "$__lazy_storage_$_label"]
-- ["So23UIUserActivityRestoringP", "CGRect"]
+- !private ["So23UIUserActivityRestoringP", "Colors"]
 - !private ["So23UIUserActivityRestoringP", "Fonts"]
 - ["So23UIUserActivityRestoringP", "InsetLabel"]
 - !private ["So23UIUserActivityRestoringP", "UIColor"]
@@ -679,6 +657,7 @@ depends-member:
 - !private ["So23UIUserActivityRestoringP", "textColor"]
 - ["So6UIViewC", "$__lazy_storage_$_label"]
 - ["So6UIViewC", "CGRect"]
+- !private ["So6UIViewC", "Colors"]
 - !private ["So6UIViewC", "Fonts"]
 - ["So6UIViewC", "InsetLabel"]
 - ["So6UIViewC", "NSCoder"]
@@ -700,14 +679,12 @@ depends-member:
 - !private ["7SwiftUI4ViewP", "white"]
 - !private ["s30_CustomPlaygroundQuickLookableP", "zero"]
 - !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
-- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
 - !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
 - ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
 - !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
-- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
 - !private ["s26_ExpressibleByColorLiteralP", "cgColor"]
-- !private ["s26_ExpressibleByColorLiteralP", "init"]
 - !private ["s26_ExpressibleByColorLiteralP", "white"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Colors"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "Fonts"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "InsetLabel"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UIColor"]
@@ -729,6 +706,7 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "snp"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "textColor"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "white"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Colors"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Fonts"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "InsetLabel"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIColor"]
@@ -753,6 +731,7 @@ depends-member:
 - ["s21_ObjectiveCBridgeableP", "init"]
 - !private ["s21_ObjectiveCBridgeableP", "white"]
 - !private ["s21_ObjectiveCBridgeableP", "zero"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "Colors"]
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "Fonts"]
 - ["s38__DefaultCustomPlaygroundQuickLookableP", "InsetLabel"]
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "UIColor"]
@@ -771,14 +750,12 @@ depends-member:
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "textColor"]
 depends-nominal:
 - !private "7SwiftUI10AnimatableP"
-- "SK"
 - !private "So7CALayerC"
 - "So15CALayerDelegateP"
 - !private "So13CAMediaTimingP"
 - !private "So6CGRectV"
 - "s7CVarArgP"
-- "Sl"
-- "SL"
+- !private "11Supplements6ColorsO"
 - !private "7SnapKit23ConstraintAttributesDSLP"
 - !private "7SnapKit28ConstraintBasicAttributesDSLP"
 - "7SnapKit24ConstraintConstantTargetP"
@@ -795,19 +772,14 @@ depends-nominal:
 - "Se"
 - "SE"
 - "SQ"
-- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
 - !private "s25ExpressibleByFloatLiteralP"
 - "s27ExpressibleByIntegerLiteralP"
 - !private "s23ExpressibleByNilLiteralP"
-- "s32ExpressibleByStringInterpolationP"
-- "s26ExpressibleByStringLiteralP"
-- "s33ExpressibleByUnicodeScalarLiteralP"
 - !private "11Supplements5FontsO"
 - !private "7SwiftUI7GestureP"
 - "SH"
 - "11Supplements10InsetLabelC"
 - "7SnapKit20LayoutConstraintItemP"
-- "s25LosslessStringConvertibleP"
 - "So8NSCodingP"
 - !private "So9NSCopyingP"
 - !private "So21NSItemProviderReadingP"
@@ -817,9 +789,6 @@ depends-nominal:
 - !private "So14NSSecureCodingP"
 - !private "Sq"
 - "11Supplements12QuestionCellC"
-- "ST"
-- "s16TextOutputStreamP"
-- "s20TextOutputStreamableP"
 - "So29UIAccessibilityIdentificationP"
 - "So12UIAppearanceP"
 - "So21UIAppearanceContainerP"
@@ -844,11 +813,9 @@ depends-nominal:
 - !private "7SwiftUI4ViewP"
 - !private "s30_CustomPlaygroundQuickLookableP"
 - !private "s35_ExpressibleByBuiltinBooleanLiteralP"
-- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
 - !private "s33_ExpressibleByBuiltinFloatLiteralP"
 - "s35_ExpressibleByBuiltinIntegerLiteralP"
 - !private "s34_ExpressibleByBuiltinStringLiteralP"
-- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
 - !private "s26_ExpressibleByColorLiteralP"
 - "10Foundation27_KeyValueCodingAndObservingP"
 - "10Foundation37_KeyValueCodingAndObservingPublishingP"

@@ -1,0 +1,442 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SwipeTransitionAnimator"
+provides-nominal:
+- "25SwipeableTabBarController23SwipeTransitionAnimatorC"
+provides-member:
+- ["25SwipeableTabBarController23SwipeTransitionAnimatorC", ""]
+provides-dynamic-lookup:
+- "animateTransition"
+- "animationDuration"
+- "animationType"
+- "forceTransitionToFinish"
+- "interruptibleAnimator"
+- "propertyAnimator"
+- "targetEdge"
+- "transitionDuration"
+depends-top-level:
+- "!"
+- !private "=="
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "NSObject"
+- "SwipeAnimationType"
+- "SwipeAnimationTypeProtocol"
+- "SwipeTransitionAnimator"
+- "SwipeTransitioningProtocol"
+- "TernaryPrecedence"
+- "TimeInterval"
+- "UIRectEdge"
+- !private "UITransitionContextViewKey"
+- "UIViewAnimating"
+- "UIViewControllerContextTransitioning"
+- "UIViewImplicitlyAnimating"
+- !private "UIViewPropertyAnimator"
+- !private "animationDuration"
+- !private "animationType"
+- !private "interruptibleAnimator"
+- !private "propertyAnimator"
+- !private "targetEdge"
+- !private "transitionDuration"
+depends-member:
+- !private ["So20UIViewAnimationCurveV", "linear"]
+- !private ["SK", ""]
+- ["s7CVarArgP", "SwipeAnimationType"]
+- !private ["s7CVarArgP", "UITransitionContextViewKey"]
+- !private ["s7CVarArgP", "UIViewPropertyAnimator"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "addCompletion"]
+- ["s7CVarArgP", "animateTransition"]
+- ["s7CVarArgP", "animationDuration"]
+- ["s7CVarArgP", "animationEnded"]
+- ["s7CVarArgP", "animationType"]
+- ["s7CVarArgP", "forceTransitionToFinish"]
+- !private ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "interruptibleAnimator"]
+- ["s7CVarArgP", "interruptibleAnimatorForTransition"]
+- !private ["s7CVarArgP", "propertyAnimator"]
+- ["s7CVarArgP", "targetEdge"]
+- ["s7CVarArgP", "transitionDuration"]
+- !private ["Sl", ""]
+- !private ["SL", ""]
+- ["s28CustomDebugStringConvertibleP", "SwipeAnimationType"]
+- !private ["s28CustomDebugStringConvertibleP", "UITransitionContextViewKey"]
+- !private ["s28CustomDebugStringConvertibleP", "UIViewPropertyAnimator"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "addCompletion"]
+- ["s28CustomDebugStringConvertibleP", "animateTransition"]
+- ["s28CustomDebugStringConvertibleP", "animationDuration"]
+- ["s28CustomDebugStringConvertibleP", "animationEnded"]
+- ["s28CustomDebugStringConvertibleP", "animationType"]
+- ["s28CustomDebugStringConvertibleP", "forceTransitionToFinish"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "interruptibleAnimator"]
+- ["s28CustomDebugStringConvertibleP", "interruptibleAnimatorForTransition"]
+- !private ["s28CustomDebugStringConvertibleP", "propertyAnimator"]
+- ["s28CustomDebugStringConvertibleP", "targetEdge"]
+- ["s28CustomDebugStringConvertibleP", "transitionDuration"]
+- ["s23CustomStringConvertibleP", "SwipeAnimationType"]
+- !private ["s23CustomStringConvertibleP", "UITransitionContextViewKey"]
+- !private ["s23CustomStringConvertibleP", "UIViewPropertyAnimator"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "addCompletion"]
+- ["s23CustomStringConvertibleP", "animateTransition"]
+- ["s23CustomStringConvertibleP", "animationDuration"]
+- ["s23CustomStringConvertibleP", "animationEnded"]
+- ["s23CustomStringConvertibleP", "animationType"]
+- ["s23CustomStringConvertibleP", "forceTransitionToFinish"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "interruptibleAnimator"]
+- ["s23CustomStringConvertibleP", "interruptibleAnimatorForTransition"]
+- !private ["s23CustomStringConvertibleP", "propertyAnimator"]
+- ["s23CustomStringConvertibleP", "targetEdge"]
+- ["s23CustomStringConvertibleP", "transitionDuration"]
+- !private ["SQ", "=="]
+- !private ["SQ", "RawValue"]
+- ["SQ", "SwipeAnimationType"]
+- !private ["SQ", "UITransitionContextViewKey"]
+- !private ["SQ", "UIViewPropertyAnimator"]
+- ["SQ", ""]
+- !private ["SQ", "addCompletion"]
+- ["SQ", "animateTransition"]
+- ["SQ", "animationDuration"]
+- ["SQ", "animationEnded"]
+- ["SQ", "animationType"]
+- !private ["SQ", "end"]
+- ["SQ", "forceTransitionToFinish"]
+- !private ["SQ", "from"]
+- !private ["SQ", "init"]
+- ["SQ", "interruptibleAnimator"]
+- ["SQ", "interruptibleAnimatorForTransition"]
+- !private ["SQ", "linear"]
+- !private ["SQ", "propertyAnimator"]
+- !private ["SQ", "right"]
+- ["SQ", "sideBySide"]
+- !private ["SQ", "stopped"]
+- ["SQ", "targetEdge"]
+- !private ["SQ", "to"]
+- ["SQ", "transitionDuration"]
+- !private ["s25ExpressibleByArrayLiteralP", "=="]
+- !private ["s25ExpressibleByArrayLiteralP", "RawValue"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "right"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s32ExpressibleByStringInterpolationP", ""]
+- !private ["s26ExpressibleByStringLiteralP", ""]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["SH", "=="]
+- !private ["SH", "RawValue"]
+- ["SH", "SwipeAnimationType"]
+- !private ["SH", "UITransitionContextViewKey"]
+- !private ["SH", "UIViewPropertyAnimator"]
+- ["SH", ""]
+- !private ["SH", "addCompletion"]
+- ["SH", "animateTransition"]
+- ["SH", "animationDuration"]
+- ["SH", "animationEnded"]
+- ["SH", "animationType"]
+- !private ["SH", "end"]
+- ["SH", "forceTransitionToFinish"]
+- !private ["SH", "from"]
+- !private ["SH", "init"]
+- ["SH", "interruptibleAnimator"]
+- ["SH", "interruptibleAnimatorForTransition"]
+- !private ["SH", "linear"]
+- !private ["SH", "propertyAnimator"]
+- ["SH", "sideBySide"]
+- !private ["SH", "stopped"]
+- ["SH", "targetEdge"]
+- !private ["SH", "to"]
+- ["SH", "transitionDuration"]
+- !private ["s25LosslessStringConvertibleP", ""]
+- ["So8NSCodingP", ""]
+- !private ["So9NSCopyingP", ""]
+- !private ["So9NSCopyingP", "addCompletion"]
+- !private ["So9NSCopyingP", "init"]
+- ["So8NSObjectC", "SwipeAnimationType"]
+- ["So8NSObjectC", "SwipeAnimationTypeProtocol"]
+- ["So8NSObjectC", "TimeInterval"]
+- ["So8NSObjectC", "UIRectEdge"]
+- !private ["So8NSObjectC", "UITransitionContextViewKey"]
+- ["So8NSObjectC", "UIViewAnimating"]
+- ["So8NSObjectC", "UIViewControllerContextTransitioning"]
+- ["So8NSObjectC", "UIViewImplicitlyAnimating"]
+- !private ["So8NSObjectC", "UIViewPropertyAnimator"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "addCompletion"]
+- ["So8NSObjectC", "animateTransition"]
+- ["So8NSObjectC", "animationDuration"]
+- ["So8NSObjectC", "animationEnded"]
+- ["So8NSObjectC", "animationType"]
+- ["So8NSObjectC", "forceTransitionToFinish"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "interruptibleAnimator"]
+- ["So8NSObjectC", "interruptibleAnimatorForTransition"]
+- ["So8NSObjectC", "propertyAnimator"]
+- ["So8NSObjectC", "targetEdge"]
+- ["So8NSObjectC", "transitionDuration"]
+- ["So8NSObjectP", "SwipeAnimationType"]
+- ["So8NSObjectP", "SwipeAnimationTypeProtocol"]
+- ["So8NSObjectP", "TimeInterval"]
+- ["So8NSObjectP", "UIRectEdge"]
+- !private ["So8NSObjectP", "UITransitionContextViewKey"]
+- ["So8NSObjectP", "UIViewAnimating"]
+- ["So8NSObjectP", "UIViewControllerContextTransitioning"]
+- ["So8NSObjectP", "UIViewImplicitlyAnimating"]
+- !private ["So8NSObjectP", "UIViewPropertyAnimator"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "addCompletion"]
+- ["So8NSObjectP", "animateTransition"]
+- ["So8NSObjectP", "animationDuration"]
+- ["So8NSObjectP", "animationEnded"]
+- ["So8NSObjectP", "animationType"]
+- !private ["So8NSObjectP", "completeTransition"]
+- !private ["So8NSObjectP", "containerView"]
+- ["So8NSObjectP", "deinit"]
+- !private ["So8NSObjectP", "finishAnimation"]
+- ["So8NSObjectP", "forceTransitionToFinish"]
+- ["So8NSObjectP", "init"]
+- ["So8NSObjectP", "interruptibleAnimator"]
+- ["So8NSObjectP", "interruptibleAnimatorForTransition"]
+- !private ["So8NSObjectP", "isAnimated"]
+- ["So8NSObjectP", "propertyAnimator"]
+- !private ["So8NSObjectP", "startAnimation"]
+- !private ["So8NSObjectP", "state"]
+- !private ["So8NSObjectP", "stopAnimation"]
+- ["So8NSObjectP", "targetEdge"]
+- ["So8NSObjectP", "transitionDuration"]
+- !private ["So8NSObjectP", "transitionWasCancelled"]
+- !private ["So8NSObjectP", "view"]
+- !private ["s9OptionSetP", "=="]
+- !private ["s9OptionSetP", "RawValue"]
+- !private ["s9OptionSetP", "right"]
+- !private ["SY", "=="]
+- !private ["SY", "RawValue"]
+- !private ["SY", ""]
+- !private ["SY", "end"]
+- !private ["SY", "from"]
+- !private ["SY", "linear"]
+- !private ["SY", "right"]
+- !private ["SY", "stopped"]
+- !private ["SY", "to"]
+- !private ["ST", ""]
+- !private ["s10SetAlgebraP", "=="]
+- !private ["s10SetAlgebraP", "RawValue"]
+- !private ["s10SetAlgebraP", ""]
+- !private ["s10SetAlgebraP", "right"]
+- ["25SwipeableTabBarController18SwipeAnimationTypeO", ""]
+- ["25SwipeableTabBarController18SwipeAnimationTypeO", "sideBySide"]
+- !private ["25SwipeableTabBarController26SwipeAnimationTypeProtocolP", "addTo"]
+- !private ["25SwipeableTabBarController26SwipeAnimationTypeProtocolP", "animation"]
+- !private ["25SwipeableTabBarController26SwipeAnimationTypeProtocolP", "prepare"]
+- ["25SwipeableTabBarController26SwipeAnimationTypeProtocolP", "sideBySide"]
+- ["25SwipeableTabBarController23SwipeTransitionAnimatorC", "SwipeAnimationType"]
+- ["25SwipeableTabBarController23SwipeTransitionAnimatorC", "SwipeAnimationTypeProtocol"]
+- ["25SwipeableTabBarController23SwipeTransitionAnimatorC", "TimeInterval"]
+- ["25SwipeableTabBarController23SwipeTransitionAnimatorC", "UIRectEdge"]
+- !private ["25SwipeableTabBarController23SwipeTransitionAnimatorC", "UITransitionContextViewKey"]
+- ["25SwipeableTabBarController23SwipeTransitionAnimatorC", "UIViewAnimating"]
+- ["25SwipeableTabBarController23SwipeTransitionAnimatorC", "UIViewControllerContextTransitioning"]
+- ["25SwipeableTabBarController23SwipeTransitionAnimatorC", "UIViewImplicitlyAnimating"]
+- !private ["25SwipeableTabBarController23SwipeTransitionAnimatorC", "UIViewPropertyAnimator"]
+- ["25SwipeableTabBarController23SwipeTransitionAnimatorC", ""]
+- ["25SwipeableTabBarController23SwipeTransitionAnimatorC", "animateTransition"]
+- ["25SwipeableTabBarController23SwipeTransitionAnimatorC", "animationDuration"]
+- ["25SwipeableTabBarController23SwipeTransitionAnimatorC", "animationEnded"]
+- ["25SwipeableTabBarController23SwipeTransitionAnimatorC", "animationType"]
+- ["25SwipeableTabBarController23SwipeTransitionAnimatorC", "deinit"]
+- ["25SwipeableTabBarController23SwipeTransitionAnimatorC", "forceTransitionToFinish"]
+- ["25SwipeableTabBarController23SwipeTransitionAnimatorC", "init"]
+- ["25SwipeableTabBarController23SwipeTransitionAnimatorC", "interruptibleAnimator"]
+- ["25SwipeableTabBarController23SwipeTransitionAnimatorC", "interruptibleAnimatorForTransition"]
+- !private ["25SwipeableTabBarController23SwipeTransitionAnimatorC", "propertyAnimator"]
+- ["25SwipeableTabBarController23SwipeTransitionAnimatorC", "targetEdge"]
+- ["25SwipeableTabBarController23SwipeTransitionAnimatorC", "transitionDuration"]
+- ["25SwipeableTabBarController26SwipeTransitioningProtocolP", "SwipeAnimationType"]
+- !private ["25SwipeableTabBarController26SwipeTransitioningProtocolP", "UITransitionContextViewKey"]
+- !private ["25SwipeableTabBarController26SwipeTransitioningProtocolP", "UIViewPropertyAnimator"]
+- ["25SwipeableTabBarController26SwipeTransitioningProtocolP", ""]
+- ["25SwipeableTabBarController26SwipeTransitioningProtocolP", "animateTransition"]
+- ["25SwipeableTabBarController26SwipeTransitioningProtocolP", "animationDuration"]
+- ["25SwipeableTabBarController26SwipeTransitioningProtocolP", "animationEnded"]
+- ["25SwipeableTabBarController26SwipeTransitioningProtocolP", "animationType"]
+- ["25SwipeableTabBarController26SwipeTransitioningProtocolP", "forceTransitionToFinish"]
+- ["25SwipeableTabBarController26SwipeTransitioningProtocolP", "interruptibleAnimator"]
+- ["25SwipeableTabBarController26SwipeTransitioningProtocolP", "interruptibleAnimatorForTransition"]
+- !private ["25SwipeableTabBarController26SwipeTransitioningProtocolP", "propertyAnimator"]
+- ["25SwipeableTabBarController26SwipeTransitioningProtocolP", "targetEdge"]
+- ["25SwipeableTabBarController26SwipeTransitioningProtocolP", "transitionDuration"]
+- !private ["s16TextOutputStreamP", ""]
+- !private ["s20TextOutputStreamableP", ""]
+- !private ["So10UIRectEdgeV", "=="]
+- !private ["So10UIRectEdgeV", "RawValue"]
+- !private ["So10UIRectEdgeV", "right"]
+- !private ["So26UITransitionContextViewKeya", "from"]
+- !private ["So26UITransitionContextViewKeya", "to"]
+- ["So15UIViewAnimatingP", ""]
+- !private ["So15UIViewAnimatingP", "addCompletion"]
+- !private ["So15UIViewAnimatingP", "finishAnimation"]
+- !private ["So15UIViewAnimatingP", "init"]
+- !private ["So15UIViewAnimatingP", "startAnimation"]
+- !private ["So15UIViewAnimatingP", "state"]
+- !private ["So15UIViewAnimatingP", "stopAnimation"]
+- !private ["So23UIViewAnimatingPositionV", "end"]
+- !private ["So20UIViewAnimatingStateV", "=="]
+- !private ["So20UIViewAnimatingStateV", "RawValue"]
+- !private ["So20UIViewAnimatingStateV", "stopped"]
+- ["So37UIViewControllerAnimatedTransitioningP", "SwipeAnimationType"]
+- !private ["So37UIViewControllerAnimatedTransitioningP", "UITransitionContextViewKey"]
+- !private ["So37UIViewControllerAnimatedTransitioningP", "UIViewPropertyAnimator"]
+- ["So37UIViewControllerAnimatedTransitioningP", ""]
+- ["So37UIViewControllerAnimatedTransitioningP", "animateTransition"]
+- ["So37UIViewControllerAnimatedTransitioningP", "animationDuration"]
+- ["So37UIViewControllerAnimatedTransitioningP", "animationEnded"]
+- ["So37UIViewControllerAnimatedTransitioningP", "animationType"]
+- ["So37UIViewControllerAnimatedTransitioningP", "deinit"]
+- ["So37UIViewControllerAnimatedTransitioningP", "forceTransitionToFinish"]
+- ["So37UIViewControllerAnimatedTransitioningP", "init"]
+- ["So37UIViewControllerAnimatedTransitioningP", "interruptibleAnimator"]
+- ["So37UIViewControllerAnimatedTransitioningP", "interruptibleAnimatorForTransition"]
+- ["So37UIViewControllerAnimatedTransitioningP", "propertyAnimator"]
+- ["So37UIViewControllerAnimatedTransitioningP", "targetEdge"]
+- ["So37UIViewControllerAnimatedTransitioningP", "transitionDuration"]
+- !private ["So36UIViewControllerContextTransitioningP", "completeTransition"]
+- !private ["So36UIViewControllerContextTransitioningP", "containerView"]
+- !private ["So36UIViewControllerContextTransitioningP", "isAnimated"]
+- !private ["So36UIViewControllerContextTransitioningP", "transitionWasCancelled"]
+- !private ["So36UIViewControllerContextTransitioningP", "view"]
+- !private ["So25UIViewImplicitlyAnimatingP", "addCompletion"]
+- !private ["So25UIViewImplicitlyAnimatingP", "init"]
+- !private ["So25UIViewImplicitlyAnimatingP", "startAnimation"]
+- !private ["So22UIViewPropertyAnimatorC", "addCompletion"]
+- !private ["So22UIViewPropertyAnimatorC", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["s35_HasCustomAnyHashableRepresentationP", ""]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "from"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "to"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "SwipeAnimationType"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UITransitionContextViewKey"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIViewPropertyAnimator"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addCompletion"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "animateTransition"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "animationDuration"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "animationEnded"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "animationType"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "forceTransitionToFinish"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "interruptibleAnimator"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "interruptibleAnimatorForTransition"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "propertyAnimator"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "targetEdge"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "transitionDuration"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "SwipeAnimationType"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UITransitionContextViewKey"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIViewPropertyAnimator"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "addCompletion"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "animateTransition"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "animationDuration"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "animationEnded"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "animationType"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "forceTransitionToFinish"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "interruptibleAnimator"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "interruptibleAnimatorForTransition"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "propertyAnimator"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "targetEdge"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "transitionDuration"]
+- !private ["s21_ObjectiveCBridgeableP", "from"]
+- !private ["s21_ObjectiveCBridgeableP", "to"]
+- !private ["s20_SwiftNewtypeWrapperP", "from"]
+- !private ["s20_SwiftNewtypeWrapperP", "to"]
+depends-nominal:
+- !private "So20UIViewAnimationCurveV"
+- !private "SK"
+- "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- !private "s25LosslessStringConvertibleP"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "s9OptionSetP"
+- !private "SY"
+- !private "ST"
+- !private "s10SetAlgebraP"
+- "25SwipeableTabBarController18SwipeAnimationTypeO"
+- "25SwipeableTabBarController26SwipeAnimationTypeProtocolP"
+- "25SwipeableTabBarController23SwipeTransitionAnimatorC"
+- "25SwipeableTabBarController26SwipeTransitioningProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So10UIRectEdgeV"
+- !private "So26UITransitionContextViewKeya"
+- "So15UIViewAnimatingP"
+- !private "So23UIViewAnimatingPositionV"
+- !private "So20UIViewAnimatingStateV"
+- "So37UIViewControllerAnimatedTransitioningP"
+- !private "So36UIViewControllerContextTransitioningP"
+- !private "So25UIViewImplicitlyAnimatingP"
+- !private "So22UIViewPropertyAnimatorC"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s33_ExpressibleByBuiltinFloatLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s20_SwiftNewtypeWrapperP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/sapientisat/Projects/Supplements/Supplements/Pods/Target Support Files/SwipeableTabBarController/SwipeableTabBarController-umbrella.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SwipeableTabBarController.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "dd94c0aaf859796f5e791d76a3b31363"

@@ -13,5 +13,6 @@ target 'Supplements' do
   pod 'FSCalendar'
   pod 'CalendarHeatmap'
   pod 'Popover'
+  pod 'SwipeableTabBarController'
 
 end

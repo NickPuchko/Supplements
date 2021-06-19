@@ -226,7 +226,43 @@ SWIFT_CLASS("_TtC11Supplements11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class NSBundle;
 @class NSCoder;
+
+SWIFT_CLASS("_TtC11Supplements18BlogViewController")
+@interface BlogViewController : UIViewController
+- (void)viewDidLoad;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UICollectionView;
+@class UICollectionViewCell;
+
+@interface BlogViewController (SWIFT_EXTENSION(Supplements)) <UICollectionViewDataSource>
+- (NSInteger)collectionView:(UICollectionView * _Nonnull)collectionView numberOfItemsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UICollectionViewCell * _Nonnull)collectionView:(UICollectionView * _Nonnull)collectionView cellForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+@end
+
+@class UIDatePicker;
+@class UITextField;
+
+SWIFT_CLASS("_TtC11Supplements11ContentView")
+@interface ContentView : UIView
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (void)dueDateChangedWithSender:(UIDatePicker * _Nonnull)sender;
+- (void)editingChanged:(UITextField * _Nonnull)textField;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC11Supplements24CustomCollectionViewCell")
+@interface CustomCollectionViewCell : UICollectionViewCell
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (void)layoutSubviews;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
 
 SWIFT_CLASS("_TtC11Supplements15CustomTextField")
 @interface CustomTextField : UITextField
@@ -237,13 +273,26 @@ SWIFT_CLASS("_TtC11Supplements15CustomTextField")
 - (CGRect)editingRectForBounds:(CGRect)bounds SWIFT_WARN_UNUSED_RESULT;
 @end
 
-@class NSBundle;
+
+SWIFT_CLASS("_TtC11Supplements21DeficitViewController")
+@interface DeficitViewController : UIViewController
+- (void)viewDidLoad;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
 
 SWIFT_CLASS("_TtC11Supplements18FormViewController")
 @interface FormViewController : UIViewController
 - (void)viewDidLoad;
+- (void)keyboardWillChangeWithNotification:(NSNotification * _Nonnull)notification;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+@interface FormViewController (SWIFT_EXTENSION(Supplements))
+- (void)dismissKeyboard;
 @end
 
 
@@ -305,7 +354,6 @@ SWIFT_CLASS("_TtC11Supplements12QuestionCell")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UICollectionView;
 @class UICollectionViewLayout;
 
 SWIFT_CLASS("_TtC11Supplements33QuestionsCollectionViewController")
@@ -322,14 +370,6 @@ SWIFT_CLASS("_TtC11Supplements33QuestionsCollectionViewController")
 @end
 
 
-SWIFT_CLASS("_TtC11Supplements20SecondViewController")
-@interface SecondViewController : UIViewController
-- (void)viewDidLoad;
-- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
 SWIFT_CLASS("_TtC11Supplements22SymptomsViewController")
 @interface SymptomsViewController : UIViewController
 - (void)viewDidLoad;
@@ -340,22 +380,14 @@ SWIFT_CLASS("_TtC11Supplements22SymptomsViewController")
 @end
 
 
+
 @interface SymptomsViewController (SWIFT_EXTENSION(Supplements)) <UICollectionViewDataSource>
 - (NSInteger)numberOfSectionsInCollectionView:(UICollectionView * _Nonnull)collectionView SWIFT_WARN_UNUSED_RESULT;
 @end
 
 
-
 @interface SymptomsViewController (SWIFT_EXTENSION(Supplements)) <UICollectionViewDelegate>
 - (void)collectionView:(UICollectionView * _Nonnull)collectionView didSelectItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
-@end
-
-
-SWIFT_CLASS("_TtC11Supplements19ThirdViewController")
-@interface ThirdViewController : UIViewController
-- (void)viewDidLoad;
-- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
@@ -367,11 +399,17 @@ SWIFT_CLASS("_TtC11Supplements19TodayViewController")
 @end
 
 @class UITableView;
-@class UIView;
 
 @interface TodayViewController (SWIFT_EXTENSION(Supplements)) <UITableViewDelegate>
 - (UIView * _Nullable)tableView:(UITableView * _Nonnull)tableView viewForHeaderInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
 - (CGFloat)tableView:(UITableView * _Nonnull)tableView heightForHeaderInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+@end
+
+
+@interface TodayViewController (SWIFT_EXTENSION(Supplements)) <UITableViewDataSource>
+- (NSInteger)numberOfSectionsInTableView:(UITableView * _Nonnull)tableView SWIFT_WARN_UNUSED_RESULT;
+- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
 @end
 
 @class UIColor;
@@ -382,12 +420,6 @@ SWIFT_CLASS("_TtC11Supplements19TodayViewController")
 - (void)finishLoadCalendar;
 @end
 
-
-@interface TodayViewController (SWIFT_EXTENSION(Supplements)) <UITableViewDataSource>
-- (NSInteger)numberOfSectionsInTableView:(UITableView * _Nonnull)tableView SWIFT_WARN_UNUSED_RESULT;
-- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
-- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
-@end
 
 
 #if __has_attribute(external_source_symbol)
