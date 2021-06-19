@@ -99,8 +99,6 @@ depends-member:
 - !private ["s22KeyedEncodingContainerV", "encode"]
 - !private ["s30KeyedEncodingContainerProtocolP", "encode"]
 - ["So8NSCodingP", ""]
-- ["So8NSObjectP", ""]
-- ["So18UIFocusEnvironmentP", ""]
 - ["11Supplements4UserV", "GoogleUser"]
 - ["11Supplements4UserV", "UIImage"]
 - ["11Supplements4UserV", "contract"]
@@ -125,8 +123,6 @@ depends-nominal:
 - !private "s22KeyedEncodingContainerV"
 - !private "s30KeyedEncodingContainerProtocolP"
 - "So8NSCodingP"
-- "So8NSObjectP"
-- "So18UIFocusEnvironmentP"
 - "11Supplements4UserV"
 - !private "s35_ExpressibleByBuiltinIntegerLiteralP"
 - !private "s34_ExpressibleByBuiltinStringLiteralP"

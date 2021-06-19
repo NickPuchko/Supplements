@@ -235,10 +235,26 @@ SWIFT_CLASS("_TtC11Supplements18FormViewController")
 @end
 
 
+SWIFT_CLASS("_TtC11Supplements10InsetLabel")
+@interface InsetLabel : UILabel
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+- (void)drawTextInRect:(CGRect)rect;
+@property (nonatomic, readonly) CGSize intrinsicContentSize;
+- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
+@end
+
+
 SWIFT_CLASS("_TtC11Supplements19LoginViewController")
 @interface LoginViewController : UIViewController
 - (void)viewDidLoad;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC11Supplements8PageCell")
+@interface PageCell : UICollectionViewCell
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -250,6 +266,20 @@ SWIFT_CLASS("_TtC11Supplements12QuestionCell")
 @end
 
 @class UICollectionView;
+@class UICollectionViewLayout;
+
+SWIFT_CLASS("_TtC11Supplements33QuestionsCollectionViewController")
+@interface QuestionsCollectionViewController : UICollectionViewController
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+- (void)viewDidLoad;
+- (NSInteger)numberOfSectionsInCollectionView:(UICollectionView * _Nonnull)collectionView SWIFT_WARN_UNUSED_RESULT;
+- (NSInteger)collectionView:(UICollectionView * _Nonnull)collectionView numberOfItemsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UICollectionViewCell * _Nonnull)collectionView:(UICollectionView * _Nonnull)collectionView cellForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (BOOL)collectionView:(UICollectionView * _Nonnull)collectionView shouldSelectItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)initWithCollectionViewLayout:(UICollectionViewLayout * _Nonnull)layout SWIFT_UNAVAILABLE;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
+@end
+
 
 SWIFT_CLASS("_TtC11Supplements22SymptomsViewController")
 @interface SymptomsViewController : UIViewController
@@ -263,6 +293,12 @@ SWIFT_CLASS("_TtC11Supplements22SymptomsViewController")
 
 @interface SymptomsViewController (SWIFT_EXTENSION(Supplements)) <UICollectionViewDataSource>
 - (NSInteger)numberOfSectionsInCollectionView:(UICollectionView * _Nonnull)collectionView SWIFT_WARN_UNUSED_RESULT;
+@end
+
+
+
+@interface SymptomsViewController (SWIFT_EXTENSION(Supplements)) <UICollectionViewDelegate>
+- (void)collectionView:(UICollectionView * _Nonnull)collectionView didSelectItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
 @end
 
 #if __has_attribute(external_source_symbol)

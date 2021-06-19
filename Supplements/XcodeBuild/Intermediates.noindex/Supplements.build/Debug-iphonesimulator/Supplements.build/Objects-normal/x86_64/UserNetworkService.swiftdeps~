@@ -1,11 +1,13 @@
 ### Swift dependencies file v0 ###
 provides-top-level:
+- "NetworkService"
 - "UserNetworkService"
 provides-nominal:
+- "11Supplements14NetworkServiceC"
 - "11Supplements18UserNetworkServiceC"
 provides-member:
+- ["11Supplements14NetworkServiceC", ""]
 - ["11Supplements18UserNetworkServiceC", ""]
-- ["11Supplements18UserNetworkServiceC", "createUser"]
 provides-dynamic-lookup:
 - "$__lazy_storage_$_decoder"
 - "$__lazy_storage_$_encoder"
@@ -22,6 +24,7 @@ depends-top-level:
 - "IntegerLiteralType"
 - "JSONDecoder"
 - "JSONEncoder"
+- "NetworkService"
 - "RequestError"
 - "Result"
 - "String"
@@ -136,6 +139,25 @@ depends-member:
 - !private ["So8NSObjectP", "statusCode"]
 - !private ["So14NSSecureCodingP", ""]
 - !private ["So14NSSecureCodingP", "statusCode"]
+- !private ["11Supplements14NetworkServiceC", "$__lazy_storage_$_decoder"]
+- !private ["11Supplements14NetworkServiceC", "$__lazy_storage_$_encoder"]
+- !private ["11Supplements14NetworkServiceC", "AF"]
+- ["11Supplements14NetworkServiceC", "Error"]
+- ["11Supplements14NetworkServiceC", "JSONDecoder"]
+- ["11Supplements14NetworkServiceC", "JSONEncoder"]
+- !private ["11Supplements14NetworkServiceC", "RequestError"]
+- ["11Supplements14NetworkServiceC", "Result"]
+- ["11Supplements14NetworkServiceC", "String"]
+- ["11Supplements14NetworkServiceC", "URL"]
+- !private ["11Supplements14NetworkServiceC", "URLComponents"]
+- ["11Supplements14NetworkServiceC", "Void"]
+- ["11Supplements14NetworkServiceC", ""]
+- ["11Supplements14NetworkServiceC", "createUser"]
+- ["11Supplements14NetworkServiceC", "decoder"]
+- ["11Supplements14NetworkServiceC", "deinit"]
+- ["11Supplements14NetworkServiceC", "encoder"]
+- ["11Supplements14NetworkServiceC", "init"]
+- ["11Supplements14NetworkServiceC", "makeURL"]
 - !private ["Sq", "callAsFunction"]
 - !private ["10Foundation20ReferenceConvertibleP", "host"]
 - !private ["10Foundation20ReferenceConvertibleP", "init"]
@@ -175,19 +197,12 @@ depends-member:
 - !private ["So13NSURLResponseC", "statusCode"]
 - !private ["9Alamofire13UploadRequestC", "response"]
 - !private ["9Alamofire13UploadRequestC", "validate"]
-- !private ["11Supplements18UserNetworkServiceC", "$__lazy_storage_$_decoder"]
-- !private ["11Supplements18UserNetworkServiceC", "$__lazy_storage_$_encoder"]
 - !private ["11Supplements18UserNetworkServiceC", "AF"]
 - ["11Supplements18UserNetworkServiceC", "Error"]
-- ["11Supplements18UserNetworkServiceC", "JSONDecoder"]
-- ["11Supplements18UserNetworkServiceC", "JSONEncoder"]
 - !private ["11Supplements18UserNetworkServiceC", "RequestError"]
 - ["11Supplements18UserNetworkServiceC", "Result"]
 - ["11Supplements18UserNetworkServiceC", "String"]
-- ["11Supplements18UserNetworkServiceC", "URL"]
-- !private ["11Supplements18UserNetworkServiceC", "URLComponents"]
 - ["11Supplements18UserNetworkServiceC", "Void"]
-- ["11Supplements18UserNetworkServiceC", ""]
 - ["11Supplements18UserNetworkServiceC", "createUser"]
 - !private ["11Supplements18UserNetworkServiceC", "decoder"]
 - ["11Supplements18UserNetworkServiceC", "deinit"]
@@ -231,6 +246,7 @@ depends-nominal:
 - "So8NSObjectC"
 - !private "So8NSObjectP"
 - !private "So14NSSecureCodingP"
+- "11Supplements14NetworkServiceC"
 - !private "Sq"
 - !private "10Foundation20ReferenceConvertibleP"
 - "9Alamofire7RequestC"
@@ -277,9 +293,11 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/DeveloperToolsSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/CollectionViewPagingLayout/CollectionViewPagingLayout.framework/Modules/CollectionViewPagingLayout.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/LinearProgressView/LinearProgressView.framework/Modules/LinearProgressView.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework/Headers/SnapKit-umbrella.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/CollectionViewPagingLayout/CollectionViewPagingLayout.framework/Headers/CollectionViewPagingLayout-umbrella.h"
+- "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/LinearProgressView/LinearProgressView.framework/Headers/LinearProgressView-umbrella.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDProfileData.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDSignIn.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GoogleSignIn.h"
@@ -289,11 +307,13 @@ depends-external:
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework/Headers/SnapKit-Swift.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/CollectionViewPagingLayout/CollectionViewPagingLayout.framework/Headers/CollectionViewPagingLayout-Swift.h"
+- "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/LinearProgressView/LinearProgressView.framework/Headers/LinearProgressView-Swift.h"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/dyld.modulemap"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
 - "/Users/sapientisat/Projects/Supplements/Supplements/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Modules/module.modulemap"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework/Modules/module.modulemap"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/CollectionViewPagingLayout/CollectionViewPagingLayout.framework/Modules/module.modulemap"
+- "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/LinearProgressView/LinearProgressView.framework/Modules/module.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/objc/ObjectiveC.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
@@ -313,4 +333,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "78a06a930ae4bcf793862e131fe5f37e"
+interface-hash: "6e0901329f832d992e9896daf651ca25"

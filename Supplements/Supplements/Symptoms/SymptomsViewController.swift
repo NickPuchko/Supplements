@@ -16,37 +16,65 @@ import LinearProgressView
 class SymptomsViewController: UIViewController {
     private lazy var model = SymptomsModel(self)
     
-	private lazy var collectionView = UICollectionView(frame: .zero, collectionViewLayout: CollectionViewPagingLayout())
+	private lazy var collectionView = UICollectionView(frame: .zero, collectionViewLayout: layout)
 	private lazy var progressBar = LinearProgressView()
+	private lazy var layout = CollectionViewPagingLayout()
+
 
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		view.backgroundColor = .white
+		setupProgressbar()
 		setupCollectionView()
+		layout.delegate = self
+		model.loadPages()
+//		navigationController?.isNavigationBarHidden = true
+//		title = "Жалобы"
+	}
+
+	func refresh() {
+		collectionView.reloadData()
+		progressBar.maximumValue = Float(model.pages.count)
+		progressBar.setProgress(Float(layout.currentPage + 1), animated: true)
 	}
 
 	private func setupProgressbar() {
-		progressBar.barColor = .systemGreen
+		progressBar.barColor = .white
+		progressBar.trackColor = .systemGreen
 		progressBar.isCornersRounded = true
-		progressBar.setProgress(0, animated: false)
+		progressBar.barInset = 5
+		progressBar.layer.borderWidth = 1
+		progressBar.layer.borderColor = UIColor.systemGreen.cgColor
+		progressBar.minimumValue = 1
+
+		view.addSubview(progressBar)
+		progressBar.snp.makeConstraints { make in
+			make.bottom.equalTo(view.safeAreaLayoutGuide).offset(-40)
+			make.centerX.equalToSuperview()
+			make.height.equalTo(40)
+		}
 	}
 
 	private func setupCollectionView() {
+		collectionView.showsHorizontalScrollIndicator = false
 		collectionView.backgroundColor = .clear
 		collectionView.isPagingEnabled = true
+		layout.zPositionHandler = .layoutAttribute
 		collectionView.register(
-			QuestionCell.self,
-			forCellWithReuseIdentifier: "QuestionCell"
+			PageCell.self,
+			forCellWithReuseIdentifier: "PageCell"
 		)
 
 		collectionView.dataSource = self
+		collectionView.delegate = self
 
 		view.addSubview(collectionView)
 		collectionView.snp.makeConstraints { make in
 			make.left.equalToSuperview()
 			make.right.equalToSuperview()
-			make.top.equalTo(view.safeAreaLayoutGuide).offset(80)
-			make.bottom.equalTo(view.safeAreaLayoutGuide).offset(-80)
+			make.width.equalTo(progressBar)
+			make.top.equalTo(view.safeAreaLayoutGuide)
+			make.bottom.equalTo(progressBar.snp.top).offset(-20)
 		}
 	}
 
@@ -54,17 +82,21 @@ class SymptomsViewController: UIViewController {
 		_ collectionView: UICollectionView,
 		numberOfItemsInSection section: Int
 	) -> Int {
-		10
+		model.pages.count
 	}
 
 	func collectionView(
 		_ collectionView: UICollectionView,
 		cellForItemAt indexPath: IndexPath
 	) -> UICollectionViewCell {
-		collectionView.dequeueReusableCell(
-			withReuseIdentifier: "QuestionCell",
+		guard let cell = collectionView.dequeueReusableCell(
+			withReuseIdentifier: "PageCell",
 			for: indexPath
-		)
+		) as? PageCell else {
+			return UICollectionViewCell()
+		}
+		cell.configure(with: model.pages[indexPath.row])
+		return cell
 	}
 
 }
@@ -75,5 +107,13 @@ extension SymptomsViewController: UICollectionViewDataSource {
 }
 
 extension SymptomsViewController: UICollectionViewDelegate {
-	didse
+	func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+
+	}
+}
+
+extension SymptomsViewController: CollectionViewPagingLayoutDelegate {
+	func onCurrentPageChanged(layout: CollectionViewPagingLayout, currentPage: Int) {
+		progressBar.setProgress(Float(currentPage + 1), animated: true)
+	}
 }
