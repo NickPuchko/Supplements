@@ -1,0 +1,192 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "JTAppleCalendarViewDataSource"
+- "JTACMonthViewDataSource"
+- "JTAppleCalendarViewDelegate"
+- "JTACMonthViewDelegate"
+provides-nominal:
+- "15JTAppleCalendar0aB14ViewDataSourceP"
+- "15JTAppleCalendar23JTACMonthViewDataSourceP"
+- "15JTAppleCalendar0aB12ViewDelegateP"
+- "15JTAppleCalendar21JTACMonthViewDelegateP"
+provides-member:
+- ["15JTAppleCalendar0aB14ViewDataSourceP", ""]
+- ["15JTAppleCalendar23JTACMonthViewDataSourceP", ""]
+- ["15JTAppleCalendar0aB12ViewDelegateP", ""]
+- ["15JTAppleCalendar21JTACMonthViewDelegateP", ""]
+- ["15JTAppleCalendar21JTACMonthViewDelegateP", "calendar"]
+- ["15JTAppleCalendar21JTACMonthViewDelegateP", "calendar"]
+- ["15JTAppleCalendar21JTACMonthViewDelegateP", "calendar"]
+- ["15JTAppleCalendar21JTACMonthViewDelegateP", "calendar"]
+- ["15JTAppleCalendar21JTACMonthViewDelegateP", "calendar"]
+- ["15JTAppleCalendar21JTACMonthViewDelegateP", "calendar"]
+- ["15JTAppleCalendar21JTACMonthViewDelegateP", "calendar"]
+- ["15JTAppleCalendar21JTACMonthViewDelegateP", "calendar"]
+- ["15JTAppleCalendar21JTACMonthViewDelegateP", "calendar"]
+- ["15JTAppleCalendar21JTACMonthViewDelegateP", "calendarDidScroll"]
+- ["15JTAppleCalendar21JTACMonthViewDelegateP", "calendarSizeForMonths"]
+- ["15JTAppleCalendar21JTACMonthViewDelegateP", "sizeOfDecorationView"]
+- ["15JTAppleCalendar21JTACMonthViewDelegateP", "scrollDidEndDecelerating"]
+provides-dynamic-lookup:
+depends-top-level:
+- "AnyObject"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CGRect"
+- "CellState"
+- "ConfigurationParameters"
+- "Date"
+- "DateSegmentInfo"
+- "IndexPath"
+- "JTACDayCell"
+- "JTACMonthReusableView"
+- "JTACMonthView"
+- "JTACMonthViewDataSource"
+- "JTACMonthViewDelegate"
+- "JTAppleCalendarViewDataSource"
+- "JTAppleCalendarViewDelegate"
+- "MonthSize"
+- !private "StringLiteralType"
+- !private "assert"
+depends-member:
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["So6CGRectV", "zero"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "zero"]
+- !private ["s17CustomReflectableP", "zero"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["Se", "zero"]
+- !private ["SE", "zero"]
+- !private ["SQ", ""]
+- !private ["SQ", "init"]
+- !private ["SQ", "zero"]
+- !private ["SH", "init"]
+- !private ["15JTAppleCalendar21JTACMonthReusableViewC", ""]
+- !private ["15JTAppleCalendar21JTACMonthReusableViewC", "init"]
+- ["15JTAppleCalendar23JTACMonthViewDataSourceP", "ConfigurationParameters"]
+- ["15JTAppleCalendar23JTACMonthViewDataSourceP", "JTACMonthView"]
+- ["15JTAppleCalendar23JTACMonthViewDataSourceP", "configureCalendar"]
+- ["15JTAppleCalendar21JTACMonthViewDelegateP", "Bool"]
+- ["15JTAppleCalendar21JTACMonthViewDelegateP", "CGRect"]
+- ["15JTAppleCalendar21JTACMonthViewDelegateP", "CellState"]
+- ["15JTAppleCalendar21JTACMonthViewDelegateP", "Date"]
+- ["15JTAppleCalendar21JTACMonthViewDelegateP", "DateSegmentInfo"]
+- ["15JTAppleCalendar21JTACMonthViewDelegateP", "IndexPath"]
+- ["15JTAppleCalendar21JTACMonthViewDelegateP", "JTACDayCell"]
+- ["15JTAppleCalendar21JTACMonthViewDelegateP", "JTACMonthReusableView"]
+- ["15JTAppleCalendar21JTACMonthViewDelegateP", "JTACMonthView"]
+- ["15JTAppleCalendar21JTACMonthViewDelegateP", "MonthSize"]
+- ["15JTAppleCalendar21JTACMonthViewDelegateP", ""]
+- !private ["15JTAppleCalendar21JTACMonthViewDelegateP", "assert"]
+- ["15JTAppleCalendar21JTACMonthViewDelegateP", "calendar"]
+- ["15JTAppleCalendar21JTACMonthViewDelegateP", "calendarDidScroll"]
+- ["15JTAppleCalendar21JTACMonthViewDelegateP", "calendarSizeForMonths"]
+- ["15JTAppleCalendar21JTACMonthViewDelegateP", "scrollDidEndDecelerating"]
+- ["15JTAppleCalendar21JTACMonthViewDelegateP", "sizeOfDecorationView"]
+- !private ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "init"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- ["So24UICollectionReusableViewC", ""]
+- !private ["So24UICollectionReusableViewC", "init"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So20UIFocusItemContainerP", "init"]
+- !private ["So24UILargeContentViewerItemP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- ["So11UIResponderC", ""]
+- !private ["So11UIResponderC", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- ["So6UIViewC", ""]
+- !private ["So6UIViewC", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "zero"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "zero"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "init"]
+depends-nominal:
+- !private "So15CALayerDelegateP"
+- !private "So6CGRectV"
+- !private "s7CVarArgP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- !private "SQ"
+- !private "SH"
+- !private "15JTAppleCalendar21JTACMonthReusableViewC"
+- "15JTAppleCalendar23JTACMonthViewDataSourceP"
+- "15JTAppleCalendar21JTACMonthViewDelegateP"
+- !private "So8NSCodingP"
+- "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- "So24UICollectionReusableViewC"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So24UILargeContentViewerItemP"
+- !private "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So18UITraitEnvironmentP"
+- !private "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/sapientisat/Projects/Supplements/Supplements/Pods/Target Support Files/JTAppleCalendar/JTAppleCalendar-umbrella.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Intermediates.noindex/Pods.build/Debug-iphonesimulator/JTAppleCalendar.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "5ff21cd6fbf8c2d9ba1eab83426db075"

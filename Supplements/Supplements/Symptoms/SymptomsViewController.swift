@@ -34,6 +34,7 @@ class SymptomsViewController: UIViewController {
 
 	func refresh() {
 		collectionView.reloadData()
+		layout.setCurrentPage(0)
 		progressBar.maximumValue = Float(model.pages.count)
 		progressBar.setProgress(Float(layout.currentPage + 1), animated: true)
 	}
@@ -51,7 +52,7 @@ class SymptomsViewController: UIViewController {
 		progressBar.snp.makeConstraints { make in
 			make.bottom.equalTo(view.safeAreaLayoutGuide).offset(-40)
 			make.centerX.equalToSuperview()
-			make.height.equalTo(30)
+			make.height.equalTo(20)
 		}
 	}
 

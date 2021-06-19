@@ -12,5 +12,6 @@ target 'Supplements' do
   pod 'JTAppleCalendar'
   pod 'FSCalendar'
   pod 'CalendarHeatmap'
+  pod 'Popover'
 
 end

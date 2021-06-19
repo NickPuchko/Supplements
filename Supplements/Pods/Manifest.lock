@@ -19,6 +19,7 @@ PODS:
   - JTAppleCalendar (8.0.3)
   - LinearProgressView (2.0.1)
   - Onboard (2.3.3)
+  - Popover (1.3.0)
   - SnapKit (5.0.1)
 
 DEPENDENCIES:
@@ -30,6 +31,7 @@ DEPENDENCIES:
   - JTAppleCalendar
   - LinearProgressView
   - Onboard
+  - Popover
   - SnapKit
 
 SPEC REPOS:
@@ -45,6 +47,7 @@ SPEC REPOS:
     - JTAppleCalendar
     - LinearProgressView
     - Onboard
+    - Popover
     - SnapKit
 
 SPEC CHECKSUMS:
@@ -59,8 +62,9 @@ SPEC CHECKSUMS:
   JTAppleCalendar: 932cadea40b1051beab10f67843451d48ba16c99
   LinearProgressView: 353d4d45dc599b83cc4b43f14e6c0336aa6f3834
   Onboard: 4d6e943e20bdd6bc229df967a347dd7514bc2a6f
+  Popover: 10e1d9528f81d9504df984b7b3f491292bc1822d
   SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
 
-PODFILE CHECKSUM: bf62bd47b5ab4a22c284724fd59167e7b289b9d6
+PODFILE CHECKSUM: fbe92f19e5b2aad32bb8d8fc199a1b5ed5fea6be
 
 COCOAPODS: 1.10.1
