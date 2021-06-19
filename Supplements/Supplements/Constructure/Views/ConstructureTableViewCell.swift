@@ -18,6 +18,7 @@ class ConstructureTableViewCell: UITableViewCell {
     var addButton = UIButton()
     var analogsButton = UIButton()
     var descriptionLabel = UILabel()
+    weak var selectionDelegate: ConstructureViewController!
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         
         super.init(style: style, reuseIdentifier: reuseIdentifier)
@@ -63,12 +64,12 @@ class ConstructureTableViewCell: UITableViewCell {
             priceLabel.trailingAnchor.constraint(equalTo: contentView.trailingAnchor, constant: -10),
             priceLabel.topAnchor.constraint(equalTo: contentView.topAnchor, constant: 39),
         ])
-        
         self.addSubview(descriptionLabel)
         descriptionLabel.translatesAutoresizingMaskIntoConstraints = false
-        descriptionLabel.numberOfLines = 3
+        descriptionLabel.numberOfLines = 2
         descriptionLabel.textAlignment = .left
-        descriptionLabel.lineBreakMode = .byWordWrapping
+        descriptionLabel.lineBreakMode = .byClipping
+        descriptionLabel.sizeToFit()
         NSLayoutConstraint.activate([
             descriptionLabel.leadingAnchor.constraint(equalTo: logoPillImageView.trailingAnchor, constant: 10),
             descriptionLabel.topAnchor.constraint(equalTo: logoPillImageView.topAnchor),
@@ -109,6 +110,12 @@ class ConstructureTableViewCell: UITableViewCell {
             analogsButton.widthAnchor.constraint(equalToConstant: 66)
         ])
         
+    }
+    @objc func addButtonClick() {
+        selectionDelegate.method(cell: self)
+    }
+    @objc func analogButtonClick() {
+        print("123")
     }
     override func prepareForReuse() {
             super.prepareForReuse()

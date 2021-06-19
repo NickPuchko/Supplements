@@ -58,12 +58,6 @@ class ConstructureViewController: UIViewController {
 //
 //        ])
     }
-    @objc func addButtonClick() {
-        print("123")
-    }
-    @objc func analogButtonClick() {
-        print("123")
-    }
     private func setUptableView() {
         tableView.translatesAutoresizingMaskIntoConstraints = false
         tableView.layer.cornerRadius = 25
@@ -96,12 +90,27 @@ extension ConstructureViewController: UITableViewDataSource {
         let cell = tableView.dequeueReusableCell(withIdentifier: "ConstructureTableViewCell", for: indexPath) as! ConstructureTableViewCell
         cell.logoPillImageView.image = UIImage(named: "vitaminImage")
         cell.vitaminNameLabel.text = "Витамин С"
-        cell.priceLabel.text = "1 200 р/мес"
+        cell.priceLabel.text = "1200"
         cell.percentageLabel.text = "80%"
         cell.descriptionLabel.text = "California Gold Nutrition, Gold C, витамин C, 1000 мг, 60 вегетарианских капсул"
-        cell.addButton.addTarget(self, action: #selector(addButtonClick), for: .touchUpInside)
-        cell.analogsButton.addTarget(self, action: #selector(analogButtonClick), for: .touchUpInside)
+        cell.addButton.addTarget(cell, action: #selector(cell.addButtonClick), for: .touchUpInside)
+        cell.selectionDelegate = self
+        cell.analogsButton.addTarget(cell, action: #selector(cell.analogButtonClick), for: .touchUpInside)
         return cell
+    }
+    func method(cell: ConstructureTableViewCell) {
+        if cell.addButton.currentTitle == "Добавить" {
+            price += Int(cell.priceLabel.text ?? "0") ?? 0
+            priceLabel.text = String(price)
+            cell.addButton.setTitle("Убрать", for: .normal)
+            cell.addButton.backgroundColor = .red
+        } else  if cell.addButton.currentTitle == "Убрать" {
+            price -= Int(cell.priceLabel.text ?? "0") ?? 0
+            priceLabel.text = String(price)
+            cell.addButton.setTitle("Добавить", for: .normal)
+            cell.addButton.backgroundColor = UIColor(red: 174/255, green: 232/255, blue: 128/255, alpha: 1)
+        }
+        
     }
     
 }
