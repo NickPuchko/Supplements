@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 import SnapKit
 import GoogleSignIn
-
+//TODO: сделать фильтрацию
 class BlogViewController: UIViewController {
     private lazy var model = BlogModel(self)
     private let collectionView = UICollectionView(

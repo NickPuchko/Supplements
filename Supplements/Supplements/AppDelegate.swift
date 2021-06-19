@@ -66,7 +66,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
 		// TODO: check flag for opening symptoms for first time
 		let todayViewController = TodayViewController()
 		let blogViewController = BlogViewController()
-		let deficitViewController = DeficitViewController()
+		let deficitViewController = ConstructureViewController()
 		let profileViewController = UIViewController()
 
 		let todayItem = UITabBarItem(title: "Сегодня", image: UIImage(named: "today"), tag: 0)
