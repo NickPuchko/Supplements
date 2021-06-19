@@ -1,6 +1,6 @@
 version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
 options: "77f3c312c664ae8d1ee50a7bd61c2ef7"
-build_time: [1624127409, 522330000]
+build_time: [1624129852, 609147000]
 inputs:
   "/Users/sapientisat/Projects/Supplements/Supplements/Pods/SwipeableTabBarController/Sources/SwipeableTabBarController.swift": [1624127405, 69871351]
   "/Users/sapientisat/Projects/Supplements/Supplements/Pods/SwipeableTabBarController/Sources/SwipeAnimationType.swift": [1624127405, 68913263]

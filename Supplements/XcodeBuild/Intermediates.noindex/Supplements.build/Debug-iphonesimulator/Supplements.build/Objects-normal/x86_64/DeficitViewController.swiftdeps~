@@ -8,195 +8,282 @@ provides-member:
 provides-dynamic-lookup:
 - "$__lazy_storage_$_model"
 - "model"
+- "setupDeficits"
 - "viewDidLoad"
 depends-top-level:
+- !private "Array"
+- "AssignmentPrecedence"
+- "Deficit"
 - "DeficitModel"
 - "DeficitViewController"
+- !private "FloatLiteralType"
 - "UIViewController"
+- !private "model"
 - "self"
 depends-member:
 - ["SK", ""]
 - ["s7CVarArgP", "DeficitModel"]
 - ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "model"]
 - ["s7CVarArgP", "self"]
+- !private ["s7CVarArgP", "setupDeficits"]
 - !private ["s7CVarArgP", "viewDidLoad"]
+- !private ["s9CodingKeyP", ""]
+- !private ["s9CodingKeyP", "init"]
+- !private ["s9CodingKeyP", "intValue"]
+- !private ["s9CodingKeyP", "stringValue"]
 - ["Sl", ""]
 - ["SL", ""]
 - ["s28CustomDebugStringConvertibleP", "DeficitModel"]
 - ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "model"]
 - ["s28CustomDebugStringConvertibleP", "self"]
+- !private ["s28CustomDebugStringConvertibleP", "setupDeficits"]
 - !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
 - ["s23CustomStringConvertibleP", "DeficitModel"]
 - ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "model"]
 - ["s23CustomStringConvertibleP", "self"]
+- !private ["s23CustomStringConvertibleP", "setupDeficits"]
 - !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["Se", "init"]
+- !private ["Se", "magnesium"]
+- !private ["Se", "vitamin_b12"]
+- !private ["11Supplements7DeficitV", "CodingKeys"]
+- !private ["11Supplements7DeficitV", ""]
+- !private ["11Supplements7DeficitV", "init"]
+- !private ["11Supplements12DeficitModelC", "deficits"]
 - ["11Supplements12DeficitModelC", "init"]
 - !private ["11Supplements21DeficitViewControllerC", "$__lazy_storage_$_model"]
+- ["11Supplements21DeficitViewControllerC", "Deficit"]
 - ["11Supplements21DeficitViewControllerC", "DeficitModel"]
 - ["11Supplements21DeficitViewControllerC", ""]
 - ["11Supplements21DeficitViewControllerC", "deinit"]
 - ["11Supplements21DeficitViewControllerC", "init"]
 - !private ["11Supplements21DeficitViewControllerC", "model"]
 - ["11Supplements21DeficitViewControllerC", "self"]
+- ["11Supplements21DeficitViewControllerC", "setupDeficits"]
 - ["11Supplements21DeficitViewControllerC", "viewDidLoad"]
+- !private ["11Supplements7ElementO", ""]
+- !private ["11Supplements7ElementO", "magnesium"]
+- !private ["11Supplements7ElementO", "vitamin_b12"]
+- !private ["SE", "init"]
+- !private ["SE", "magnesium"]
+- !private ["SE", "vitamin_b12"]
+- !private ["SQ", "=="]
 - ["SQ", "DeficitModel"]
 - ["SQ", ""]
+- !private ["SQ", "magnesium"]
+- !private ["SQ", "model"]
 - ["SQ", "self"]
+- !private ["SQ", "setupDeficits"]
 - !private ["SQ", "viewDidLoad"]
+- !private ["SQ", "vitamin_b12"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
 - ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
 - ["s32ExpressibleByStringInterpolationP", ""]
 - ["s26ExpressibleByStringLiteralP", ""]
 - ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["11Supplements4GoodV", ""]
 - ["SH", "DeficitModel"]
 - ["SH", ""]
+- !private ["SH", "hash"]
+- !private ["SH", "hashValue"]
+- !private ["SH", "magnesium"]
+- !private ["SH", "model"]
 - ["SH", "self"]
+- !private ["SH", "setupDeficits"]
 - !private ["SH", "viewDidLoad"]
+- !private ["SH", "vitamin_b12"]
 - ["s25LosslessStringConvertibleP", ""]
 - ["So8NSCodingP", "$__lazy_storage_$_model"]
+- ["So8NSCodingP", "Deficit"]
 - ["So8NSCodingP", "DeficitModel"]
 - ["So8NSCodingP", ""]
 - ["So8NSCodingP", "__lazy_storage_$_model"]
 - ["So8NSCodingP", "init"]
 - ["So8NSCodingP", "model"]
 - ["So8NSCodingP", "self"]
+- ["So8NSCodingP", "setupDeficits"]
 - ["So8NSCodingP", "viewDidLoad"]
 - ["So26NSExtensionRequestHandlingP", "$__lazy_storage_$_model"]
+- ["So26NSExtensionRequestHandlingP", "Deficit"]
 - ["So26NSExtensionRequestHandlingP", "DeficitModel"]
 - ["So26NSExtensionRequestHandlingP", ""]
 - ["So26NSExtensionRequestHandlingP", "__lazy_storage_$_model"]
 - ["So26NSExtensionRequestHandlingP", "init"]
 - ["So26NSExtensionRequestHandlingP", "model"]
 - ["So26NSExtensionRequestHandlingP", "self"]
+- ["So26NSExtensionRequestHandlingP", "setupDeficits"]
 - ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
 - ["So8NSObjectC", "$__lazy_storage_$_model"]
+- ["So8NSObjectC", "Deficit"]
 - ["So8NSObjectC", "DeficitModel"]
 - ["So8NSObjectC", ""]
 - ["So8NSObjectC", "__lazy_storage_$_model"]
 - ["So8NSObjectC", "init"]
 - ["So8NSObjectC", "model"]
 - ["So8NSObjectC", "self"]
+- ["So8NSObjectC", "setupDeficits"]
 - ["So8NSObjectC", "viewDidLoad"]
 - ["So8NSObjectP", "$__lazy_storage_$_model"]
+- ["So8NSObjectP", "Deficit"]
 - ["So8NSObjectP", "DeficitModel"]
 - ["So8NSObjectP", ""]
 - ["So8NSObjectP", "__lazy_storage_$_model"]
 - ["So8NSObjectP", "init"]
 - ["So8NSObjectP", "model"]
 - ["So8NSObjectP", "self"]
+- ["So8NSObjectP", "setupDeficits"]
 - ["So8NSObjectP", "viewDidLoad"]
+- !private ["SY", "magnesium"]
+- !private ["SY", "vitamin_b12"]
 - ["ST", ""]
 - ["s16TextOutputStreamP", ""]
 - ["s20TextOutputStreamableP", ""]
 - ["So21UIAppearanceContainerP", "$__lazy_storage_$_model"]
+- ["So21UIAppearanceContainerP", "Deficit"]
 - ["So21UIAppearanceContainerP", "DeficitModel"]
 - ["So21UIAppearanceContainerP", ""]
 - ["So21UIAppearanceContainerP", "__lazy_storage_$_model"]
 - ["So21UIAppearanceContainerP", "init"]
 - ["So21UIAppearanceContainerP", "model"]
 - ["So21UIAppearanceContainerP", "self"]
+- ["So21UIAppearanceContainerP", "setupDeficits"]
 - ["So21UIAppearanceContainerP", "viewDidLoad"]
 - ["So18UIContentContainerP", "$__lazy_storage_$_model"]
+- ["So18UIContentContainerP", "Deficit"]
 - ["So18UIContentContainerP", "DeficitModel"]
 - ["So18UIContentContainerP", ""]
 - ["So18UIContentContainerP", "__lazy_storage_$_model"]
 - ["So18UIContentContainerP", "init"]
 - ["So18UIContentContainerP", "model"]
 - ["So18UIContentContainerP", "self"]
+- ["So18UIContentContainerP", "setupDeficits"]
 - ["So18UIContentContainerP", "viewDidLoad"]
 - ["So18UIFocusEnvironmentP", "$__lazy_storage_$_model"]
+- ["So18UIFocusEnvironmentP", "Deficit"]
 - ["So18UIFocusEnvironmentP", "DeficitModel"]
 - ["So18UIFocusEnvironmentP", ""]
 - ["So18UIFocusEnvironmentP", "__lazy_storage_$_model"]
 - ["So18UIFocusEnvironmentP", "init"]
 - ["So18UIFocusEnvironmentP", "model"]
 - ["So18UIFocusEnvironmentP", "self"]
+- ["So18UIFocusEnvironmentP", "setupDeficits"]
 - ["So18UIFocusEnvironmentP", "viewDidLoad"]
 - ["So30UIPasteConfigurationSupportingP", "$__lazy_storage_$_model"]
+- ["So30UIPasteConfigurationSupportingP", "Deficit"]
 - ["So30UIPasteConfigurationSupportingP", "DeficitModel"]
 - ["So30UIPasteConfigurationSupportingP", ""]
 - ["So30UIPasteConfigurationSupportingP", "__lazy_storage_$_model"]
 - ["So30UIPasteConfigurationSupportingP", "init"]
 - ["So30UIPasteConfigurationSupportingP", "model"]
 - ["So30UIPasteConfigurationSupportingP", "self"]
+- ["So30UIPasteConfigurationSupportingP", "setupDeficits"]
 - ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
 - ["So11UIResponderC", "$__lazy_storage_$_model"]
+- ["So11UIResponderC", "Deficit"]
 - ["So11UIResponderC", "DeficitModel"]
 - ["So11UIResponderC", ""]
 - ["So11UIResponderC", "__lazy_storage_$_model"]
 - ["So11UIResponderC", "init"]
 - ["So11UIResponderC", "model"]
 - ["So11UIResponderC", "self"]
+- ["So11UIResponderC", "setupDeficits"]
 - ["So11UIResponderC", "viewDidLoad"]
 - ["So30UIResponderStandardEditActionsP", "$__lazy_storage_$_model"]
+- ["So30UIResponderStandardEditActionsP", "Deficit"]
 - ["So30UIResponderStandardEditActionsP", "DeficitModel"]
 - ["So30UIResponderStandardEditActionsP", ""]
 - ["So30UIResponderStandardEditActionsP", "__lazy_storage_$_model"]
 - ["So30UIResponderStandardEditActionsP", "init"]
 - ["So30UIResponderStandardEditActionsP", "model"]
 - ["So30UIResponderStandardEditActionsP", "self"]
+- ["So30UIResponderStandardEditActionsP", "setupDeficits"]
 - ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
 - ["So16UIStateRestoringP", "$__lazy_storage_$_model"]
+- ["So16UIStateRestoringP", "Deficit"]
 - ["So16UIStateRestoringP", "DeficitModel"]
 - ["So16UIStateRestoringP", ""]
 - ["So16UIStateRestoringP", "__lazy_storage_$_model"]
 - ["So16UIStateRestoringP", "init"]
 - ["So16UIStateRestoringP", "model"]
 - ["So16UIStateRestoringP", "self"]
+- ["So16UIStateRestoringP", "setupDeficits"]
 - ["So16UIStateRestoringP", "viewDidLoad"]
 - ["So18UITraitEnvironmentP", "$__lazy_storage_$_model"]
+- ["So18UITraitEnvironmentP", "Deficit"]
 - ["So18UITraitEnvironmentP", "DeficitModel"]
 - ["So18UITraitEnvironmentP", ""]
 - ["So18UITraitEnvironmentP", "__lazy_storage_$_model"]
 - ["So18UITraitEnvironmentP", "init"]
 - ["So18UITraitEnvironmentP", "model"]
 - ["So18UITraitEnvironmentP", "self"]
+- ["So18UITraitEnvironmentP", "setupDeficits"]
 - ["So18UITraitEnvironmentP", "viewDidLoad"]
 - ["So23UIUserActivityRestoringP", "$__lazy_storage_$_model"]
+- ["So23UIUserActivityRestoringP", "Deficit"]
 - ["So23UIUserActivityRestoringP", "DeficitModel"]
 - ["So23UIUserActivityRestoringP", ""]
 - ["So23UIUserActivityRestoringP", "__lazy_storage_$_model"]
 - ["So23UIUserActivityRestoringP", "init"]
 - ["So23UIUserActivityRestoringP", "model"]
 - ["So23UIUserActivityRestoringP", "self"]
+- ["So23UIUserActivityRestoringP", "setupDeficits"]
 - ["So23UIUserActivityRestoringP", "viewDidLoad"]
 - ["So16UIViewControllerC", "$__lazy_storage_$_model"]
+- ["So16UIViewControllerC", "Deficit"]
 - ["So16UIViewControllerC", "DeficitModel"]
 - ["So16UIViewControllerC", ""]
 - ["So16UIViewControllerC", "__lazy_storage_$_model"]
 - ["So16UIViewControllerC", "init"]
 - ["So16UIViewControllerC", "model"]
 - ["So16UIViewControllerC", "self"]
+- ["So16UIViewControllerC", "setupDeficits"]
 - ["So16UIViewControllerC", "viewDidLoad"]
 - ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
 - ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
 - ["10Foundation27_KeyValueCodingAndObservingP", "DeficitModel"]
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "model"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "self"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setupDeficits"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "DeficitModel"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "model"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "self"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "setupDeficits"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "viewDidLoad"]
 depends-nominal:
 - "SK"
 - "s7CVarArgP"
+- !private "s9CodingKeyP"
 - "Sl"
 - "SL"
 - "s28CustomDebugStringConvertibleP"
 - "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "11Supplements7DeficitV"
 - "11Supplements12DeficitModelC"
 - "11Supplements21DeficitViewControllerC"
+- !private "11Supplements7ElementO"
+- !private "SE"
 - "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
 - "s43ExpressibleByExtendedGraphemeClusterLiteralP"
 - "s32ExpressibleByStringInterpolationP"
 - "s26ExpressibleByStringLiteralP"
 - "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "11Supplements4GoodV"
 - "SH"
 - "s25LosslessStringConvertibleP"
 - "So8NSCodingP"
 - "So26NSExtensionRequestHandlingP"
 - "So8NSObjectC"
 - "So8NSObjectP"
+- !private "SY"
 - "ST"
 - "s16TextOutputStreamP"
 - "s20TextOutputStreamableP"
@@ -211,6 +298,7 @@ depends-nominal:
 - "So23UIUserActivityRestoringP"
 - "So16UIViewControllerC"
 - "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
 - "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
 - "10Foundation27_KeyValueCodingAndObservingP"
 - "10Foundation37_KeyValueCodingAndObservingPublishingP"
@@ -218,6 +306,7 @@ depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftUI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
@@ -244,6 +333,7 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/DeveloperToolsSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/CollectionViewPagingLayout/CollectionViewPagingLayout.framework/Modules/CollectionViewPagingLayout.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/LinearProgressView/LinearProgressView.framework/Modules/LinearProgressView.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/CalendarHeatmap/CalendarHeatmap.framework/Headers/CalendarHeatmap-umbrella.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/SwipeableTabBarController/SwipeableTabBarController.framework/Headers/SwipeableTabBarController-umbrella.h"
@@ -257,6 +347,7 @@ depends-external:
 - "/Users/sapientisat/Projects/Supplements/Supplements/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDAuthentication.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDSignInButton.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDGoogleUser.h"
+- "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/CalendarHeatmap/CalendarHeatmap.framework/Headers/CalendarHeatmap-Swift.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/SwipeableTabBarController/SwipeableTabBarController.framework/Headers/SwipeableTabBarController-Swift.h"
@@ -265,6 +356,7 @@ depends-external:
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/CollectionViewPagingLayout/CollectionViewPagingLayout.framework/Headers/CollectionViewPagingLayout-Swift.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/LinearProgressView/LinearProgressView.framework/Headers/LinearProgressView-Swift.h"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
 - "/Users/sapientisat/Projects/Supplements/Supplements/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Modules/module.modulemap"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/CalendarHeatmap/CalendarHeatmap.framework/Modules/module.modulemap"
@@ -293,4 +385,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/HealthKit.framework/Headers/HealthKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "151a194cf0afd58ff881a880887693b5"
+interface-hash: "6f79b6b3c230fb03d68856ea8d169434"

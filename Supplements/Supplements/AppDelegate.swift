@@ -12,9 +12,18 @@ import SwipeableTabBarController
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
 
+	weak var symptomsModel: SymptomsModel!
 	var window: UIWindow?
 	let userNetworkService = UserNetworkService()
 	var user: User!
+	private var isUserOld: Bool {
+		if UserDefaults.standard.bool(forKey: "isUserOld") {
+			return true
+		} else {
+			return false
+		}
+	}
+	
 
 	func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
 		GIDSignIn.sharedInstance().clientID = "14169133748-keukuh0ultekpscrahk14spl80gtsc1d.apps.googleusercontent.com"
@@ -26,6 +35,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
 		let navigationController = UINavigationController(rootViewController: rootViewController)
 		navigationController.navigationBar.prefersLargeTitles = true
 		window?.rootViewController = navigationController
+		let serice = PagesNetworkService()
+		serice.getPages { res in
+			print(res)
+		}
 		window?.makeKeyAndVisible()
 		return true
 	}
@@ -64,6 +77,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
 //		}
 
 		// TODO: check flag for opening symptoms for first time
+		if !isUserOld {
+			launch()
+		} else {
+			let welcomeScreen = FormViewController()
+			(signIn.presentingViewController as? LoginViewController)?
+			  .navigationController?
+			  .pushViewController(welcomeScreen, animated: true)
+		}
+
+        
+	}
+
+	func launch() {
 		let todayViewController = TodayViewController()
 		let blogViewController = BlogViewController()
 		let deficitViewController = DeficitViewController()
@@ -84,12 +110,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
 		tabBar.tabBar.tintColor = .systemYellow
 		tabBar.tabBar.backgroundColor = UIColor.clear
 		tabBar.tabBar.backgroundImage = UIImage()
-		tabBar.tabBar.shadowImage = UIImage()  
+		tabBar.tabBar.shadowImage = UIImage()
 		window?.rootViewController = tabBar
 
-//	  (signIn.presentingViewController as? LoginViewController)?
-//		.navigationController?
-//		.pushViewController(symptomsViewController, animated: true)
-        
 	}
 }

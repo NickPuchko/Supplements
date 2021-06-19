@@ -12,12 +12,12 @@ import UIKit
 class SymptomsModel {
 	weak var viewController: SymptomsViewController!
 	private lazy var networkSerivce = PagesNetworkService()
+	var rowData: RowData!
 
 	var pages: [Page] = []
     
 	init(_ viewController: SymptomsViewController) {
 		self.viewController = viewController
-
     }
 
 	func loadPages() {
@@ -27,30 +27,22 @@ class SymptomsModel {
 				print(error)
 			case .success(let loadedPages):
 				self.pages = loadedPages
-			}
-			self.pages = [
-				Page(index: 0, header: [.vitamin_a], questions: ["Ломкость волос": ["Не указано", "0", "1", "2", "3", "4", "5"], "Сухость кожи": ["Не указано", "0", "1", "2", "3", "4", "5"], "Ухудшение зрения": ["Не указано", "0", "1", "2", "3", "4", "5"], "Появление полос на ногтях": ["Не указано", "0", "1", "2", "3", "4", "5"]]),
-				Page(index: 1, header: [.vitamin_b2, .vitamin_b6], questions: ["Ухудшение аппетита": [], "Ухудшение сна": [], "Раздражительность": [], "Трещины на губах": [], "Выпадание волос": []]),
-				Page(index: 2, header: [.vitamin_c], questions: ["Кровоточивость дёсен": [], "Утомляемость": [], "Частые простуды": []]),
-				Page(index: 3, header: [.vitamin_d3], questions: ["Судороги": [], "Склонность к переломам": []]),
-				Page(index: 4, header: [.vitamin_e], questions: ["Бледность": [], "Мышечная слабость": []])
-			]
 				self.viewController.refresh()
-
-
+			}
 		}
 	}
 
-//	private func requestPages() {
-//		let loadedPages = [
-//			Page(index: 0, header: [.A], questions: ["Ломкость волос": [], "Сухость кожи": [], "Ухудшение зрения": [], "Появление полос на ногтях": []]),
-//			Page(index: 1, header: [.B2, .B6], questions: ["Ухудшение аппетита": [], "Ухудшение сна": [], "Раздражительность": [], "Трещины на губах": [], "Выпадание волос": []]),
-//			Page(index: 2, header: [.C], questions: ["Кровоточивость дёсен": [], "Утомляемость": [], "Частые простуды": []]),
-//			Page(index: 3, header: [.D], questions: ["Судороги": [], "Склонность к переломам": []]),
-//			Page(index: 4, header: [.E], questions: ["Бледность": [], "Мышечная слабость": []])
-//		]
-//	}
-    
+	func sendRowData() {
+		networkSerivce.sendRowData(rowData: rowData) { result in
+			switch result {
+			case .failure(let error):
+				print(error)
+			case .success(let diagnoses):
+				print(diagnoses)
+			}
+		}
+	}
+
 }
 
 struct Page: Codable {
@@ -87,4 +79,36 @@ enum Element: String, Codable {
 		 silver = "Серебро",
 		 strontium = "Стронций",
 		 choline = "Холин"
+
+	init(_ element: String) {
+		switch element {
+		case "vitamin_a": self = .vitamin_a
+		case "vitamin_b2": self = .vitamin_b2
+		case "vitamin_b6": self = .vitamin_b6
+		case "vitamin_b12": self = .vitamin_b12
+		case "vitamin_c": self = .vitamin_c
+		case "vitamin_d3": self = .vitamin_d3
+		case "vitamin_e": self = .vitamin_e
+		case "vitamin_k": self = .vitamin_k
+		case "magnesium": self = .magnesium
+		case "zinc": self = .zinc
+		case "calcium": self = .calcium
+		case "iron": self = .iron
+		case "selenium": self = .selenium
+		case "iodine": self = .iodine
+		case "potassium": self = .potassium
+		case "chromium": self = .chromium
+		case "multimineral": self = .multimineral
+		case "trace": self = .trace
+		case "boron": self = .boron
+		case "vanadyl": self = .vanadyl
+		case "lithium": self = .lithium
+		case "manganese": self = .manganese
+		case "molybdenum": self = .molybdenum
+		case "silver": self = .silver
+		case "strontium": self = .strontium
+		case "choline": self = .choline
+		default: self = .vitamin_c
+		}
+	}
 }

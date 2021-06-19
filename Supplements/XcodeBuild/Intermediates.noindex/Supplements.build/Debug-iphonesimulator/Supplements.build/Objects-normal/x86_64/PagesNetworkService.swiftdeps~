@@ -7,129 +7,390 @@ provides-member:
 - ["11Supplements19PagesNetworkServiceC", ""]
 provides-dynamic-lookup:
 - "getPages"
+- "sendRowData"
 depends-top-level:
+- "??"
 - !private "AF"
+- !private "Array"
+- !private "CastingPrecedence"
+- !private "Dictionary"
+- "Element"
 - "Error"
+- "JSON"
 - "NetworkService"
 - "Page"
 - "PagesNetworkService"
 - "RequestError"
 - "Result"
+- "RowData"
+- "String"
 - !private "StringLiteralType"
 - "Void"
+- !private "encoder"
 - !private "makeURL"
-- !private "print"
 depends-member:
-- !private ["s28CustomDebugStringConvertibleP", "callAsFunction"]
+- !private ["9Alamofire0A8ExtendedP", "append"]
+- !private ["9Alamofire0A8ExtendedP", "map"]
+- !private ["Sa", "append"]
+- !private ["Sa", "map"]
+- !private ["SK", ""]
+- !private ["SK", "append"]
+- !private ["SK", "arrayObject"]
+- !private ["SK", "dictionaryObject"]
+- !private ["SK", "intValue"]
+- !private ["SK", "map"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "append"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "map"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "map"]
+- !private ["s9CodingKeyP", ""]
+- !private ["s9CodingKeyP", "init"]
+- !private ["s9CodingKeyP", "intValue"]
+- !private ["s9CodingKeyP", "stringValue"]
+- !private ["Sl", ""]
+- !private ["Sl", "_copyToContiguousArray"]
+- !private ["Sl", "_customIndexOfEquatableElement"]
+- !private ["Sl", "_customLastIndexOfEquatableElement"]
+- !private ["Sl", "_failEarlyRangeCheck"]
+- !private ["Sl", "append"]
+- !private ["Sl", "arrayObject"]
+- !private ["Sl", "count"]
+- !private ["Sl", "dictionaryObject"]
+- !private ["Sl", "distance"]
+- !private ["Sl", "endIndex"]
+- !private ["Sl", "formIndex"]
+- !private ["Sl", "index"]
+- !private ["Sl", "indices"]
+- !private ["Sl", "init"]
+- !private ["Sl", "intValue"]
+- !private ["Sl", "isEmpty"]
+- !private ["Sl", "makeIterator"]
+- !private ["Sl", "map"]
+- !private ["Sl", "startIndex"]
+- !private ["Sl", "subscript"]
+- !private ["Sl", "underestimatedCount"]
+- !private ["SL", "arrayObject"]
+- !private ["SL", "dictionaryObject"]
+- !private ["SL", "init"]
+- !private ["SL", "intValue"]
+- !private ["SL", "subscript"]
+- !private ["10Foundation15ContiguousBytesP", "append"]
+- !private ["10Foundation15ContiguousBytesP", "arrayObject"]
+- !private ["10Foundation15ContiguousBytesP", "dictionaryObject"]
+- !private ["10Foundation15ContiguousBytesP", "intValue"]
+- !private ["10Foundation15ContiguousBytesP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "arrayObject"]
+- !private ["s28CustomDebugStringConvertibleP", "dictionaryObject"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "intValue"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
 - !private ["s28CustomDebugStringConvertibleP", "result"]
-- !private ["s17CustomReflectableP", "callAsFunction"]
-- !private ["s23CustomStringConvertibleP", "response"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "arrayObject"]
+- !private ["s23CustomStringConvertibleP", "dictionaryObject"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "intValue"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "responseJSON"]
 - !private ["s23CustomStringConvertibleP", "result"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
 - !private ["s23CustomStringConvertibleP", "validate"]
-- !private ["9Alamofire11DataDecoderP", "decode"]
-- !private ["9Alamofire11DataRequestC", "response"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "append"]
+- !private ["10Foundation12DataProtocolP", "arrayObject"]
+- !private ["10Foundation12DataProtocolP", "dictionaryObject"]
+- !private ["10Foundation12DataProtocolP", "intValue"]
+- !private ["10Foundation12DataProtocolP", "map"]
+- ["9Alamofire11DataRequestC", ""]
+- !private ["9Alamofire11DataRequestC", "responseJSON"]
 - !private ["9Alamofire11DataRequestC", "validate"]
 - !private ["9Alamofire12DataResponseV", "result"]
-- !private ["Se", "callAsFunction"]
-- !private ["SE", "callAsFunction"]
+- !private ["Se", "append"]
+- !private ["Se", "arrayObject"]
+- !private ["Se", "dictionaryObject"]
+- !private ["Se", "init"]
+- !private ["Se", "intValue"]
+- !private ["Se", "map"]
+- !private ["Se", "subscript"]
+- !private ["11Supplements7ElementO", "RawValue"]
+- !private ["11Supplements7ElementO", ""]
+- !private ["11Supplements7ElementO", "init"]
+- !private ["SE", "append"]
+- !private ["SE", "arrayObject"]
+- !private ["SE", "dictionaryObject"]
+- !private ["SE", "init"]
+- !private ["SE", "intValue"]
+- !private ["SE", "map"]
+- !private ["SE", "subscript"]
+- !private ["SQ", "=="]
 - !private ["SQ", ""]
-- !private ["SQ", "callAsFunction"]
+- !private ["SQ", "append"]
+- !private ["SQ", "arrayObject"]
 - !private ["SQ", "decoding"]
+- !private ["SQ", "dictionaryObject"]
 - !private ["SQ", "failure"]
+- !private ["SQ", "init"]
+- !private ["SQ", "intValue"]
+- !private ["SQ", "map"]
 - !private ["SQ", "network"]
-- !private ["SQ", "response"]
+- !private ["SQ", "responseJSON"]
+- !private ["SQ", "subscript"]
 - !private ["SQ", "success"]
 - !private ["SQ", "validate"]
 - !private ["s5ErrorP", "decoding"]
 - !private ["s5ErrorP", "network"]
-- !private ["s23ExpressibleByNilLiteralP", "callAsFunction"]
-- !private ["7SwiftUI7GestureP", "callAsFunction"]
-- !private ["SH", "callAsFunction"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "arrayObject"]
+- !private ["s25ExpressibleByArrayLiteralP", "dictionaryObject"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "intValue"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s27ExpressibleByBooleanLiteralP", "arrayObject"]
+- !private ["s27ExpressibleByBooleanLiteralP", "dictionaryObject"]
+- !private ["s27ExpressibleByBooleanLiteralP", "init"]
+- !private ["s27ExpressibleByBooleanLiteralP", "intValue"]
+- !private ["s27ExpressibleByBooleanLiteralP", "subscript"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "Key"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "Value"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "arrayObject"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "dictionaryObject"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "intValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "arrayObject"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "dictionaryObject"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "intValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "subscript"]
+- !private ["s25ExpressibleByFloatLiteralP", "arrayObject"]
+- !private ["s25ExpressibleByFloatLiteralP", "dictionaryObject"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "intValue"]
+- !private ["s25ExpressibleByFloatLiteralP", "subscript"]
+- !private ["s27ExpressibleByIntegerLiteralP", "arrayObject"]
+- !private ["s27ExpressibleByIntegerLiteralP", "dictionaryObject"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "intValue"]
+- !private ["s27ExpressibleByIntegerLiteralP", "subscript"]
+- !private ["s26ExpressibleByStringLiteralP", "arrayObject"]
+- !private ["s26ExpressibleByStringLiteralP", "dictionaryObject"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "intValue"]
+- !private ["s26ExpressibleByStringLiteralP", "subscript"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "arrayObject"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "dictionaryObject"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "intValue"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "subscript"]
+- !private ["SH", ""]
+- !private ["SH", "append"]
 - !private ["SH", "decoding"]
 - !private ["SH", "failure"]
+- !private ["SH", "hash"]
+- !private ["SH", "hashValue"]
+- !private ["SH", "init"]
+- !private ["SH", "map"]
 - !private ["SH", "network"]
-- !private ["SH", "response"]
+- !private ["SH", "responseJSON"]
 - !private ["SH", "success"]
 - !private ["SH", "validate"]
-- !private ["10Foundation11JSONDecoderC", "decode"]
+- !private ["10SwiftyJSON0B0V", "arrayObject"]
+- !private ["10SwiftyJSON0B0V", "dictionaryObject"]
+- !private ["10SwiftyJSON0B0V", "init"]
+- !private ["10SwiftyJSON0B0V", "intValue"]
+- !private ["10SwiftyJSON0B0V", "subscript"]
+- !private ["10Foundation11JSONEncoderC", "encode"]
+- !private ["s20LazySequenceProtocolP", "arrayObject"]
+- !private ["s20LazySequenceProtocolP", "dictionaryObject"]
+- !private ["s20LazySequenceProtocolP", "intValue"]
+- !private ["SM", ""]
+- !private ["SM", "append"]
+- !private ["SM", "arrayObject"]
+- !private ["SM", "dictionaryObject"]
+- !private ["SM", "intValue"]
+- !private ["SM", "map"]
+- !private ["10Foundation19MutableDataProtocolP", "append"]
+- !private ["10Foundation19MutableDataProtocolP", "map"]
 - !private ["So8NSCodingP", ""]
 - !private ["So8NSObjectP", ""]
 - !private ["11Supplements14NetworkServiceC", "AF"]
+- !private ["11Supplements14NetworkServiceC", "Element"]
 - ["11Supplements14NetworkServiceC", "Error"]
+- !private ["11Supplements14NetworkServiceC", "JSON"]
 - ["11Supplements14NetworkServiceC", "Page"]
-- !private ["11Supplements14NetworkServiceC", "RequestError"]
+- ["11Supplements14NetworkServiceC", "RequestError"]
 - ["11Supplements14NetworkServiceC", "Result"]
+- ["11Supplements14NetworkServiceC", "RowData"]
+- !private ["11Supplements14NetworkServiceC", "String"]
 - ["11Supplements14NetworkServiceC", "Void"]
 - ["11Supplements14NetworkServiceC", ""]
-- !private ["11Supplements14NetworkServiceC", "decoder"]
+- !private ["11Supplements14NetworkServiceC", "encoder"]
 - ["11Supplements14NetworkServiceC", "getPages"]
 - ["11Supplements14NetworkServiceC", "init"]
 - !private ["11Supplements14NetworkServiceC", "makeURL"]
-- !private ["11Supplements14NetworkServiceC", "print"]
-- !private ["Sq", "callAsFunction"]
+- ["11Supplements14NetworkServiceC", "sendRowData"]
+- !private ["11Supplements4PageV", "CodingKeys"]
 - !private ["11Supplements4PageV", ""]
+- !private ["11Supplements4PageV", "init"]
 - !private ["11Supplements19PagesNetworkServiceC", "AF"]
+- !private ["11Supplements19PagesNetworkServiceC", "Element"]
 - ["11Supplements19PagesNetworkServiceC", "Error"]
+- !private ["11Supplements19PagesNetworkServiceC", "JSON"]
 - ["11Supplements19PagesNetworkServiceC", "Page"]
-- !private ["11Supplements19PagesNetworkServiceC", "RequestError"]
+- ["11Supplements19PagesNetworkServiceC", "RequestError"]
 - ["11Supplements19PagesNetworkServiceC", "Result"]
+- ["11Supplements19PagesNetworkServiceC", "RowData"]
+- !private ["11Supplements19PagesNetworkServiceC", "String"]
 - ["11Supplements19PagesNetworkServiceC", "Void"]
-- !private ["11Supplements19PagesNetworkServiceC", "decoder"]
 - ["11Supplements19PagesNetworkServiceC", "deinit"]
+- !private ["11Supplements19PagesNetworkServiceC", "encoder"]
 - ["11Supplements19PagesNetworkServiceC", "getPages"]
 - ["11Supplements19PagesNetworkServiceC", "init"]
 - !private ["11Supplements19PagesNetworkServiceC", "makeURL"]
-- !private ["11Supplements19PagesNetworkServiceC", "print"]
+- ["11Supplements19PagesNetworkServiceC", "sendRowData"]
+- !private ["Sk", ""]
+- !private ["Sk", "append"]
+- !private ["Sk", "arrayObject"]
+- !private ["Sk", "dictionaryObject"]
+- !private ["Sk", "intValue"]
+- !private ["Sk", "map"]
+- !private ["Sm", ""]
+- !private ["Sm", "append"]
+- !private ["Sm", "arrayObject"]
+- !private ["Sm", "dictionaryObject"]
+- !private ["Sm", "intValue"]
+- !private ["Sm", "map"]
+- !private ["SY", "arrayObject"]
+- !private ["SY", "dictionaryObject"]
+- !private ["SY", "init"]
+- !private ["SY", "intValue"]
+- !private ["SY", "rawValue"]
+- !private ["SY", "subscript"]
 - ["9Alamofire7RequestC", ""]
-- !private ["9Alamofire7RequestC", "response"]
+- !private ["9Alamofire7RequestC", "responseJSON"]
 - !private ["9Alamofire7RequestC", "validate"]
 - !private ["9Alamofire15RequestDelegateP", "request"]
-- !private ["11Supplements12RequestErrorO", ""]
+- !private ["9Alamofire15RequestDelegateP", "upload"]
+- ["11Supplements12RequestErrorO", ""]
 - !private ["11Supplements12RequestErrorO", "decoding"]
 - !private ["11Supplements12RequestErrorO", "network"]
 - !private ["s6ResultO", "failure"]
 - !private ["s6ResultO", "success"]
+- !private ["11Supplements7RowDataV", ""]
+- !private ["ST", "Element"]
+- !private ["ST", "Iterator"]
+- !private ["ST", ""]
+- !private ["ST", "_copyContents"]
+- !private ["ST", "_copyToContiguousArray"]
+- !private ["ST", "_customContainsEquatableElement"]
+- !private ["ST", "append"]
+- !private ["ST", "arrayObject"]
+- !private ["ST", "dictionaryObject"]
+- !private ["ST", "init"]
+- !private ["ST", "intValue"]
+- !private ["ST", "makeIterator"]
+- !private ["ST", "map"]
+- !private ["ST", "subscript"]
+- !private ["ST", "underestimatedCount"]
+- !private ["ST", "withContiguousStorageIfAvailable"]
 - !private ["9Alamofire7SessionC", "request"]
+- !private ["9Alamofire7SessionC", "upload"]
 - !private ["9Alamofire20SessionStateProviderP", "request"]
-- !private ["7Combine15TopLevelDecoderP", "decode"]
-- !private ["7SwiftUI4ViewP", "callAsFunction"]
+- !private ["9Alamofire20SessionStateProviderP", "upload"]
+- !private ["s5SliceV", "arrayObject"]
+- !private ["s5SliceV", "dictionaryObject"]
+- !private ["s5SliceV", "intValue"]
+- !private ["7Combine15TopLevelEncoderP", "encode"]
+- !private ["9Alamofire13UploadRequestC", "responseJSON"]
+- !private ["9Alamofire13UploadRequestC", "validate"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "map"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
 - !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
-- !private ["s21_ObjectiveCBridgeableP", "callAsFunction"]
+- !private ["s19_HasContiguousBytesP", "append"]
+- !private ["s19_HasContiguousBytesP", "map"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
 depends-nominal:
+- !private "9Alamofire0A8ExtendedP"
+- !private "Sa"
+- !private "SK"
+- !private "8CloudKit21CKRecordValueProtocolP"
+- !private "s7CVarArgP"
+- !private "s9CodingKeyP"
+- !private "Sl"
+- !private "SL"
+- !private "10Foundation15ContiguousBytesP"
 - !private "s28CustomDebugStringConvertibleP"
 - !private "s17CustomReflectableP"
 - !private "s23CustomStringConvertibleP"
-- !private "9Alamofire11DataDecoderP"
-- !private "9Alamofire11DataRequestC"
+- !private "10Foundation12DataProtocolP"
+- "9Alamofire11DataRequestC"
 - !private "9Alamofire12DataResponseV"
 - !private "Se"
+- !private "11Supplements7ElementO"
 - !private "SE"
 - !private "SQ"
 - !private "s5ErrorP"
-- !private "s23ExpressibleByNilLiteralP"
-- !private "7SwiftUI7GestureP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
 - !private "SH"
-- !private "10Foundation11JSONDecoderC"
+- !private "10SwiftyJSON0B0V"
+- !private "10Foundation11JSONEncoderC"
+- !private "s20LazySequenceProtocolP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
 - !private "So8NSCodingP"
 - !private "So8NSObjectP"
 - "11Supplements14NetworkServiceC"
-- !private "Sq"
 - !private "11Supplements4PageV"
 - "11Supplements19PagesNetworkServiceC"
+- !private "Sk"
+- !private "Sm"
+- !private "SY"
 - "9Alamofire7RequestC"
 - !private "9Alamofire15RequestDelegateP"
-- !private "11Supplements12RequestErrorO"
+- "11Supplements12RequestErrorO"
 - !private "s6ResultO"
+- !private "11Supplements7RowDataV"
+- !private "ST"
 - !private "9Alamofire7SessionC"
 - !private "9Alamofire20SessionStateProviderP"
-- !private "7Combine15TopLevelDecoderP"
-- !private "7SwiftUI4ViewP"
+- !private "s5SliceV"
+- !private "7Combine15TopLevelEncoderP"
+- !private "9Alamofire13UploadRequestC"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
 - !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
 - !private "s21_ObjectiveCBridgeableP"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftUI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
@@ -156,6 +417,7 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/DeveloperToolsSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/CollectionViewPagingLayout/CollectionViewPagingLayout.framework/Modules/CollectionViewPagingLayout.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/LinearProgressView/LinearProgressView.framework/Modules/LinearProgressView.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/CalendarHeatmap/CalendarHeatmap.framework/Headers/CalendarHeatmap-umbrella.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/SwipeableTabBarController/SwipeableTabBarController.framework/Headers/SwipeableTabBarController-umbrella.h"
@@ -169,6 +431,7 @@ depends-external:
 - "/Users/sapientisat/Projects/Supplements/Supplements/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDAuthentication.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDSignInButton.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDGoogleUser.h"
+- "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/CalendarHeatmap/CalendarHeatmap.framework/Headers/CalendarHeatmap-Swift.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/SwipeableTabBarController/SwipeableTabBarController.framework/Headers/SwipeableTabBarController-Swift.h"
@@ -177,6 +440,7 @@ depends-external:
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/CollectionViewPagingLayout/CollectionViewPagingLayout.framework/Headers/CollectionViewPagingLayout-Swift.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/LinearProgressView/LinearProgressView.framework/Headers/LinearProgressView-Swift.h"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
 - "/Users/sapientisat/Projects/Supplements/Supplements/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Modules/module.modulemap"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/CalendarHeatmap/CalendarHeatmap.framework/Modules/module.modulemap"
@@ -205,4 +469,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/HealthKit.framework/Headers/HealthKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "ea3ddf6210cbb61db73d32a49157f66e"
+interface-hash: "c1ee1b8aa3019f6182dd53da87cce169"
