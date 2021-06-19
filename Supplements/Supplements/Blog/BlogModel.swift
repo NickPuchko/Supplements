@@ -10,10 +10,10 @@ import Foundation
 import UIKit
 
 class BlogModel {
+    
     weak var viewController: BlogViewController!
     
     init(_ viewController: BlogViewController) {
         self.viewController = viewController
     }
-    
 }
