@@ -12,9 +12,11 @@ import SnapKit
 
 class DeficitViewController: UIViewController {
     private lazy var model = DeficitModel(self)
-    
+	private let imageView = UIImageView(image: UIImage(named: "background2"))
+
     override func viewDidLoad() {
         super.viewDidLoad()
+		view.addSubview(imageView)
     }
 
 	func setupDeficits(_ deficits: [Deficit]) {

@@ -1,16 +1,22 @@
 ### Swift dependencies file v0 ###
 provides-top-level:
 - "DeficitModel"
+- "Suggestion"
+- "Medicine"
 - "Deficit"
 - "Advice"
 - "Good"
 provides-nominal:
 - "11Supplements12DeficitModelC"
+- "11Supplements10SuggestionV"
+- "11Supplements8MedicineV"
 - "11Supplements7DeficitV"
 - "11Supplements6AdviceO"
 - "11Supplements4GoodV"
 provides-member:
 - ["11Supplements12DeficitModelC", ""]
+- ["11Supplements10SuggestionV", ""]
+- ["11Supplements8MedicineV", ""]
 - ["11Supplements7DeficitV", ""]
 - ["11Supplements6AdviceO", ""]
 - ["11Supplements4GoodV", ""]
@@ -27,14 +33,17 @@ depends-top-level:
 - "Deficit"
 - "DeficitModel"
 - "DeficitViewController"
+- "Double"
 - "Element"
 - "Float"
 - !private "FloatLiteralType"
 - "Good"
 - "Int"
 - !private "IntegerLiteralType"
+- "Medicine"
 - "String"
 - "StringLiteralType"
+- "Suggestion"
 - "URL"
 - !private "_findStringSwitchCase"
 - !private "risk"
@@ -98,13 +107,16 @@ depends-member:
 - ["Se", "_rawHashValue"]
 - !private ["Se", "average"]
 - !private ["Se", "dangerous"]
+- !private ["Se", "element"]
 - ["Se", "encode"]
 - !private ["Se", "findStringSwitchCase"]
 - !private ["Se", "fine"]
 - !private ["Se", "good"]
 - ["Se", "hash"]
 - ["Se", "hashValue"]
+- !private ["Se", "imageRef"]
 - ["Se", "init"]
+- !private ["Se", "medicines"]
 - !private ["Se", "name"]
 - !private ["Se", "price"]
 - ["Se", "rawValue"]
@@ -139,13 +151,16 @@ depends-member:
 - ["SE", "_rawHashValue"]
 - !private ["SE", "average"]
 - !private ["SE", "dangerous"]
+- !private ["SE", "element"]
 - ["SE", "encode"]
 - !private ["SE", "findStringSwitchCase"]
 - !private ["SE", "fine"]
 - !private ["SE", "good"]
 - ["SE", "hash"]
 - ["SE", "hashValue"]
+- !private ["SE", "imageRef"]
 - ["SE", "init"]
+- !private ["SE", "medicines"]
 - !private ["SE", "name"]
 - !private ["SE", "price"]
 - ["SE", "rawValue"]
@@ -217,6 +232,17 @@ depends-member:
 - !private ["s30KeyedEncodingContainerProtocolP", "encode"]
 - !private ["s30KeyedEncodingContainerProtocolP", "encodeIfPresent"]
 - ["s25LosslessStringConvertibleP", ""]
+- ["11Supplements8MedicineV", "CodingKeys"]
+- ["11Supplements8MedicineV", "Double"]
+- ["11Supplements8MedicineV", "Element"]
+- ["11Supplements8MedicineV", "String"]
+- ["11Supplements8MedicineV", ""]
+- ["11Supplements8MedicineV", "element"]
+- ["11Supplements8MedicineV", "encode"]
+- ["11Supplements8MedicineV", "imageRef"]
+- ["11Supplements8MedicineV", "init"]
+- ["11Supplements8MedicineV", "price"]
+- ["11Supplements8MedicineV", "ref"]
 - ["So8NSCodingP", ""]
 - ["So8NSObjectP", ""]
 - ["SY", "=="]
@@ -236,6 +262,12 @@ depends-member:
 - ["SY", "init"]
 - ["SY", "rawValue"]
 - ["ST", ""]
+- ["11Supplements10SuggestionV", "CodingKeys"]
+- ["11Supplements10SuggestionV", "Medicine"]
+- ["11Supplements10SuggestionV", ""]
+- ["11Supplements10SuggestionV", "encode"]
+- ["11Supplements10SuggestionV", "init"]
+- ["11Supplements10SuggestionV", "medicines"]
 - ["s16TextOutputStreamP", ""]
 - ["s20TextOutputStreamableP", ""]
 - ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
@@ -271,10 +303,12 @@ depends-nominal:
 - !private "s22KeyedEncodingContainerV"
 - !private "s30KeyedEncodingContainerProtocolP"
 - "s25LosslessStringConvertibleP"
+- "11Supplements8MedicineV"
 - "So8NSCodingP"
 - "So8NSObjectP"
 - "SY"
 - "ST"
+- "11Supplements10SuggestionV"
 - "s16TextOutputStreamP"
 - "s20TextOutputStreamableP"
 - "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
@@ -364,4 +398,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/HealthKit.framework/Headers/HealthKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "c9ada172b95b349324096532a6da376b"
+interface-hash: "c24f688b68c62200b55b676bc0cb6e30"

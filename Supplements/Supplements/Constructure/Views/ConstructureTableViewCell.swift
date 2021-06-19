@@ -31,15 +31,20 @@ class ConstructureTableViewCell: UITableViewCell {
     }
     override func layoutSubviews() {
         super.layoutSubviews()
+		let padding = CGFloat(30)
 
-        contentView.frame = contentView.frame.inset(by: UIEdgeInsets(top: 10, left: 10, bottom: 10, right: 10))
+        contentView.frame = contentView.frame.inset(by: UIEdgeInsets(top: padding, left: padding, bottom: padding, right: padding))
     }
+
+	
     private func configureUI() {
-        self.layer.cornerRadius = 25
-        self.layer.borderWidth = 1.0
-        self.layer.borderColor = CGColor(red: 217/255, green: 217/255, blue: 217/255, alpha: 1)
-        self.selectionStyle = .none
-        self.addSubview(logoPillImageView)
+
+		clipsToBounds = true
+		layer.cornerRadius = 25
+		layer.borderWidth = 1.0
+		layer.borderColor = CGColor(red: 217/255, green: 217/255, blue: 217/255, alpha: 1)
+		selectionStyle = .none
+        addSubview(logoPillImageView)
         
         logoPillImageView.translatesAutoresizingMaskIntoConstraints = false
         NSLayoutConstraint.activate([
@@ -60,10 +65,9 @@ class ConstructureTableViewCell: UITableViewCell {
         ])
         self.addSubview(priceLabel)
         priceLabel.translatesAutoresizingMaskIntoConstraints = false
-        priceLabel.sizeToFit()
         NSLayoutConstraint.activate([
             priceLabel.trailingAnchor.constraint(equalTo: contentView.trailingAnchor, constant: -10),
-            priceLabel.topAnchor.constraint(equalTo: contentView.topAnchor, constant: 39),
+			priceLabel.topAnchor.constraint(equalTo: logoPillImageView.topAnchor)
         ])
         self.addSubview(descriptionLabel)
         descriptionLabel.translatesAutoresizingMaskIntoConstraints = false
@@ -77,9 +81,8 @@ class ConstructureTableViewCell: UITableViewCell {
             descriptionLabel.trailingAnchor.constraint(equalTo: priceLabel.leadingAnchor, constant: -19)
         ])
         
-        self.addSubview(percentageLabel)
+        addSubview(percentageLabel)
         percentageLabel.translatesAutoresizingMaskIntoConstraints = false
-        percentageLabel.sizeToFit()
         NSLayoutConstraint.activate([
             percentageLabel.trailingAnchor.constraint(equalTo: contentView.trailingAnchor, constant: -23),
             percentageLabel.topAnchor.constraint(equalTo: vitaminNameLabel.topAnchor),
