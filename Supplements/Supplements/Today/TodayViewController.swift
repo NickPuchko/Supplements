@@ -95,10 +95,8 @@ class TodayViewController: UIViewController {
 extension TodayViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         let header = tableView.dequeueReusableHeaderFooterView(withIdentifier: "PillsHeaderView") as? PillsHeaderView
-        header?.dateLabel.text = "18 апреля, пятница"
+        header?.dateLabel.text = "20 июня, воскресенье"
         header?.weekLabel.text = "Сегодня"
-        
-        
         return header
     }
     func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
@@ -120,8 +118,12 @@ extension TodayViewController: UITableViewDataSource {
         let cell = tableView.dequeueReusableCell(withIdentifier: "PillsCell", for: indexPath) as! PillsCell
         cell.logoImageView.image = UIImage(systemName: "pills.fill")
         cell.pillNameLabel.text = "OMEGA-3"
-        cell.doseLabel.text = "1 таблетка"
-        cell.lableDate.text = "12:00"
+        cell.doseLabel.text = "\(Int.random(in: 2..<5)) таблетки"
+        var number = Int.random(in: 00..<60)
+        if number < 10 {
+            number += 10
+        }
+        cell.lableDate.text = "\(Int.random(in: 12..<21)):\(number)"
         return cell
     }
     
