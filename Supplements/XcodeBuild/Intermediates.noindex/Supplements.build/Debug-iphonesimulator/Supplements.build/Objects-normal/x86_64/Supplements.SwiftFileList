@@ -1,12 +1,15 @@
 /Users/sapientisat/Projects/Supplements/Supplements/Supplements/Login/LoginModel.swift
+/Users/sapientisat/Projects/Supplements/Supplements/Supplements/Symptoms/QuestionsCollectionViewController.swift
 /Users/sapientisat/Projects/Supplements/Supplements/Supplements/Login/LoginViewController.swift
 /Users/sapientisat/Projects/Supplements/Supplements/Supplements/Form/FormViewController.swift
 /Users/sapientisat/Projects/Supplements/Supplements/Supplements/AppDelegate.swift
 /Users/sapientisat/Projects/Supplements/Supplements/Supplements/Googleuser.swift
 /Users/sapientisat/Projects/Supplements/Supplements/Supplements/Form/FormModel.swift
 /Users/sapientisat/Projects/Supplements/Supplements/Supplements/Symptoms/SymptomsModel.swift
-/Users/sapientisat/Projects/Supplements/Supplements/Supplements/UserNetworkService.swift
-/Users/sapientisat/Projects/Supplements/Supplements/Supplements/Errors.swift
+/Users/sapientisat/Projects/Supplements/Supplements/Supplements/Login/UserNetworkService.swift
 /Users/sapientisat/Projects/Supplements/Supplements/Supplements/Symptoms/QuestionCell.swift
+/Users/sapientisat/Projects/Supplements/Supplements/Supplements/Symptoms/PagesNetworkService.swift
+/Users/sapientisat/Projects/Supplements/Supplements/Supplements/Errors.swift
+/Users/sapientisat/Projects/Supplements/Supplements/Supplements/Symptoms/PageCell.swift
 /Users/sapientisat/Projects/Supplements/Supplements/Supplements/Symptoms/SymptomsViewController.swift
 /Users/sapientisat/Projects/Supplements/Supplements/Supplements/Constants.swift

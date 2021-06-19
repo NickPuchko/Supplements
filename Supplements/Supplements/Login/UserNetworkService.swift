@@ -8,20 +8,20 @@
 import Foundation
 import Alamofire
 
-class UserNetworkService {
-	private lazy var encoder: JSONEncoder = {
+class NetworkService {
+	lazy var encoder: JSONEncoder = {
 		var result = JSONEncoder()
 		result.keyEncodingStrategy = .convertToSnakeCase
 		return result
 	}()
 
-	private lazy var decoder: JSONDecoder = {
+	lazy var decoder: JSONDecoder = {
 		var result = JSONDecoder()
 		result.keyDecodingStrategy = .convertFromSnakeCase
 		return result
 	}()
 
-	private func makeURL(path: String) -> URL? {
+	func makeURL(path: String) -> URL? {
 		var baseComponents = URLComponents()
 		baseComponents.scheme = "http"
 		baseComponents.host = "venisoking.ru"
@@ -30,7 +30,7 @@ class UserNetworkService {
 	}
 }
 
-extension UserNetworkService {
+class UserNetworkService: NetworkService {
 	func createUser(user: String, completion: @escaping (Result<String, Error>) -> Void) {
 		guard let url = makeURL(path: "/iherb/add_person") else {
 			completion(.failure(RequestError.url))
@@ -42,7 +42,6 @@ extension UserNetworkService {
 			AF.upload(data,
 					  to: url)
 				.validate()
-//				.validate(contentType: ["application/x-www-form-urlencoded"])
 				.response { [weak self] response in
 				switch response.result {
 				case .success(let json):

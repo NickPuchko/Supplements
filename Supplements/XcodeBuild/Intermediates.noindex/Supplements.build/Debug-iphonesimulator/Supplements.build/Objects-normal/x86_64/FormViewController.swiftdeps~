@@ -49,10 +49,8 @@ depends-top-level:
 depends-member:
 - ["7SwiftUI10AnimatableP", "init"]
 - ["7SwiftUI10AnimatableP", "width"]
-- ["SK", ""]
 - ["So7CALayerC", "cornerRadius"]
 - ["So7CALayerC", "shadowRadius"]
-- ["So15CALayerDelegateP", ""]
 - ["So15CALayerDelegateP", "__buttonWithType"]
 - !private ["So15CALayerDelegateP", "addSubview"]
 - ["So15CALayerDelegateP", "addTarget"]
@@ -111,8 +109,6 @@ depends-member:
 - !private ["s7CVarArgP", "viewDidLoad"]
 - !private ["s7CVarArgP", "welcomeLabel"]
 - ["s7CVarArgP", "white"]
-- ["Sl", ""]
-- ["SL", ""]
 - !private ["7SnapKit23ConstraintAttributesDSLP", "bottom"]
 - !private ["7SnapKit23ConstraintAttributesDSLP", "makeConstraints"]
 - !private ["7SnapKit23ConstraintAttributesDSLP", "top"]
@@ -138,10 +134,8 @@ depends-member:
 - !private ["7SnapKit25ConstraintMakerExtendableC", "equalToSuperview"]
 - !private ["7SnapKit25ConstraintMakerExtendableC", "greaterThanOrEqualTo"]
 - !private ["7SnapKit25ConstraintMakerExtendableC", "lessThanOrEqualTo"]
-- ["7SnapKit26ConstraintMakerFinalizableC", ""]
 - !private ["7SnapKit26ConstraintMakerFinalizableC", "multipliedBy"]
 - !private ["7SnapKit26ConstraintMakerFinalizableC", "offset"]
-- ["7SnapKit27ConstraintMakerPriortizableC", ""]
 - !private ["7SnapKit27ConstraintMakerPriortizableC", "multipliedBy"]
 - !private ["7SnapKit27ConstraintMakerPriortizableC", "offset"]
 - ["7SnapKit24ConstraintMakerRelatableC", ""]
@@ -314,7 +308,6 @@ depends-member:
 - ["s25ExpressibleByArrayLiteralP", ""]
 - ["s25ExpressibleByArrayLiteralP", "normal"]
 - ["s25ExpressibleByArrayLiteralP", "touchUpInside"]
-- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
 - ["s27ExpressibleByIntegerLiteralP", "IntegerLiteralType"]
 - ["s27ExpressibleByIntegerLiteralP", "init"]
 - !private ["s23ExpressibleByNilLiteralP", "addSubview"]
@@ -323,9 +316,6 @@ depends-member:
 - !private ["s23ExpressibleByNilLiteralP", "safeAreaLayoutGuide"]
 - ["s23ExpressibleByNilLiteralP", "systemBlue"]
 - ["s23ExpressibleByNilLiteralP", "white"]
-- ["s32ExpressibleByStringInterpolationP", ""]
-- ["s26ExpressibleByStringLiteralP", ""]
-- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
 - ["11Supplements5FontsO", "SDGothicNeoLight"]
 - ["11Supplements9FormModelC", "init"]
 - !private ["11Supplements18FormViewControllerC", "$__lazy_storage_$_model"]
@@ -416,7 +406,6 @@ depends-member:
 - ["7SnapKit20LayoutConstraintItemP", "text"]
 - ["7SnapKit20LayoutConstraintItemP", "textAlignment"]
 - ["7SnapKit20LayoutConstraintItemP", "tintColor"]
-- ["s25LosslessStringConvertibleP", ""]
 - ["So8NSCodingP", "$__lazy_storage_$_model"]
 - ["So8NSCodingP", "$__lazy_storage_$_profileImageView"]
 - ["So8NSCodingP", "$__lazy_storage_$_signOutButton"]
@@ -425,7 +414,6 @@ depends-member:
 - ["So8NSCodingP", "Fonts"]
 - ["So8NSCodingP", "FormModel"]
 - ["So8NSCodingP", "GIDService"]
-- ["So8NSCodingP", "GIDSignIn"]
 - ["So8NSCodingP", "NSCoder"]
 - ["So8NSCodingP", "UIButton"]
 - ["So8NSCodingP", "UIImage"]
@@ -433,7 +421,6 @@ depends-member:
 - ["So8NSCodingP", "UILabel"]
 - ["So8NSCodingP", ""]
 - ["So8NSCodingP", "__buttonWithType"]
-- ["So8NSCodingP", "__lazy_storage_$_model"]
 - ["So8NSCodingP", "__lazy_storage_$_profileImageView"]
 - ["So8NSCodingP", "__lazy_storage_$_signOutButton"]
 - ["So8NSCodingP", "__lazy_storage_$_welcomeLabel"]
@@ -480,14 +467,12 @@ depends-member:
 - ["So26NSExtensionRequestHandlingP", "Fonts"]
 - ["So26NSExtensionRequestHandlingP", "FormModel"]
 - ["So26NSExtensionRequestHandlingP", "GIDService"]
-- ["So26NSExtensionRequestHandlingP", "GIDSignIn"]
 - ["So26NSExtensionRequestHandlingP", "NSCoder"]
 - ["So26NSExtensionRequestHandlingP", "UIButton"]
 - ["So26NSExtensionRequestHandlingP", "UIImage"]
 - ["So26NSExtensionRequestHandlingP", "UIImageView"]
 - ["So26NSExtensionRequestHandlingP", "UILabel"]
 - ["So26NSExtensionRequestHandlingP", ""]
-- ["So26NSExtensionRequestHandlingP", "__lazy_storage_$_model"]
 - ["So26NSExtensionRequestHandlingP", "__lazy_storage_$_profileImageView"]
 - ["So26NSExtensionRequestHandlingP", "__lazy_storage_$_signOutButton"]
 - ["So26NSExtensionRequestHandlingP", "__lazy_storage_$_welcomeLabel"]
@@ -573,7 +558,6 @@ depends-member:
 - ["So8NSObjectP", "Fonts"]
 - ["So8NSObjectP", "FormModel"]
 - ["So8NSObjectP", "GIDService"]
-- ["So8NSObjectP", "GIDSignIn"]
 - ["So8NSObjectP", "NSCoder"]
 - ["So8NSObjectP", "UIButton"]
 - ["So8NSObjectP", "UIImage"]
@@ -581,7 +565,6 @@ depends-member:
 - ["So8NSObjectP", "UILabel"]
 - ["So8NSObjectP", ""]
 - ["So8NSObjectP", "__buttonWithType"]
-- ["So8NSObjectP", "__lazy_storage_$_model"]
 - ["So8NSObjectP", "__lazy_storage_$_profileImageView"]
 - ["So8NSObjectP", "__lazy_storage_$_signOutButton"]
 - ["So8NSObjectP", "__lazy_storage_$_welcomeLabel"]
@@ -637,13 +620,10 @@ depends-member:
 - ["SY", "center"]
 - ["SY", "normal"]
 - ["SY", "touchUpInside"]
-- ["ST", ""]
 - ["s10SetAlgebraP", ""]
 - ["s10SetAlgebraP", "normal"]
 - ["s10SetAlgebraP", "touchUpInside"]
 - ["So14UIControlStateV", "normal"]
-- ["s16TextOutputStreamP", ""]
-- ["s20TextOutputStreamableP", ""]
 - ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "addTarget"]
 - ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "backgroundColor"]
 - ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "frame"]
@@ -653,7 +633,6 @@ depends-member:
 - ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "setTitle"]
 - !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "snp"]
 - ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "tintColor"]
-- ["So29UIAccessibilityIdentificationP", ""]
 - ["So29UIAccessibilityIdentificationP", "__buttonWithType"]
 - !private ["So29UIAccessibilityIdentificationP", "addSubview"]
 - ["So29UIAccessibilityIdentificationP", "addTarget"]
@@ -670,7 +649,6 @@ depends-member:
 - ["So29UIAccessibilityIdentificationP", "text"]
 - ["So29UIAccessibilityIdentificationP", "textAlignment"]
 - ["So29UIAccessibilityIdentificationP", "tintColor"]
-- ["So12UIAppearanceP", ""]
 - ["So12UIAppearanceP", "__buttonWithType"]
 - !private ["So12UIAppearanceP", "addSubview"]
 - ["So12UIAppearanceP", "addTarget"]
@@ -695,7 +673,6 @@ depends-member:
 - ["So21UIAppearanceContainerP", "Fonts"]
 - ["So21UIAppearanceContainerP", "FormModel"]
 - ["So21UIAppearanceContainerP", "GIDService"]
-- ["So21UIAppearanceContainerP", "GIDSignIn"]
 - ["So21UIAppearanceContainerP", "NSCoder"]
 - ["So21UIAppearanceContainerP", "UIButton"]
 - ["So21UIAppearanceContainerP", "UIImage"]
@@ -703,7 +680,6 @@ depends-member:
 - ["So21UIAppearanceContainerP", "UILabel"]
 - ["So21UIAppearanceContainerP", ""]
 - ["So21UIAppearanceContainerP", "__buttonWithType"]
-- ["So21UIAppearanceContainerP", "__lazy_storage_$_model"]
 - ["So21UIAppearanceContainerP", "__lazy_storage_$_profileImageView"]
 - ["So21UIAppearanceContainerP", "__lazy_storage_$_signOutButton"]
 - ["So21UIAppearanceContainerP", "__lazy_storage_$_welcomeLabel"]
@@ -752,14 +728,12 @@ depends-member:
 - ["So18UIContentContainerP", "Fonts"]
 - ["So18UIContentContainerP", "FormModel"]
 - ["So18UIContentContainerP", "GIDService"]
-- ["So18UIContentContainerP", "GIDSignIn"]
 - ["So18UIContentContainerP", "NSCoder"]
 - ["So18UIContentContainerP", "UIButton"]
 - ["So18UIContentContainerP", "UIImage"]
 - ["So18UIContentContainerP", "UIImageView"]
 - ["So18UIContentContainerP", "UILabel"]
 - ["So18UIContentContainerP", ""]
-- ["So18UIContentContainerP", "__lazy_storage_$_model"]
 - ["So18UIContentContainerP", "__lazy_storage_$_profileImageView"]
 - ["So18UIContentContainerP", "__lazy_storage_$_signOutButton"]
 - ["So18UIContentContainerP", "__lazy_storage_$_welcomeLabel"]
@@ -783,7 +757,6 @@ depends-member:
 - ["So30UIContentSizeCategoryAdjustingP", "text"]
 - ["So30UIContentSizeCategoryAdjustingP", "textAlignment"]
 - ["So30UIContentSizeCategoryAdjustingP", "tintColor"]
-- ["So32UIContextMenuInteractionDelegateP", ""]
 - ["So32UIContextMenuInteractionDelegateP", "__buttonWithType"]
 - ["So32UIContextMenuInteractionDelegateP", "addTarget"]
 - ["So32UIContextMenuInteractionDelegateP", "backgroundColor"]
@@ -803,7 +776,6 @@ depends-member:
 - ["So9UIControlC", "setTitle"]
 - !private ["So9UIControlC", "snp"]
 - ["So9UIControlC", "tintColor"]
-- ["So17UICoordinateSpaceP", ""]
 - ["So17UICoordinateSpaceP", "__buttonWithType"]
 - !private ["So17UICoordinateSpaceP", "addSubview"]
 - ["So17UICoordinateSpaceP", "addTarget"]
@@ -820,7 +792,6 @@ depends-member:
 - ["So17UICoordinateSpaceP", "text"]
 - ["So17UICoordinateSpaceP", "textAlignment"]
 - ["So17UICoordinateSpaceP", "tintColor"]
-- ["So13UIDynamicItemP", ""]
 - ["So13UIDynamicItemP", "__buttonWithType"]
 - !private ["So13UIDynamicItemP", "addSubview"]
 - ["So13UIDynamicItemP", "addTarget"]
@@ -845,7 +816,6 @@ depends-member:
 - ["So18UIFocusEnvironmentP", "Fonts"]
 - ["So18UIFocusEnvironmentP", "FormModel"]
 - ["So18UIFocusEnvironmentP", "GIDService"]
-- ["So18UIFocusEnvironmentP", "GIDSignIn"]
 - ["So18UIFocusEnvironmentP", "NSCoder"]
 - ["So18UIFocusEnvironmentP", "UIButton"]
 - ["So18UIFocusEnvironmentP", "UIImage"]
@@ -853,7 +823,6 @@ depends-member:
 - ["So18UIFocusEnvironmentP", "UILabel"]
 - ["So18UIFocusEnvironmentP", ""]
 - ["So18UIFocusEnvironmentP", "__buttonWithType"]
-- ["So18UIFocusEnvironmentP", "__lazy_storage_$_model"]
 - ["So18UIFocusEnvironmentP", "__lazy_storage_$_profileImageView"]
 - ["So18UIFocusEnvironmentP", "__lazy_storage_$_signOutButton"]
 - ["So18UIFocusEnvironmentP", "__lazy_storage_$_welcomeLabel"]
@@ -884,7 +853,6 @@ depends-member:
 - !private ["So18UIFocusEnvironmentP", "view"]
 - ["So18UIFocusEnvironmentP", "viewDidLoad"]
 - ["So18UIFocusEnvironmentP", "welcomeLabel"]
-- ["So11UIFocusItemP", ""]
 - ["So11UIFocusItemP", "__buttonWithType"]
 - !private ["So11UIFocusItemP", "addSubview"]
 - ["So11UIFocusItemP", "addTarget"]
@@ -901,7 +869,6 @@ depends-member:
 - ["So11UIFocusItemP", "text"]
 - ["So11UIFocusItemP", "textAlignment"]
 - ["So11UIFocusItemP", "tintColor"]
-- ["So20UIFocusItemContainerP", ""]
 - ["So20UIFocusItemContainerP", "__buttonWithType"]
 - !private ["So20UIFocusItemContainerP", "addSubview"]
 - ["So20UIFocusItemContainerP", "addTarget"]
@@ -929,7 +896,6 @@ depends-member:
 - ["So7UILabelC", "text"]
 - ["So7UILabelC", "textAlignment"]
 - ["So7UILabelC", "tintColor"]
-- ["So24UILargeContentViewerItemP", ""]
 - ["So24UILargeContentViewerItemP", "__buttonWithType"]
 - !private ["So24UILargeContentViewerItemP", "addSubview"]
 - ["So24UILargeContentViewerItemP", "addTarget"]
@@ -956,7 +922,6 @@ depends-member:
 - ["So30UIPasteConfigurationSupportingP", "Fonts"]
 - ["So30UIPasteConfigurationSupportingP", "FormModel"]
 - ["So30UIPasteConfigurationSupportingP", "GIDService"]
-- ["So30UIPasteConfigurationSupportingP", "GIDSignIn"]
 - ["So30UIPasteConfigurationSupportingP", "NSCoder"]
 - ["So30UIPasteConfigurationSupportingP", "UIButton"]
 - ["So30UIPasteConfigurationSupportingP", "UIImage"]
@@ -964,7 +929,6 @@ depends-member:
 - ["So30UIPasteConfigurationSupportingP", "UILabel"]
 - ["So30UIPasteConfigurationSupportingP", ""]
 - ["So30UIPasteConfigurationSupportingP", "__buttonWithType"]
-- ["So30UIPasteConfigurationSupportingP", "__lazy_storage_$_model"]
 - ["So30UIPasteConfigurationSupportingP", "__lazy_storage_$_profileImageView"]
 - ["So30UIPasteConfigurationSupportingP", "__lazy_storage_$_signOutButton"]
 - ["So30UIPasteConfigurationSupportingP", "__lazy_storage_$_welcomeLabel"]
@@ -1052,7 +1016,6 @@ depends-member:
 - ["So30UIResponderStandardEditActionsP", "Fonts"]
 - ["So30UIResponderStandardEditActionsP", "FormModel"]
 - ["So30UIResponderStandardEditActionsP", "GIDService"]
-- ["So30UIResponderStandardEditActionsP", "GIDSignIn"]
 - ["So30UIResponderStandardEditActionsP", "NSCoder"]
 - ["So30UIResponderStandardEditActionsP", "UIButton"]
 - ["So30UIResponderStandardEditActionsP", "UIImage"]
@@ -1060,7 +1023,6 @@ depends-member:
 - ["So30UIResponderStandardEditActionsP", "UILabel"]
 - ["So30UIResponderStandardEditActionsP", ""]
 - ["So30UIResponderStandardEditActionsP", "__buttonWithType"]
-- ["So30UIResponderStandardEditActionsP", "__lazy_storage_$_model"]
 - ["So30UIResponderStandardEditActionsP", "__lazy_storage_$_profileImageView"]
 - ["So30UIResponderStandardEditActionsP", "__lazy_storage_$_signOutButton"]
 - ["So30UIResponderStandardEditActionsP", "__lazy_storage_$_welcomeLabel"]
@@ -1107,14 +1069,12 @@ depends-member:
 - ["So16UIStateRestoringP", "Fonts"]
 - ["So16UIStateRestoringP", "FormModel"]
 - ["So16UIStateRestoringP", "GIDService"]
-- ["So16UIStateRestoringP", "GIDSignIn"]
 - ["So16UIStateRestoringP", "NSCoder"]
 - ["So16UIStateRestoringP", "UIButton"]
 - ["So16UIStateRestoringP", "UIImage"]
 - ["So16UIStateRestoringP", "UIImageView"]
 - ["So16UIStateRestoringP", "UILabel"]
 - ["So16UIStateRestoringP", ""]
-- ["So16UIStateRestoringP", "__lazy_storage_$_model"]
 - ["So16UIStateRestoringP", "__lazy_storage_$_profileImageView"]
 - ["So16UIStateRestoringP", "__lazy_storage_$_signOutButton"]
 - ["So16UIStateRestoringP", "__lazy_storage_$_welcomeLabel"]
@@ -1140,7 +1100,6 @@ depends-member:
 - ["So18UITraitEnvironmentP", "Fonts"]
 - ["So18UITraitEnvironmentP", "FormModel"]
 - ["So18UITraitEnvironmentP", "GIDService"]
-- ["So18UITraitEnvironmentP", "GIDSignIn"]
 - ["So18UITraitEnvironmentP", "NSCoder"]
 - ["So18UITraitEnvironmentP", "UIButton"]
 - ["So18UITraitEnvironmentP", "UIImage"]
@@ -1148,7 +1107,6 @@ depends-member:
 - ["So18UITraitEnvironmentP", "UILabel"]
 - ["So18UITraitEnvironmentP", ""]
 - ["So18UITraitEnvironmentP", "__buttonWithType"]
-- ["So18UITraitEnvironmentP", "__lazy_storage_$_model"]
 - ["So18UITraitEnvironmentP", "__lazy_storage_$_profileImageView"]
 - ["So18UITraitEnvironmentP", "__lazy_storage_$_signOutButton"]
 - ["So18UITraitEnvironmentP", "__lazy_storage_$_welcomeLabel"]
@@ -1187,7 +1145,6 @@ depends-member:
 - ["So23UIUserActivityRestoringP", "Fonts"]
 - ["So23UIUserActivityRestoringP", "FormModel"]
 - ["So23UIUserActivityRestoringP", "GIDService"]
-- ["So23UIUserActivityRestoringP", "GIDSignIn"]
 - ["So23UIUserActivityRestoringP", "NSCoder"]
 - ["So23UIUserActivityRestoringP", "UIButton"]
 - ["So23UIUserActivityRestoringP", "UIImage"]
@@ -1195,7 +1152,6 @@ depends-member:
 - ["So23UIUserActivityRestoringP", "UILabel"]
 - ["So23UIUserActivityRestoringP", ""]
 - ["So23UIUserActivityRestoringP", "__buttonWithType"]
-- ["So23UIUserActivityRestoringP", "__lazy_storage_$_model"]
 - ["So23UIUserActivityRestoringP", "__lazy_storage_$_profileImageView"]
 - ["So23UIUserActivityRestoringP", "__lazy_storage_$_signOutButton"]
 - ["So23UIUserActivityRestoringP", "__lazy_storage_$_welcomeLabel"]
@@ -1286,11 +1242,9 @@ depends-member:
 - ["s30_CustomPlaygroundQuickLookableP", "init"]
 - ["s30_CustomPlaygroundQuickLookableP", "width"]
 - !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
-- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
 - !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
 - ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
 - ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
-- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
 - !private ["s26_ExpressibleByColorLiteralP", "black"]
 - ["s26_ExpressibleByColorLiteralP", "systemBlue"]
 - ["s26_ExpressibleByColorLiteralP", "white"]
@@ -1394,14 +1348,11 @@ depends-member:
 - ["s38__DefaultCustomPlaygroundQuickLookableP", "tintColor"]
 depends-nominal:
 - "7SwiftUI10AnimatableP"
-- "SK"
 - "So7CALayerC"
 - "So15CALayerDelegateP"
 - "So13CAMediaTimingP"
 - "So6CGRectV"
 - "s7CVarArgP"
-- "Sl"
-- "SL"
 - !private "7SnapKit23ConstraintAttributesDSLP"
 - !private "7SnapKit28ConstraintBasicAttributesDSLP"
 - !private "7SnapKit13ConstraintDSLP"
@@ -1409,8 +1360,8 @@ depends-nominal:
 - !private "7SnapKit15ConstraintMakerC"
 - !private "7SnapKit23ConstraintMakerEditableC"
 - !private "7SnapKit25ConstraintMakerExtendableC"
-- "7SnapKit26ConstraintMakerFinalizableC"
-- "7SnapKit27ConstraintMakerPriortizableC"
+- !private "7SnapKit26ConstraintMakerFinalizableC"
+- !private "7SnapKit27ConstraintMakerPriortizableC"
 - "7SnapKit24ConstraintMakerRelatableC"
 - "7SnapKit25ConstraintRelatableTargetP"
 - !private "7SnapKit17ConstraintViewDSLV"
@@ -1422,12 +1373,8 @@ depends-nominal:
 - "SQ"
 - "So15UIControlEventsV"
 - "s25ExpressibleByArrayLiteralP"
-- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
 - "s27ExpressibleByIntegerLiteralP"
 - "s23ExpressibleByNilLiteralP"
-- "s32ExpressibleByStringInterpolationP"
-- "s26ExpressibleByStringLiteralP"
-- "s33ExpressibleByUnicodeScalarLiteralP"
 - "11Supplements5FontsO"
 - "11Supplements9FormModelC"
 - "11Supplements18FormViewControllerC"
@@ -1435,7 +1382,6 @@ depends-nominal:
 - "7SwiftUI7GestureP"
 - "SH"
 - "7SnapKit20LayoutConstraintItemP"
-- "s25LosslessStringConvertibleP"
 - "So8NSCodingP"
 - "So9NSCopyingP"
 - "So26NSExtensionRequestHandlingP"
@@ -1448,11 +1394,8 @@ depends-nominal:
 - "s9OptionSetP"
 - "Sq"
 - "SY"
-- "ST"
 - "s10SetAlgebraP"
 - "So14UIControlStateV"
-- "s16TextOutputStreamP"
-- "s20TextOutputStreamableP"
 - "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
 - "So29UIAccessibilityIdentificationP"
 - "So12UIAppearanceP"
@@ -1485,11 +1428,9 @@ depends-nominal:
 - "7SwiftUI4ViewP"
 - "s30_CustomPlaygroundQuickLookableP"
 - !private "s35_ExpressibleByBuiltinBooleanLiteralP"
-- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
 - !private "s33_ExpressibleByBuiltinFloatLiteralP"
 - "s35_ExpressibleByBuiltinIntegerLiteralP"
 - "s34_ExpressibleByBuiltinStringLiteralP"
-- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
 - "s26_ExpressibleByColorLiteralP"
 - "10Foundation27_KeyValueCodingAndObservingP"
 - "10Foundation37_KeyValueCodingAndObservingPublishingP"
@@ -1520,9 +1461,11 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/DeveloperToolsSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/CollectionViewPagingLayout/CollectionViewPagingLayout.framework/Modules/CollectionViewPagingLayout.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/LinearProgressView/LinearProgressView.framework/Modules/LinearProgressView.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework/Headers/SnapKit-umbrella.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/CollectionViewPagingLayout/CollectionViewPagingLayout.framework/Headers/CollectionViewPagingLayout-umbrella.h"
+- "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/LinearProgressView/LinearProgressView.framework/Headers/LinearProgressView-umbrella.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDProfileData.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDSignIn.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GoogleSignIn.h"
@@ -1532,11 +1475,13 @@ depends-external:
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework/Headers/SnapKit-Swift.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/CollectionViewPagingLayout/CollectionViewPagingLayout.framework/Headers/CollectionViewPagingLayout-Swift.h"
+- "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/LinearProgressView/LinearProgressView.framework/Headers/LinearProgressView-Swift.h"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/dyld.modulemap"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
 - "/Users/sapientisat/Projects/Supplements/Supplements/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Modules/module.modulemap"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework/Modules/module.modulemap"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/CollectionViewPagingLayout/CollectionViewPagingLayout.framework/Modules/module.modulemap"
+- "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/LinearProgressView/LinearProgressView.framework/Modules/module.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/objc/ObjectiveC.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"

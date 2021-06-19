@@ -22,6 +22,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
 		window = UIWindow(frame: UIScreen.main.bounds)
 		let rootViewController = LoginViewController()
 		let navigationController = UINavigationController(rootViewController: rootViewController)
+		navigationController.navigationBar.prefersLargeTitles = true
 		window?.rootViewController = navigationController
 		window?.makeKeyAndVisible()
 		return true

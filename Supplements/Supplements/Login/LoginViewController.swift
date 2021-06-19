@@ -19,7 +19,7 @@ class LoginViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 		view.backgroundColor = .black
-		navigationController?.setNavigationBarHidden(true, animated: true)
+//		navigationController?.setNavigationBarHidden(true, animated: true)
 		GIDService?.presentingViewController = self
 		GIDService?.restorePreviousSignIn()
 

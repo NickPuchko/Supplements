@@ -1,23 +1,387 @@
 ### Swift dependencies file v0 ###
 provides-top-level:
 - "SymptomsModel"
+- "Page"
+- "Element"
 provides-nominal:
 - "11Supplements13SymptomsModelC"
+- "11Supplements4PageV"
+- "11Supplements7ElementO"
 provides-member:
 - ["11Supplements13SymptomsModelC", ""]
+- ["11Supplements4PageV", ""]
+- ["11Supplements7ElementO", ""]
 provides-dynamic-lookup:
+- "$__lazy_storage_$_networkSerivce"
+- "loadPages"
+- "networkSerivce"
+- "pages"
 - "viewController"
 depends-top-level:
+- "=="
+- !private "Array"
 - "AssignmentPrecedence"
+- "Codable"
+- !private "Dictionary"
+- "Element"
+- "FloatLiteralType"
+- "Int"
+- "IntegerLiteralType"
+- "Page"
+- "PagesNetworkService"
+- "String"
+- "StringLiteralType"
 - "SymptomsModel"
 - "SymptomsViewController"
+- !private "_findStringSwitchCase"
+- !private "networkSerivce"
+- "print"
+- !private "~="
 depends-member:
+- !private ["SK", ""]
+- !private ["s7CVarArgP", "refresh"]
+- ["s9CodingKeyP", "=="]
+- !private ["s9CodingKeyP", ""]
+- ["s9CodingKeyP", "_rawHashValue"]
+- ["s9CodingKeyP", "debugDescription"]
+- ["s9CodingKeyP", "description"]
+- ["s9CodingKeyP", "hash"]
+- ["s9CodingKeyP", "hashValue"]
+- ["s9CodingKeyP", "init"]
+- ["s9CodingKeyP", "intValue"]
+- ["s9CodingKeyP", "stringValue"]
+- !private ["Sl", ""]
+- !private ["26CollectionViewPagingLayout0abcD8DelegateP", "refresh"]
+- !private ["SL", ""]
+- ["s28CustomDebugStringConvertibleP", "=="]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "_rawHashValue"]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- ["s28CustomDebugStringConvertibleP", "description"]
+- ["s28CustomDebugStringConvertibleP", "hash"]
+- ["s28CustomDebugStringConvertibleP", "hashValue"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "intValue"]
+- !private ["s28CustomDebugStringConvertibleP", "refresh"]
+- ["s28CustomDebugStringConvertibleP", "stringValue"]
+- !private ["s17CustomReflectableP", "refresh"]
+- ["s23CustomStringConvertibleP", "=="]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_rawHashValue"]
+- ["s23CustomStringConvertibleP", "debugDescription"]
+- ["s23CustomStringConvertibleP", "description"]
+- ["s23CustomStringConvertibleP", "hash"]
+- ["s23CustomStringConvertibleP", "hashValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "intValue"]
+- !private ["s23CustomStringConvertibleP", "refresh"]
+- ["s23CustomStringConvertibleP", "stringValue"]
+- ["Se", "=="]
+- ["Se", "Default_RawValue"]
+- ["Se", "RawValue"]
+- ["Se", ""]
+- ["Se", "_Default_RawValue"]
+- !private ["Se", "_findStringSwitchCase"]
+- ["Se", "_rawHashValue"]
+- ["Se", "encode"]
+- !private ["Se", "findStringSwitchCase"]
+- ["Se", "hash"]
+- ["Se", "hashValue"]
+- !private ["Se", "header"]
+- !private ["Se", "index"]
+- ["Se", "init"]
+- !private ["Se", "questions"]
+- ["Se", "rawValue"]
+- !private ["Se", "refresh"]
+- !private ["Se", "vitamin_a"]
+- !private ["Se", "vitamin_b2"]
+- !private ["Se", "vitamin_b6"]
+- !private ["Se", "vitamin_c"]
+- !private ["Se", "vitamin_d3"]
+- !private ["Se", "vitamin_e"]
+- !private ["s7DecoderP", "container"]
+- ["11Supplements7ElementO", "=="]
+- ["11Supplements7ElementO", "Default_RawValue"]
+- ["11Supplements7ElementO", "RawValue"]
+- ["11Supplements7ElementO", ""]
+- ["11Supplements7ElementO", "_Default_RawValue"]
+- !private ["11Supplements7ElementO", "_findStringSwitchCase"]
+- ["11Supplements7ElementO", "_rawHashValue"]
+- ["11Supplements7ElementO", "boron"]
+- ["11Supplements7ElementO", "calcium"]
+- ["11Supplements7ElementO", "choline"]
+- ["11Supplements7ElementO", "chromium"]
+- ["11Supplements7ElementO", "copper"]
+- ["11Supplements7ElementO", "encode"]
+- !private ["11Supplements7ElementO", "findStringSwitchCase"]
+- ["11Supplements7ElementO", "hash"]
+- ["11Supplements7ElementO", "hashValue"]
+- ["11Supplements7ElementO", "init"]
+- ["11Supplements7ElementO", "iodine"]
+- ["11Supplements7ElementO", "iron"]
+- ["11Supplements7ElementO", "lithium"]
+- ["11Supplements7ElementO", "magnesium"]
+- ["11Supplements7ElementO", "manganese"]
+- ["11Supplements7ElementO", "molybdenum"]
+- ["11Supplements7ElementO", "multimineral"]
+- ["11Supplements7ElementO", "potassium"]
+- ["11Supplements7ElementO", "rawValue"]
+- ["11Supplements7ElementO", "selenium"]
+- ["11Supplements7ElementO", "silver"]
+- ["11Supplements7ElementO", "strontium"]
+- ["11Supplements7ElementO", "trace"]
+- ["11Supplements7ElementO", "vanadyl"]
+- ["11Supplements7ElementO", "vitamin_a"]
+- ["11Supplements7ElementO", "vitamin_b12"]
+- ["11Supplements7ElementO", "vitamin_b2"]
+- ["11Supplements7ElementO", "vitamin_b6"]
+- ["11Supplements7ElementO", "vitamin_c"]
+- ["11Supplements7ElementO", "vitamin_d3"]
+- ["11Supplements7ElementO", "vitamin_e"]
+- ["11Supplements7ElementO", "vitamin_k"]
+- ["11Supplements7ElementO", "zinc"]
+- ["SE", "=="]
+- ["SE", "Default_RawValue"]
+- ["SE", "RawValue"]
+- ["SE", ""]
+- ["SE", "_Default_RawValue"]
+- !private ["SE", "_findStringSwitchCase"]
+- ["SE", "_rawHashValue"]
+- ["SE", "encode"]
+- !private ["SE", "findStringSwitchCase"]
+- ["SE", "hash"]
+- ["SE", "hashValue"]
+- !private ["SE", "header"]
+- !private ["SE", "index"]
+- ["SE", "init"]
+- !private ["SE", "questions"]
+- ["SE", "rawValue"]
+- !private ["SE", "refresh"]
+- !private ["SE", "vitamin_a"]
+- !private ["SE", "vitamin_b2"]
+- !private ["SE", "vitamin_b6"]
+- !private ["SE", "vitamin_c"]
+- !private ["SE", "vitamin_d3"]
+- !private ["SE", "vitamin_e"]
+- !private ["s7EncoderP", "container"]
+- ["SQ", "=="]
+- ["SQ", "Default_RawValue"]
+- ["SQ", "RawValue"]
+- ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- !private ["SQ", "_findStringSwitchCase"]
+- ["SQ", "_rawHashValue"]
+- ["SQ", "debugDescription"]
+- ["SQ", "description"]
+- ["SQ", "encode"]
+- !private ["SQ", "failure"]
+- !private ["SQ", "findStringSwitchCase"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- ["SQ", "intValue"]
+- ["SQ", "rawValue"]
+- !private ["SQ", "refresh"]
+- ["SQ", "stringValue"]
+- !private ["SQ", "success"]
+- !private ["SQ", "vitamin_a"]
+- !private ["SQ", "vitamin_b2"]
+- !private ["SQ", "vitamin_b6"]
+- !private ["SQ", "vitamin_c"]
+- !private ["SQ", "vitamin_d3"]
+- !private ["SQ", "vitamin_e"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "Key"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "Value"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s23ExpressibleByNilLiteralP", "refresh"]
+- !private ["s32ExpressibleByStringInterpolationP", ""]
+- !private ["s26ExpressibleByStringLiteralP", ""]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["7SwiftUI7GestureP", "refresh"]
+- ["SH", "=="]
+- ["SH", "Default_RawValue"]
+- ["SH", "RawValue"]
+- ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- !private ["SH", "_findStringSwitchCase"]
+- ["SH", "_rawHashValue"]
+- ["SH", "debugDescription"]
+- ["SH", "description"]
+- ["SH", "encode"]
+- !private ["SH", "failure"]
+- !private ["SH", "findStringSwitchCase"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- ["SH", "intValue"]
+- ["SH", "rawValue"]
+- !private ["SH", "refresh"]
+- ["SH", "stringValue"]
+- !private ["SH", "success"]
+- !private ["SH", "vitamin_a"]
+- !private ["SH", "vitamin_b2"]
+- !private ["SH", "vitamin_b6"]
+- !private ["SH", "vitamin_c"]
+- !private ["SH", "vitamin_d3"]
+- !private ["SH", "vitamin_e"]
+- !private ["s6HasherV", "combine"]
+- !private ["s22KeyedDecodingContainerV", "decode"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decode"]
+- !private ["s22KeyedEncodingContainerV", "encode"]
+- !private ["s30KeyedEncodingContainerProtocolP", "encode"]
+- !private ["s25LosslessStringConvertibleP", ""]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "refresh"]
+- !private ["So26NSExtensionRequestHandlingP", "refresh"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "refresh"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "refresh"]
+- ["11Supplements14NetworkServiceC", ""]
+- !private ["11Supplements14NetworkServiceC", "getPages"]
+- ["11Supplements14NetworkServiceC", "init"]
+- !private ["Sq", "refresh"]
+- ["11Supplements4PageV", "CodingKeys"]
+- ["11Supplements4PageV", "Element"]
+- ["11Supplements4PageV", "Int"]
+- ["11Supplements4PageV", "String"]
+- ["11Supplements4PageV", ""]
+- ["11Supplements4PageV", "encode"]
+- ["11Supplements4PageV", "header"]
+- ["11Supplements4PageV", "index"]
+- ["11Supplements4PageV", "init"]
+- ["11Supplements4PageV", "questions"]
+- !private ["11Supplements19PagesNetworkServiceC", "getPages"]
+- ["11Supplements19PagesNetworkServiceC", "init"]
+- ["SY", "=="]
+- ["SY", "Default_RawValue"]
+- ["SY", "RawValue"]
+- ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- !private ["SY", "_findStringSwitchCase"]
+- ["SY", "_rawHashValue"]
+- ["SY", "encode"]
+- !private ["SY", "findStringSwitchCase"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- ["SY", "rawValue"]
+- !private ["SY", "vitamin_a"]
+- !private ["SY", "vitamin_b2"]
+- !private ["SY", "vitamin_b6"]
+- !private ["SY", "vitamin_c"]
+- !private ["SY", "vitamin_d3"]
+- !private ["SY", "vitamin_e"]
+- !private ["s6ResultO", "failure"]
+- !private ["s6ResultO", "success"]
+- !private ["ST", ""]
+- !private ["11Supplements13SymptomsModelC", "$__lazy_storage_$_networkSerivce"]
+- ["11Supplements13SymptomsModelC", "Page"]
+- ["11Supplements13SymptomsModelC", "PagesNetworkService"]
 - ["11Supplements13SymptomsModelC", "SymptomsViewController"]
 - ["11Supplements13SymptomsModelC", "deinit"]
 - ["11Supplements13SymptomsModelC", "init"]
+- ["11Supplements13SymptomsModelC", "loadPages"]
+- !private ["11Supplements13SymptomsModelC", "networkSerivce"]
+- ["11Supplements13SymptomsModelC", "pages"]
+- !private ["11Supplements13SymptomsModelC", "print"]
 - ["11Supplements13SymptomsModelC", "viewController"]
+- !private ["11Supplements22SymptomsViewControllerC", "refresh"]
+- !private ["s16TextOutputStreamP", ""]
+- !private ["s20TextOutputStreamableP", ""]
+- !private ["So21UIAppearanceContainerP", "refresh"]
+- !private ["So26UICollectionViewDataSourceP", "refresh"]
+- !private ["So24UICollectionViewDelegateP", "refresh"]
+- !private ["So18UIContentContainerP", "refresh"]
+- !private ["So18UIFocusEnvironmentP", "refresh"]
+- !private ["So30UIPasteConfigurationSupportingP", "refresh"]
+- ["So11UIResponderC", ""]
+- !private ["So11UIResponderC", "refresh"]
+- !private ["So30UIResponderStandardEditActionsP", "refresh"]
+- !private ["So20UIScrollViewDelegateP", ""]
+- !private ["So20UIScrollViewDelegateP", "refresh"]
+- !private ["So16UIStateRestoringP", "refresh"]
+- !private ["So18UITraitEnvironmentP", "refresh"]
+- !private ["So23UIUserActivityRestoringP", "refresh"]
+- ["So16UIViewControllerC", ""]
+- !private ["So16UIViewControllerC", "refresh"]
+- !private ["7SwiftUI4ViewP", "refresh"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "refresh"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "refresh"]
+- !private ["s21_ObjectiveCBridgeableP", "refresh"]
 depends-nominal:
+- !private "SK"
+- !private "s7CVarArgP"
+- "s9CodingKeyP"
+- !private "Sl"
+- !private "26CollectionViewPagingLayout0abcD8DelegateP"
+- !private "SL"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- !private "s7DecoderP"
+- "11Supplements7ElementO"
+- "SE"
+- !private "s7EncoderP"
+- "SQ"
+- "s25ExpressibleByArrayLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "7SwiftUI7GestureP"
+- "SH"
+- !private "s6HasherV"
+- !private "s22KeyedDecodingContainerV"
+- !private "s30KeyedDecodingContainerProtocolP"
+- !private "s22KeyedEncodingContainerV"
+- !private "s30KeyedEncodingContainerProtocolP"
+- !private "s25LosslessStringConvertibleP"
+- "So8NSCodingP"
+- !private "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "11Supplements14NetworkServiceC"
+- !private "Sq"
+- "11Supplements4PageV"
+- "11Supplements19PagesNetworkServiceC"
+- "SY"
+- !private "s6ResultO"
+- !private "ST"
 - "11Supplements13SymptomsModelC"
+- !private "11Supplements22SymptomsViewControllerC"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So21UIAppearanceContainerP"
+- !private "So26UICollectionViewDataSourceP"
+- !private "So24UICollectionViewDelegateP"
+- !private "So18UIContentContainerP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So20UIScrollViewDelegateP"
+- !private "So16UIStateRestoringP"
+- !private "So18UITraitEnvironmentP"
+- !private "So23UIUserActivityRestoringP"
+- "So16UIViewControllerC"
+- !private "7SwiftUI4ViewP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
@@ -83,4 +447,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "85f19a7e616e7334ea04ed7367ec27ed"
+interface-hash: "6d4b035579701db5de9e7ff3ac1a0973"
