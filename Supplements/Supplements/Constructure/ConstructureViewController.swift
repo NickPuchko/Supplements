@@ -42,7 +42,9 @@ class ConstructureViewController: UIViewController {
         priceLabel.translatesAutoresizingMaskIntoConstraints = false
         priceLabel.text = "\(price) р/мес"
         priceLabel.textAlignment = .center
-        
+        priceLabel.clipsToBounds = true
+        priceLabel.layer.cornerRadius = 18
+        priceLabel.textColor = .white
         priceLabel.backgroundColor = UIColor(red: 1, green: 1, blue: 1, alpha: 0.3)
         NSLayoutConstraint.activate([
             priceLabel.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 84),
@@ -83,7 +85,7 @@ extension ConstructureViewController: UITableViewDataSource {
         return 1
     }
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 10
+        return 5
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -102,12 +104,12 @@ extension ConstructureViewController: UITableViewDataSource {
     func addPrice(cell: ConstructureTableViewCell) {
         if cell.addButton.currentTitle == "Добавить" {
             price += Int(cell.priceLabel.text ?? "0") ?? 0
-            priceLabel.text = String(price)
+            priceLabel.text = String("\(price) р/мес")
             cell.addButton.setTitle("Убрать", for: .normal)
             cell.addButton.backgroundColor = .red
         } else  if cell.addButton.currentTitle == "Убрать" {
             price -= Int(cell.priceLabel.text ?? "0") ?? 0
-            priceLabel.text = String(price)
+            priceLabel.text = String("\(price) р/мес")
             cell.addButton.setTitle("Добавить", for: .normal)
             cell.addButton.backgroundColor = UIColor(red: 174/255, green: 232/255, blue: 128/255, alpha: 1)
         }
