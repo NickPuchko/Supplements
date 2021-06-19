@@ -8,6 +8,7 @@
 import Foundation
 import Foundation
 import UIKit
+import SnapKit
 class ContentView: UIView {
     
     private let birthDateLabel = UILabel()
@@ -24,6 +25,9 @@ class ContentView: UIView {
     private let cityTextField = CustomTextField()
     private let buttonOnNext = UIButton()
     private let datePicker = UIDatePicker()
+    private lazy var iherbImageView = UIImageView(image: UIImage(named: "companyLogo.png"))
+    private let descriptionLabel = UILabel()
+    
     override init(frame: CGRect) {
         super.init(frame: frame)
         configure()
@@ -33,8 +37,14 @@ class ContentView: UIView {
         setUpWeightSection()
         setUpCitySection()
         configureButton()
+        addSubview(iherbImageView)
+        //view.addSubview(descriptionLabel)
+        iherbImageView.frame = CGRect(x: 0, y: 0, width: 100, height: 30)
         
-       
+        iherbImageView.snp.makeConstraints { make in
+                    make.top.equalTo(safeAreaLayoutGuide)
+                    make.centerX.equalToSuperview()
+        }
     }
     private func configure() {
         birthDateLabel.translatesAutoresizingMaskIntoConstraints = false
