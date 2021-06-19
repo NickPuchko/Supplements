@@ -17,4 +17,12 @@ class DeficitViewController: UIViewController {
         super.viewDidLoad()
     }
 
+	func setupDeficits(_ deficits: [Deficit]) {
+//		model.deficits = deficits
+		model.deficits = [
+			.init(name: .magnesium, risk: 0.2, good: nil),
+			.init(name: .vitamin_b12, risk: 0.7, good: nil)
+		]
+	}
+
 }

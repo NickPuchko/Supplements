@@ -1,0 +1,583 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "BlurEffectView"
+provides-nominal:
+- "26CollectionViewPagingLayout010BlurEffectB0C"
+provides-member:
+- ["26CollectionViewPagingLayout010BlurEffectB0C", ""]
+provides-dynamic-lookup:
+- "animator"
+- "layoutSubviews"
+- "radius"
+- "removeFromSuperview"
+- "setBlurRadius"
+depends-top-level:
+- !private "!="
+- !private "=="
+- !private "??"
+- "AssignmentPrecedence"
+- "BlurEffectView"
+- !private "BooleanLiteralType"
+- "CGFloat"
+- "CastingPrecedence"
+- "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "UIBlurEffect"
+- "UIViewPropertyAnimator"
+- "UIVisualEffectView"
+- !private "animator"
+- !private "effect"
+- !private "radius"
+- !private "removeFromSuperview"
+- !private "setBlurRadius"
+- !private "||"
+depends-member:
+- !private ["So20UIViewAnimationCurveV", "linear"]
+- ["SK", ""]
+- ["26CollectionViewPagingLayout010BlurEffectB0C", "CGFloat"]
+- ["26CollectionViewPagingLayout010BlurEffectB0C", "UIBlurEffect"]
+- ["26CollectionViewPagingLayout010BlurEffectB0C", "UIViewPropertyAnimator"]
+- ["26CollectionViewPagingLayout010BlurEffectB0C", ""]
+- !private ["26CollectionViewPagingLayout010BlurEffectB0C", "animator"]
+- ["26CollectionViewPagingLayout010BlurEffectB0C", "deinit"]
+- !private ["26CollectionViewPagingLayout010BlurEffectB0C", "effect"]
+- ["26CollectionViewPagingLayout010BlurEffectB0C", "init"]
+- ["26CollectionViewPagingLayout010BlurEffectB0C", "layoutSubviews"]
+- !private ["26CollectionViewPagingLayout010BlurEffectB0C", "radius"]
+- ["26CollectionViewPagingLayout010BlurEffectB0C", "removeFromSuperview"]
+- ["26CollectionViewPagingLayout010BlurEffectB0C", "setBlurRadius"]
+- ["So15CALayerDelegateP", "CGFloat"]
+- ["So15CALayerDelegateP", "UIBlurEffect"]
+- ["So15CALayerDelegateP", "UIViewPropertyAnimator"]
+- ["So15CALayerDelegateP", ""]
+- ["So15CALayerDelegateP", "animator"]
+- ["So15CALayerDelegateP", "deinit"]
+- !private ["So15CALayerDelegateP", "effect"]
+- ["So15CALayerDelegateP", "init"]
+- ["So15CALayerDelegateP", "layoutSubviews"]
+- ["So15CALayerDelegateP", "radius"]
+- ["So15CALayerDelegateP", "removeFromSuperview"]
+- ["So15CALayerDelegateP", "setBlurRadius"]
+- !private ["s7CVarArgP", "UIViewPropertyAnimator"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "animator"]
+- !private ["s7CVarArgP", "effect"]
+- !private ["s7CVarArgP", "fractionComplete"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "layoutSubviews"]
+- !private ["s7CVarArgP", "none"]
+- !private ["s7CVarArgP", "radius"]
+- !private ["s7CVarArgP", "removeFromSuperview"]
+- !private ["s7CVarArgP", "setBlurRadius"]
+- !private ["s7CVarArgP", "state"]
+- !private ["s7CVarArgP", "stopAnimation"]
+- ["Sl", ""]
+- ["SL", ""]
+- !private ["s28CustomDebugStringConvertibleP", "UIViewPropertyAnimator"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "active"]
+- !private ["s28CustomDebugStringConvertibleP", "animator"]
+- !private ["s28CustomDebugStringConvertibleP", "effect"]
+- !private ["s28CustomDebugStringConvertibleP", "fractionComplete"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "layoutSubviews"]
+- !private ["s28CustomDebugStringConvertibleP", "none"]
+- !private ["s28CustomDebugStringConvertibleP", "radius"]
+- !private ["s28CustomDebugStringConvertibleP", "removeFromSuperview"]
+- !private ["s28CustomDebugStringConvertibleP", "setBlurRadius"]
+- !private ["s28CustomDebugStringConvertibleP", "state"]
+- !private ["s28CustomDebugStringConvertibleP", "stopAnimation"]
+- !private ["s17CustomReflectableP", "active"]
+- !private ["s17CustomReflectableP", "none"]
+- !private ["s23CustomStringConvertibleP", "UIViewPropertyAnimator"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "animator"]
+- !private ["s23CustomStringConvertibleP", "effect"]
+- !private ["s23CustomStringConvertibleP", "fractionComplete"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "layoutSubviews"]
+- !private ["s23CustomStringConvertibleP", "none"]
+- !private ["s23CustomStringConvertibleP", "radius"]
+- !private ["s23CustomStringConvertibleP", "removeFromSuperview"]
+- !private ["s23CustomStringConvertibleP", "setBlurRadius"]
+- !private ["s23CustomStringConvertibleP", "state"]
+- !private ["s23CustomStringConvertibleP", "stopAnimation"]
+- !private ["Se", "active"]
+- !private ["Se", "none"]
+- !private ["SE", "active"]
+- !private ["SE", "none"]
+- !private ["SQ", "UIViewPropertyAnimator"]
+- ["SQ", ""]
+- !private ["SQ", "active"]
+- !private ["SQ", "animator"]
+- !private ["SQ", "effect"]
+- !private ["SQ", "fractionComplete"]
+- !private ["SQ", "init"]
+- !private ["SQ", "layoutSubviews"]
+- !private ["SQ", "linear"]
+- !private ["SQ", "none"]
+- !private ["SQ", "radius"]
+- !private ["SQ", "removeFromSuperview"]
+- !private ["SQ", "setBlurRadius"]
+- !private ["SQ", "state"]
+- !private ["SQ", "stopAnimation"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- ["s25ExpressibleByFloatLiteralP", "FloatLiteralType"]
+- ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "IntegerLiteralType"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "active"]
+- !private ["s23ExpressibleByNilLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "none"]
+- ["s32ExpressibleByStringInterpolationP", ""]
+- ["s26ExpressibleByStringLiteralP", ""]
+- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["7SwiftUI7GestureP", "active"]
+- !private ["7SwiftUI7GestureP", "none"]
+- !private ["SH", "UIViewPropertyAnimator"]
+- ["SH", ""]
+- !private ["SH", "active"]
+- !private ["SH", "animator"]
+- !private ["SH", "effect"]
+- !private ["SH", "fractionComplete"]
+- !private ["SH", "init"]
+- !private ["SH", "layoutSubviews"]
+- !private ["SH", "linear"]
+- !private ["SH", "none"]
+- !private ["SH", "radius"]
+- !private ["SH", "removeFromSuperview"]
+- !private ["SH", "setBlurRadius"]
+- !private ["SH", "state"]
+- !private ["SH", "stopAnimation"]
+- ["s25LosslessStringConvertibleP", ""]
+- ["So8NSCodingP", "CGFloat"]
+- ["So8NSCodingP", "UIBlurEffect"]
+- ["So8NSCodingP", "UIViewPropertyAnimator"]
+- ["So8NSCodingP", ""]
+- ["So8NSCodingP", "animator"]
+- ["So8NSCodingP", "deinit"]
+- !private ["So8NSCodingP", "effect"]
+- ["So8NSCodingP", "init"]
+- ["So8NSCodingP", "layoutSubviews"]
+- !private ["So8NSCodingP", "none"]
+- ["So8NSCodingP", "radius"]
+- ["So8NSCodingP", "removeFromSuperview"]
+- ["So8NSCodingP", "setBlurRadius"]
+- !private ["So9NSCopyingP", ""]
+- !private ["So9NSCopyingP", "fractionComplete"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "none"]
+- !private ["So9NSCopyingP", "state"]
+- !private ["So9NSCopyingP", "stopAnimation"]
+- ["So8NSObjectC", "CGFloat"]
+- ["So8NSObjectC", "UIBlurEffect"]
+- ["So8NSObjectC", "UIViewPropertyAnimator"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "animator"]
+- !private ["So8NSObjectC", "effect"]
+- !private ["So8NSObjectC", "fractionComplete"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "layoutSubviews"]
+- !private ["So8NSObjectC", "none"]
+- ["So8NSObjectC", "radius"]
+- ["So8NSObjectC", "removeFromSuperview"]
+- ["So8NSObjectC", "setBlurRadius"]
+- !private ["So8NSObjectC", "state"]
+- !private ["So8NSObjectC", "stopAnimation"]
+- ["So8NSObjectP", "CGFloat"]
+- ["So8NSObjectP", "UIBlurEffect"]
+- ["So8NSObjectP", "UIViewPropertyAnimator"]
+- ["So8NSObjectP", ""]
+- ["So8NSObjectP", "animator"]
+- ["So8NSObjectP", "deinit"]
+- !private ["So8NSObjectP", "effect"]
+- !private ["So8NSObjectP", "fractionComplete"]
+- ["So8NSObjectP", "init"]
+- ["So8NSObjectP", "layoutSubviews"]
+- !private ["So8NSObjectP", "none"]
+- ["So8NSObjectP", "radius"]
+- ["So8NSObjectP", "removeFromSuperview"]
+- ["So8NSObjectP", "setBlurRadius"]
+- !private ["So8NSObjectP", "state"]
+- !private ["So8NSObjectP", "stopAnimation"]
+- ["So14NSSecureCodingP", "CGFloat"]
+- ["So14NSSecureCodingP", "UIBlurEffect"]
+- ["So14NSSecureCodingP", "UIViewPropertyAnimator"]
+- ["So14NSSecureCodingP", ""]
+- ["So14NSSecureCodingP", "animator"]
+- ["So14NSSecureCodingP", "deinit"]
+- !private ["So14NSSecureCodingP", "effect"]
+- ["So14NSSecureCodingP", "init"]
+- ["So14NSSecureCodingP", "layoutSubviews"]
+- !private ["So14NSSecureCodingP", "none"]
+- ["So14NSSecureCodingP", "radius"]
+- ["So14NSSecureCodingP", "removeFromSuperview"]
+- ["So14NSSecureCodingP", "setBlurRadius"]
+- !private ["Sq", "active"]
+- !private ["Sq", "none"]
+- !private ["SY", "active"]
+- !private ["SY", "linear"]
+- ["ST", ""]
+- ["s16TextOutputStreamP", ""]
+- ["s20TextOutputStreamableP", ""]
+- ["So29UIAccessibilityIdentificationP", "CGFloat"]
+- ["So29UIAccessibilityIdentificationP", "UIBlurEffect"]
+- ["So29UIAccessibilityIdentificationP", "UIViewPropertyAnimator"]
+- ["So29UIAccessibilityIdentificationP", ""]
+- ["So29UIAccessibilityIdentificationP", "animator"]
+- ["So29UIAccessibilityIdentificationP", "deinit"]
+- !private ["So29UIAccessibilityIdentificationP", "effect"]
+- ["So29UIAccessibilityIdentificationP", "init"]
+- ["So29UIAccessibilityIdentificationP", "layoutSubviews"]
+- ["So29UIAccessibilityIdentificationP", "radius"]
+- ["So29UIAccessibilityIdentificationP", "removeFromSuperview"]
+- ["So29UIAccessibilityIdentificationP", "setBlurRadius"]
+- ["So12UIAppearanceP", "CGFloat"]
+- ["So12UIAppearanceP", "UIBlurEffect"]
+- ["So12UIAppearanceP", "UIViewPropertyAnimator"]
+- ["So12UIAppearanceP", ""]
+- ["So12UIAppearanceP", "animator"]
+- ["So12UIAppearanceP", "deinit"]
+- !private ["So12UIAppearanceP", "effect"]
+- ["So12UIAppearanceP", "init"]
+- ["So12UIAppearanceP", "layoutSubviews"]
+- ["So12UIAppearanceP", "radius"]
+- ["So12UIAppearanceP", "removeFromSuperview"]
+- ["So12UIAppearanceP", "setBlurRadius"]
+- ["So21UIAppearanceContainerP", "CGFloat"]
+- ["So21UIAppearanceContainerP", "UIBlurEffect"]
+- ["So21UIAppearanceContainerP", "UIViewPropertyAnimator"]
+- ["So21UIAppearanceContainerP", ""]
+- ["So21UIAppearanceContainerP", "animator"]
+- ["So21UIAppearanceContainerP", "deinit"]
+- !private ["So21UIAppearanceContainerP", "effect"]
+- ["So21UIAppearanceContainerP", "init"]
+- ["So21UIAppearanceContainerP", "layoutSubviews"]
+- ["So21UIAppearanceContainerP", "radius"]
+- ["So21UIAppearanceContainerP", "removeFromSuperview"]
+- ["So21UIAppearanceContainerP", "setBlurRadius"]
+- ["So17UICoordinateSpaceP", "CGFloat"]
+- ["So17UICoordinateSpaceP", "UIBlurEffect"]
+- ["So17UICoordinateSpaceP", "UIViewPropertyAnimator"]
+- ["So17UICoordinateSpaceP", ""]
+- ["So17UICoordinateSpaceP", "animator"]
+- ["So17UICoordinateSpaceP", "deinit"]
+- !private ["So17UICoordinateSpaceP", "effect"]
+- ["So17UICoordinateSpaceP", "init"]
+- ["So17UICoordinateSpaceP", "layoutSubviews"]
+- ["So17UICoordinateSpaceP", "radius"]
+- ["So17UICoordinateSpaceP", "removeFromSuperview"]
+- ["So17UICoordinateSpaceP", "setBlurRadius"]
+- ["So13UIDynamicItemP", "CGFloat"]
+- ["So13UIDynamicItemP", "UIBlurEffect"]
+- ["So13UIDynamicItemP", "UIViewPropertyAnimator"]
+- ["So13UIDynamicItemP", ""]
+- ["So13UIDynamicItemP", "animator"]
+- ["So13UIDynamicItemP", "deinit"]
+- !private ["So13UIDynamicItemP", "effect"]
+- ["So13UIDynamicItemP", "init"]
+- ["So13UIDynamicItemP", "layoutSubviews"]
+- ["So13UIDynamicItemP", "radius"]
+- ["So13UIDynamicItemP", "removeFromSuperview"]
+- ["So13UIDynamicItemP", "setBlurRadius"]
+- ["So18UIFocusEnvironmentP", "CGFloat"]
+- ["So18UIFocusEnvironmentP", "UIBlurEffect"]
+- ["So18UIFocusEnvironmentP", "UIViewPropertyAnimator"]
+- ["So18UIFocusEnvironmentP", ""]
+- ["So18UIFocusEnvironmentP", "animator"]
+- ["So18UIFocusEnvironmentP", "deinit"]
+- !private ["So18UIFocusEnvironmentP", "effect"]
+- ["So18UIFocusEnvironmentP", "init"]
+- ["So18UIFocusEnvironmentP", "layoutSubviews"]
+- ["So18UIFocusEnvironmentP", "radius"]
+- ["So18UIFocusEnvironmentP", "removeFromSuperview"]
+- ["So18UIFocusEnvironmentP", "setBlurRadius"]
+- ["So11UIFocusItemP", "CGFloat"]
+- ["So11UIFocusItemP", "UIBlurEffect"]
+- ["So11UIFocusItemP", "UIViewPropertyAnimator"]
+- ["So11UIFocusItemP", ""]
+- ["So11UIFocusItemP", "animator"]
+- ["So11UIFocusItemP", "deinit"]
+- !private ["So11UIFocusItemP", "effect"]
+- ["So11UIFocusItemP", "init"]
+- ["So11UIFocusItemP", "layoutSubviews"]
+- ["So11UIFocusItemP", "radius"]
+- ["So11UIFocusItemP", "removeFromSuperview"]
+- ["So11UIFocusItemP", "setBlurRadius"]
+- ["So20UIFocusItemContainerP", "CGFloat"]
+- ["So20UIFocusItemContainerP", "UIBlurEffect"]
+- ["So20UIFocusItemContainerP", "UIViewPropertyAnimator"]
+- ["So20UIFocusItemContainerP", ""]
+- ["So20UIFocusItemContainerP", "animator"]
+- ["So20UIFocusItemContainerP", "deinit"]
+- !private ["So20UIFocusItemContainerP", "effect"]
+- ["So20UIFocusItemContainerP", "init"]
+- ["So20UIFocusItemContainerP", "layoutSubviews"]
+- ["So20UIFocusItemContainerP", "radius"]
+- ["So20UIFocusItemContainerP", "removeFromSuperview"]
+- ["So20UIFocusItemContainerP", "setBlurRadius"]
+- ["So24UILargeContentViewerItemP", "CGFloat"]
+- ["So24UILargeContentViewerItemP", "UIBlurEffect"]
+- ["So24UILargeContentViewerItemP", "UIViewPropertyAnimator"]
+- ["So24UILargeContentViewerItemP", ""]
+- ["So24UILargeContentViewerItemP", "animator"]
+- ["So24UILargeContentViewerItemP", "deinit"]
+- !private ["So24UILargeContentViewerItemP", "effect"]
+- ["So24UILargeContentViewerItemP", "init"]
+- ["So24UILargeContentViewerItemP", "layoutSubviews"]
+- ["So24UILargeContentViewerItemP", "radius"]
+- ["So24UILargeContentViewerItemP", "removeFromSuperview"]
+- ["So24UILargeContentViewerItemP", "setBlurRadius"]
+- ["So30UIPasteConfigurationSupportingP", "CGFloat"]
+- ["So30UIPasteConfigurationSupportingP", "UIBlurEffect"]
+- ["So30UIPasteConfigurationSupportingP", "UIViewPropertyAnimator"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- ["So30UIPasteConfigurationSupportingP", "animator"]
+- ["So30UIPasteConfigurationSupportingP", "deinit"]
+- !private ["So30UIPasteConfigurationSupportingP", "effect"]
+- ["So30UIPasteConfigurationSupportingP", "init"]
+- ["So30UIPasteConfigurationSupportingP", "layoutSubviews"]
+- ["So30UIPasteConfigurationSupportingP", "radius"]
+- ["So30UIPasteConfigurationSupportingP", "removeFromSuperview"]
+- ["So30UIPasteConfigurationSupportingP", "setBlurRadius"]
+- ["So11UIResponderC", "CGFloat"]
+- ["So11UIResponderC", "UIBlurEffect"]
+- ["So11UIResponderC", "UIViewPropertyAnimator"]
+- ["So11UIResponderC", ""]
+- ["So11UIResponderC", "animator"]
+- !private ["So11UIResponderC", "effect"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "layoutSubviews"]
+- ["So11UIResponderC", "radius"]
+- ["So11UIResponderC", "removeFromSuperview"]
+- ["So11UIResponderC", "setBlurRadius"]
+- ["So30UIResponderStandardEditActionsP", "CGFloat"]
+- ["So30UIResponderStandardEditActionsP", "UIBlurEffect"]
+- ["So30UIResponderStandardEditActionsP", "UIViewPropertyAnimator"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- ["So30UIResponderStandardEditActionsP", "animator"]
+- ["So30UIResponderStandardEditActionsP", "deinit"]
+- !private ["So30UIResponderStandardEditActionsP", "effect"]
+- ["So30UIResponderStandardEditActionsP", "init"]
+- ["So30UIResponderStandardEditActionsP", "layoutSubviews"]
+- ["So30UIResponderStandardEditActionsP", "radius"]
+- ["So30UIResponderStandardEditActionsP", "removeFromSuperview"]
+- ["So30UIResponderStandardEditActionsP", "setBlurRadius"]
+- ["So18UITraitEnvironmentP", "CGFloat"]
+- ["So18UITraitEnvironmentP", "UIBlurEffect"]
+- ["So18UITraitEnvironmentP", "UIViewPropertyAnimator"]
+- ["So18UITraitEnvironmentP", ""]
+- ["So18UITraitEnvironmentP", "animator"]
+- ["So18UITraitEnvironmentP", "deinit"]
+- !private ["So18UITraitEnvironmentP", "effect"]
+- ["So18UITraitEnvironmentP", "init"]
+- ["So18UITraitEnvironmentP", "layoutSubviews"]
+- ["So18UITraitEnvironmentP", "radius"]
+- ["So18UITraitEnvironmentP", "removeFromSuperview"]
+- ["So18UITraitEnvironmentP", "setBlurRadius"]
+- ["So23UIUserActivityRestoringP", "CGFloat"]
+- ["So23UIUserActivityRestoringP", "UIBlurEffect"]
+- ["So23UIUserActivityRestoringP", "UIViewPropertyAnimator"]
+- ["So23UIUserActivityRestoringP", ""]
+- ["So23UIUserActivityRestoringP", "animator"]
+- ["So23UIUserActivityRestoringP", "deinit"]
+- !private ["So23UIUserActivityRestoringP", "effect"]
+- ["So23UIUserActivityRestoringP", "init"]
+- ["So23UIUserActivityRestoringP", "layoutSubviews"]
+- ["So23UIUserActivityRestoringP", "radius"]
+- ["So23UIUserActivityRestoringP", "removeFromSuperview"]
+- ["So23UIUserActivityRestoringP", "setBlurRadius"]
+- ["So6UIViewC", "CGFloat"]
+- ["So6UIViewC", "UIBlurEffect"]
+- ["So6UIViewC", "UIViewPropertyAnimator"]
+- ["So6UIViewC", ""]
+- ["So6UIViewC", "animator"]
+- !private ["So6UIViewC", "effect"]
+- ["So6UIViewC", "init"]
+- ["So6UIViewC", "layoutSubviews"]
+- ["So6UIViewC", "radius"]
+- ["So6UIViewC", "removeFromSuperview"]
+- ["So6UIViewC", "setBlurRadius"]
+- ["So15UIViewAnimatingP", ""]
+- !private ["So15UIViewAnimatingP", "fractionComplete"]
+- !private ["So15UIViewAnimatingP", "init"]
+- !private ["So15UIViewAnimatingP", "state"]
+- !private ["So15UIViewAnimatingP", "stopAnimation"]
+- !private ["So20UIViewAnimatingStateV", "active"]
+- !private ["So25UIViewImplicitlyAnimatingP", "fractionComplete"]
+- !private ["So25UIViewImplicitlyAnimatingP", "init"]
+- !private ["So25UIViewImplicitlyAnimatingP", "state"]
+- !private ["So25UIViewImplicitlyAnimatingP", "stopAnimation"]
+- !private ["So22UIViewPropertyAnimatorC", "fractionComplete"]
+- !private ["So22UIViewPropertyAnimatorC", "init"]
+- !private ["So22UIViewPropertyAnimatorC", "state"]
+- !private ["So22UIViewPropertyAnimatorC", "stopAnimation"]
+- ["So14UIVisualEffectC", ""]
+- !private ["So14UIVisualEffectC", "none"]
+- ["So18UIVisualEffectViewC", "CGFloat"]
+- ["So18UIVisualEffectViewC", "UIBlurEffect"]
+- ["So18UIVisualEffectViewC", "UIViewPropertyAnimator"]
+- ["So18UIVisualEffectViewC", ""]
+- ["So18UIVisualEffectViewC", "animator"]
+- !private ["So18UIVisualEffectViewC", "effect"]
+- ["So18UIVisualEffectViewC", "init"]
+- ["So18UIVisualEffectViewC", "layoutSubviews"]
+- ["So18UIVisualEffectViewC", "radius"]
+- ["So18UIVisualEffectViewC", "removeFromSuperview"]
+- ["So18UIVisualEffectViewC", "setBlurRadius"]
+- !private ["7SwiftUI4ViewP", "active"]
+- !private ["7SwiftUI4ViewP", "none"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIViewPropertyAnimator"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "animator"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "effect"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fractionComplete"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "layoutSubviews"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "none"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "radius"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "removeFromSuperview"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setBlurRadius"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "state"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "stopAnimation"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIViewPropertyAnimator"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "animator"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "effect"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "fractionComplete"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "layoutSubviews"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "none"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "radius"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "removeFromSuperview"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "setBlurRadius"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "state"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "stopAnimation"]
+- !private ["s21_ObjectiveCBridgeableP", "active"]
+- !private ["s21_ObjectiveCBridgeableP", "none"]
+- !private ["s26_OptionalNilComparisonTypeV", "active"]
+- !private ["s26_OptionalNilComparisonTypeV", "none"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "UIViewPropertyAnimator"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", ""]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "animator"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "effect"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "layoutSubviews"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "radius"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "removeFromSuperview"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "setBlurRadius"]
+depends-nominal:
+- !private "So20UIViewAnimationCurveV"
+- "SK"
+- "26CollectionViewPagingLayout010BlurEffectB0C"
+- "So15CALayerDelegateP"
+- "s7CVarArgP"
+- "Sl"
+- "SL"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- "s32ExpressibleByStringInterpolationP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "7SwiftUI7GestureP"
+- "SH"
+- "s25LosslessStringConvertibleP"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So14NSSecureCodingP"
+- !private "Sq"
+- !private "SY"
+- "ST"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So20UIFocusItemContainerP"
+- "So24UILargeContentViewerItemP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- "So15UIViewAnimatingP"
+- !private "So20UIViewAnimatingStateV"
+- !private "So25UIViewImplicitlyAnimatingP"
+- !private "So22UIViewPropertyAnimatorC"
+- "So14UIVisualEffectC"
+- "So18UIVisualEffectViewC"
+- !private "7SwiftUI4ViewP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s33_ExpressibleByBuiltinFloatLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s26_OptionalNilComparisonTypeV"
+- "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftUI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/os.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UniformTypeIdentifiers.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CloudKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/DeveloperToolsSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/sapientisat/Projects/Supplements/Supplements/Pods/Target Support Files/CollectionViewPagingLayout/CollectionViewPagingLayout-umbrella.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CollectionViewPagingLayout.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UniformTypeIdentifiers.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "f90392a6bf3ea903b2bb1f25b476339f"

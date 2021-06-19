@@ -73,7 +73,7 @@ depends-member:
 - ["s18AdditiveArithmeticP", ""]
 - !private ["9Alamofire0A8ExtendedP", "main"]
 - !private ["9Alamofire0A8ExtendedP", "url"]
-- ["SK", ""]
+- !private ["SK", ""]
 - !private ["So8NSBundleC", "main"]
 - !private ["So8NSBundleC", "url"]
 - !private ["So7CALayerC", "cornerRadius"]
@@ -279,7 +279,7 @@ depends-member:
 - ["15CalendarHeatmap0aB8DelegateP", "viewDidLoad"]
 - ["15CalendarHeatmap0aB8DelegateP", "viewForZooming"]
 - ["15CalendarHeatmap0aB8DelegateP", "viewForZoomingInScrollView"]
-- ["Sl", ""]
+- !private ["Sl", ""]
 - ["Sl", "mapValues"]
 - !private ["Sl", "subscript"]
 - ["SL", ""]
@@ -650,7 +650,7 @@ depends-member:
 - ["s30ExpressibleByDictionaryLiteralP", "init"]
 - ["s30ExpressibleByDictionaryLiteralP", "mapValues"]
 - !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
-- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
 - !private ["s25ExpressibleByFloatLiteralP", "FloatLiteralType"]
 - ["s25ExpressibleByFloatLiteralP", ""]
 - !private ["s25ExpressibleByFloatLiteralP", "init"]
@@ -664,10 +664,10 @@ depends-member:
 - !private ["s23ExpressibleByNilLiteralP", "trailingAnchor"]
 - !private ["s23ExpressibleByNilLiteralP", "white"]
 - !private ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
-- ["s32ExpressibleByStringInterpolationP", ""]
+- !private ["s32ExpressibleByStringInterpolationP", ""]
 - !private ["s32ExpressibleByStringInterpolationP", "init"]
-- ["s26ExpressibleByStringLiteralP", ""]
-- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["s26ExpressibleByStringLiteralP", ""]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", ""]
 - ["SF", ""]
 - ["So11NSFormatterC", ""]
 - ["So11NSFormatterC", "init"]
@@ -799,7 +799,7 @@ depends-member:
 - !private ["7SnapKit20LayoutConstraintItemP", "trailingAnchor"]
 - !private ["7SnapKit20LayoutConstraintItemP", "translatesAutoresizingMaskIntoConstraints"]
 - !private ["7SnapKit20LayoutConstraintItemP", "weekLabel"]
-- ["s25LosslessStringConvertibleP", ""]
+- !private ["s25LosslessStringConvertibleP", ""]
 - ["So8NSCodingP", "$__lazy_storage_$_calendarHeatMap"]
 - ["So8NSCodingP", "$__lazy_storage_$_data"]
 - ["So8NSCodingP", "$__lazy_storage_$_model"]
@@ -1388,10 +1388,10 @@ depends-member:
 - !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
 - !private ["s27StringInterpolationProtocolP", "appendLiteral"]
 - !private ["s27StringInterpolationProtocolP", "init"]
-- ["s16TextOutputStreamP", ""]
+- !private ["s16TextOutputStreamP", ""]
 - !private ["s16TextOutputStreamP", "appendInterpolation"]
 - !private ["s16TextOutputStreamP", "appendLiteral"]
-- ["s20TextOutputStreamableP", ""]
+- !private ["s20TextOutputStreamableP", ""]
 - ["11Supplements10TodayModelC", "init"]
 - !private ["11Supplements19TodayViewControllerC", "$__lazy_storage_$_calendarHeatMap"]
 - !private ["11Supplements19TodayViewControllerC", "$__lazy_storage_$_data"]
@@ -2912,11 +2912,11 @@ depends-member:
 - !private ["7SwiftUI4ViewP", "white"]
 - ["s30_CustomPlaygroundQuickLookableP", "init"]
 - ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
-- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
 - !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
 - ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
 - ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
-- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
 - !private ["s26_ExpressibleByColorLiteralP", "clear"]
 - ["s26_ExpressibleByColorLiteralP", "init"]
 - ["s26_ExpressibleByColorLiteralP", "white"]
@@ -3150,7 +3150,7 @@ depends-member:
 depends-nominal:
 - "s18AdditiveArithmeticP"
 - !private "9Alamofire0A8ExtendedP"
-- "SK"
+- !private "SK"
 - !private "So8NSBundleC"
 - !private "So7CALayerC"
 - "So15CALayerDelegateP"
@@ -3176,19 +3176,19 @@ depends-nominal:
 - "SQ"
 - !private "s25ExpressibleByArrayLiteralP"
 - "s30ExpressibleByDictionaryLiteralP"
-- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
 - "s25ExpressibleByFloatLiteralP"
 - "s27ExpressibleByIntegerLiteralP"
 - !private "s23ExpressibleByNilLiteralP"
-- "s32ExpressibleByStringInterpolationP"
-- "s26ExpressibleByStringLiteralP"
-- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
 - "SF"
 - "So11NSFormatterC"
 - !private "7SwiftUI7GestureP"
 - "SH"
 - "7SnapKit20LayoutConstraintItemP"
-- "s25LosslessStringConvertibleP"
+- !private "s25LosslessStringConvertibleP"
 - "So8NSCodingP"
 - "So9NSCopyingP"
 - !private "So12NSDictionaryC"
@@ -3219,8 +3219,8 @@ depends-nominal:
 - "s13SignedNumericP"
 - "Sx"
 - !private "s27StringInterpolationProtocolP"
-- "s16TextOutputStreamP"
-- "s20TextOutputStreamableP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
 - "11Supplements10TodayModelC"
 - "11Supplements19TodayViewControllerC"
 - !private "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
@@ -3270,11 +3270,11 @@ depends-nominal:
 - !private "7SwiftUI4ViewP"
 - "s30_CustomPlaygroundQuickLookableP"
 - "s35_ExpressibleByBuiltinBooleanLiteralP"
-- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
 - !private "s33_ExpressibleByBuiltinFloatLiteralP"
 - "s35_ExpressibleByBuiltinIntegerLiteralP"
 - "s34_ExpressibleByBuiltinStringLiteralP"
-- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
 - "s26_ExpressibleByColorLiteralP"
 - !private "s26_ExpressibleByImageLiteralP"
 - "s35_HasCustomAnyHashableRepresentationP"

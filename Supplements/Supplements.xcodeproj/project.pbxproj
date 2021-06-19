@@ -204,8 +204,8 @@
 		AA851C44267D08D500809A47 /* Supplements */ = {
 			isa = PBXGroup;
 			children = (
-				AA851D0E267E60D400809A47 /* Deficit */,
 				AA851C45267D08D500809A47 /* AppDelegate.swift */,
+				AA851D0E267E60D400809A47 /* Deficit */,
 				AA851CAA267D318700809A47 /* Symptoms */,
 				AA851C72267D0DF700809A47 /* Login */,
 				AA851C6B267D0DE000809A47 /* Form */,
