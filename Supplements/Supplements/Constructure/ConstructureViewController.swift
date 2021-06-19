@@ -43,9 +43,10 @@ class ConstructureViewController: UIViewController {
         priceLabel.text = "\(price) р/мес"
         priceLabel.textAlignment = .center
 		priceLabel.textColor = .white
-		priceLabel.layer.cornerRadius = 10
+		priceLabel.layer.cornerRadius = 14
 		priceLabel.clipsToBounds = true
         
+
         priceLabel.backgroundColor = UIColor(red: 1, green: 1, blue: 1, alpha: 0.3)
         NSLayoutConstraint.activate([
             priceLabel.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 40),
@@ -54,12 +55,6 @@ class ConstructureViewController: UIViewController {
             priceLabel.widthAnchor.constraint(equalToConstant: 160)
         ])
 
-    }
-    @objc func addButtonClick() {
-        print("123")
-    }
-    @objc func analogButtonClick() {
-        print("123")
     }
     private func setUptableView() {
         tableView.translatesAutoresizingMaskIntoConstraints = false
@@ -104,17 +99,37 @@ extension ConstructureViewController: UITableViewDataSource {
 		headerView.backgroundColor = UIColor.clear
 		return headerView
 	}
+
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "ConstructureTableViewCell", for: indexPath) as! ConstructureTableViewCell
         cell.logoPillImageView.image = UIImage(named: "vitaminImage")
         cell.vitaminNameLabel.text = "Витамин С"
-//        cell.priceLabel.text = "1 200 р/мес"
+        cell.priceLabel.text = "1200"
         cell.percentageLabel.text = "80%"
         cell.descriptionLabel.text = "California Gold Nutrition, Gold C, витамин C, 1000 мг, 60 вегетарианских капсул"
-        cell.addButton.addTarget(self, action: #selector(addButtonClick), for: .touchUpInside)
-        cell.analogsButton.addTarget(self, action: #selector(analogButtonClick), for: .touchUpInside)
+        cell.addButton.addTarget(cell, action: #selector(cell.addButtonClick), for: .touchUpInside)
+        cell.addDelegate = self
+        cell.analogDelegate = self
+        cell.analogsButton.addTarget(cell, action: #selector(cell.analogButtonClick), for: .touchUpInside)
         return cell
+    }
+    func addPrice(cell: ConstructureTableViewCell) {
+        if cell.addButton.currentTitle == "Добавить" {
+            price += Int(cell.priceLabel.text ?? "0") ?? 0
+            priceLabel.text = String("\(price) р/мес")
+            cell.addButton.setTitle("Убрать", for: .normal)
+            cell.addButton.backgroundColor = .red
+        } else  if cell.addButton.currentTitle == "Убрать" {
+            price -= Int(cell.priceLabel.text ?? "0") ?? 0
+            priceLabel.text = String("\(price) р/мес")
+            cell.addButton.setTitle("Добавить", for: .normal)
+            cell.addButton.backgroundColor = UIColor(red: 174/255, green: 232/255, blue: 128/255, alpha: 1)
+        }
+        
+    }
+    func analogShow(cell: ConstructureTableViewCell) {
+        print("suka")
     }
     
 }

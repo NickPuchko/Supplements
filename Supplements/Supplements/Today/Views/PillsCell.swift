@@ -43,7 +43,7 @@ class PillsCell: UITableViewCell {
         NSLayoutConstraint.activate([
             logoImageView.centerYAnchor.constraint(equalTo: centerYAnchor),
             logoImageView.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 20),
-            logoImageView.heightAnchor.constraint(equalToConstant: 56),
+            logoImageView.heightAnchor.constraint(equalToConstant: 54),
             logoImageView.widthAnchor.constraint(equalTo: logoImageView.heightAnchor),
         ])
         NSLayoutConstraint.activate([
