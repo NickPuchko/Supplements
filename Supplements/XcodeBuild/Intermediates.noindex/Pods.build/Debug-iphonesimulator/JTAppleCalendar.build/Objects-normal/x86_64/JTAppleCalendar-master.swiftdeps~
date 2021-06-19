@@ -1,6 +1,6 @@
 version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
 options: "ba8a90b42ea7980245e6ea9a505a4c41"
-build_time: [1624091330, 764050000]
+build_time: [1624092289, 486925000]
 inputs:
   "/Users/sapientisat/Projects/Supplements/Supplements/Pods/JTAppleCalendar/Sources/JTAppleCalendar/CalendarEnums.swift": [1624090229, 7766841]
   "/Users/sapientisat/Projects/Supplements/Supplements/Pods/JTAppleCalendar/Sources/JTAppleCalendar/CalendarStructs.swift": [1624090229, 7976656]

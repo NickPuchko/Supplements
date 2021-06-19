@@ -61,6 +61,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
 //			print(result)
 //		}
         let symptomsViewController = SymptomsViewController()
+
 //        let vc2 = SecondViewController()
 //        let vc3 = ThirdViewController()
 //        let tabbarVC = UITabBarController()

@@ -1,6 +1,6 @@
 version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
 options: "aca57b0ee9bf35d73d6f05c0982a8a06"
-build_time: [1624091330, 792493000]
+build_time: [1624092289, 486673000]
 inputs:
   "/Users/sapientisat/Projects/Supplements/Supplements/Pods/CalendarHeatmap/CalendarHeatmap/Classes/CalendarHeatmap.swift": [1624090229, 130865]
   "/Users/sapientisat/Projects/Supplements/Supplements/Pods/CalendarHeatmap/CalendarHeatmap/Classes/CalendarHeatmapCell.swift": [1624090229, 307988]

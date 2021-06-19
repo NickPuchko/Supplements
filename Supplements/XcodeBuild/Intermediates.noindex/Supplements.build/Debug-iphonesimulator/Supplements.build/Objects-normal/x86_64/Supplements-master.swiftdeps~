@@ -1,6 +1,6 @@
 version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
 options: "17883ce70cd92c1b2ef17fbefca0e75c"
-build_time: [1624098201, 702321000]
+build_time: [1624098257, 839254000]
 inputs:
   "/Users/sapientisat/Projects/Supplements/Supplements/Supplements/Login/LoginModel.swift": [1624036799, 628053177]
   "/Users/sapientisat/Projects/Supplements/Supplements/Supplements/Symptoms/QuestionsCollectionViewController.swift": [1624098201, 541990041]
@@ -22,5 +22,5 @@ inputs:
   "/Users/sapientisat/Projects/Supplements/Supplements/Supplements/Symptoms/SymptomsViewController.swift": [1624097151, 220124709]
   "/Users/sapientisat/Projects/Supplements/Supplements/Supplements/Today/tableViewModel.swift": [1624090229, 22066221]
   "/Users/sapientisat/Projects/Supplements/Supplements/Supplements/Constants.swift": [1624097250, 475851146]
-  "/Users/sapientisat/Projects/Supplements/Supplements/Supplements/Symptoms/QuestionCell.swift": [1624098122, 840227340]
+  "/Users/sapientisat/Projects/Supplements/Supplements/Supplements/Symptoms/QuestionCell.swift": [1624098257, 694307241]
   "/Users/sapientisat/Projects/Supplements/Supplements/Supplements/Today/Views/PillsCell.swift": [1624090229, 21780793]
