@@ -60,7 +60,7 @@ depends-member:
 - !private ["Sa", "count"]
 - !private ["Sa", "enumerated"]
 - !private ["Sa", "init"]
-- ["SK", ""]
+- !private ["SK", ""]
 - !private ["SK", "append"]
 - !private ["SK", "count"]
 - !private ["SK", "enumerated"]
@@ -71,9 +71,8 @@ depends-member:
 - ["So15CALayerDelegateP", "$__lazy_storage_$_headerLabel"]
 - ["So15CALayerDelegateP", "$__lazy_storage_$_indexLabel"]
 - ["So15CALayerDelegateP", "$__lazy_storage_$_questionsViewController"]
-- ["So15CALayerDelegateP", "CGRect"]
+- !private ["So15CALayerDelegateP", "CGRect"]
 - !private ["So15CALayerDelegateP", "Fonts"]
-- ["So15CALayerDelegateP", "NSCoder"]
 - ["So15CALayerDelegateP", "Page"]
 - ["So15CALayerDelegateP", "QuestionsCollectionViewController"]
 - ["So15CALayerDelegateP", "StackTransformViewOptions"]
@@ -169,14 +168,14 @@ depends-member:
 - !private ["s7CVarArgP", "values"]
 - !private ["s7CVarArgP", "white"]
 - ["s7CVarArgP", "zPosition"]
-- ["Sl", ""]
+- !private ["Sl", ""]
 - !private ["Sl", "append"]
 - !private ["Sl", "count"]
 - !private ["Sl", "enumerated"]
 - !private ["Sl", "init"]
 - !private ["Sl", "keys"]
 - !private ["Sl", "values"]
-- ["SL", ""]
+- !private ["SL", ""]
 - !private ["SL", "append"]
 - !private ["SL", "description"]
 - !private ["7SnapKit23ConstraintAttributesDSLP", "bottom"]
@@ -480,7 +479,7 @@ depends-member:
 - ["s30ExpressibleByDictionaryLiteralP", "init"]
 - !private ["s30ExpressibleByDictionaryLiteralP", "keys"]
 - !private ["s30ExpressibleByDictionaryLiteralP", "values"]
-- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "append"]
 - ["s25ExpressibleByFloatLiteralP", "FloatLiteralType"]
 - !private ["s25ExpressibleByFloatLiteralP", ""]
@@ -496,12 +495,12 @@ depends-member:
 - !private ["s23ExpressibleByNilLiteralP", "snp"]
 - !private ["s23ExpressibleByNilLiteralP", "white"]
 - !private ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
-- ["s32ExpressibleByStringInterpolationP", ""]
+- !private ["s32ExpressibleByStringInterpolationP", ""]
 - !private ["s32ExpressibleByStringInterpolationP", "append"]
 - !private ["s32ExpressibleByStringInterpolationP", "init"]
-- ["s26ExpressibleByStringLiteralP", ""]
+- !private ["s26ExpressibleByStringLiteralP", ""]
 - !private ["s26ExpressibleByStringLiteralP", "append"]
-- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", ""]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "append"]
 - !private ["s17FixedWidthIntegerP", "description"]
 - !private ["SF", ""]
@@ -595,7 +594,7 @@ depends-member:
 - !private ["7SnapKit20LayoutConstraintItemP", "textColor"]
 - ["7SnapKit20LayoutConstraintItemP", "transform"]
 - ["7SnapKit20LayoutConstraintItemP", "zPosition"]
-- ["s25LosslessStringConvertibleP", ""]
+- !private ["s25LosslessStringConvertibleP", ""]
 - !private ["s25LosslessStringConvertibleP", "append"]
 - !private ["s25LosslessStringConvertibleP", "description"]
 - !private ["s10MirrorPathP", "append"]
@@ -612,9 +611,8 @@ depends-member:
 - ["So8NSCodingP", "$__lazy_storage_$_headerLabel"]
 - ["So8NSCodingP", "$__lazy_storage_$_indexLabel"]
 - ["So8NSCodingP", "$__lazy_storage_$_questionsViewController"]
-- ["So8NSCodingP", "CGRect"]
+- !private ["So8NSCodingP", "CGRect"]
 - !private ["So8NSCodingP", "Fonts"]
-- ["So8NSCodingP", "NSCoder"]
 - ["So8NSCodingP", "Page"]
 - ["So8NSCodingP", "QuestionsCollectionViewController"]
 - ["So8NSCodingP", "StackTransformViewOptions"]
@@ -726,7 +724,7 @@ depends-member:
 - ["So8NSObjectP", "$__lazy_storage_$_headerLabel"]
 - ["So8NSObjectP", "$__lazy_storage_$_indexLabel"]
 - ["So8NSObjectP", "$__lazy_storage_$_questionsViewController"]
-- ["So8NSObjectP", "CGRect"]
+- !private ["So8NSObjectP", "CGRect"]
 - !private ["So8NSObjectP", "Fonts"]
 - ["So8NSObjectP", "Page"]
 - ["So8NSObjectP", "QuestionsCollectionViewController"]
@@ -837,7 +835,7 @@ depends-member:
 - !private ["s10SIMDScalarP", "description"]
 - !private ["ST", "Element"]
 - !private ["ST", "Iterator"]
-- ["ST", ""]
+- !private ["ST", ""]
 - !private ["ST", "append"]
 - !private ["ST", "count"]
 - !private ["ST", "enumerated"]
@@ -885,11 +883,11 @@ depends-member:
 - ["So17UIBlurEffectStyleV", "light"]
 - ["26CollectionViewPagingLayout17SummableToCGFloatP", "init"]
 - ["26CollectionViewPagingLayout14SummableToSelfP", "init"]
-- ["s16TextOutputStreamP", ""]
+- !private ["s16TextOutputStreamP", ""]
 - !private ["s16TextOutputStreamP", "append"]
 - !private ["s16TextOutputStreamP", "appendInterpolation"]
 - !private ["s16TextOutputStreamP", "appendLiteral"]
-- ["s20TextOutputStreamableP", ""]
+- !private ["s20TextOutputStreamableP", ""]
 - !private ["s20TextOutputStreamableP", "append"]
 - !private ["26CollectionViewPagingLayout013TransformableB0P", "CGRect"]
 - !private ["26CollectionViewPagingLayout013TransformableB0P", "Fonts"]
@@ -917,9 +915,8 @@ depends-member:
 - ["So29UIAccessibilityIdentificationP", "$__lazy_storage_$_headerLabel"]
 - ["So29UIAccessibilityIdentificationP", "$__lazy_storage_$_indexLabel"]
 - ["So29UIAccessibilityIdentificationP", "$__lazy_storage_$_questionsViewController"]
-- ["So29UIAccessibilityIdentificationP", "CGRect"]
+- !private ["So29UIAccessibilityIdentificationP", "CGRect"]
 - !private ["So29UIAccessibilityIdentificationP", "Fonts"]
-- ["So29UIAccessibilityIdentificationP", "NSCoder"]
 - ["So29UIAccessibilityIdentificationP", "Page"]
 - ["So29UIAccessibilityIdentificationP", "QuestionsCollectionViewController"]
 - ["So29UIAccessibilityIdentificationP", "StackTransformViewOptions"]
@@ -959,9 +956,8 @@ depends-member:
 - ["So12UIAppearanceP", "$__lazy_storage_$_headerLabel"]
 - ["So12UIAppearanceP", "$__lazy_storage_$_indexLabel"]
 - ["So12UIAppearanceP", "$__lazy_storage_$_questionsViewController"]
-- ["So12UIAppearanceP", "CGRect"]
+- !private ["So12UIAppearanceP", "CGRect"]
 - !private ["So12UIAppearanceP", "Fonts"]
-- ["So12UIAppearanceP", "NSCoder"]
 - ["So12UIAppearanceP", "Page"]
 - ["So12UIAppearanceP", "QuestionsCollectionViewController"]
 - ["So12UIAppearanceP", "StackTransformViewOptions"]
@@ -1001,9 +997,8 @@ depends-member:
 - ["So21UIAppearanceContainerP", "$__lazy_storage_$_headerLabel"]
 - ["So21UIAppearanceContainerP", "$__lazy_storage_$_indexLabel"]
 - ["So21UIAppearanceContainerP", "$__lazy_storage_$_questionsViewController"]
-- ["So21UIAppearanceContainerP", "CGRect"]
+- !private ["So21UIAppearanceContainerP", "CGRect"]
 - !private ["So21UIAppearanceContainerP", "Fonts"]
-- ["So21UIAppearanceContainerP", "NSCoder"]
 - ["So21UIAppearanceContainerP", "Page"]
 - ["So21UIAppearanceContainerP", "QuestionsCollectionViewController"]
 - ["So21UIAppearanceContainerP", "StackTransformViewOptions"]
@@ -1139,9 +1134,8 @@ depends-member:
 - ["So17UICoordinateSpaceP", "$__lazy_storage_$_headerLabel"]
 - ["So17UICoordinateSpaceP", "$__lazy_storage_$_indexLabel"]
 - ["So17UICoordinateSpaceP", "$__lazy_storage_$_questionsViewController"]
-- ["So17UICoordinateSpaceP", "CGRect"]
+- !private ["So17UICoordinateSpaceP", "CGRect"]
 - !private ["So17UICoordinateSpaceP", "Fonts"]
-- ["So17UICoordinateSpaceP", "NSCoder"]
 - ["So17UICoordinateSpaceP", "Page"]
 - ["So17UICoordinateSpaceP", "QuestionsCollectionViewController"]
 - ["So17UICoordinateSpaceP", "StackTransformViewOptions"]
@@ -1183,9 +1177,8 @@ depends-member:
 - ["So13UIDynamicItemP", "$__lazy_storage_$_headerLabel"]
 - ["So13UIDynamicItemP", "$__lazy_storage_$_indexLabel"]
 - ["So13UIDynamicItemP", "$__lazy_storage_$_questionsViewController"]
-- ["So13UIDynamicItemP", "CGRect"]
+- !private ["So13UIDynamicItemP", "CGRect"]
 - !private ["So13UIDynamicItemP", "Fonts"]
-- ["So13UIDynamicItemP", "NSCoder"]
 - ["So13UIDynamicItemP", "Page"]
 - ["So13UIDynamicItemP", "QuestionsCollectionViewController"]
 - ["So13UIDynamicItemP", "StackTransformViewOptions"]
@@ -1225,9 +1218,8 @@ depends-member:
 - ["So18UIFocusEnvironmentP", "$__lazy_storage_$_headerLabel"]
 - ["So18UIFocusEnvironmentP", "$__lazy_storage_$_indexLabel"]
 - ["So18UIFocusEnvironmentP", "$__lazy_storage_$_questionsViewController"]
-- ["So18UIFocusEnvironmentP", "CGRect"]
+- !private ["So18UIFocusEnvironmentP", "CGRect"]
 - !private ["So18UIFocusEnvironmentP", "Fonts"]
-- ["So18UIFocusEnvironmentP", "NSCoder"]
 - ["So18UIFocusEnvironmentP", "Page"]
 - ["So18UIFocusEnvironmentP", "QuestionsCollectionViewController"]
 - ["So18UIFocusEnvironmentP", "StackTransformViewOptions"]
@@ -1270,9 +1262,8 @@ depends-member:
 - ["So11UIFocusItemP", "$__lazy_storage_$_headerLabel"]
 - ["So11UIFocusItemP", "$__lazy_storage_$_indexLabel"]
 - ["So11UIFocusItemP", "$__lazy_storage_$_questionsViewController"]
-- ["So11UIFocusItemP", "CGRect"]
+- !private ["So11UIFocusItemP", "CGRect"]
 - !private ["So11UIFocusItemP", "Fonts"]
-- ["So11UIFocusItemP", "NSCoder"]
 - ["So11UIFocusItemP", "Page"]
 - ["So11UIFocusItemP", "QuestionsCollectionViewController"]
 - ["So11UIFocusItemP", "StackTransformViewOptions"]
@@ -1312,9 +1303,8 @@ depends-member:
 - ["So20UIFocusItemContainerP", "$__lazy_storage_$_headerLabel"]
 - ["So20UIFocusItemContainerP", "$__lazy_storage_$_indexLabel"]
 - ["So20UIFocusItemContainerP", "$__lazy_storage_$_questionsViewController"]
-- ["So20UIFocusItemContainerP", "CGRect"]
+- !private ["So20UIFocusItemContainerP", "CGRect"]
 - !private ["So20UIFocusItemContainerP", "Fonts"]
-- ["So20UIFocusItemContainerP", "NSCoder"]
 - ["So20UIFocusItemContainerP", "Page"]
 - ["So20UIFocusItemContainerP", "QuestionsCollectionViewController"]
 - ["So20UIFocusItemContainerP", "StackTransformViewOptions"]
@@ -1362,9 +1352,8 @@ depends-member:
 - ["So24UILargeContentViewerItemP", "$__lazy_storage_$_headerLabel"]
 - ["So24UILargeContentViewerItemP", "$__lazy_storage_$_indexLabel"]
 - ["So24UILargeContentViewerItemP", "$__lazy_storage_$_questionsViewController"]
-- ["So24UILargeContentViewerItemP", "CGRect"]
+- !private ["So24UILargeContentViewerItemP", "CGRect"]
 - !private ["So24UILargeContentViewerItemP", "Fonts"]
-- ["So24UILargeContentViewerItemP", "NSCoder"]
 - ["So24UILargeContentViewerItemP", "Page"]
 - ["So24UILargeContentViewerItemP", "QuestionsCollectionViewController"]
 - ["So24UILargeContentViewerItemP", "StackTransformViewOptions"]
@@ -1405,7 +1394,7 @@ depends-member:
 - ["So30UIPasteConfigurationSupportingP", "$__lazy_storage_$_headerLabel"]
 - ["So30UIPasteConfigurationSupportingP", "$__lazy_storage_$_indexLabel"]
 - ["So30UIPasteConfigurationSupportingP", "$__lazy_storage_$_questionsViewController"]
-- ["So30UIPasteConfigurationSupportingP", "CGRect"]
+- !private ["So30UIPasteConfigurationSupportingP", "CGRect"]
 - !private ["So30UIPasteConfigurationSupportingP", "Fonts"]
 - ["So30UIPasteConfigurationSupportingP", "Page"]
 - ["So30UIPasteConfigurationSupportingP", "QuestionsCollectionViewController"]
@@ -1493,7 +1482,7 @@ depends-member:
 - ["So30UIResponderStandardEditActionsP", "$__lazy_storage_$_headerLabel"]
 - ["So30UIResponderStandardEditActionsP", "$__lazy_storage_$_indexLabel"]
 - ["So30UIResponderStandardEditActionsP", "$__lazy_storage_$_questionsViewController"]
-- ["So30UIResponderStandardEditActionsP", "CGRect"]
+- !private ["So30UIResponderStandardEditActionsP", "CGRect"]
 - !private ["So30UIResponderStandardEditActionsP", "Fonts"]
 - ["So30UIResponderStandardEditActionsP", "Page"]
 - ["So30UIResponderStandardEditActionsP", "QuestionsCollectionViewController"]
@@ -1552,9 +1541,8 @@ depends-member:
 - ["So18UITraitEnvironmentP", "$__lazy_storage_$_headerLabel"]
 - ["So18UITraitEnvironmentP", "$__lazy_storage_$_indexLabel"]
 - ["So18UITraitEnvironmentP", "$__lazy_storage_$_questionsViewController"]
-- ["So18UITraitEnvironmentP", "CGRect"]
+- !private ["So18UITraitEnvironmentP", "CGRect"]
 - !private ["So18UITraitEnvironmentP", "Fonts"]
-- ["So18UITraitEnvironmentP", "NSCoder"]
 - ["So18UITraitEnvironmentP", "Page"]
 - ["So18UITraitEnvironmentP", "QuestionsCollectionViewController"]
 - ["So18UITraitEnvironmentP", "StackTransformViewOptions"]
@@ -1597,7 +1585,7 @@ depends-member:
 - ["So23UIUserActivityRestoringP", "$__lazy_storage_$_headerLabel"]
 - ["So23UIUserActivityRestoringP", "$__lazy_storage_$_indexLabel"]
 - ["So23UIUserActivityRestoringP", "$__lazy_storage_$_questionsViewController"]
-- ["So23UIUserActivityRestoringP", "CGRect"]
+- !private ["So23UIUserActivityRestoringP", "CGRect"]
 - !private ["So23UIUserActivityRestoringP", "Fonts"]
 - ["So23UIUserActivityRestoringP", "Page"]
 - ["So23UIUserActivityRestoringP", "QuestionsCollectionViewController"]
@@ -1704,14 +1692,14 @@ depends-member:
 - !private ["s24_DestructorSafeContainerP", "enumerated"]
 - !private ["s24_DestructorSafeContainerP", "init"]
 - ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
-- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
 - !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "append"]
 - ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
 - !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "description"]
 - ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
 - !private ["s34_ExpressibleByBuiltinStringLiteralP", "append"]
 - !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
-- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
 - !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "append"]
 - ["s26_ExpressibleByColorLiteralP", "black"]
 - !private ["s26_ExpressibleByColorLiteralP", "white"]
@@ -1870,7 +1858,7 @@ depends-nominal:
 - !private "9Alamofire0A8ExtendedP"
 - "7SwiftUI10AnimatableP"
 - !private "Sa"
-- "SK"
+- !private "SK"
 - !private "Sz"
 - !private "So7CALayerC"
 - "So15CALayerDelegateP"
@@ -1880,8 +1868,8 @@ depends-nominal:
 - "So6CGSizeV"
 - !private "8CloudKit21CKRecordValueProtocolP"
 - "s7CVarArgP"
-- "Sl"
-- "SL"
+- !private "Sl"
+- !private "SL"
 - !private "7SnapKit23ConstraintAttributesDSLP"
 - !private "7SnapKit28ConstraintBasicAttributesDSLP"
 - "7SnapKit24ConstraintConstantTargetP"
@@ -1911,13 +1899,13 @@ depends-nominal:
 - "SQ"
 - !private "s25ExpressibleByArrayLiteralP"
 - "s30ExpressibleByDictionaryLiteralP"
-- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
 - "s25ExpressibleByFloatLiteralP"
 - !private "s27ExpressibleByIntegerLiteralP"
 - !private "s23ExpressibleByNilLiteralP"
-- "s32ExpressibleByStringInterpolationP"
-- "s26ExpressibleByStringLiteralP"
-- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
 - !private "s17FixedWidthIntegerP"
 - !private "SF"
 - !private "11Supplements5FontsO"
@@ -1925,7 +1913,7 @@ depends-nominal:
 - "SH"
 - !private "Si"
 - "7SnapKit20LayoutConstraintItemP"
-- "s25LosslessStringConvertibleP"
+- !private "s25LosslessStringConvertibleP"
 - !private "s10MirrorPathP"
 - "26CollectionViewPagingLayout21MultipliableToCGFloatP"
 - "26CollectionViewPagingLayout18MultipliableToSelfP"
@@ -1950,7 +1938,7 @@ depends-nominal:
 - !private "Sm"
 - "SY"
 - !private "s10SIMDScalarP"
-- "ST"
+- !private "ST"
 - !private "SZ"
 - !private "s13SignedNumericP"
 - "26CollectionViewPagingLayout014StackTransformB0P"
@@ -1962,8 +1950,8 @@ depends-nominal:
 - "So17UIBlurEffectStyleV"
 - "26CollectionViewPagingLayout17SummableToCGFloatP"
 - "26CollectionViewPagingLayout14SummableToSelfP"
-- "s16TextOutputStreamP"
-- "s20TextOutputStreamableP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
 - "26CollectionViewPagingLayout013TransformableB0P"
 - "So29UIAccessibilityIdentificationP"
 - "So12UIAppearanceP"
@@ -2005,11 +1993,11 @@ depends-nominal:
 - "s30_CustomPlaygroundQuickLookableP"
 - !private "s24_DestructorSafeContainerP"
 - "s35_ExpressibleByBuiltinBooleanLiteralP"
-- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
 - "s33_ExpressibleByBuiltinFloatLiteralP"
 - "s35_ExpressibleByBuiltinIntegerLiteralP"
 - !private "s34_ExpressibleByBuiltinStringLiteralP"
-- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
 - "s26_ExpressibleByColorLiteralP"
 - !private "7SwiftUI18_FormatSpecifiableP"
 - !private "s19_HasContiguousBytesP"
