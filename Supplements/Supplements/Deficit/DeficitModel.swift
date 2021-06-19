@@ -16,7 +16,7 @@ class DeficitModel {
 	init(_ viewController: DeficitViewController) {
 		self.viewController = viewController
     }
-    
+
 }
 
 struct Deficit: Codable {

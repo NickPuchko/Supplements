@@ -10,23 +10,25 @@ import Foundation
 import UIKit
 import SnapKit
 class ContentView: UIView {
+
+	weak var viewController: FormViewController!
     
-    private let birthDateLabel = UILabel()
-    private let birthDateTextField = CustomTextField()
-    private let genderLabel = UILabel()
+     let birthDateLabel = UILabel()
+     let birthDateTextField = CustomTextField()
+     let genderLabel = UILabel()
     lazy var sex = UISegmentedControl(items: sexList)
     var sexList: [String] = Sex.allCases.map{ $0.rawValue }
-    private let heightLabel = UILabel()
-    private let heightTextField = CustomTextField()
-    private let weightLabel = UILabel()
-    private let weightTextField = CustomTextField()
+     let heightLabel = UILabel()
+     let heightTextField = CustomTextField()
+     let weightLabel = UILabel()
+     let weightTextField = CustomTextField()
     
-    private let cityLabel = UILabel()
-    private let cityTextField = CustomTextField()
-    private let buttonOnNext = UIButton()
-    private let datePicker = UIDatePicker()
-    private lazy var iherbImageView = UIImageView(image: UIImage(named: "companyLogo.png"))
-    private let descriptionLabel = UILabel()
+     let cityLabel = UILabel()
+     let cityTextField = CustomTextField()
+     let buttonOnNext = UIButton()
+     let datePicker = UIDatePicker()
+     lazy var iherbImageView = UIImageView(image: UIImage(named: "companyLogo.png"))
+     let descriptionLabel = UILabel()
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -157,6 +159,7 @@ class ContentView: UIView {
         ])
     }
     private func configureButton() {
+		buttonOnNext.addTarget(viewController, action: #selector(viewController.showSymptomsViewController), for: .touchUpInside)
         addSubview(buttonOnNext)
         buttonOnNext.isEnabled = false
         buttonOnNext.setTitle("Продолжить", for: .normal)
@@ -170,8 +173,9 @@ class ContentView: UIView {
             buttonOnNext.heightAnchor.constraint(equalToConstant: 48)
         ])
     }
+
+
     @objc func editingChanged(_ textField: UITextField) {
-    
         if (birthDateLabel.text != "" && heightTextField.text != "" && weightTextField.text != "" && cityTextField.text != "") {
             buttonOnNext.backgroundColor = UIColor(red: 118/255, green: 185/255, blue: 46/255, alpha: 1)
             buttonOnNext.isEnabled = true

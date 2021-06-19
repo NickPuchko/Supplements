@@ -14,6 +14,17 @@ import LinearProgressView
 
 
 class SymptomsViewController: UIViewController {
+
+	init(_ rowData: RowData) {
+		super.init(nibName: nil, bundle: nil)
+		model.rowData = rowData
+		(UIApplication.shared.delegate as! AppDelegate).symptomsModel = model
+	}
+
+	required init?(coder: NSCoder) {
+		fatalError("init(coder:) has not been implemented")
+	}
+
     private lazy var model = SymptomsModel(self)
 
 	private lazy var iherbImageView = UIImageView(image: UIImage(named: "companyLogo.png")!)
@@ -71,6 +82,7 @@ class SymptomsViewController: UIViewController {
 		finishButton.layer.cornerRadius = 8
 		finishButton.backgroundColor = Colors.tightGray
 		finishButton.isEnabled = false
+		finishButton.addTarget(self, action: #selector(showDeficits), for: .touchUpInside)
 
 		finishButton.snp.makeConstraints { make in
 			make.top.equalTo(progressBar.snp.bottom).offset(15)
@@ -81,6 +93,12 @@ class SymptomsViewController: UIViewController {
 		}
 
 
+	}
+
+	@objc func showDeficits() {
+		model.sendRowData()
+		UserDefaults.standard.setValue(true, forKey: "isUserOld")
+		(UIApplication.shared.delegate as! AppDelegate).launch()
 	}
 
 	private func setupProgressbar() {

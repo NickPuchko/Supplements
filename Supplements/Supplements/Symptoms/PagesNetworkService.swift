@@ -7,6 +7,7 @@
 
 import Foundation
 import Alamofire
+import SwiftyJSON
 
 class PagesNetworkService: NetworkService {
 	func getPages(completion: @escaping (Result<[Page], Error>) -> Void) {
@@ -14,30 +15,51 @@ class PagesNetworkService: NetworkService {
 			completion(.failure(RequestError.network))
 			return
 		}
-		print(url)
 		AF.request(url)
 			.validate()
-//			.responseJSON(completionHandler: { json in
-//				print(json)
-//			})
-			.response { [weak self] response in
+			.responseJSON { response in
 			switch response.result {
-			case .success(let json):
-				guard let jsonUnwrapped = json else {
-					completion(.failure(RequestError.network))
-					return
+			case .success(let data):
+				let json = JSON(data)
+				var pages: [Page] = []
+				for (_, page) in json["data"] {
+					pages.append(
+						Page(
+							index: page["index"].intValue,
+							header: (page["header"].arrayObject! as! [String]).map { Element($0) },
+							questions: page["questions"].dictionaryObject as? [String: [String]] ?? [:]
+						)
+					)
 				}
-				do {
-					guard let pages = (try self?.decoder.decode([Page].self, from: jsonUnwrapped)) else {
-						completion(.failure(RequestError.decoding))
-						return
-					}
-					completion(.success(pages))
-				} catch let error {
-					completion(.failure(error))
-				}
+				completion(.success(pages))
+
 			case .failure(let error):
 				completion(.failure(error))
+			}
+		}
+	}
+
+	func sendRowData(rowData: RowData, completion: @escaping (Result<Any, RequestError>) -> Void) {
+		guard let url = makeURL(path: "/iherb/decide") else {
+			completion(.failure(RequestError.network))
+			return
+		}
+		guard let data = try? encoder.encode(rowData) else {
+			completion(.failure(.decoding))
+			return
+		}
+		AF.upload(data, to: url)
+			.validate()
+			.responseJSON { response in
+			switch response.result {
+			case .success(let data):
+				let json = JSON(data)
+
+				print(json)
+				completion(.success([]))
+
+			case .failure(_):
+				completion(.failure(.network))
 			}
 		}
 	}
