@@ -135,7 +135,6 @@ depends-member:
 - !private ["So9NSCopyingP", "statusCode"]
 - ["So8NSObjectC", ""]
 - !private ["So8NSObjectC", "statusCode"]
-- !private ["So8NSObjectP", ""]
 - !private ["So8NSObjectP", "statusCode"]
 - !private ["So14NSSecureCodingP", ""]
 - !private ["So14NSSecureCodingP", "statusCode"]

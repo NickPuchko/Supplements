@@ -233,12 +233,12 @@ depends-member:
 - !private ["s22KeyedEncodingContainerV", "encode"]
 - !private ["s30KeyedEncodingContainerProtocolP", "encode"]
 - !private ["s25LosslessStringConvertibleP", ""]
-- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", ""]
 - !private ["So8NSCodingP", "refresh"]
 - !private ["So26NSExtensionRequestHandlingP", "refresh"]
 - ["So8NSObjectC", ""]
 - !private ["So8NSObjectC", "refresh"]
-- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", ""]
 - !private ["So8NSObjectP", "refresh"]
 - ["11Supplements14NetworkServiceC", ""]
 - !private ["11Supplements14NetworkServiceC", "getPages"]
@@ -296,7 +296,6 @@ depends-member:
 - !private ["So26UICollectionViewDataSourceP", "refresh"]
 - !private ["So24UICollectionViewDelegateP", "refresh"]
 - !private ["So18UIContentContainerP", "refresh"]
-- ["So18UIFocusEnvironmentP", ""]
 - !private ["So18UIFocusEnvironmentP", "refresh"]
 - !private ["So30UIPasteConfigurationSupportingP", "refresh"]
 - ["So11UIResponderC", ""]
@@ -348,10 +347,10 @@ depends-nominal:
 - !private "s22KeyedEncodingContainerV"
 - !private "s30KeyedEncodingContainerProtocolP"
 - !private "s25LosslessStringConvertibleP"
-- "So8NSCodingP"
+- !private "So8NSCodingP"
 - !private "So26NSExtensionRequestHandlingP"
 - "So8NSObjectC"
-- "So8NSObjectP"
+- !private "So8NSObjectP"
 - "11Supplements14NetworkServiceC"
 - !private "Sq"
 - "11Supplements4PageV"
@@ -367,7 +366,7 @@ depends-nominal:
 - !private "So26UICollectionViewDataSourceP"
 - !private "So24UICollectionViewDelegateP"
 - !private "So18UIContentContainerP"
-- "So18UIFocusEnvironmentP"
+- !private "So18UIFocusEnvironmentP"
 - !private "So30UIPasteConfigurationSupportingP"
 - "So11UIResponderC"
 - !private "So30UIResponderStandardEditActionsP"

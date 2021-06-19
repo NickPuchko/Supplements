@@ -73,6 +73,7 @@ depends-member:
 - ["11Supplements6ColorsO", "UIColor"]
 - ["11Supplements6ColorsO", "lightGray"]
 - ["11Supplements6ColorsO", "lightGreen"]
+- ["11Supplements6ColorsO", "tightGray"]
 - ["SL", ""]
 - !private ["7SnapKit24ConstraintConstantTargetP", ""]
 - !private ["7SnapKit24ConstraintConstantTargetP", "bottom"]
@@ -662,4 +663,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/HealthKit.framework/Headers/HealthKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "92ae012629ee6aff89d3646564ddc94b"
+interface-hash: "a0a1f7dce0bd0bf41704b21ad0589960"

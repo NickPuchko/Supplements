@@ -19,7 +19,6 @@ depends-top-level:
 - "String"
 - "UIImage"
 depends-member:
-- ["So8NSCodingP", ""]
 - ["11Supplements14PillsCellModelV", "String"]
 - ["11Supplements14PillsCellModelV", "UIImage"]
 - ["11Supplements14PillsCellModelV", "image"]
@@ -36,7 +35,6 @@ depends-member:
 - ["11Supplements19PillsTableViewModelV", "init"]
 - ["11Supplements19PillsTableViewModelV", "sectionModels"]
 depends-nominal:
-- "So8NSCodingP"
 - "11Supplements14PillsCellModelV"
 - "11Supplements17PillsSectionModelV"
 - "11Supplements19PillsTableViewModelV"
