@@ -60,13 +60,33 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
 //		userNetworkService.createUser(user: user.profile.name) { result in
 //			print(result)
 //		}
-
-	  let symptomsViewController = SymptomsViewController()
+        let symptomsViewController = TodayViewController()
+//        let vc2 = SecondViewController()
+//        let vc3 = ThirdViewController()
+//        let tabbarVC = UITabBarController()
+//        tabbarVC.setViewControllers([symptomsViewController, vc2, vc3], animated: false)
+//        
+//        present(tabbarVC, animated: true)
 	  (signIn.presentingViewController as? LoginViewController)?
 		.navigationController?
 		.pushViewController(symptomsViewController, animated: true)
+        
 	}
-
-
 }
+
+class SecondViewController: UIViewController {
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        view.backgroundColor = .yellow
+        title = "vc2"
+    }
+}
+class ThirdViewController: UIViewController {
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        view.backgroundColor = .green
+        title = "vc3"
+    }
+}
+
 
