@@ -52,8 +52,7 @@ class TodayViewController: UIViewController {
             config.weekDayFont = UIFont.systemFont(ofSize: 12)
             config.weekDayWidth = 30
             config.weekDayColor = UIColor(red: 169/255, green: 226/255, blue: 159/255, alpha: 1)
-            
-            let calendar = CalendarHeatmap(config: config, startDate: Date(2021, 1, 1), endDate:  Date(2021, 6, 19))
+            let calendar = CalendarHeatmap(config: config, startDate: Date(2021, 1, 1), endDate:  Date(2021, 6, 20))
             calendar.delegate = self
             return calendar
         }()
@@ -141,6 +140,9 @@ extension TodayViewController: CalendarHeatmapDelegate {
             let month = dateComponents.month,
             let day = dateComponents.day else { return .clear}
         let dateString = "\(year).\(month).\(day)"
+        if dateString == "2021.6.20" {
+            return .green
+        }
         return data[dateString] ?? UIColor(red: 169/255, green: 226/255, blue: 159/255, alpha: 1)
     }
     
