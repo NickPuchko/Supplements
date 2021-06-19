@@ -1,19 +1,8 @@
-//
-//  FormViewController.swift
-//  Supplements
-//
-//  Created by Nikolai Puchko on 18.06.2021.
-//
-//
 
 import Foundation
 import UIKit
 import SnapKit
 import GoogleSignIn
-enum Sex: String, Codable, CaseIterable {
-    case male = "Мужчина"
-    case female = "Женщина"
-}
 
 class FormViewController: UIViewController {
     private lazy var model = FormModel(self)
@@ -23,16 +12,12 @@ class FormViewController: UIViewController {
     
 	override func viewDidLoad() {
 		super.viewDidLoad()
+        navigationController?.navigationBar.isHidden = true
         configureUI()
+        view.backgroundColor = .white
         scrollView.isScrollEnabled = false
         NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillChange(notification:)), name: UIResponder.keyboardWillShowNotification, object: nil)
 	}
-    @objc func keyboardWillChange(notification: Notification) {
-        // вроде работает преемлемо
-        scrollView.isScrollEnabled = true
-        
-        
-    }
     private func configureUI() {
         
         contentView.translatesAutoresizingMaskIntoConstraints = false
@@ -54,17 +39,11 @@ class FormViewController: UIViewController {
             
             contentView.bottomAnchor.constraint(equalTo: scrollView.bottomAnchor)
         ])
-        
-        setUpHatView()
         let tap = UITapGestureRecognizer(target: self, action: #selector(UIInputViewController.dismissKeyboard))
         view.addGestureRecognizer(tap)
     }
-    private func setUpHatView() {
-        view.backgroundColor = UIColor(patternImage: UIImage(named: "background")!)
-        
-       
-        view.backgroundColor = .white
-    
+    @objc func keyboardWillChange(notification: Notification) {
+        scrollView.isScrollEnabled = true
     }
 }
 extension FormViewController {
@@ -78,13 +57,5 @@ extension FormViewController {
         view.endEditing(true)
         scrollView.isScrollEnabled = false
         scrollView.scrollToTop(animated: true)
-    }
-}
-extension UIScrollView {
-
-    // Bonus: Scroll to top
-    func scrollToTop(animated: Bool) {
-        let topOffset = CGPoint(x: 0, y: -contentInset.top)
-        setContentOffset(topOffset, animated: animated)
     }
 }
