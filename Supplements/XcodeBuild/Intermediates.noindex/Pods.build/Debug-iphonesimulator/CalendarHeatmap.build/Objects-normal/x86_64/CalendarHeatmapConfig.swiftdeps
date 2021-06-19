@@ -1,0 +1,384 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "WeekDayStandard"
+- "CalendarHeatmapConfig"
+provides-nominal:
+- "15CalendarHeatmap15WeekDayStandardO"
+- "15CalendarHeatmap0aB6ConfigV"
+provides-member:
+- ["15CalendarHeatmap15WeekDayStandardO", ""]
+- ["15CalendarHeatmap0aB6ConfigV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "Bool"
+- "BooleanLiteralType"
+- "CGFloat"
+- "CalendarHeatmapConfig"
+- "DateFormatter"
+- "FloatLiteralType"
+- "IntegerLiteralType"
+- "String"
+- "UIColor"
+- "UIFont"
+- "WeekDayStandard"
+depends-member:
+- ["s18AdditiveArithmeticP", ""]
+- ["Sa", "map"]
+- ["SK", ""]
+- ["SK", "capitalized"]
+- ["SK", "map"]
+- ["s7CVarArgP", ""]
+- ["s7CVarArgP", "black"]
+- ["s7CVarArgP", "capitalized"]
+- ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "map"]
+- ["s7CVarArgP", "monthSymbols"]
+- ["s7CVarArgP", "shortWeekdaySymbols"]
+- ["s7CVarArgP", "systemFont"]
+- ["s7CVarArgP", "white"]
+- ["15CalendarHeatmap0aB6ConfigV", "Bool"]
+- ["15CalendarHeatmap0aB6ConfigV", "CGFloat"]
+- ["15CalendarHeatmap0aB6ConfigV", "DateFormatter"]
+- ["15CalendarHeatmap0aB6ConfigV", "String"]
+- ["15CalendarHeatmap0aB6ConfigV", "UIColor"]
+- ["15CalendarHeatmap0aB6ConfigV", "UIFont"]
+- ["15CalendarHeatmap0aB6ConfigV", "WeekDayStandard"]
+- ["15CalendarHeatmap0aB6ConfigV", "allowItemSelection"]
+- ["15CalendarHeatmap0aB6ConfigV", "backgroundColor"]
+- ["15CalendarHeatmap0aB6ConfigV", "contentRightInset"]
+- ["15CalendarHeatmap0aB6ConfigV", "init"]
+- ["15CalendarHeatmap0aB6ConfigV", "interitemSpacing"]
+- ["15CalendarHeatmap0aB6ConfigV", "itemCornerRadius"]
+- ["15CalendarHeatmap0aB6ConfigV", "itemSide"]
+- ["15CalendarHeatmap0aB6ConfigV", "lineSpacing"]
+- ["15CalendarHeatmap0aB6ConfigV", "monthColor"]
+- ["15CalendarHeatmap0aB6ConfigV", "monthFont"]
+- ["15CalendarHeatmap0aB6ConfigV", "monthHeight"]
+- ["15CalendarHeatmap0aB6ConfigV", "monthStrings"]
+- ["15CalendarHeatmap0aB6ConfigV", "selectedItemBorderColor"]
+- ["15CalendarHeatmap0aB6ConfigV", "selectedItemBorderLineWidth"]
+- ["15CalendarHeatmap0aB6ConfigV", "weekDayColor"]
+- ["15CalendarHeatmap0aB6ConfigV", "weekDayFont"]
+- ["15CalendarHeatmap0aB6ConfigV", "weekDayStandard"]
+- ["15CalendarHeatmap0aB6ConfigV", "weekDayStrings"]
+- ["15CalendarHeatmap0aB6ConfigV", "weekDayWidth"]
+- ["Sl", ""]
+- ["Sl", "capitalized"]
+- ["Sl", "map"]
+- ["SL", ""]
+- ["SL", "capitalized"]
+- ["SL", "medium"]
+- ["10Foundation15ContiguousBytesP", "map"]
+- ["s28CustomDebugStringConvertibleP", "black"]
+- ["s28CustomDebugStringConvertibleP", "capitalized"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "map"]
+- ["s28CustomDebugStringConvertibleP", "monthSymbols"]
+- ["s28CustomDebugStringConvertibleP", "shortWeekdaySymbols"]
+- ["s28CustomDebugStringConvertibleP", "systemFont"]
+- ["s28CustomDebugStringConvertibleP", "white"]
+- ["s17CustomReflectableP", "capitalized"]
+- ["s17CustomReflectableP", "map"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "black"]
+- ["s23CustomStringConvertibleP", "capitalized"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "map"]
+- ["s23CustomStringConvertibleP", "monthSymbols"]
+- ["s23CustomStringConvertibleP", "shortWeekdaySymbols"]
+- ["s23CustomStringConvertibleP", "systemFont"]
+- ["s23CustomStringConvertibleP", "white"]
+- ["10Foundation12DataProtocolP", ""]
+- ["10Foundation12DataProtocolP", "map"]
+- ["So15NSDateFormatterC", "init"]
+- ["So15NSDateFormatterC", "monthSymbols"]
+- ["So15NSDateFormatterC", "shortWeekdaySymbols"]
+- ["Se", "capitalized"]
+- ["Se", "map"]
+- ["SE", "capitalized"]
+- ["SE", "map"]
+- ["SQ", "=="]
+- ["SQ", "USandCanada"]
+- ["SQ", ""]
+- ["SQ", "_rawHashValue"]
+- ["SQ", "black"]
+- ["SQ", "capitalized"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- ["SQ", "map"]
+- ["SQ", "medium"]
+- ["SQ", "monthSymbols"]
+- ["SQ", "shortWeekdaySymbols"]
+- ["SQ", "systemFont"]
+- ["SQ", "white"]
+- ["s25ExpressibleByArrayLiteralP", ""]
+- ["s25ExpressibleByArrayLiteralP", "map"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "capitalized"]
+- ["s25ExpressibleByFloatLiteralP", ""]
+- ["s27ExpressibleByIntegerLiteralP", "IntegerLiteralType"]
+- ["s27ExpressibleByIntegerLiteralP", ""]
+- ["s27ExpressibleByIntegerLiteralP", "init"]
+- ["s23ExpressibleByNilLiteralP", "map"]
+- ["s32ExpressibleByStringInterpolationP", ""]
+- ["s32ExpressibleByStringInterpolationP", "capitalized"]
+- ["s26ExpressibleByStringLiteralP", ""]
+- ["s26ExpressibleByStringLiteralP", "capitalized"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "capitalized"]
+- ["SF", ""]
+- ["So11NSFormatterC", ""]
+- ["So11NSFormatterC", "init"]
+- ["So11NSFormatterC", "monthSymbols"]
+- ["So11NSFormatterC", "shortWeekdaySymbols"]
+- ["SH", "=="]
+- ["SH", "USandCanada"]
+- ["SH", ""]
+- ["SH", "_rawHashValue"]
+- ["SH", "black"]
+- ["SH", "capitalized"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- ["SH", "map"]
+- ["SH", "medium"]
+- ["SH", "monthSymbols"]
+- ["SH", "shortWeekdaySymbols"]
+- ["SH", "systemFont"]
+- ["SH", "white"]
+- !private ["s6HasherV", "combine"]
+- ["s25LosslessStringConvertibleP", ""]
+- ["s25LosslessStringConvertibleP", "capitalized"]
+- ["s10MirrorPathP", "capitalized"]
+- ["SM", ""]
+- ["SM", "map"]
+- ["10Foundation19MutableDataProtocolP", "map"]
+- ["So8NSCodingP", ""]
+- ["So8NSCodingP", "black"]
+- ["So8NSCodingP", "capitalized"]
+- ["So8NSCodingP", "init"]
+- ["So8NSCodingP", "monthSymbols"]
+- ["So8NSCodingP", "shortWeekdaySymbols"]
+- ["So8NSCodingP", "white"]
+- ["So9NSCopyingP", ""]
+- ["So9NSCopyingP", "black"]
+- ["So9NSCopyingP", "capitalized"]
+- ["So9NSCopyingP", "init"]
+- ["So9NSCopyingP", "monthSymbols"]
+- ["So9NSCopyingP", "shortWeekdaySymbols"]
+- ["So9NSCopyingP", "systemFont"]
+- ["So9NSCopyingP", "white"]
+- ["So21NSItemProviderReadingP", "black"]
+- ["So21NSItemProviderReadingP", "capitalized"]
+- ["So21NSItemProviderReadingP", "white"]
+- ["So21NSItemProviderWritingP", "black"]
+- ["So21NSItemProviderWritingP", "capitalized"]
+- ["So21NSItemProviderWritingP", "white"]
+- ["So16NSMutableCopyingP", "capitalized"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "black"]
+- ["So8NSObjectC", "capitalized"]
+- ["So8NSObjectC", "capitalizedStringWithLocale"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "monthSymbols"]
+- ["So8NSObjectC", "shortWeekdaySymbols"]
+- ["So8NSObjectC", "systemFont"]
+- ["So8NSObjectC", "systemFontOfSize"]
+- ["So8NSObjectC", "white"]
+- ["So8NSObjectP", ""]
+- ["So8NSObjectP", "black"]
+- ["So8NSObjectP", "capitalized"]
+- ["So8NSObjectP", "capitalizedStringWithLocale"]
+- ["So8NSObjectP", "init"]
+- ["So8NSObjectP", "monthSymbols"]
+- ["So8NSObjectP", "shortWeekdaySymbols"]
+- ["So8NSObjectP", "systemFont"]
+- ["So8NSObjectP", "systemFontOfSize"]
+- ["So8NSObjectP", "white"]
+- ["So14NSSecureCodingP", "black"]
+- ["So14NSSecureCodingP", "capitalized"]
+- ["So14NSSecureCodingP", "white"]
+- ["So8NSStringC", "capitalized"]
+- ["Sj", ""]
+- ["Sq", "map"]
+- ["Sk", ""]
+- ["Sk", "map"]
+- ["Sm", ""]
+- ["Sm", "capitalized"]
+- ["Sm", "map"]
+- ["SY", ""]
+- ["SY", "medium"]
+- ["ST", ""]
+- ["ST", "capitalized"]
+- ["ST", "map"]
+- ["s13SignedNumericP", ""]
+- ["Sx", ""]
+- ["SS", "capitalized"]
+- ["Sy", "capitalized"]
+- ["s16TextOutputStreamP", ""]
+- ["s16TextOutputStreamP", "capitalized"]
+- ["s20TextOutputStreamableP", ""]
+- ["s20TextOutputStreamableP", "capitalized"]
+- ["So7UIColorC", "black"]
+- ["So7UIColorC", "white"]
+- ["So6UIFontC", "systemFont"]
+- ["15CalendarHeatmap15WeekDayStandardO", "=="]
+- ["15CalendarHeatmap15WeekDayStandardO", "International"]
+- ["15CalendarHeatmap15WeekDayStandardO", "USandCanada"]
+- ["15CalendarHeatmap15WeekDayStandardO", ""]
+- ["15CalendarHeatmap15WeekDayStandardO", "__derived_enum_equals"]
+- ["15CalendarHeatmap15WeekDayStandardO", "_rawHashValue"]
+- ["15CalendarHeatmap15WeekDayStandardO", "hash"]
+- ["15CalendarHeatmap15WeekDayStandardO", "hashValue"]
+- ["So12UIFontWeighta", "medium"]
+- ["s14_ArrayProtocolP", "map"]
+- ["s30_CustomPlaygroundQuickLookableP", "capitalized"]
+- ["s24_DestructorSafeContainerP", "map"]
+- ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "capitalized"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "capitalized"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "capitalized"]
+- ["s26_ExpressibleByColorLiteralP", "black"]
+- ["s26_ExpressibleByColorLiteralP", "white"]
+- ["s19_HasContiguousBytesP", "capitalized"]
+- ["s19_HasContiguousBytesP", "map"]
+- ["s35_HasCustomAnyHashableRepresentationP", ""]
+- ["s35_HasCustomAnyHashableRepresentationP", "capitalized"]
+- ["s35_HasCustomAnyHashableRepresentationP", "map"]
+- ["s35_HasCustomAnyHashableRepresentationP", "medium"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "black"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "capitalized"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "monthSymbols"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "shortWeekdaySymbols"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "systemFont"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "white"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "black"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "capitalized"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "monthSymbols"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "shortWeekdaySymbols"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "systemFont"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "white"]
+- ["s21_ObjectiveCBridgeableP", "_ObjectiveCType"]
+- ["s21_ObjectiveCBridgeableP", "_bridgeToObjectiveC"]
+- ["s21_ObjectiveCBridgeableP", "_conditionallyBridgeFromObjectiveC"]
+- ["s21_ObjectiveCBridgeableP", "_forceBridgeFromObjectiveC"]
+- ["s21_ObjectiveCBridgeableP", "_unconditionallyBridgeFromObjectiveC"]
+- ["s21_ObjectiveCBridgeableP", "capitalized"]
+- ["s21_ObjectiveCBridgeableP", "map"]
+- ["s21_ObjectiveCBridgeableP", "medium"]
+- ["s20_SwiftNewtypeWrapperP", "medium"]
+- ["5UIKit01_A23NumericRawRepresentableP", "medium"]
+depends-nominal:
+- "s18AdditiveArithmeticP"
+- "Sa"
+- "SK"
+- "s7CVarArgP"
+- "15CalendarHeatmap0aB6ConfigV"
+- "Sl"
+- "SL"
+- "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "10Foundation12DataProtocolP"
+- "So15NSDateFormatterC"
+- "Se"
+- "SE"
+- "SQ"
+- "s25ExpressibleByArrayLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s25ExpressibleByFloatLiteralP"
+- "s27ExpressibleByIntegerLiteralP"
+- "s23ExpressibleByNilLiteralP"
+- "s32ExpressibleByStringInterpolationP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "SF"
+- "So11NSFormatterC"
+- "SH"
+- !private "s6HasherV"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- "SM"
+- "10Foundation19MutableDataProtocolP"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So21NSItemProviderReadingP"
+- "So21NSItemProviderWritingP"
+- "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So14NSSecureCodingP"
+- "So8NSStringC"
+- "Sj"
+- "Sq"
+- "Sk"
+- "Sm"
+- "SY"
+- "ST"
+- "s13SignedNumericP"
+- "Sx"
+- "SS"
+- "Sy"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "So7UIColorC"
+- "So6UIFontC"
+- "15CalendarHeatmap15WeekDayStandardO"
+- "So12UIFontWeighta"
+- "s14_ArrayProtocolP"
+- "s30_CustomPlaygroundQuickLookableP"
+- "s24_DestructorSafeContainerP"
+- "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s26_ExpressibleByColorLiteralP"
+- "s19_HasContiguousBytesP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- "s21_ObjectiveCBridgeableP"
+- "s20_SwiftNewtypeWrapperP"
+- "5UIKit01_A23NumericRawRepresentableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/sapientisat/Projects/Supplements/Supplements/Pods/Target Support Files/CalendarHeatmap/CalendarHeatmap-umbrella.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CalendarHeatmap.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "8e4bfc2f80001dd702586dbb64df158b"

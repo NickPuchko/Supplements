@@ -1,0 +1,512 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["15JTAppleCalendar15JTACMonthLayoutC", ""]
+- ["15JTAppleCalendar15JTACMonthLayoutC", "configureVerticalLayout"]
+provides-dynamic-lookup:
+- "configureVerticalLayout"
+depends-top-level:
+- !private "%"
+- !private "*"
+- !private "+"
+- !private "+="
+- !private "-"
+- !private "..."
+- !private "=="
+- !private ">="
+- !private "Array"
+- "AssignmentPrecedence"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "JTACMonthLayout"
+- !private "cellCache"
+- !private "contentHeight"
+- !private "contentWidth"
+- !private "delegate"
+- !private "determineToApplyAttribs"
+- !private "determineToApplySupplementaryAttribs"
+- !private "endOfSectionOffsets"
+- !private "endSeparator"
+- !private "headerCache"
+- !private "lastWrittenCellAttribute"
+- !private "maxNumberOfDaysInWeek"
+- !private "monthInfo"
+- !private "numberOfRows"
+- !private "sectionInset"
+- !private "strictBoundaryRulesShouldApply"
+- !private "xCellOffset"
+- !private "yCellOffset"
+- !private "||"
+depends-member:
+- !private ["Sa", "append"]
+- !private ["SK", ""]
+- !private ["SK", "append"]
+- !private ["So15CALayerDelegateP", "bounds"]
+- !private ["So6CGRectV", "size"]
+- !private ["So6CGSizeV", "width"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "bounds"]
+- !private ["s7CVarArgP", "cellCache"]
+- !private ["s7CVarArgP", "collectionView"]
+- !private ["s7CVarArgP", "contentHeight"]
+- !private ["s7CVarArgP", "contentWidth"]
+- !private ["s7CVarArgP", "delegate"]
+- !private ["s7CVarArgP", "determineToApplyAttribs"]
+- !private ["s7CVarArgP", "determineToApplySupplementaryAttribs"]
+- !private ["s7CVarArgP", "endOfSectionOffsets"]
+- !private ["s7CVarArgP", "endSeparator"]
+- !private ["s7CVarArgP", "headerCache"]
+- !private ["s7CVarArgP", "lastWrittenCellAttribute"]
+- !private ["s7CVarArgP", "maxNumberOfDaysInWeek"]
+- !private ["s7CVarArgP", "monthInfo"]
+- !private ["s7CVarArgP", "numberOfRows"]
+- !private ["s7CVarArgP", "sectionInset"]
+- !private ["s7CVarArgP", "strictBoundaryRulesShouldApply"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "xCellOffset"]
+- !private ["s7CVarArgP", "yCellOffset"]
+- !private ["Sl", ""]
+- !private ["Sl", "append"]
+- !private ["Sl", "subscript"]
+- !private ["10Foundation15ContiguousBytesP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "bounds"]
+- !private ["s28CustomDebugStringConvertibleP", "cellCache"]
+- !private ["s28CustomDebugStringConvertibleP", "collectionView"]
+- !private ["s28CustomDebugStringConvertibleP", "contentHeight"]
+- !private ["s28CustomDebugStringConvertibleP", "contentWidth"]
+- !private ["s28CustomDebugStringConvertibleP", "delegate"]
+- !private ["s28CustomDebugStringConvertibleP", "determineToApplyAttribs"]
+- !private ["s28CustomDebugStringConvertibleP", "determineToApplySupplementaryAttribs"]
+- !private ["s28CustomDebugStringConvertibleP", "endOfSectionOffsets"]
+- !private ["s28CustomDebugStringConvertibleP", "endSeparator"]
+- !private ["s28CustomDebugStringConvertibleP", "headerCache"]
+- !private ["s28CustomDebugStringConvertibleP", "lastWrittenCellAttribute"]
+- !private ["s28CustomDebugStringConvertibleP", "maxNumberOfDaysInWeek"]
+- !private ["s28CustomDebugStringConvertibleP", "monthInfo"]
+- !private ["s28CustomDebugStringConvertibleP", "numberOfRows"]
+- !private ["s28CustomDebugStringConvertibleP", "sectionInset"]
+- !private ["s28CustomDebugStringConvertibleP", "size"]
+- !private ["s28CustomDebugStringConvertibleP", "strictBoundaryRulesShouldApply"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "totalDays"]
+- !private ["s28CustomDebugStringConvertibleP", "width"]
+- !private ["s28CustomDebugStringConvertibleP", "xCellOffset"]
+- !private ["s28CustomDebugStringConvertibleP", "yCellOffset"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "size"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "totalDays"]
+- !private ["s17CustomReflectableP", "width"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "bounds"]
+- !private ["s23CustomStringConvertibleP", "cellCache"]
+- !private ["s23CustomStringConvertibleP", "collectionView"]
+- !private ["s23CustomStringConvertibleP", "contentHeight"]
+- !private ["s23CustomStringConvertibleP", "contentWidth"]
+- !private ["s23CustomStringConvertibleP", "delegate"]
+- !private ["s23CustomStringConvertibleP", "determineToApplyAttribs"]
+- !private ["s23CustomStringConvertibleP", "determineToApplySupplementaryAttribs"]
+- !private ["s23CustomStringConvertibleP", "endOfSectionOffsets"]
+- !private ["s23CustomStringConvertibleP", "endSeparator"]
+- !private ["s23CustomStringConvertibleP", "headerCache"]
+- !private ["s23CustomStringConvertibleP", "lastWrittenCellAttribute"]
+- !private ["s23CustomStringConvertibleP", "maxNumberOfDaysInWeek"]
+- !private ["s23CustomStringConvertibleP", "monthInfo"]
+- !private ["s23CustomStringConvertibleP", "numberOfRows"]
+- !private ["s23CustomStringConvertibleP", "sectionInset"]
+- !private ["s23CustomStringConvertibleP", "strictBoundaryRulesShouldApply"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "xCellOffset"]
+- !private ["s23CustomStringConvertibleP", "yCellOffset"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "append"]
+- !private ["Se", "append"]
+- !private ["Se", "bottom"]
+- !private ["Se", "left"]
+- !private ["Se", "size"]
+- !private ["Se", "subscript"]
+- !private ["Se", "top"]
+- !private ["Se", "totalDays"]
+- !private ["Se", "width"]
+- !private ["SD", "subscript"]
+- !private ["SE", "append"]
+- !private ["SE", "bottom"]
+- !private ["SE", "left"]
+- !private ["SE", "size"]
+- !private ["SE", "subscript"]
+- !private ["SE", "top"]
+- !private ["SE", "totalDays"]
+- !private ["SE", "width"]
+- !private ["SQ", ""]
+- !private ["SQ", "append"]
+- !private ["SQ", "bottom"]
+- !private ["SQ", "bounds"]
+- !private ["SQ", "cellCache"]
+- !private ["SQ", "collectionView"]
+- !private ["SQ", "contentHeight"]
+- !private ["SQ", "contentWidth"]
+- !private ["SQ", "delegate"]
+- !private ["SQ", "determineToApplyAttribs"]
+- !private ["SQ", "determineToApplySupplementaryAttribs"]
+- !private ["SQ", "endOfSectionOffsets"]
+- !private ["SQ", "endSeparator"]
+- !private ["SQ", "headerCache"]
+- !private ["SQ", "lastWrittenCellAttribute"]
+- !private ["SQ", "left"]
+- !private ["SQ", "maxNumberOfDaysInWeek"]
+- !private ["SQ", "monthInfo"]
+- !private ["SQ", "numberOfRows"]
+- !private ["SQ", "sectionInset"]
+- !private ["SQ", "size"]
+- !private ["SQ", "strictBoundaryRulesShouldApply"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "top"]
+- !private ["SQ", "totalDays"]
+- !private ["SQ", "width"]
+- !private ["SQ", "xCellOffset"]
+- !private ["SQ", "yCellOffset"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s23ExpressibleByNilLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "totalDays"]
+- !private ["SH", "append"]
+- !private ["SH", "bounds"]
+- !private ["SH", "cellCache"]
+- !private ["SH", "collectionView"]
+- !private ["SH", "contentHeight"]
+- !private ["SH", "contentWidth"]
+- !private ["SH", "delegate"]
+- !private ["SH", "determineToApplyAttribs"]
+- !private ["SH", "determineToApplySupplementaryAttribs"]
+- !private ["SH", "endOfSectionOffsets"]
+- !private ["SH", "endSeparator"]
+- !private ["SH", "headerCache"]
+- !private ["SH", "lastWrittenCellAttribute"]
+- !private ["SH", "maxNumberOfDaysInWeek"]
+- !private ["SH", "monthInfo"]
+- !private ["SH", "numberOfRows"]
+- !private ["SH", "sectionInset"]
+- !private ["SH", "strictBoundaryRulesShouldApply"]
+- !private ["SH", "subscript"]
+- !private ["SH", "totalDays"]
+- !private ["SH", "xCellOffset"]
+- !private ["SH", "yCellOffset"]
+- !private ["15JTAppleCalendar25JTACMonthDelegateProtocolP", "totalDays"]
+- ["15JTAppleCalendar15JTACMonthLayoutC", ""]
+- !private ["15JTAppleCalendar15JTACMonthLayoutC", "cellCache"]
+- !private ["15JTAppleCalendar15JTACMonthLayoutC", "collectionView"]
+- ["15JTAppleCalendar15JTACMonthLayoutC", "configureVerticalLayout"]
+- !private ["15JTAppleCalendar15JTACMonthLayoutC", "contentHeight"]
+- !private ["15JTAppleCalendar15JTACMonthLayoutC", "contentWidth"]
+- !private ["15JTAppleCalendar15JTACMonthLayoutC", "delegate"]
+- !private ["15JTAppleCalendar15JTACMonthLayoutC", "determineToApplyAttribs"]
+- !private ["15JTAppleCalendar15JTACMonthLayoutC", "determineToApplySupplementaryAttribs"]
+- !private ["15JTAppleCalendar15JTACMonthLayoutC", "endOfSectionOffsets"]
+- !private ["15JTAppleCalendar15JTACMonthLayoutC", "endSeparator"]
+- !private ["15JTAppleCalendar15JTACMonthLayoutC", "headerCache"]
+- !private ["15JTAppleCalendar15JTACMonthLayoutC", "lastWrittenCellAttribute"]
+- !private ["15JTAppleCalendar15JTACMonthLayoutC", "maxNumberOfDaysInWeek"]
+- !private ["15JTAppleCalendar15JTACMonthLayoutC", "monthInfo"]
+- !private ["15JTAppleCalendar15JTACMonthLayoutC", "numberOfRows"]
+- !private ["15JTAppleCalendar15JTACMonthLayoutC", "sectionInset"]
+- !private ["15JTAppleCalendar15JTACMonthLayoutC", "strictBoundaryRulesShouldApply"]
+- !private ["15JTAppleCalendar15JTACMonthLayoutC", "xCellOffset"]
+- !private ["15JTAppleCalendar15JTACMonthLayoutC", "yCellOffset"]
+- !private ["15JTAppleCalendar23JTACMonthLayoutProtocolP", "cellCache"]
+- !private ["15JTAppleCalendar23JTACMonthLayoutProtocolP", "collectionView"]
+- !private ["15JTAppleCalendar23JTACMonthLayoutProtocolP", "contentHeight"]
+- !private ["15JTAppleCalendar23JTACMonthLayoutProtocolP", "contentWidth"]
+- !private ["15JTAppleCalendar23JTACMonthLayoutProtocolP", "delegate"]
+- !private ["15JTAppleCalendar23JTACMonthLayoutProtocolP", "determineToApplyAttribs"]
+- !private ["15JTAppleCalendar23JTACMonthLayoutProtocolP", "determineToApplySupplementaryAttribs"]
+- !private ["15JTAppleCalendar23JTACMonthLayoutProtocolP", "endOfSectionOffsets"]
+- !private ["15JTAppleCalendar23JTACMonthLayoutProtocolP", "endSeparator"]
+- !private ["15JTAppleCalendar23JTACMonthLayoutProtocolP", "headerCache"]
+- !private ["15JTAppleCalendar23JTACMonthLayoutProtocolP", "lastWrittenCellAttribute"]
+- !private ["15JTAppleCalendar23JTACMonthLayoutProtocolP", "maxNumberOfDaysInWeek"]
+- !private ["15JTAppleCalendar23JTACMonthLayoutProtocolP", "monthInfo"]
+- !private ["15JTAppleCalendar23JTACMonthLayoutProtocolP", "numberOfRows"]
+- !private ["15JTAppleCalendar23JTACMonthLayoutProtocolP", "sectionInset"]
+- !private ["15JTAppleCalendar23JTACMonthLayoutProtocolP", "strictBoundaryRulesShouldApply"]
+- !private ["15JTAppleCalendar23JTACMonthLayoutProtocolP", "xCellOffset"]
+- !private ["15JTAppleCalendar23JTACMonthLayoutProtocolP", "yCellOffset"]
+- !private ["15JTAppleCalendar5MonthV", "sections"]
+- !private ["SM", ""]
+- !private ["SM", "append"]
+- !private ["10Foundation19MutableDataProtocolP", "append"]
+- !private ["So8NSCodingP", "bounds"]
+- !private ["So8NSCodingP", "cellCache"]
+- !private ["So8NSCodingP", "collectionView"]
+- ["So8NSCodingP", "configureVerticalLayout"]
+- !private ["So8NSCodingP", "contentHeight"]
+- !private ["So8NSCodingP", "contentWidth"]
+- !private ["So8NSCodingP", "delegate"]
+- !private ["So8NSCodingP", "determineToApplyAttribs"]
+- !private ["So8NSCodingP", "determineToApplySupplementaryAttribs"]
+- !private ["So8NSCodingP", "endOfSectionOffsets"]
+- !private ["So8NSCodingP", "endSeparator"]
+- !private ["So8NSCodingP", "headerCache"]
+- !private ["So8NSCodingP", "lastWrittenCellAttribute"]
+- !private ["So8NSCodingP", "maxNumberOfDaysInWeek"]
+- !private ["So8NSCodingP", "monthInfo"]
+- !private ["So8NSCodingP", "numberOfRows"]
+- !private ["So8NSCodingP", "sectionInset"]
+- !private ["So8NSCodingP", "strictBoundaryRulesShouldApply"]
+- !private ["So8NSCodingP", "xCellOffset"]
+- !private ["So8NSCodingP", "yCellOffset"]
+- !private ["So8NSObjectC", "bounds"]
+- !private ["So8NSObjectC", "cellCache"]
+- !private ["So8NSObjectC", "collectionView"]
+- ["So8NSObjectC", "configureVerticalLayout"]
+- !private ["So8NSObjectC", "contentHeight"]
+- !private ["So8NSObjectC", "contentWidth"]
+- !private ["So8NSObjectC", "delegate"]
+- !private ["So8NSObjectC", "determineToApplyAttribs"]
+- !private ["So8NSObjectC", "determineToApplySupplementaryAttribs"]
+- !private ["So8NSObjectC", "endOfSectionOffsets"]
+- !private ["So8NSObjectC", "endSeparator"]
+- !private ["So8NSObjectC", "headerCache"]
+- !private ["So8NSObjectC", "lastWrittenCellAttribute"]
+- !private ["So8NSObjectC", "maxNumberOfDaysInWeek"]
+- !private ["So8NSObjectC", "monthInfo"]
+- !private ["So8NSObjectC", "numberOfRows"]
+- !private ["So8NSObjectC", "sectionInset"]
+- !private ["So8NSObjectC", "strictBoundaryRulesShouldApply"]
+- !private ["So8NSObjectC", "xCellOffset"]
+- !private ["So8NSObjectC", "yCellOffset"]
+- !private ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "bounds"]
+- !private ["So8NSObjectP", "cellCache"]
+- !private ["So8NSObjectP", "collectionView"]
+- ["So8NSObjectP", "configureVerticalLayout"]
+- !private ["So8NSObjectP", "contentHeight"]
+- !private ["So8NSObjectP", "contentWidth"]
+- !private ["So8NSObjectP", "delegate"]
+- !private ["So8NSObjectP", "determineToApplyAttribs"]
+- !private ["So8NSObjectP", "determineToApplySupplementaryAttribs"]
+- !private ["So8NSObjectP", "endOfSectionOffsets"]
+- !private ["So8NSObjectP", "endSeparator"]
+- !private ["So8NSObjectP", "headerCache"]
+- !private ["So8NSObjectP", "lastWrittenCellAttribute"]
+- !private ["So8NSObjectP", "maxNumberOfDaysInWeek"]
+- !private ["So8NSObjectP", "monthInfo"]
+- !private ["So8NSObjectP", "numberOfRows"]
+- !private ["So8NSObjectP", "sectionInset"]
+- !private ["So8NSObjectP", "strictBoundaryRulesShouldApply"]
+- !private ["So8NSObjectP", "xCellOffset"]
+- !private ["So8NSObjectP", "yCellOffset"]
+- !private ["Sq", "totalDays"]
+- !private ["Sk", ""]
+- !private ["Sk", "append"]
+- !private ["Sm", ""]
+- !private ["Sm", "append"]
+- !private ["ST", "Element"]
+- !private ["ST", "Iterator"]
+- !private ["ST", ""]
+- !private ["ST", "append"]
+- !private ["ST", "subscript"]
+- !private ["So29UIAccessibilityIdentificationP", "bounds"]
+- !private ["So12UIAppearanceP", "bounds"]
+- !private ["So21UIAppearanceContainerP", "bounds"]
+- !private ["So16UICollectionViewC", "bounds"]
+- ["So22UICollectionViewLayoutC", ""]
+- !private ["So22UICollectionViewLayoutC", "cellCache"]
+- !private ["So22UICollectionViewLayoutC", "collectionView"]
+- ["So22UICollectionViewLayoutC", "configureVerticalLayout"]
+- !private ["So22UICollectionViewLayoutC", "contentHeight"]
+- !private ["So22UICollectionViewLayoutC", "contentWidth"]
+- !private ["So22UICollectionViewLayoutC", "delegate"]
+- !private ["So22UICollectionViewLayoutC", "determineToApplyAttribs"]
+- !private ["So22UICollectionViewLayoutC", "determineToApplySupplementaryAttribs"]
+- !private ["So22UICollectionViewLayoutC", "endOfSectionOffsets"]
+- !private ["So22UICollectionViewLayoutC", "endSeparator"]
+- !private ["So22UICollectionViewLayoutC", "headerCache"]
+- !private ["So22UICollectionViewLayoutC", "lastWrittenCellAttribute"]
+- !private ["So22UICollectionViewLayoutC", "maxNumberOfDaysInWeek"]
+- !private ["So22UICollectionViewLayoutC", "monthInfo"]
+- !private ["So22UICollectionViewLayoutC", "numberOfRows"]
+- !private ["So22UICollectionViewLayoutC", "sectionInset"]
+- !private ["So22UICollectionViewLayoutC", "strictBoundaryRulesShouldApply"]
+- !private ["So22UICollectionViewLayoutC", "xCellOffset"]
+- !private ["So22UICollectionViewLayoutC", "yCellOffset"]
+- !private ["So17UICoordinateSpaceP", "bounds"]
+- !private ["So23UIDataSourceTranslatingP", "bounds"]
+- !private ["So13UIDynamicItemP", "bounds"]
+- !private ["So12UIEdgeInsetsV", "bottom"]
+- !private ["So12UIEdgeInsetsV", "left"]
+- !private ["So12UIEdgeInsetsV", "top"]
+- !private ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "bounds"]
+- !private ["So11UIFocusItemP", "bounds"]
+- !private ["So20UIFocusItemContainerP", ""]
+- !private ["So20UIFocusItemContainerP", "bounds"]
+- !private ["So30UIFocusItemScrollableContainerP", "bounds"]
+- !private ["So24UILargeContentViewerItemP", "bounds"]
+- !private ["So30UIPasteConfigurationSupportingP", "bounds"]
+- !private ["So11UIResponderC", "bounds"]
+- !private ["So30UIResponderStandardEditActionsP", "bounds"]
+- ["So12UIScrollViewC", ""]
+- !private ["So12UIScrollViewC", "bounds"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "bounds"]
+- !private ["So18UITraitEnvironmentP", "bounds"]
+- !private ["So23UIUserActivityRestoringP", "bounds"]
+- ["So6UIViewC", ""]
+- !private ["So6UIViewC", "bounds"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "size"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "width"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "bounds"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cellCache"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "collectionView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "contentHeight"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "contentWidth"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "determineToApplyAttribs"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "determineToApplySupplementaryAttribs"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "endOfSectionOffsets"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "endSeparator"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "headerCache"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "lastWrittenCellAttribute"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "maxNumberOfDaysInWeek"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "monthInfo"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "numberOfRows"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sectionInset"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "strictBoundaryRulesShouldApply"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "xCellOffset"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "yCellOffset"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "bounds"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "cellCache"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "collectionView"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "contentHeight"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "contentWidth"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "delegate"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "determineToApplyAttribs"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "determineToApplySupplementaryAttribs"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "endOfSectionOffsets"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "endSeparator"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "headerCache"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "lastWrittenCellAttribute"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "maxNumberOfDaysInWeek"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "monthInfo"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "numberOfRows"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "sectionInset"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "strictBoundaryRulesShouldApply"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "xCellOffset"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "yCellOffset"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "bottom"]
+- !private ["s21_ObjectiveCBridgeableP", "left"]
+- !private ["s21_ObjectiveCBridgeableP", "size"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "top"]
+- !private ["s21_ObjectiveCBridgeableP", "totalDays"]
+- !private ["s21_ObjectiveCBridgeableP", "width"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "bounds"]
+depends-nominal:
+- !private "Sa"
+- !private "SK"
+- !private "So15CALayerDelegateP"
+- !private "So6CGRectV"
+- !private "So6CGSizeV"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "SD"
+- !private "SE"
+- !private "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "SH"
+- !private "15JTAppleCalendar25JTACMonthDelegateProtocolP"
+- "15JTAppleCalendar15JTACMonthLayoutC"
+- !private "15JTAppleCalendar23JTACMonthLayoutProtocolP"
+- !private "15JTAppleCalendar5MonthV"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- "So8NSCodingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "Sq"
+- !private "Sk"
+- !private "Sm"
+- !private "ST"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- !private "So16UICollectionViewC"
+- "So22UICollectionViewLayoutC"
+- !private "So17UICoordinateSpaceP"
+- !private "So23UIDataSourceTranslatingP"
+- !private "So13UIDynamicItemP"
+- !private "So12UIEdgeInsetsV"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So30UIFocusItemScrollableContainerP"
+- !private "So24UILargeContentViewerItemP"
+- !private "So30UIPasteConfigurationSupportingP"
+- !private "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- "So12UIScrollViewC"
+- !private "So35UISpringLoadedInteractionSupportingP"
+- !private "So18UITraitEnvironmentP"
+- !private "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- !private "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/sapientisat/Projects/Supplements/Supplements/Pods/Target Support Files/JTAppleCalendar/JTAppleCalendar-umbrella.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Intermediates.noindex/Pods.build/Debug-iphonesimulator/JTAppleCalendar.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "2c66f976c66ca54b4ff74b9797b073ef"
