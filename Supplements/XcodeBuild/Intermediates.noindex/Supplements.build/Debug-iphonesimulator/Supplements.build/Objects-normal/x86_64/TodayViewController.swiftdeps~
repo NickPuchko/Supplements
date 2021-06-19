@@ -67,14 +67,13 @@ depends-top-level:
 - !private "print"
 - "readHeatmap"
 - "self"
-- !private "title"
 - !private "view"
 - !private "~="
 depends-member:
 - ["s18AdditiveArithmeticP", ""]
 - !private ["9Alamofire0A8ExtendedP", "main"]
 - !private ["9Alamofire0A8ExtendedP", "url"]
-- !private ["SK", ""]
+- ["SK", ""]
 - !private ["So8NSBundleC", "main"]
 - !private ["So8NSBundleC", "url"]
 - !private ["So7CALayerC", "cornerRadius"]
@@ -193,7 +192,6 @@ depends-member:
 - ["s7CVarArgP", "tableView"]
 - ["s7CVarArgP", "tableViewDidEndMultipleSelectionInteraction"]
 - !private ["s7CVarArgP", "text"]
-- !private ["s7CVarArgP", "title"]
 - !private ["s7CVarArgP", "topAnchor"]
 - !private ["s7CVarArgP", "trailingAnchor"]
 - !private ["s7CVarArgP", "translatesAutoresizingMaskIntoConstraints"]
@@ -277,12 +275,11 @@ depends-member:
 - ["15CalendarHeatmap0aB8DelegateP", "self"]
 - ["15CalendarHeatmap0aB8DelegateP", "tableView"]
 - ["15CalendarHeatmap0aB8DelegateP", "tableViewDidEndMultipleSelectionInteraction"]
-- !private ["15CalendarHeatmap0aB8DelegateP", "title"]
 - !private ["15CalendarHeatmap0aB8DelegateP", "view"]
 - ["15CalendarHeatmap0aB8DelegateP", "viewDidLoad"]
 - ["15CalendarHeatmap0aB8DelegateP", "viewForZooming"]
 - ["15CalendarHeatmap0aB8DelegateP", "viewForZoomingInScrollView"]
-- !private ["Sl", ""]
+- ["Sl", ""]
 - ["Sl", "mapValues"]
 - !private ["Sl", "subscript"]
 - ["SL", ""]
@@ -397,7 +394,6 @@ depends-member:
 - ["s28CustomDebugStringConvertibleP", "tableView"]
 - ["s28CustomDebugStringConvertibleP", "tableViewDidEndMultipleSelectionInteraction"]
 - !private ["s28CustomDebugStringConvertibleP", "text"]
-- !private ["s28CustomDebugStringConvertibleP", "title"]
 - !private ["s28CustomDebugStringConvertibleP", "topAnchor"]
 - !private ["s28CustomDebugStringConvertibleP", "trailingAnchor"]
 - !private ["s28CustomDebugStringConvertibleP", "translatesAutoresizingMaskIntoConstraints"]
@@ -506,7 +502,6 @@ depends-member:
 - ["s23CustomStringConvertibleP", "tableView"]
 - ["s23CustomStringConvertibleP", "tableViewDidEndMultipleSelectionInteraction"]
 - !private ["s23CustomStringConvertibleP", "text"]
-- !private ["s23CustomStringConvertibleP", "title"]
 - !private ["s23CustomStringConvertibleP", "topAnchor"]
 - !private ["s23CustomStringConvertibleP", "trailingAnchor"]
 - !private ["s23CustomStringConvertibleP", "translatesAutoresizingMaskIntoConstraints"]
@@ -636,7 +631,6 @@ depends-member:
 - ["SQ", "tableView"]
 - ["SQ", "tableViewDidEndMultipleSelectionInteraction"]
 - !private ["SQ", "text"]
-- !private ["SQ", "title"]
 - !private ["SQ", "topAnchor"]
 - !private ["SQ", "trailingAnchor"]
 - !private ["SQ", "translatesAutoresizingMaskIntoConstraints"]
@@ -656,7 +650,7 @@ depends-member:
 - ["s30ExpressibleByDictionaryLiteralP", "init"]
 - ["s30ExpressibleByDictionaryLiteralP", "mapValues"]
 - !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
-- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
 - !private ["s25ExpressibleByFloatLiteralP", "FloatLiteralType"]
 - ["s25ExpressibleByFloatLiteralP", ""]
 - !private ["s25ExpressibleByFloatLiteralP", "init"]
@@ -670,10 +664,10 @@ depends-member:
 - !private ["s23ExpressibleByNilLiteralP", "trailingAnchor"]
 - !private ["s23ExpressibleByNilLiteralP", "white"]
 - !private ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
-- !private ["s32ExpressibleByStringInterpolationP", ""]
+- ["s32ExpressibleByStringInterpolationP", ""]
 - !private ["s32ExpressibleByStringInterpolationP", "init"]
-- !private ["s26ExpressibleByStringLiteralP", ""]
-- !private ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- ["s26ExpressibleByStringLiteralP", ""]
+- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
 - ["SF", ""]
 - ["So11NSFormatterC", ""]
 - ["So11NSFormatterC", "init"]
@@ -767,7 +761,6 @@ depends-member:
 - ["SH", "tableView"]
 - ["SH", "tableViewDidEndMultipleSelectionInteraction"]
 - !private ["SH", "text"]
-- !private ["SH", "title"]
 - !private ["SH", "topAnchor"]
 - !private ["SH", "trailingAnchor"]
 - !private ["SH", "translatesAutoresizingMaskIntoConstraints"]
@@ -806,7 +799,7 @@ depends-member:
 - !private ["7SnapKit20LayoutConstraintItemP", "trailingAnchor"]
 - !private ["7SnapKit20LayoutConstraintItemP", "translatesAutoresizingMaskIntoConstraints"]
 - !private ["7SnapKit20LayoutConstraintItemP", "weekLabel"]
-- !private ["s25LosslessStringConvertibleP", ""]
+- ["s25LosslessStringConvertibleP", ""]
 - ["So8NSCodingP", "$__lazy_storage_$_calendarHeatMap"]
 - ["So8NSCodingP", "$__lazy_storage_$_data"]
 - ["So8NSCodingP", "$__lazy_storage_$_model"]
@@ -919,7 +912,6 @@ depends-member:
 - ["So8NSCodingP", "tableView"]
 - ["So8NSCodingP", "tableViewDidEndMultipleSelectionInteraction"]
 - !private ["So8NSCodingP", "text"]
-- !private ["So8NSCodingP", "title"]
 - !private ["So8NSCodingP", "topAnchor"]
 - !private ["So8NSCodingP", "trailingAnchor"]
 - !private ["So8NSCodingP", "translatesAutoresizingMaskIntoConstraints"]
@@ -1019,7 +1011,6 @@ depends-member:
 - ["So26NSExtensionRequestHandlingP", "self"]
 - ["So26NSExtensionRequestHandlingP", "tableView"]
 - ["So26NSExtensionRequestHandlingP", "tableViewDidEndMultipleSelectionInteraction"]
-- !private ["So26NSExtensionRequestHandlingP", "title"]
 - !private ["So26NSExtensionRequestHandlingP", "view"]
 - ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
 - ["So26NSExtensionRequestHandlingP", "viewForZooming"]
@@ -1199,7 +1190,6 @@ depends-member:
 - ["So8NSObjectC", "tableView"]
 - ["So8NSObjectC", "tableViewDidEndMultipleSelectionInteraction"]
 - !private ["So8NSObjectC", "text"]
-- !private ["So8NSObjectC", "title"]
 - !private ["So8NSObjectC", "topAnchor"]
 - !private ["So8NSObjectC", "trailingAnchor"]
 - !private ["So8NSObjectC", "translatesAutoresizingMaskIntoConstraints"]
@@ -1352,7 +1342,6 @@ depends-member:
 - ["So8NSObjectP", "tableView"]
 - ["So8NSObjectP", "tableViewDidEndMultipleSelectionInteraction"]
 - !private ["So8NSObjectP", "text"]
-- !private ["So8NSObjectP", "title"]
 - !private ["So8NSObjectP", "topAnchor"]
 - !private ["So8NSObjectP", "trailingAnchor"]
 - !private ["So8NSObjectP", "translatesAutoresizingMaskIntoConstraints"]
@@ -1399,10 +1388,10 @@ depends-member:
 - !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
 - !private ["s27StringInterpolationProtocolP", "appendLiteral"]
 - !private ["s27StringInterpolationProtocolP", "init"]
-- !private ["s16TextOutputStreamP", ""]
+- ["s16TextOutputStreamP", ""]
 - !private ["s16TextOutputStreamP", "appendInterpolation"]
 - !private ["s16TextOutputStreamP", "appendLiteral"]
-- !private ["s20TextOutputStreamableP", ""]
+- ["s20TextOutputStreamableP", ""]
 - ["11Supplements10TodayModelC", "init"]
 - !private ["11Supplements19TodayViewControllerC", "$__lazy_storage_$_calendarHeatMap"]
 - !private ["11Supplements19TodayViewControllerC", "$__lazy_storage_$_data"]
@@ -1465,7 +1454,6 @@ depends-member:
 - ["11Supplements19TodayViewControllerC", "self"]
 - ["11Supplements19TodayViewControllerC", "tableView"]
 - ["11Supplements19TodayViewControllerC", "tableViewDidEndMultipleSelectionInteraction"]
-- !private ["11Supplements19TodayViewControllerC", "title"]
 - !private ["11Supplements19TodayViewControllerC", "view"]
 - ["11Supplements19TodayViewControllerC", "viewDidLoad"]
 - ["11Supplements19TodayViewControllerC", "viewForZooming"]
@@ -1625,7 +1613,6 @@ depends-member:
 - ["So21UIAppearanceContainerP", "tableView"]
 - ["So21UIAppearanceContainerP", "tableViewDidEndMultipleSelectionInteraction"]
 - !private ["So21UIAppearanceContainerP", "text"]
-- !private ["So21UIAppearanceContainerP", "title"]
 - !private ["So21UIAppearanceContainerP", "topAnchor"]
 - !private ["So21UIAppearanceContainerP", "trailingAnchor"]
 - !private ["So21UIAppearanceContainerP", "translatesAutoresizingMaskIntoConstraints"]
@@ -1718,7 +1705,6 @@ depends-member:
 - ["So18UIContentContainerP", "self"]
 - ["So18UIContentContainerP", "tableView"]
 - ["So18UIContentContainerP", "tableViewDidEndMultipleSelectionInteraction"]
-- !private ["So18UIContentContainerP", "title"]
 - !private ["So18UIContentContainerP", "view"]
 - ["So18UIContentContainerP", "viewDidLoad"]
 - ["So18UIContentContainerP", "viewForZooming"]
@@ -1892,7 +1878,6 @@ depends-member:
 - ["So18UIFocusEnvironmentP", "tableView"]
 - ["So18UIFocusEnvironmentP", "tableViewDidEndMultipleSelectionInteraction"]
 - !private ["So18UIFocusEnvironmentP", "text"]
-- !private ["So18UIFocusEnvironmentP", "title"]
 - !private ["So18UIFocusEnvironmentP", "topAnchor"]
 - !private ["So18UIFocusEnvironmentP", "trailingAnchor"]
 - !private ["So18UIFocusEnvironmentP", "translatesAutoresizingMaskIntoConstraints"]
@@ -2118,7 +2103,6 @@ depends-member:
 - ["So30UIPasteConfigurationSupportingP", "tableView"]
 - ["So30UIPasteConfigurationSupportingP", "tableViewDidEndMultipleSelectionInteraction"]
 - !private ["So30UIPasteConfigurationSupportingP", "text"]
-- !private ["So30UIPasteConfigurationSupportingP", "title"]
 - !private ["So30UIPasteConfigurationSupportingP", "topAnchor"]
 - !private ["So30UIPasteConfigurationSupportingP", "trailingAnchor"]
 - !private ["So30UIPasteConfigurationSupportingP", "translatesAutoresizingMaskIntoConstraints"]
@@ -2217,7 +2201,6 @@ depends-member:
 - ["So11UIResponderC", "tableView"]
 - ["So11UIResponderC", "tableViewDidEndMultipleSelectionInteraction"]
 - !private ["So11UIResponderC", "text"]
-- !private ["So11UIResponderC", "title"]
 - !private ["So11UIResponderC", "topAnchor"]
 - !private ["So11UIResponderC", "trailingAnchor"]
 - !private ["So11UIResponderC", "translatesAutoresizingMaskIntoConstraints"]
@@ -2316,7 +2299,6 @@ depends-member:
 - ["So30UIResponderStandardEditActionsP", "tableView"]
 - ["So30UIResponderStandardEditActionsP", "tableViewDidEndMultipleSelectionInteraction"]
 - !private ["So30UIResponderStandardEditActionsP", "text"]
-- !private ["So30UIResponderStandardEditActionsP", "title"]
 - !private ["So30UIResponderStandardEditActionsP", "topAnchor"]
 - !private ["So30UIResponderStandardEditActionsP", "trailingAnchor"]
 - !private ["So30UIResponderStandardEditActionsP", "translatesAutoresizingMaskIntoConstraints"]
@@ -2401,7 +2383,6 @@ depends-member:
 - ["So20UIScrollViewDelegateP", "self"]
 - ["So20UIScrollViewDelegateP", "tableView"]
 - ["So20UIScrollViewDelegateP", "tableViewDidEndMultipleSelectionInteraction"]
-- !private ["So20UIScrollViewDelegateP", "title"]
 - !private ["So20UIScrollViewDelegateP", "topAnchor"]
 - !private ["So20UIScrollViewDelegateP", "trailingAnchor"]
 - !private ["So20UIScrollViewDelegateP", "translatesAutoresizingMaskIntoConstraints"]
@@ -2486,7 +2467,6 @@ depends-member:
 - ["So16UIStateRestoringP", "self"]
 - ["So16UIStateRestoringP", "tableView"]
 - ["So16UIStateRestoringP", "tableViewDidEndMultipleSelectionInteraction"]
-- !private ["So16UIStateRestoringP", "title"]
 - !private ["So16UIStateRestoringP", "view"]
 - ["So16UIStateRestoringP", "viewDidLoad"]
 - ["So16UIStateRestoringP", "viewForZooming"]
@@ -2563,7 +2543,6 @@ depends-member:
 - ["So21UITableViewDataSourceP", "self"]
 - ["So21UITableViewDataSourceP", "tableView"]
 - ["So21UITableViewDataSourceP", "tableViewDidEndMultipleSelectionInteraction"]
-- !private ["So21UITableViewDataSourceP", "title"]
 - !private ["So21UITableViewDataSourceP", "view"]
 - ["So21UITableViewDataSourceP", "viewDidLoad"]
 - ["So21UITableViewDataSourceP", "viewForZooming"]
@@ -2622,7 +2601,6 @@ depends-member:
 - ["So19UITableViewDelegateP", "self"]
 - ["So19UITableViewDelegateP", "tableView"]
 - ["So19UITableViewDelegateP", "tableViewDidEndMultipleSelectionInteraction"]
-- !private ["So19UITableViewDelegateP", "title"]
 - !private ["So19UITableViewDelegateP", "view"]
 - ["So19UITableViewDelegateP", "viewDidLoad"]
 - ["So19UITableViewDelegateP", "viewForZooming"]
@@ -2720,7 +2698,6 @@ depends-member:
 - ["So18UITraitEnvironmentP", "tableView"]
 - ["So18UITraitEnvironmentP", "tableViewDidEndMultipleSelectionInteraction"]
 - !private ["So18UITraitEnvironmentP", "text"]
-- !private ["So18UITraitEnvironmentP", "title"]
 - !private ["So18UITraitEnvironmentP", "topAnchor"]
 - !private ["So18UITraitEnvironmentP", "trailingAnchor"]
 - !private ["So18UITraitEnvironmentP", "translatesAutoresizingMaskIntoConstraints"]
@@ -2819,7 +2796,6 @@ depends-member:
 - ["So23UIUserActivityRestoringP", "tableView"]
 - ["So23UIUserActivityRestoringP", "tableViewDidEndMultipleSelectionInteraction"]
 - !private ["So23UIUserActivityRestoringP", "text"]
-- !private ["So23UIUserActivityRestoringP", "title"]
 - !private ["So23UIUserActivityRestoringP", "topAnchor"]
 - !private ["So23UIUserActivityRestoringP", "trailingAnchor"]
 - !private ["So23UIUserActivityRestoringP", "translatesAutoresizingMaskIntoConstraints"]
@@ -2924,7 +2900,6 @@ depends-member:
 - ["So16UIViewControllerC", "self"]
 - ["So16UIViewControllerC", "tableView"]
 - ["So16UIViewControllerC", "tableViewDidEndMultipleSelectionInteraction"]
-- !private ["So16UIViewControllerC", "title"]
 - !private ["So16UIViewControllerC", "view"]
 - ["So16UIViewControllerC", "viewDidLoad"]
 - ["So16UIViewControllerC", "viewForZooming"]
@@ -2937,11 +2912,11 @@ depends-member:
 - !private ["7SwiftUI4ViewP", "white"]
 - ["s30_CustomPlaygroundQuickLookableP", "init"]
 - ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
-- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
 - !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
 - ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
 - ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
-- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
 - !private ["s26_ExpressibleByColorLiteralP", "clear"]
 - ["s26_ExpressibleByColorLiteralP", "init"]
 - ["s26_ExpressibleByColorLiteralP", "white"]
@@ -3028,7 +3003,6 @@ depends-member:
 - ["10Foundation27_KeyValueCodingAndObservingP", "tableView"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "tableViewDidEndMultipleSelectionInteraction"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "title"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "topAnchor"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "trailingAnchor"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "translatesAutoresizingMaskIntoConstraints"]
@@ -3118,7 +3092,6 @@ depends-member:
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "tableView"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "tableViewDidEndMultipleSelectionInteraction"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "text"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "title"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "topAnchor"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "trailingAnchor"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "translatesAutoresizingMaskIntoConstraints"]
@@ -3177,7 +3150,7 @@ depends-member:
 depends-nominal:
 - "s18AdditiveArithmeticP"
 - !private "9Alamofire0A8ExtendedP"
-- !private "SK"
+- "SK"
 - !private "So8NSBundleC"
 - !private "So7CALayerC"
 - "So15CALayerDelegateP"
@@ -3203,19 +3176,19 @@ depends-nominal:
 - "SQ"
 - !private "s25ExpressibleByArrayLiteralP"
 - "s30ExpressibleByDictionaryLiteralP"
-- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
 - "s25ExpressibleByFloatLiteralP"
 - "s27ExpressibleByIntegerLiteralP"
 - !private "s23ExpressibleByNilLiteralP"
-- !private "s32ExpressibleByStringInterpolationP"
-- !private "s26ExpressibleByStringLiteralP"
-- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s32ExpressibleByStringInterpolationP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
 - "SF"
 - "So11NSFormatterC"
 - !private "7SwiftUI7GestureP"
 - "SH"
 - "7SnapKit20LayoutConstraintItemP"
-- !private "s25LosslessStringConvertibleP"
+- "s25LosslessStringConvertibleP"
 - "So8NSCodingP"
 - "So9NSCopyingP"
 - !private "So12NSDictionaryC"
@@ -3246,8 +3219,8 @@ depends-nominal:
 - "s13SignedNumericP"
 - "Sx"
 - !private "s27StringInterpolationProtocolP"
-- !private "s16TextOutputStreamP"
-- !private "s20TextOutputStreamableP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
 - "11Supplements10TodayModelC"
 - "11Supplements19TodayViewControllerC"
 - !private "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
@@ -3297,11 +3270,11 @@ depends-nominal:
 - !private "7SwiftUI4ViewP"
 - "s30_CustomPlaygroundQuickLookableP"
 - "s35_ExpressibleByBuiltinBooleanLiteralP"
-- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
 - !private "s33_ExpressibleByBuiltinFloatLiteralP"
 - "s35_ExpressibleByBuiltinIntegerLiteralP"
 - "s34_ExpressibleByBuiltinStringLiteralP"
-- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
 - "s26_ExpressibleByColorLiteralP"
 - !private "s26_ExpressibleByImageLiteralP"
 - "s35_HasCustomAnyHashableRepresentationP"

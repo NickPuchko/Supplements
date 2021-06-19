@@ -1,10 +1,10 @@
 version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
 options: "77f3c312c664ae8d1ee50a7bd61c2ef7"
-build_time: [1624126721, 272761000]
+build_time: [1624127150, 700847000]
 inputs:
-  "/Users/sapientisat/Projects/Supplements/Supplements/Pods/SwipeableTabBarController/Sources/SwipeableTabBarController.swift": [1624126714, 508807754]
-  "/Users/sapientisat/Projects/Supplements/Supplements/Pods/SwipeableTabBarController/Sources/SwipeAnimationType.swift": [1624126714, 508436885]
-  "/Users/sapientisat/Projects/Supplements/Supplements/Pods/SwipeableTabBarController/Sources/SwipeInteractor.swift": [1624126714, 508295809]
-  "/Users/sapientisat/Projects/Supplements/Supplements/Pods/SwipeableTabBarController/Sources/SwipeTransitionAnimator.swift": [1624126714, 508155352]
-  "/Users/sapientisat/Projects/Supplements/Supplements/Pods/SwipeableTabBarController/Sources/SwipeTransitioningProtocol.swift": [1624126714, 508579069]
-  "/Users/sapientisat/Projects/Supplements/Supplements/Pods/SwipeableTabBarController/Sources/UIKit+Extensions.swift": [1624126714, 508006431]
+  "/Users/sapientisat/Projects/Supplements/Supplements/Pods/SwipeableTabBarController/Sources/SwipeableTabBarController.swift": [1624127146, 350563905]
+  "/Users/sapientisat/Projects/Supplements/Supplements/Pods/SwipeableTabBarController/Sources/SwipeAnimationType.swift": [1624127146, 349669670]
+  "/Users/sapientisat/Projects/Supplements/Supplements/Pods/SwipeableTabBarController/Sources/SwipeInteractor.swift": [1624127146, 349902889]
+  "/Users/sapientisat/Projects/Supplements/Supplements/Pods/SwipeableTabBarController/Sources/SwipeTransitionAnimator.swift": [1624127146, 350120871]
+  "/Users/sapientisat/Projects/Supplements/Supplements/Pods/SwipeableTabBarController/Sources/SwipeTransitioningProtocol.swift": [1624127146, 350321780]
+  "/Users/sapientisat/Projects/Supplements/Supplements/Pods/SwipeableTabBarController/Sources/UIKit+Extensions.swift": [1624127146, 350764919]
