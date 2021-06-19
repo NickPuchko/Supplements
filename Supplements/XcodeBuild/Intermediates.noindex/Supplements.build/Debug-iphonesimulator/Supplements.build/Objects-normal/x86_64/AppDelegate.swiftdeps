@@ -23,6 +23,7 @@ depends-top-level:
 - !private "=="
 - "AppDelegate"
 - "AssignmentPrecedence"
+- !private "BlogViewController"
 - "Bool"
 - !private "BooleanLiteralType"
 - "CastingPrecedence"
@@ -40,7 +41,6 @@ depends-top-level:
 - "SecondViewController"
 - "String"
 - !private "StringLiteralType"
-- !private "SymptomsViewController"
 - "ThirdViewController"
 - "UIApplication"
 - "UIApplicationDelegate"
@@ -59,6 +59,7 @@ depends-top-level:
 - !private "window"
 depends-member:
 - !private ["s18AdditiveArithmeticP", ""]
+- !private ["11Supplements11AppDelegateC", "BlogViewController"]
 - ["11Supplements11AppDelegateC", "Bool"]
 - !private ["11Supplements11AppDelegateC", "Data"]
 - ["11Supplements11AppDelegateC", "Error"]
@@ -69,7 +70,6 @@ depends-member:
 - !private ["11Supplements11AppDelegateC", "LoginViewController"]
 - !private ["11Supplements11AppDelegateC", "NSError"]
 - ["11Supplements11AppDelegateC", "String"]
-- !private ["11Supplements11AppDelegateC", "SymptomsViewController"]
 - ["11Supplements11AppDelegateC", "UIApplication"]
 - !private ["11Supplements11AppDelegateC", "UIImage"]
 - !private ["11Supplements11AppDelegateC", "UINavigationController"]
@@ -102,6 +102,8 @@ depends-member:
 - ["11Supplements11AppDelegateC", "window"]
 - ["SK", ""]
 - !private ["SK", "init"]
+- !private ["11Supplements18BlogViewControllerC", ""]
+- !private ["11Supplements18BlogViewControllerC", "init"]
 - !private ["So15CALayerDelegateP", ""]
 - !private ["So15CALayerDelegateP", "backgroundColor"]
 - !private ["So15CALayerDelegateP", "init"]
@@ -110,6 +112,7 @@ depends-member:
 - !private ["So15CALayerDelegateP", "rootViewController"]
 - !private ["8CloudKit21CKRecordValueProtocolP", "init"]
 - !private ["s7CVarArgP", "$main"]
+- !private ["s7CVarArgP", "BlogViewController"]
 - !private ["s7CVarArgP", "Data"]
 - !private ["s7CVarArgP", "GIDSignIn"]
 - !private ["s7CVarArgP", "GIDSignInErrorCode"]
@@ -117,7 +120,6 @@ depends-member:
 - ["s7CVarArgP", "LaunchOptionsKey"]
 - !private ["s7CVarArgP", "LoginViewController"]
 - ["s7CVarArgP", "OpenURLOptionsKey"]
-- !private ["s7CVarArgP", "SymptomsViewController"]
 - !private ["s7CVarArgP", "UIImage"]
 - !private ["s7CVarArgP", "UINavigationController"]
 - !private ["s7CVarArgP", "UIScreen"]
@@ -174,7 +176,6 @@ depends-member:
 - !private ["s9CodingKeyP", "stringValue"]
 - ["Sl", ""]
 - !private ["Sl", "init"]
-- !private ["26CollectionViewPagingLayout0abcD8DelegateP", "init"]
 - ["SL", ""]
 - !private ["7SnapKit25ConstraintRelatableTargetP", "backgroundColor"]
 - !private ["7SnapKit25ConstraintRelatableTargetP", "init"]
@@ -183,6 +184,7 @@ depends-member:
 - !private ["7SnapKit25ConstraintRelatableTargetP", "rootViewController"]
 - !private ["10Foundation15ContiguousBytesP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "$main"]
+- !private ["s28CustomDebugStringConvertibleP", "BlogViewController"]
 - !private ["s28CustomDebugStringConvertibleP", "Data"]
 - !private ["s28CustomDebugStringConvertibleP", "GIDSignIn"]
 - !private ["s28CustomDebugStringConvertibleP", "GIDSignInErrorCode"]
@@ -190,7 +192,6 @@ depends-member:
 - ["s28CustomDebugStringConvertibleP", "LaunchOptionsKey"]
 - !private ["s28CustomDebugStringConvertibleP", "LoginViewController"]
 - ["s28CustomDebugStringConvertibleP", "OpenURLOptionsKey"]
-- !private ["s28CustomDebugStringConvertibleP", "SymptomsViewController"]
 - !private ["s28CustomDebugStringConvertibleP", "UIImage"]
 - !private ["s28CustomDebugStringConvertibleP", "UINavigationController"]
 - !private ["s28CustomDebugStringConvertibleP", "UIScreen"]
@@ -257,6 +258,7 @@ depends-member:
 - !private ["s17CustomReflectableP", "userID"]
 - !private ["s17CustomReflectableP", "yellow"]
 - !private ["s23CustomStringConvertibleP", "$main"]
+- !private ["s23CustomStringConvertibleP", "BlogViewController"]
 - !private ["s23CustomStringConvertibleP", "Data"]
 - !private ["s23CustomStringConvertibleP", "GIDSignIn"]
 - !private ["s23CustomStringConvertibleP", "GIDSignInErrorCode"]
@@ -264,7 +266,6 @@ depends-member:
 - ["s23CustomStringConvertibleP", "LaunchOptionsKey"]
 - !private ["s23CustomStringConvertibleP", "LoginViewController"]
 - ["s23CustomStringConvertibleP", "OpenURLOptionsKey"]
-- !private ["s23CustomStringConvertibleP", "SymptomsViewController"]
 - !private ["s23CustomStringConvertibleP", "UIImage"]
 - !private ["s23CustomStringConvertibleP", "UINavigationController"]
 - !private ["s23CustomStringConvertibleP", "UIScreen"]
@@ -352,6 +353,7 @@ depends-member:
 - !private ["SE", "yellow"]
 - !private ["SQ", "$main"]
 - !private ["SQ", "=="]
+- !private ["SQ", "BlogViewController"]
 - !private ["SQ", "Data"]
 - !private ["SQ", "GIDSignIn"]
 - !private ["SQ", "GIDSignInErrorCode"]
@@ -360,7 +362,6 @@ depends-member:
 - !private ["SQ", "LoginViewController"]
 - ["SQ", "OpenURLOptionsKey"]
 - !private ["SQ", "RawValue"]
-- !private ["SQ", "SymptomsViewController"]
 - !private ["SQ", "UIImage"]
 - !private ["SQ", "UINavigationController"]
 - !private ["SQ", "UIScreen"]
@@ -449,12 +450,12 @@ depends-member:
 - !private ["So9GIDSignInC", "presentingViewController"]
 - !private ["So9GIDSignInC", "sharedInstance"]
 - ["So17GIDSignInDelegateP", "$main"]
+- !private ["So17GIDSignInDelegateP", "BlogViewController"]
 - !private ["So17GIDSignInDelegateP", "Data"]
 - !private ["So17GIDSignInDelegateP", "GIDSignIn"]
 - !private ["So17GIDSignInDelegateP", "GIDSignInErrorCode"]
 - !private ["So17GIDSignInDelegateP", "GoogleUser"]
 - !private ["So17GIDSignInDelegateP", "LoginViewController"]
-- !private ["So17GIDSignInDelegateP", "SymptomsViewController"]
 - !private ["So17GIDSignInDelegateP", "UIImage"]
 - !private ["So17GIDSignInDelegateP", "UINavigationController"]
 - !private ["So17GIDSignInDelegateP", "UIScreen"]
@@ -503,6 +504,7 @@ depends-member:
 - !private ["11Supplements10GoogleUserV", ""]
 - !private ["11Supplements10GoogleUserV", "init"]
 - !private ["SH", "$main"]
+- !private ["SH", "BlogViewController"]
 - !private ["SH", "Data"]
 - !private ["SH", "GIDSignIn"]
 - !private ["SH", "GIDSignInErrorCode"]
@@ -511,7 +513,6 @@ depends-member:
 - !private ["SH", "LoginViewController"]
 - ["SH", "OpenURLOptionsKey"]
 - !private ["SH", "RawValue"]
-- !private ["SH", "SymptomsViewController"]
 - !private ["SH", "UIImage"]
 - !private ["SH", "UINavigationController"]
 - !private ["SH", "UIScreen"]
@@ -620,6 +621,7 @@ depends-member:
 - !private ["So21NSItemProviderWritingP", "green"]
 - !private ["So21NSItemProviderWritingP", "init"]
 - !private ["So21NSItemProviderWritingP", "yellow"]
+- !private ["So8NSObjectC", "BlogViewController"]
 - ["So8NSObjectC", "Bool"]
 - !private ["So8NSObjectC", "Data"]
 - ["So8NSObjectC", "Error"]
@@ -632,7 +634,6 @@ depends-member:
 - !private ["So8NSObjectC", "NSError"]
 - ["So8NSObjectC", "OpenURLOptionsKey"]
 - ["So8NSObjectC", "String"]
-- !private ["So8NSObjectC", "SymptomsViewController"]
 - ["So8NSObjectC", "UIApplication"]
 - !private ["So8NSObjectC", "UIImage"]
 - !private ["So8NSObjectC", "UINavigationController"]
@@ -697,6 +698,7 @@ depends-member:
 - ["So8NSObjectC", "window"]
 - !private ["So8NSObjectC", "yellow"]
 - ["So8NSObjectP", "$main"]
+- !private ["So8NSObjectP", "BlogViewController"]
 - ["So8NSObjectP", "Bool"]
 - !private ["So8NSObjectP", "Data"]
 - ["So8NSObjectP", "Error"]
@@ -709,7 +711,6 @@ depends-member:
 - !private ["So8NSObjectP", "NSError"]
 - ["So8NSObjectP", "OpenURLOptionsKey"]
 - ["So8NSObjectP", "String"]
-- !private ["So8NSObjectP", "SymptomsViewController"]
 - ["So8NSObjectP", "UIApplication"]
 - !private ["So8NSObjectP", "UIImage"]
 - !private ["So8NSObjectP", "UINavigationController"]
@@ -830,8 +831,6 @@ depends-member:
 - !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
 - !private ["s27StringInterpolationProtocolP", "appendLiteral"]
 - !private ["s27StringInterpolationProtocolP", "init"]
-- !private ["11Supplements22SymptomsViewControllerC", ""]
-- !private ["11Supplements22SymptomsViewControllerC", "init"]
 - ["s16TextOutputStreamP", ""]
 - !private ["s16TextOutputStreamP", "appendInterpolation"]
 - !private ["s16TextOutputStreamP", "appendLiteral"]
@@ -869,12 +868,12 @@ depends-member:
 - ["So13UIApplicationC", "LaunchOptionsKey"]
 - ["So13UIApplicationC", "OpenURLOptionsKey"]
 - ["So21UIApplicationDelegateP", "$main"]
+- !private ["So21UIApplicationDelegateP", "BlogViewController"]
 - !private ["So21UIApplicationDelegateP", "Data"]
 - !private ["So21UIApplicationDelegateP", "GIDSignIn"]
 - !private ["So21UIApplicationDelegateP", "GIDSignInErrorCode"]
 - !private ["So21UIApplicationDelegateP", "GoogleUser"]
 - !private ["So21UIApplicationDelegateP", "LoginViewController"]
-- !private ["So21UIApplicationDelegateP", "SymptomsViewController"]
 - !private ["So21UIApplicationDelegateP", "UIImage"]
 - !private ["So21UIApplicationDelegateP", "UINavigationController"]
 - !private ["So21UIApplicationDelegateP", "UIScreen"]
@@ -905,7 +904,6 @@ depends-member:
 - ["So21UIApplicationDelegateP", "window"]
 - !private ["So16UIBarPositioningP", "prefersLargeTitles"]
 - !private ["So26UICollectionViewDataSourceP", "init"]
-- !private ["So24UICollectionViewDelegateP", "init"]
 - !private ["So7UIColorC", "green"]
 - !private ["So7UIColorC", "yellow"]
 - ["So18UIContentContainerP", ""]
@@ -965,6 +963,7 @@ depends-member:
 - !private ["So22UINavigationControllerC", "navigationBar"]
 - !private ["So22UINavigationControllerC", "pushViewController"]
 - ["So30UIPasteConfigurationSupportingP", "$main"]
+- !private ["So30UIPasteConfigurationSupportingP", "BlogViewController"]
 - ["So30UIPasteConfigurationSupportingP", "Bool"]
 - !private ["So30UIPasteConfigurationSupportingP", "Data"]
 - ["So30UIPasteConfigurationSupportingP", "Error"]
@@ -977,7 +976,6 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "NSError"]
 - ["So30UIPasteConfigurationSupportingP", "OpenURLOptionsKey"]
 - ["So30UIPasteConfigurationSupportingP", "String"]
-- !private ["So30UIPasteConfigurationSupportingP", "SymptomsViewController"]
 - ["So30UIPasteConfigurationSupportingP", "UIApplication"]
 - !private ["So30UIPasteConfigurationSupportingP", "UIImage"]
 - !private ["So30UIPasteConfigurationSupportingP", "UINavigationController"]
@@ -1018,6 +1016,7 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "view"]
 - ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
 - ["So30UIPasteConfigurationSupportingP", "window"]
+- !private ["So11UIResponderC", "BlogViewController"]
 - ["So11UIResponderC", "Bool"]
 - !private ["So11UIResponderC", "Data"]
 - ["So11UIResponderC", "Error"]
@@ -1030,7 +1029,6 @@ depends-member:
 - !private ["So11UIResponderC", "NSError"]
 - ["So11UIResponderC", "OpenURLOptionsKey"]
 - ["So11UIResponderC", "String"]
-- !private ["So11UIResponderC", "SymptomsViewController"]
 - ["So11UIResponderC", "UIApplication"]
 - !private ["So11UIResponderC", "UIImage"]
 - !private ["So11UIResponderC", "UINavigationController"]
@@ -1071,6 +1069,7 @@ depends-member:
 - ["So11UIResponderC", "viewDidLoad"]
 - ["So11UIResponderC", "window"]
 - ["So30UIResponderStandardEditActionsP", "$main"]
+- !private ["So30UIResponderStandardEditActionsP", "BlogViewController"]
 - ["So30UIResponderStandardEditActionsP", "Bool"]
 - !private ["So30UIResponderStandardEditActionsP", "Data"]
 - ["So30UIResponderStandardEditActionsP", "Error"]
@@ -1083,7 +1082,6 @@ depends-member:
 - !private ["So30UIResponderStandardEditActionsP", "NSError"]
 - ["So30UIResponderStandardEditActionsP", "OpenURLOptionsKey"]
 - ["So30UIResponderStandardEditActionsP", "String"]
-- !private ["So30UIResponderStandardEditActionsP", "SymptomsViewController"]
 - ["So30UIResponderStandardEditActionsP", "UIApplication"]
 - !private ["So30UIResponderStandardEditActionsP", "UIImage"]
 - !private ["So30UIResponderStandardEditActionsP", "UINavigationController"]
@@ -1126,8 +1124,6 @@ depends-member:
 - ["So30UIResponderStandardEditActionsP", "window"]
 - !private ["So8UIScreenC", "bounds"]
 - !private ["So8UIScreenC", "main"]
-- !private ["So20UIScrollViewDelegateP", ""]
-- !private ["So20UIScrollViewDelegateP", "init"]
 - ["So16UIStateRestoringP", ""]
 - ["So16UIStateRestoringP", "init"]
 - !private ["So16UIStateRestoringP", "navigationBar"]
@@ -1151,6 +1147,7 @@ depends-member:
 - !private ["So18UITraitEnvironmentP", "view"]
 - ["So18UITraitEnvironmentP", "viewDidLoad"]
 - ["So23UIUserActivityRestoringP", "$main"]
+- !private ["So23UIUserActivityRestoringP", "BlogViewController"]
 - ["So23UIUserActivityRestoringP", "Bool"]
 - !private ["So23UIUserActivityRestoringP", "Data"]
 - ["So23UIUserActivityRestoringP", "Error"]
@@ -1163,7 +1160,6 @@ depends-member:
 - !private ["So23UIUserActivityRestoringP", "NSError"]
 - ["So23UIUserActivityRestoringP", "OpenURLOptionsKey"]
 - ["So23UIUserActivityRestoringP", "String"]
-- !private ["So23UIUserActivityRestoringP", "SymptomsViewController"]
 - ["So23UIUserActivityRestoringP", "UIApplication"]
 - !private ["So23UIUserActivityRestoringP", "UIImage"]
 - !private ["So23UIUserActivityRestoringP", "UINavigationController"]
@@ -1246,6 +1242,7 @@ depends-member:
 - !private ["s26_ExpressibleByColorLiteralP", "yellow"]
 - !private ["s26_ExpressibleByImageLiteralP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "$main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "BlogViewController"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "Data"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "GIDSignIn"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "GIDSignInErrorCode"]
@@ -1253,7 +1250,6 @@ depends-member:
 - ["10Foundation27_KeyValueCodingAndObservingP", "LaunchOptionsKey"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "LoginViewController"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "OpenURLOptionsKey"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "SymptomsViewController"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UIImage"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UINavigationController"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UIScreen"]
@@ -1305,6 +1301,7 @@ depends-member:
 - ["10Foundation27_KeyValueCodingAndObservingP", "window"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "yellow"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "$main"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "BlogViewController"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Data"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "GIDSignIn"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "GIDSignInErrorCode"]
@@ -1312,7 +1309,6 @@ depends-member:
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "LaunchOptionsKey"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "LoginViewController"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "OpenURLOptionsKey"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "SymptomsViewController"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIImage"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UINavigationController"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIScreen"]
@@ -1387,12 +1383,12 @@ depends-nominal:
 - !private "s18AdditiveArithmeticP"
 - "11Supplements11AppDelegateC"
 - "SK"
+- !private "11Supplements18BlogViewControllerC"
 - !private "So15CALayerDelegateP"
 - !private "8CloudKit21CKRecordValueProtocolP"
 - "s7CVarArgP"
 - !private "s9CodingKeyP"
 - "Sl"
-- !private "26CollectionViewPagingLayout0abcD8DelegateP"
 - "SL"
 - !private "7SnapKit25ConstraintRelatableTargetP"
 - !private "10Foundation15ContiguousBytesP"
@@ -1448,7 +1444,6 @@ depends-nominal:
 - !private "s13SignedNumericP"
 - !private "Sx"
 - !private "s27StringInterpolationProtocolP"
-- !private "11Supplements22SymptomsViewControllerC"
 - "s16TextOutputStreamP"
 - "s20TextOutputStreamableP"
 - "11Supplements19ThirdViewControllerC"
@@ -1459,7 +1454,6 @@ depends-nominal:
 - "So21UIApplicationDelegateP"
 - !private "So16UIBarPositioningP"
 - !private "So26UICollectionViewDataSourceP"
-- !private "So24UICollectionViewDelegateP"
 - !private "So7UIColorC"
 - "So18UIContentContainerP"
 - !private "So17UICoordinateSpaceP"
@@ -1476,7 +1470,6 @@ depends-nominal:
 - "So11UIResponderC"
 - "So30UIResponderStandardEditActionsP"
 - !private "So8UIScreenC"
-- !private "So20UIScrollViewDelegateP"
 - "So16UIStateRestoringP"
 - "So18UITraitEnvironmentP"
 - "So23UIUserActivityRestoringP"

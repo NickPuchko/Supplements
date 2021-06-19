@@ -226,15 +226,40 @@ SWIFT_CLASS("_TtC11Supplements11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class NSBundle;
+@class NSCoder;
+
+SWIFT_CLASS("_TtC11Supplements18BlogViewController")
+@interface BlogViewController : UIViewController
+- (void)viewDidLoad;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UICollectionView;
+@class UICollectionViewCell;
+
+@interface BlogViewController (SWIFT_EXTENSION(Supplements)) <UICollectionViewDataSource>
+- (NSInteger)collectionView:(UICollectionView * _Nonnull)collectionView numberOfItemsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UICollectionViewCell * _Nonnull)collectionView:(UICollectionView * _Nonnull)collectionView cellForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+@end
+
 @class UIDatePicker;
 @class UITextField;
-@class NSCoder;
 
 SWIFT_CLASS("_TtC11Supplements11ContentView")
 @interface ContentView : UIView
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
 - (void)dueDateChangedWithSender:(UIDatePicker * _Nonnull)sender;
 - (void)editingChanged:(UITextField * _Nonnull)textField;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC11Supplements24CustomCollectionViewCell")
+@interface CustomCollectionViewCell : UICollectionViewCell
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (void)layoutSubviews;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -248,7 +273,6 @@ SWIFT_CLASS("_TtC11Supplements15CustomTextField")
 - (CGRect)editingRectForBounds:(CGRect)bounds SWIFT_WARN_UNUSED_RESULT;
 @end
 
-@class NSBundle;
 
 SWIFT_CLASS("_TtC11Supplements18FormViewController")
 @interface FormViewController : UIViewController
@@ -322,7 +346,6 @@ SWIFT_CLASS("_TtC11Supplements12QuestionCell")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UICollectionView;
 @class UICollectionViewLayout;
 
 SWIFT_CLASS("_TtC11Supplements33QuestionsCollectionViewController")

@@ -59,6 +59,18 @@ struct Page: Codable {
 	let questions: [String: [String]]
 }
 
+// MARK: - Test
+struct Test: Codable {
+	let data: [PageContract]
+}
+
+// MARK: - Datum
+struct PageContract: Codable {
+	let index: Int
+	let header, questions: [String]
+}
+
+
 enum Element: String, Codable {
 	case vitamin_a = "Витамин А",
 		 vitamin_b2 = "Витамин B2",

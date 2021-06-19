@@ -63,6 +63,7 @@ depends-top-level:
 - "UITextField"
 - "UIView"
 - !private "addSubview"
+- !private "backgroundColor"
 - !private "birthDateLabel"
 - !private "birthDateTextField"
 - !private "buttonOnNext"
@@ -373,6 +374,7 @@ depends-member:
 - ["11Supplements11ContentViewC", "UITextField"]
 - ["11Supplements11ContentViewC", ""]
 - !private ["11Supplements11ContentViewC", "addSubview"]
+- !private ["11Supplements11ContentViewC", "backgroundColor"]
 - !private ["11Supplements11ContentViewC", "birthDateLabel"]
 - !private ["11Supplements11ContentViewC", "birthDateTextField"]
 - !private ["11Supplements11ContentViewC", "buttonOnNext"]

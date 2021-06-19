@@ -15,11 +15,9 @@ class PagesNetworkService: NetworkService {
 			return
 		}
 		print(url)
+
 		AF.request(url)
 			.validate()
-//			.responseJSON(completionHandler: { json in
-//				print(json)
-//			})
 			.response { [weak self] response in
 			switch response.result {
 			case .success(let json):
@@ -28,11 +26,12 @@ class PagesNetworkService: NetworkService {
 					return
 				}
 				do {
-					guard let pages = (try self?.decoder.decode([Page].self, from: jsonUnwrapped)) else {
+					let data = String(data: jsonUnwrapped, encoding: .nonLossyASCII)?.data(using: .utf8)
+					guard let pages = (try self?.decoder.decode(PageContract.self, from: data!)) else {
 						completion(.failure(RequestError.decoding))
 						return
 					}
-					completion(.success(pages))
+					completion(.success([]))
 				} catch let error {
 					completion(.failure(error))
 				}

@@ -9,56 +9,127 @@ provides-dynamic-lookup:
 - "getPages"
 depends-top-level:
 - !private "AF"
+- !private "Array"
 - "Error"
 - "NetworkService"
 - "Page"
+- "PageContract"
 - "PagesNetworkService"
 - "RequestError"
 - "Result"
+- "String"
 - !private "StringLiteralType"
 - "Void"
 - !private "makeURL"
 - !private "print"
 depends-member:
+- !private ["SK", ""]
+- !private ["SK", "data"]
+- !private ["SK", "init"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "data"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "init"]
+- !private ["s7CVarArgP", "data"]
+- !private ["s7CVarArgP", "init"]
+- !private ["Sl", ""]
+- !private ["Sl", "data"]
+- !private ["Sl", "init"]
+- !private ["SL", ""]
+- !private ["SL", "data"]
+- !private ["SL", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "callAsFunction"]
+- !private ["s28CustomDebugStringConvertibleP", "data"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "result"]
 - !private ["s17CustomReflectableP", "callAsFunction"]
+- !private ["s17CustomReflectableP", "data"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "data"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "nonLossyASCII"]
 - !private ["s23CustomStringConvertibleP", "response"]
 - !private ["s23CustomStringConvertibleP", "result"]
+- !private ["s23CustomStringConvertibleP", "utf8"]
 - !private ["s23CustomStringConvertibleP", "validate"]
 - !private ["9Alamofire11DataDecoderP", "decode"]
 - !private ["9Alamofire11DataRequestC", "response"]
 - !private ["9Alamofire11DataRequestC", "validate"]
 - !private ["9Alamofire12DataResponseV", "result"]
 - !private ["Se", "callAsFunction"]
+- !private ["Se", "data"]
+- !private ["Se", "init"]
 - !private ["SE", "callAsFunction"]
+- !private ["SE", "data"]
+- !private ["SE", "init"]
+- !private ["SS10FoundationE8EncodingV", "nonLossyASCII"]
+- !private ["SS10FoundationE8EncodingV", "utf8"]
 - !private ["SQ", ""]
 - !private ["SQ", "callAsFunction"]
+- !private ["SQ", "data"]
 - !private ["SQ", "decoding"]
 - !private ["SQ", "failure"]
+- !private ["SQ", "init"]
 - !private ["SQ", "network"]
+- !private ["SQ", "nonLossyASCII"]
 - !private ["SQ", "response"]
 - !private ["SQ", "success"]
+- !private ["SQ", "utf8"]
 - !private ["SQ", "validate"]
 - !private ["s5ErrorP", "decoding"]
 - !private ["s5ErrorP", "network"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "data"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
 - !private ["s23ExpressibleByNilLiteralP", "callAsFunction"]
+- !private ["s32ExpressibleByStringInterpolationP", ""]
+- !private ["s32ExpressibleByStringInterpolationP", "data"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", ""]
+- !private ["s26ExpressibleByStringLiteralP", "data"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "data"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
 - !private ["7SwiftUI7GestureP", "callAsFunction"]
+- !private ["SH", ""]
 - !private ["SH", "callAsFunction"]
+- !private ["SH", "data"]
 - !private ["SH", "decoding"]
 - !private ["SH", "failure"]
+- !private ["SH", "init"]
 - !private ["SH", "network"]
+- !private ["SH", "nonLossyASCII"]
 - !private ["SH", "response"]
 - !private ["SH", "success"]
+- !private ["SH", "utf8"]
 - !private ["SH", "validate"]
 - !private ["10Foundation11JSONDecoderC", "decode"]
+- !private ["s25LosslessStringConvertibleP", ""]
+- !private ["s25LosslessStringConvertibleP", "data"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "data"]
+- !private ["s10MirrorPathP", "init"]
 - !private ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "data"]
+- !private ["So9NSCopyingP", "data"]
+- !private ["So21NSItemProviderReadingP", "data"]
+- !private ["So21NSItemProviderWritingP", "data"]
+- !private ["So16NSMutableCopyingP", "data"]
+- !private ["So8NSObjectC", "data"]
+- !private ["So8NSObjectC", "dataUsingEncoding"]
 - !private ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "data"]
+- !private ["So8NSObjectP", "dataUsingEncoding"]
+- !private ["So14NSSecureCodingP", "data"]
+- !private ["So8NSStringC", "data"]
 - !private ["11Supplements14NetworkServiceC", "AF"]
 - ["11Supplements14NetworkServiceC", "Error"]
 - ["11Supplements14NetworkServiceC", "Page"]
+- !private ["11Supplements14NetworkServiceC", "PageContract"]
 - !private ["11Supplements14NetworkServiceC", "RequestError"]
 - ["11Supplements14NetworkServiceC", "Result"]
+- !private ["11Supplements14NetworkServiceC", "String"]
 - ["11Supplements14NetworkServiceC", "Void"]
 - ["11Supplements14NetworkServiceC", ""]
 - !private ["11Supplements14NetworkServiceC", "decoder"]
@@ -67,12 +138,14 @@ depends-member:
 - !private ["11Supplements14NetworkServiceC", "makeURL"]
 - !private ["11Supplements14NetworkServiceC", "print"]
 - !private ["Sq", "callAsFunction"]
-- !private ["11Supplements4PageV", ""]
+- !private ["11Supplements12PageContractV", ""]
 - !private ["11Supplements19PagesNetworkServiceC", "AF"]
 - ["11Supplements19PagesNetworkServiceC", "Error"]
 - ["11Supplements19PagesNetworkServiceC", "Page"]
+- !private ["11Supplements19PagesNetworkServiceC", "PageContract"]
 - !private ["11Supplements19PagesNetworkServiceC", "RequestError"]
 - ["11Supplements19PagesNetworkServiceC", "Result"]
+- !private ["11Supplements19PagesNetworkServiceC", "String"]
 - ["11Supplements19PagesNetworkServiceC", "Void"]
 - !private ["11Supplements19PagesNetworkServiceC", "decoder"]
 - ["11Supplements19PagesNetworkServiceC", "deinit"]
@@ -80,6 +153,10 @@ depends-member:
 - ["11Supplements19PagesNetworkServiceC", "init"]
 - !private ["11Supplements19PagesNetworkServiceC", "makeURL"]
 - !private ["11Supplements19PagesNetworkServiceC", "print"]
+- !private ["Sm", "data"]
+- !private ["Sm", "init"]
+- !private ["SY", "nonLossyASCII"]
+- !private ["SY", "utf8"]
 - ["9Alamofire7RequestC", ""]
 - !private ["9Alamofire7RequestC", "response"]
 - !private ["9Alamofire7RequestC", "validate"]
@@ -89,13 +166,56 @@ depends-member:
 - !private ["11Supplements12RequestErrorO", "network"]
 - !private ["s6ResultO", "failure"]
 - !private ["s6ResultO", "success"]
+- !private ["ST", ""]
+- !private ["ST", "data"]
+- !private ["ST", "init"]
 - !private ["9Alamofire7SessionC", "request"]
 - !private ["9Alamofire20SessionStateProviderP", "request"]
+- !private ["SS", "data"]
+- !private ["SS", "init"]
+- !private ["Sy", "data"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", ""]
+- !private ["s16TextOutputStreamP", "data"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", ""]
+- !private ["s20TextOutputStreamableP", "data"]
+- !private ["s20TextOutputStreamableP", "init"]
 - !private ["7Combine15TopLevelDecoderP", "decode"]
+- !private ["9Alamofire14URLConvertibleP", "data"]
+- !private ["9Alamofire14URLConvertibleP", "init"]
 - !private ["7SwiftUI4ViewP", "callAsFunction"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "data"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "data"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "data"]
 - !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "data"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "data"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "data"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "data"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "data"]
+- !private ["s21_ObjectiveCBridgeableP", "_ObjectiveCType"]
+- !private ["s21_ObjectiveCBridgeableP", "_bridgeToObjectiveC"]
+- !private ["s21_ObjectiveCBridgeableP", "_conditionallyBridgeFromObjectiveC"]
+- !private ["s21_ObjectiveCBridgeableP", "_forceBridgeFromObjectiveC"]
+- !private ["s21_ObjectiveCBridgeableP", "_unconditionallyBridgeFromObjectiveC"]
 - !private ["s21_ObjectiveCBridgeableP", "callAsFunction"]
+- !private ["s21_ObjectiveCBridgeableP", "data"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["So13CKRecordValueP", "data"]
 depends-nominal:
+- !private "SK"
+- !private "8CloudKit21CKRecordValueProtocolP"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
 - !private "s28CustomDebugStringConvertibleP"
 - !private "s17CustomReflectableP"
 - !private "s23CustomStringConvertibleP"
@@ -104,28 +224,60 @@ depends-nominal:
 - !private "9Alamofire12DataResponseV"
 - !private "Se"
 - !private "SE"
+- !private "SS10FoundationE8EncodingV"
 - !private "SQ"
 - !private "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
 - !private "s23ExpressibleByNilLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
 - !private "7SwiftUI7GestureP"
 - !private "SH"
 - !private "10Foundation11JSONDecoderC"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
 - !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
 - !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
 - "11Supplements14NetworkServiceC"
 - !private "Sq"
-- !private "11Supplements4PageV"
+- !private "11Supplements12PageContractV"
 - "11Supplements19PagesNetworkServiceC"
+- !private "Sm"
+- !private "SY"
 - "9Alamofire7RequestC"
 - !private "9Alamofire15RequestDelegateP"
 - !private "11Supplements12RequestErrorO"
 - !private "s6ResultO"
+- !private "ST"
 - !private "9Alamofire7SessionC"
 - !private "9Alamofire20SessionStateProviderP"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
 - !private "7Combine15TopLevelDecoderP"
+- !private "9Alamofire14URLConvertibleP"
 - !private "7SwiftUI4ViewP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
 - !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
 - !private "s21_ObjectiveCBridgeableP"
+- !private "So13CKRecordValueP"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
