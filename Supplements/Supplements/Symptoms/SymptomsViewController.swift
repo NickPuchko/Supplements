@@ -75,5 +75,5 @@ extension SymptomsViewController: UICollectionViewDataSource {
 }
 
 extension SymptomsViewController: UICollectionViewDelegate {
-	didse
+	//didse
 }
