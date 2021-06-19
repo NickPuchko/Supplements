@@ -30,6 +30,7 @@ provides-dynamic-lookup:
 - "setUpWeightSection"
 - "sex"
 - "sexList"
+- "viewController"
 - "weightLabel"
 - "weightTextField"
 depends-top-level:
@@ -46,6 +47,7 @@ depends-top-level:
 - "CustomTextField"
 - !private "DateFormatter"
 - !private "FloatLiteralType"
+- "FormViewController"
 - !private "IntegerLiteralType"
 - "NSCoder"
 - !private "NSLayoutConstraint"
@@ -89,6 +91,7 @@ depends-top-level:
 - !private "sex"
 - "sexList"
 - !private "trailingAnchor"
+- !private "viewController"
 - !private "weightLabel"
 - !private "weightTextField"
 depends-member:
@@ -113,6 +116,7 @@ depends-member:
 - ["So15CALayerDelegateP", "CustomTextField"]
 - !private ["So15CALayerDelegateP", "DateFormatter"]
 - !private ["So15CALayerDelegateP", "Event"]
+- ["So15CALayerDelegateP", "FormViewController"]
 - !private ["So15CALayerDelegateP", "Mode"]
 - ["So15CALayerDelegateP", "NSCoder"]
 - !private ["So15CALayerDelegateP", "NSLayoutConstraint"]
@@ -178,6 +182,7 @@ depends-member:
 - !private ["So15CALayerDelegateP", "topAnchor"]
 - !private ["So15CALayerDelegateP", "trailingAnchor"]
 - !private ["So15CALayerDelegateP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So15CALayerDelegateP", "viewController"]
 - ["So15CALayerDelegateP", "weightLabel"]
 - ["So15CALayerDelegateP", "weightTextField"]
 - !private ["So13CAMediaTimingP", "borderColor"]
@@ -255,6 +260,7 @@ depends-member:
 - !private ["s7CVarArgP", "setValue"]
 - !private ["s7CVarArgP", "sex"]
 - ["s7CVarArgP", "sexList"]
+- !private ["s7CVarArgP", "showSymptomsViewController"]
 - !private ["s7CVarArgP", "sizeThatFits"]
 - !private ["s7CVarArgP", "snp"]
 - !private ["s7CVarArgP", "string"]
@@ -263,6 +269,7 @@ depends-member:
 - !private ["s7CVarArgP", "topAnchor"]
 - !private ["s7CVarArgP", "trailingAnchor"]
 - !private ["s7CVarArgP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["s7CVarArgP", "viewController"]
 - !private ["s7CVarArgP", "weightLabel"]
 - !private ["s7CVarArgP", "weightTextField"]
 - ["s12CaseIterableP", "Element"]
@@ -348,6 +355,7 @@ depends-member:
 - !private ["7SnapKit25ConstraintRelatableTargetP", "topAnchor"]
 - !private ["7SnapKit25ConstraintRelatableTargetP", "trailingAnchor"]
 - !private ["7SnapKit25ConstraintRelatableTargetP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "viewController"]
 - !private ["7SnapKit25ConstraintRelatableTargetP", "weightLabel"]
 - !private ["7SnapKit25ConstraintRelatableTargetP", "weightTextField"]
 - !private ["7SnapKit25ConstraintRelatableTargetP", "zero"]
@@ -359,6 +367,7 @@ depends-member:
 - !private ["11Supplements11ContentViewC", "CGSize"]
 - ["11Supplements11ContentViewC", "CustomTextField"]
 - !private ["11Supplements11ContentViewC", "DateFormatter"]
+- ["11Supplements11ContentViewC", "FormViewController"]
 - ["11Supplements11ContentViewC", "NSCoder"]
 - !private ["11Supplements11ContentViewC", "NSLayoutConstraint"]
 - ["11Supplements11ContentViewC", "Sex"]
@@ -375,23 +384,23 @@ depends-member:
 - ["11Supplements11ContentViewC", ""]
 - !private ["11Supplements11ContentViewC", "addSubview"]
 - !private ["11Supplements11ContentViewC", "backgroundColor"]
-- !private ["11Supplements11ContentViewC", "birthDateLabel"]
-- !private ["11Supplements11ContentViewC", "birthDateTextField"]
-- !private ["11Supplements11ContentViewC", "buttonOnNext"]
-- !private ["11Supplements11ContentViewC", "cityLabel"]
-- !private ["11Supplements11ContentViewC", "cityTextField"]
+- ["11Supplements11ContentViewC", "birthDateLabel"]
+- ["11Supplements11ContentViewC", "birthDateTextField"]
+- ["11Supplements11ContentViewC", "buttonOnNext"]
+- ["11Supplements11ContentViewC", "cityLabel"]
+- ["11Supplements11ContentViewC", "cityTextField"]
 - !private ["11Supplements11ContentViewC", "configure"]
 - !private ["11Supplements11ContentViewC", "configureButton"]
-- !private ["11Supplements11ContentViewC", "datePicker"]
+- ["11Supplements11ContentViewC", "datePicker"]
 - ["11Supplements11ContentViewC", "deinit"]
-- !private ["11Supplements11ContentViewC", "descriptionLabel"]
+- ["11Supplements11ContentViewC", "descriptionLabel"]
 - ["11Supplements11ContentViewC", "dueDateChanged"]
 - ["11Supplements11ContentViewC", "editingChanged"]
 - !private ["11Supplements11ContentViewC", "fatalError"]
-- !private ["11Supplements11ContentViewC", "genderLabel"]
-- !private ["11Supplements11ContentViewC", "heightLabel"]
-- !private ["11Supplements11ContentViewC", "heightTextField"]
-- !private ["11Supplements11ContentViewC", "iherbImageView"]
+- ["11Supplements11ContentViewC", "genderLabel"]
+- ["11Supplements11ContentViewC", "heightLabel"]
+- ["11Supplements11ContentViewC", "heightTextField"]
+- ["11Supplements11ContentViewC", "iherbImageView"]
 - ["11Supplements11ContentViewC", "init"]
 - !private ["11Supplements11ContentViewC", "leadingAnchor"]
 - !private ["11Supplements11ContentViewC", "safeAreaLayoutGuide"]
@@ -403,8 +412,9 @@ depends-member:
 - ["11Supplements11ContentViewC", "sex"]
 - ["11Supplements11ContentViewC", "sexList"]
 - !private ["11Supplements11ContentViewC", "trailingAnchor"]
-- !private ["11Supplements11ContentViewC", "weightLabel"]
-- !private ["11Supplements11ContentViewC", "weightTextField"]
+- ["11Supplements11ContentViewC", "viewController"]
+- ["11Supplements11ContentViewC", "weightLabel"]
+- ["11Supplements11ContentViewC", "weightTextField"]
 - !private ["10Foundation15ContiguousBytesP", "forEach"]
 - ["10Foundation15ContiguousBytesP", "map"]
 - !private ["s28CustomDebugStringConvertibleP", "CGColor"]
@@ -473,6 +483,7 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "setValue"]
 - !private ["s28CustomDebugStringConvertibleP", "sex"]
 - ["s28CustomDebugStringConvertibleP", "sexList"]
+- !private ["s28CustomDebugStringConvertibleP", "showSymptomsViewController"]
 - !private ["s28CustomDebugStringConvertibleP", "size"]
 - !private ["s28CustomDebugStringConvertibleP", "sizeThatFits"]
 - !private ["s28CustomDebugStringConvertibleP", "snp"]
@@ -482,12 +493,14 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "topAnchor"]
 - !private ["s28CustomDebugStringConvertibleP", "trailingAnchor"]
 - !private ["s28CustomDebugStringConvertibleP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["s28CustomDebugStringConvertibleP", "viewController"]
 - !private ["s28CustomDebugStringConvertibleP", "weightLabel"]
 - !private ["s28CustomDebugStringConvertibleP", "weightTextField"]
 - !private ["s28CustomDebugStringConvertibleP", "zero"]
 - !private ["s17CustomReflectableP", "forEach"]
 - !private ["s17CustomReflectableP", "init"]
 - ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "showSymptomsViewController"]
 - !private ["s17CustomReflectableP", "size"]
 - !private ["s17CustomReflectableP", "zero"]
 - !private ["s23CustomStringConvertibleP", "CGColor"]
@@ -556,6 +569,7 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "setValue"]
 - !private ["s23CustomStringConvertibleP", "sex"]
 - ["s23CustomStringConvertibleP", "sexList"]
+- !private ["s23CustomStringConvertibleP", "showSymptomsViewController"]
 - !private ["s23CustomStringConvertibleP", "sizeThatFits"]
 - !private ["s23CustomStringConvertibleP", "snp"]
 - !private ["s23CustomStringConvertibleP", "string"]
@@ -564,6 +578,7 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "topAnchor"]
 - !private ["s23CustomStringConvertibleP", "trailingAnchor"]
 - !private ["s23CustomStringConvertibleP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["s23CustomStringConvertibleP", "viewController"]
 - !private ["s23CustomStringConvertibleP", "weightLabel"]
 - !private ["s23CustomStringConvertibleP", "weightTextField"]
 - ["11Supplements15CustomTextFieldC", ""]
@@ -589,6 +604,7 @@ depends-member:
 - !private ["Se", "init"]
 - ["Se", "map"]
 - ["Se", "rawValue"]
+- !private ["Se", "showSymptomsViewController"]
 - !private ["Se", "size"]
 - !private ["Se", "zero"]
 - ["SE", "allCases"]
@@ -596,6 +612,7 @@ depends-member:
 - !private ["SE", "init"]
 - ["SE", "map"]
 - ["SE", "rawValue"]
+- !private ["SE", "showSymptomsViewController"]
 - !private ["SE", "size"]
 - !private ["SE", "zero"]
 - !private ["SQ", "CGColor"]
@@ -669,6 +686,7 @@ depends-member:
 - !private ["SQ", "sex"]
 - ["SQ", "sexList"]
 - !private ["SQ", "short"]
+- !private ["SQ", "showSymptomsViewController"]
 - !private ["SQ", "size"]
 - !private ["SQ", "sizeThatFits"]
 - !private ["SQ", "snp"]
@@ -676,13 +694,16 @@ depends-member:
 - !private ["SQ", "text"]
 - !private ["SQ", "timeStyle"]
 - !private ["SQ", "topAnchor"]
+- !private ["SQ", "touchUpInside"]
 - !private ["SQ", "trailingAnchor"]
 - !private ["SQ", "translatesAutoresizingMaskIntoConstraints"]
 - !private ["SQ", "valueChanged"]
+- !private ["SQ", "viewController"]
 - !private ["SQ", "weightLabel"]
 - !private ["SQ", "weightTextField"]
 - !private ["SQ", "zero"]
 - !private ["So15UIControlEventsV", "editingChanged"]
+- !private ["So15UIControlEventsV", "touchUpInside"]
 - !private ["So15UIControlEventsV", "valueChanged"]
 - ["s25ExpressibleByArrayLiteralP", ""]
 - !private ["s25ExpressibleByArrayLiteralP", "editingChanged"]
@@ -690,21 +711,25 @@ depends-member:
 - !private ["s25ExpressibleByArrayLiteralP", "init"]
 - ["s25ExpressibleByArrayLiteralP", "map"]
 - !private ["s25ExpressibleByArrayLiteralP", "normal"]
+- !private ["s25ExpressibleByArrayLiteralP", "touchUpInside"]
 - !private ["s25ExpressibleByArrayLiteralP", "valueChanged"]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
 - !private ["s25ExpressibleByFloatLiteralP", "FloatLiteralType"]
 - !private ["s25ExpressibleByFloatLiteralP", "init"]
 - !private ["s27ExpressibleByIntegerLiteralP", "IntegerLiteralType"]
 - !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "showSymptomsViewController"]
 - !private ["s32ExpressibleByStringInterpolationP", ""]
 - !private ["s26ExpressibleByStringLiteralP", ""]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["11Supplements18FormViewControllerC", "showSymptomsViewController"]
 - ["So11NSFormatterC", ""]
 - !private ["So11NSFormatterC", "dateStyle"]
 - !private ["So11NSFormatterC", "init"]
 - !private ["So11NSFormatterC", "string"]
 - !private ["So11NSFormatterC", "stringFromDate"]
 - !private ["So11NSFormatterC", "timeStyle"]
+- !private ["7SwiftUI7GestureP", "showSymptomsViewController"]
 - !private ["SH", "CGColor"]
 - !private ["SH", "CGRect"]
 - !private ["SH", "CGSize"]
@@ -775,6 +800,7 @@ depends-member:
 - !private ["SH", "sex"]
 - ["SH", "sexList"]
 - !private ["SH", "short"]
+- !private ["SH", "showSymptomsViewController"]
 - !private ["SH", "sizeThatFits"]
 - !private ["SH", "snp"]
 - !private ["SH", "string"]
@@ -783,6 +809,7 @@ depends-member:
 - !private ["SH", "topAnchor"]
 - !private ["SH", "trailingAnchor"]
 - !private ["SH", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["SH", "viewController"]
 - !private ["SH", "weightLabel"]
 - !private ["SH", "weightTextField"]
 - !private ["7SnapKit20LayoutConstraintItemP", "CGColor"]
@@ -848,6 +875,7 @@ depends-member:
 - !private ["7SnapKit20LayoutConstraintItemP", "topAnchor"]
 - !private ["7SnapKit20LayoutConstraintItemP", "trailingAnchor"]
 - !private ["7SnapKit20LayoutConstraintItemP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["7SnapKit20LayoutConstraintItemP", "viewController"]
 - !private ["7SnapKit20LayoutConstraintItemP", "weightLabel"]
 - !private ["7SnapKit20LayoutConstraintItemP", "weightTextField"]
 - !private ["s25LosslessStringConvertibleP", ""]
@@ -867,6 +895,7 @@ depends-member:
 - ["So8NSCodingP", "CustomTextField"]
 - !private ["So8NSCodingP", "DateFormatter"]
 - !private ["So8NSCodingP", "Event"]
+- ["So8NSCodingP", "FormViewController"]
 - !private ["So8NSCodingP", "Mode"]
 - ["So8NSCodingP", "NSCoder"]
 - !private ["So8NSCodingP", "NSLayoutConstraint"]
@@ -950,6 +979,7 @@ depends-member:
 - !private ["So8NSCodingP", "setValue"]
 - ["So8NSCodingP", "sex"]
 - ["So8NSCodingP", "sexList"]
+- !private ["So8NSCodingP", "showSymptomsViewController"]
 - !private ["So8NSCodingP", "sizeThatFits"]
 - !private ["So8NSCodingP", "snp"]
 - !private ["So8NSCodingP", "string"]
@@ -959,6 +989,7 @@ depends-member:
 - !private ["So8NSCodingP", "topAnchor"]
 - !private ["So8NSCodingP", "trailingAnchor"]
 - !private ["So8NSCodingP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So8NSCodingP", "viewController"]
 - ["So8NSCodingP", "weightLabel"]
 - ["So8NSCodingP", "weightTextField"]
 - !private ["So9NSCopyingP", ""]
@@ -987,6 +1018,7 @@ depends-member:
 - !private ["So9NSCopyingP", "string"]
 - !private ["So9NSCopyingP", "stringFromDate"]
 - !private ["So9NSCopyingP", "timeStyle"]
+- !private ["So26NSExtensionRequestHandlingP", "showSymptomsViewController"]
 - !private ["So21NSItemProviderReadingP", "green"]
 - ["So21NSItemProviderReadingP", "init"]
 - !private ["So21NSItemProviderWritingP", "green"]
@@ -1023,6 +1055,7 @@ depends-member:
 - ["So8NSObjectC", "CustomTextField"]
 - !private ["So8NSObjectC", "DateFormatter"]
 - !private ["So8NSObjectC", "Event"]
+- ["So8NSObjectC", "FormViewController"]
 - !private ["So8NSObjectC", "Mode"]
 - ["So8NSObjectC", "NSCoder"]
 - !private ["So8NSObjectC", "NSLayoutConstraint"]
@@ -1125,6 +1158,7 @@ depends-member:
 - !private ["So8NSObjectC", "setValue"]
 - ["So8NSObjectC", "sex"]
 - ["So8NSObjectC", "sexList"]
+- !private ["So8NSObjectC", "showSymptomsViewController"]
 - !private ["So8NSObjectC", "sizeThatFits"]
 - !private ["So8NSObjectC", "snp"]
 - !private ["So8NSObjectC", "string"]
@@ -1136,6 +1170,7 @@ depends-member:
 - !private ["So8NSObjectC", "topAnchor"]
 - !private ["So8NSObjectC", "trailingAnchor"]
 - !private ["So8NSObjectC", "translatesAutoresizingMaskIntoConstraints"]
+- ["So8NSObjectC", "viewController"]
 - ["So8NSObjectC", "weightLabel"]
 - ["So8NSObjectC", "weightTextField"]
 - ["So8NSObjectP", "$__lazy_storage_$_iherbImageView"]
@@ -1146,6 +1181,7 @@ depends-member:
 - ["So8NSObjectP", "CustomTextField"]
 - !private ["So8NSObjectP", "DateFormatter"]
 - !private ["So8NSObjectP", "Event"]
+- ["So8NSObjectP", "FormViewController"]
 - !private ["So8NSObjectP", "Mode"]
 - ["So8NSObjectP", "NSCoder"]
 - !private ["So8NSObjectP", "NSLayoutConstraint"]
@@ -1248,6 +1284,7 @@ depends-member:
 - !private ["So8NSObjectP", "setValue"]
 - ["So8NSObjectP", "sex"]
 - ["So8NSObjectP", "sexList"]
+- !private ["So8NSObjectP", "showSymptomsViewController"]
 - !private ["So8NSObjectP", "sizeThatFits"]
 - !private ["So8NSObjectP", "snp"]
 - !private ["So8NSObjectP", "string"]
@@ -1259,6 +1296,7 @@ depends-member:
 - !private ["So8NSObjectP", "topAnchor"]
 - !private ["So8NSObjectP", "trailingAnchor"]
 - !private ["So8NSObjectP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So8NSObjectP", "viewController"]
 - ["So8NSObjectP", "weightLabel"]
 - ["So8NSObjectP", "weightTextField"]
 - !private ["So14NSSecureCodingP", "borderColor"]
@@ -1268,7 +1306,9 @@ depends-member:
 - ["So14NSSecureCodingP", "init"]
 - !private ["s9OptionSetP", "editingChanged"]
 - !private ["s9OptionSetP", "normal"]
+- !private ["s9OptionSetP", "touchUpInside"]
 - !private ["s9OptionSetP", "valueChanged"]
+- !private ["Sq", "showSymptomsViewController"]
 - ["Sk", ""]
 - !private ["Sk", "forEach"]
 - ["Sk", "map"]
@@ -1283,6 +1323,7 @@ depends-member:
 - !private ["SY", "normal"]
 - ["SY", "rawValue"]
 - !private ["SY", "short"]
+- !private ["SY", "touchUpInside"]
 - !private ["SY", "valueChanged"]
 - ["ST", ""]
 - !private ["ST", "forEach"]
@@ -1290,6 +1331,7 @@ depends-member:
 - !private ["s10SetAlgebraP", ""]
 - !private ["s10SetAlgebraP", "editingChanged"]
 - !private ["s10SetAlgebraP", "normal"]
+- !private ["s10SetAlgebraP", "touchUpInside"]
 - !private ["s10SetAlgebraP", "valueChanged"]
 - ["11Supplements3SexO", "RawValue"]
 - ["11Supplements3SexO", ""]
@@ -1302,6 +1344,7 @@ depends-member:
 - !private ["26CollectionViewPagingLayout14SummableToSelfP", "zero"]
 - !private ["s16TextOutputStreamP", ""]
 - !private ["s20TextOutputStreamableP", ""]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "addTarget"]
 - !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "backgroundColor"]
 - !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "frame"]
 - !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "heightAnchor"]
@@ -1322,6 +1365,7 @@ depends-member:
 - ["So29UIAccessibilityIdentificationP", "CustomTextField"]
 - !private ["So29UIAccessibilityIdentificationP", "DateFormatter"]
 - !private ["So29UIAccessibilityIdentificationP", "Event"]
+- ["So29UIAccessibilityIdentificationP", "FormViewController"]
 - !private ["So29UIAccessibilityIdentificationP", "Mode"]
 - ["So29UIAccessibilityIdentificationP", "NSCoder"]
 - !private ["So29UIAccessibilityIdentificationP", "NSLayoutConstraint"]
@@ -1387,6 +1431,7 @@ depends-member:
 - !private ["So29UIAccessibilityIdentificationP", "topAnchor"]
 - !private ["So29UIAccessibilityIdentificationP", "trailingAnchor"]
 - !private ["So29UIAccessibilityIdentificationP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So29UIAccessibilityIdentificationP", "viewController"]
 - ["So29UIAccessibilityIdentificationP", "weightLabel"]
 - ["So29UIAccessibilityIdentificationP", "weightTextField"]
 - ["So12UIAppearanceP", "$__lazy_storage_$_iherbImageView"]
@@ -1397,6 +1442,7 @@ depends-member:
 - ["So12UIAppearanceP", "CustomTextField"]
 - !private ["So12UIAppearanceP", "DateFormatter"]
 - !private ["So12UIAppearanceP", "Event"]
+- ["So12UIAppearanceP", "FormViewController"]
 - !private ["So12UIAppearanceP", "Mode"]
 - ["So12UIAppearanceP", "NSCoder"]
 - !private ["So12UIAppearanceP", "NSLayoutConstraint"]
@@ -1462,6 +1508,7 @@ depends-member:
 - !private ["So12UIAppearanceP", "topAnchor"]
 - !private ["So12UIAppearanceP", "trailingAnchor"]
 - !private ["So12UIAppearanceP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So12UIAppearanceP", "viewController"]
 - ["So12UIAppearanceP", "weightLabel"]
 - ["So12UIAppearanceP", "weightTextField"]
 - ["So21UIAppearanceContainerP", "$__lazy_storage_$_iherbImageView"]
@@ -1472,6 +1519,7 @@ depends-member:
 - ["So21UIAppearanceContainerP", "CustomTextField"]
 - !private ["So21UIAppearanceContainerP", "DateFormatter"]
 - !private ["So21UIAppearanceContainerP", "Event"]
+- ["So21UIAppearanceContainerP", "FormViewController"]
 - !private ["So21UIAppearanceContainerP", "Mode"]
 - ["So21UIAppearanceContainerP", "NSCoder"]
 - !private ["So21UIAppearanceContainerP", "NSLayoutConstraint"]
@@ -1531,14 +1579,17 @@ depends-member:
 - !private ["So21UIAppearanceContainerP", "setValue"]
 - ["So21UIAppearanceContainerP", "sex"]
 - ["So21UIAppearanceContainerP", "sexList"]
+- !private ["So21UIAppearanceContainerP", "showSymptomsViewController"]
 - !private ["So21UIAppearanceContainerP", "sizeThatFits"]
 - !private ["So21UIAppearanceContainerP", "snp"]
 - !private ["So21UIAppearanceContainerP", "text"]
 - !private ["So21UIAppearanceContainerP", "topAnchor"]
 - !private ["So21UIAppearanceContainerP", "trailingAnchor"]
 - !private ["So21UIAppearanceContainerP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So21UIAppearanceContainerP", "viewController"]
 - ["So21UIAppearanceContainerP", "weightLabel"]
 - ["So21UIAppearanceContainerP", "weightTextField"]
+- !private ["So8UIButtonC", "addTarget"]
 - !private ["So8UIButtonC", "backgroundColor"]
 - !private ["So8UIButtonC", "heightAnchor"]
 - ["So8UIButtonC", "init"]
@@ -1551,6 +1602,7 @@ depends-member:
 - !private ["So8UIButtonC", "translatesAutoresizingMaskIntoConstraints"]
 - !private ["So7UIColorC", "green"]
 - !private ["So7UIColorC", "init"]
+- !private ["So18UIContentContainerP", "showSymptomsViewController"]
 - !private ["So30UIContentSizeCategoryAdjustingP", "addTarget"]
 - !private ["So30UIContentSizeCategoryAdjustingP", "bottomAnchor"]
 - !private ["So30UIContentSizeCategoryAdjustingP", "centerYAnchor"]
@@ -1620,6 +1672,7 @@ depends-member:
 - ["So17UICoordinateSpaceP", "CustomTextField"]
 - !private ["So17UICoordinateSpaceP", "DateFormatter"]
 - !private ["So17UICoordinateSpaceP", "Event"]
+- ["So17UICoordinateSpaceP", "FormViewController"]
 - !private ["So17UICoordinateSpaceP", "Mode"]
 - ["So17UICoordinateSpaceP", "NSCoder"]
 - !private ["So17UICoordinateSpaceP", "NSLayoutConstraint"]
@@ -1685,6 +1738,7 @@ depends-member:
 - !private ["So17UICoordinateSpaceP", "topAnchor"]
 - !private ["So17UICoordinateSpaceP", "trailingAnchor"]
 - !private ["So17UICoordinateSpaceP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So17UICoordinateSpaceP", "viewController"]
 - ["So17UICoordinateSpaceP", "weightLabel"]
 - ["So17UICoordinateSpaceP", "weightTextField"]
 - !private ["So12UIDatePickerC", "Mode"]
@@ -1706,6 +1760,7 @@ depends-member:
 - ["So13UIDynamicItemP", "CustomTextField"]
 - !private ["So13UIDynamicItemP", "DateFormatter"]
 - !private ["So13UIDynamicItemP", "Event"]
+- ["So13UIDynamicItemP", "FormViewController"]
 - !private ["So13UIDynamicItemP", "Mode"]
 - ["So13UIDynamicItemP", "NSCoder"]
 - !private ["So13UIDynamicItemP", "NSLayoutConstraint"]
@@ -1771,6 +1826,7 @@ depends-member:
 - !private ["So13UIDynamicItemP", "topAnchor"]
 - !private ["So13UIDynamicItemP", "trailingAnchor"]
 - !private ["So13UIDynamicItemP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So13UIDynamicItemP", "viewController"]
 - ["So13UIDynamicItemP", "weightLabel"]
 - ["So13UIDynamicItemP", "weightTextField"]
 - ["So18UIFocusEnvironmentP", "$__lazy_storage_$_iherbImageView"]
@@ -1781,6 +1837,7 @@ depends-member:
 - ["So18UIFocusEnvironmentP", "CustomTextField"]
 - !private ["So18UIFocusEnvironmentP", "DateFormatter"]
 - !private ["So18UIFocusEnvironmentP", "Event"]
+- ["So18UIFocusEnvironmentP", "FormViewController"]
 - !private ["So18UIFocusEnvironmentP", "Mode"]
 - ["So18UIFocusEnvironmentP", "NSCoder"]
 - !private ["So18UIFocusEnvironmentP", "NSLayoutConstraint"]
@@ -1840,12 +1897,14 @@ depends-member:
 - !private ["So18UIFocusEnvironmentP", "setValue"]
 - ["So18UIFocusEnvironmentP", "sex"]
 - ["So18UIFocusEnvironmentP", "sexList"]
+- !private ["So18UIFocusEnvironmentP", "showSymptomsViewController"]
 - !private ["So18UIFocusEnvironmentP", "sizeThatFits"]
 - !private ["So18UIFocusEnvironmentP", "snp"]
 - !private ["So18UIFocusEnvironmentP", "text"]
 - !private ["So18UIFocusEnvironmentP", "topAnchor"]
 - !private ["So18UIFocusEnvironmentP", "trailingAnchor"]
 - !private ["So18UIFocusEnvironmentP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So18UIFocusEnvironmentP", "viewController"]
 - ["So18UIFocusEnvironmentP", "weightLabel"]
 - ["So18UIFocusEnvironmentP", "weightTextField"]
 - ["So11UIFocusItemP", "$__lazy_storage_$_iherbImageView"]
@@ -1856,6 +1915,7 @@ depends-member:
 - ["So11UIFocusItemP", "CustomTextField"]
 - !private ["So11UIFocusItemP", "DateFormatter"]
 - !private ["So11UIFocusItemP", "Event"]
+- ["So11UIFocusItemP", "FormViewController"]
 - !private ["So11UIFocusItemP", "Mode"]
 - ["So11UIFocusItemP", "NSCoder"]
 - !private ["So11UIFocusItemP", "NSLayoutConstraint"]
@@ -1921,6 +1981,7 @@ depends-member:
 - !private ["So11UIFocusItemP", "topAnchor"]
 - !private ["So11UIFocusItemP", "trailingAnchor"]
 - !private ["So11UIFocusItemP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So11UIFocusItemP", "viewController"]
 - ["So11UIFocusItemP", "weightLabel"]
 - ["So11UIFocusItemP", "weightTextField"]
 - ["So20UIFocusItemContainerP", "$__lazy_storage_$_iherbImageView"]
@@ -1931,6 +1992,7 @@ depends-member:
 - ["So20UIFocusItemContainerP", "CustomTextField"]
 - !private ["So20UIFocusItemContainerP", "DateFormatter"]
 - !private ["So20UIFocusItemContainerP", "Event"]
+- ["So20UIFocusItemContainerP", "FormViewController"]
 - !private ["So20UIFocusItemContainerP", "Mode"]
 - ["So20UIFocusItemContainerP", "NSCoder"]
 - !private ["So20UIFocusItemContainerP", "NSLayoutConstraint"]
@@ -1996,6 +2058,7 @@ depends-member:
 - !private ["So20UIFocusItemContainerP", "topAnchor"]
 - !private ["So20UIFocusItemContainerP", "trailingAnchor"]
 - !private ["So20UIFocusItemContainerP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So20UIFocusItemContainerP", "viewController"]
 - ["So20UIFocusItemContainerP", "weightLabel"]
 - ["So20UIFocusItemContainerP", "weightTextField"]
 - ["So7UIImageC", "init"]
@@ -2028,6 +2091,7 @@ depends-member:
 - ["So24UILargeContentViewerItemP", "CustomTextField"]
 - !private ["So24UILargeContentViewerItemP", "DateFormatter"]
 - !private ["So24UILargeContentViewerItemP", "Event"]
+- ["So24UILargeContentViewerItemP", "FormViewController"]
 - !private ["So24UILargeContentViewerItemP", "Mode"]
 - ["So24UILargeContentViewerItemP", "NSCoder"]
 - !private ["So24UILargeContentViewerItemP", "NSLayoutConstraint"]
@@ -2093,6 +2157,7 @@ depends-member:
 - !private ["So24UILargeContentViewerItemP", "topAnchor"]
 - !private ["So24UILargeContentViewerItemP", "trailingAnchor"]
 - !private ["So24UILargeContentViewerItemP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So24UILargeContentViewerItemP", "viewController"]
 - ["So24UILargeContentViewerItemP", "weightLabel"]
 - ["So24UILargeContentViewerItemP", "weightTextField"]
 - !private ["So13UILayoutGuideC", "topAnchor"]
@@ -2104,6 +2169,7 @@ depends-member:
 - ["So30UIPasteConfigurationSupportingP", "CustomTextField"]
 - !private ["So30UIPasteConfigurationSupportingP", "DateFormatter"]
 - !private ["So30UIPasteConfigurationSupportingP", "Event"]
+- ["So30UIPasteConfigurationSupportingP", "FormViewController"]
 - !private ["So30UIPasteConfigurationSupportingP", "Mode"]
 - ["So30UIPasteConfigurationSupportingP", "NSCoder"]
 - !private ["So30UIPasteConfigurationSupportingP", "NSLayoutConstraint"]
@@ -2164,12 +2230,14 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "setValue"]
 - ["So30UIPasteConfigurationSupportingP", "sex"]
 - ["So30UIPasteConfigurationSupportingP", "sexList"]
+- !private ["So30UIPasteConfigurationSupportingP", "showSymptomsViewController"]
 - !private ["So30UIPasteConfigurationSupportingP", "sizeThatFits"]
 - !private ["So30UIPasteConfigurationSupportingP", "snp"]
 - !private ["So30UIPasteConfigurationSupportingP", "text"]
 - !private ["So30UIPasteConfigurationSupportingP", "topAnchor"]
 - !private ["So30UIPasteConfigurationSupportingP", "trailingAnchor"]
 - !private ["So30UIPasteConfigurationSupportingP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So30UIPasteConfigurationSupportingP", "viewController"]
 - ["So30UIPasteConfigurationSupportingP", "weightLabel"]
 - ["So30UIPasteConfigurationSupportingP", "weightTextField"]
 - ["So11UIResponderC", "$__lazy_storage_$_iherbImageView"]
@@ -2180,6 +2248,7 @@ depends-member:
 - ["So11UIResponderC", "CustomTextField"]
 - !private ["So11UIResponderC", "DateFormatter"]
 - !private ["So11UIResponderC", "Event"]
+- ["So11UIResponderC", "FormViewController"]
 - !private ["So11UIResponderC", "Mode"]
 - ["So11UIResponderC", "NSCoder"]
 - !private ["So11UIResponderC", "NSLayoutConstraint"]
@@ -2240,12 +2309,14 @@ depends-member:
 - !private ["So11UIResponderC", "setValue"]
 - ["So11UIResponderC", "sex"]
 - ["So11UIResponderC", "sexList"]
+- !private ["So11UIResponderC", "showSymptomsViewController"]
 - !private ["So11UIResponderC", "sizeThatFits"]
 - !private ["So11UIResponderC", "snp"]
 - !private ["So11UIResponderC", "text"]
 - !private ["So11UIResponderC", "topAnchor"]
 - !private ["So11UIResponderC", "trailingAnchor"]
 - !private ["So11UIResponderC", "translatesAutoresizingMaskIntoConstraints"]
+- ["So11UIResponderC", "viewController"]
 - ["So11UIResponderC", "weightLabel"]
 - ["So11UIResponderC", "weightTextField"]
 - ["So30UIResponderStandardEditActionsP", "$__lazy_storage_$_iherbImageView"]
@@ -2256,6 +2327,7 @@ depends-member:
 - ["So30UIResponderStandardEditActionsP", "CustomTextField"]
 - !private ["So30UIResponderStandardEditActionsP", "DateFormatter"]
 - !private ["So30UIResponderStandardEditActionsP", "Event"]
+- ["So30UIResponderStandardEditActionsP", "FormViewController"]
 - !private ["So30UIResponderStandardEditActionsP", "Mode"]
 - ["So30UIResponderStandardEditActionsP", "NSCoder"]
 - !private ["So30UIResponderStandardEditActionsP", "NSLayoutConstraint"]
@@ -2316,12 +2388,14 @@ depends-member:
 - !private ["So30UIResponderStandardEditActionsP", "setValue"]
 - ["So30UIResponderStandardEditActionsP", "sex"]
 - ["So30UIResponderStandardEditActionsP", "sexList"]
+- !private ["So30UIResponderStandardEditActionsP", "showSymptomsViewController"]
 - !private ["So30UIResponderStandardEditActionsP", "sizeThatFits"]
 - !private ["So30UIResponderStandardEditActionsP", "snp"]
 - !private ["So30UIResponderStandardEditActionsP", "text"]
 - !private ["So30UIResponderStandardEditActionsP", "topAnchor"]
 - !private ["So30UIResponderStandardEditActionsP", "trailingAnchor"]
 - !private ["So30UIResponderStandardEditActionsP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So30UIResponderStandardEditActionsP", "viewController"]
 - ["So30UIResponderStandardEditActionsP", "weightLabel"]
 - ["So30UIResponderStandardEditActionsP", "weightTextField"]
 - !private ["So18UISegmentedControlC", "bottomAnchor"]
@@ -2333,6 +2407,7 @@ depends-member:
 - !private ["So18UISegmentedControlC", "topAnchor"]
 - !private ["So18UISegmentedControlC", "trailingAnchor"]
 - !private ["So18UISegmentedControlC", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "addTarget"]
 - !private ["So35UISpringLoadedInteractionSupportingP", "backgroundColor"]
 - !private ["So35UISpringLoadedInteractionSupportingP", "bottomAnchor"]
 - !private ["So35UISpringLoadedInteractionSupportingP", "heightAnchor"]
@@ -2345,6 +2420,7 @@ depends-member:
 - !private ["So35UISpringLoadedInteractionSupportingP", "topAnchor"]
 - !private ["So35UISpringLoadedInteractionSupportingP", "trailingAnchor"]
 - !private ["So35UISpringLoadedInteractionSupportingP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So16UIStateRestoringP", "showSymptomsViewController"]
 - !private ["So15UITextDraggableP", "addTarget"]
 - !private ["So15UITextDraggableP", "bottomAnchor"]
 - !private ["So15UITextDraggableP", "centerYAnchor"]
@@ -2417,6 +2493,7 @@ depends-member:
 - ["So18UITraitEnvironmentP", "CustomTextField"]
 - !private ["So18UITraitEnvironmentP", "DateFormatter"]
 - !private ["So18UITraitEnvironmentP", "Event"]
+- ["So18UITraitEnvironmentP", "FormViewController"]
 - !private ["So18UITraitEnvironmentP", "Mode"]
 - ["So18UITraitEnvironmentP", "NSCoder"]
 - !private ["So18UITraitEnvironmentP", "NSLayoutConstraint"]
@@ -2476,12 +2553,14 @@ depends-member:
 - !private ["So18UITraitEnvironmentP", "setValue"]
 - ["So18UITraitEnvironmentP", "sex"]
 - ["So18UITraitEnvironmentP", "sexList"]
+- !private ["So18UITraitEnvironmentP", "showSymptomsViewController"]
 - !private ["So18UITraitEnvironmentP", "sizeThatFits"]
 - !private ["So18UITraitEnvironmentP", "snp"]
 - !private ["So18UITraitEnvironmentP", "text"]
 - !private ["So18UITraitEnvironmentP", "topAnchor"]
 - !private ["So18UITraitEnvironmentP", "trailingAnchor"]
 - !private ["So18UITraitEnvironmentP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So18UITraitEnvironmentP", "viewController"]
 - ["So18UITraitEnvironmentP", "weightLabel"]
 - ["So18UITraitEnvironmentP", "weightTextField"]
 - ["So23UIUserActivityRestoringP", "$__lazy_storage_$_iherbImageView"]
@@ -2492,6 +2571,7 @@ depends-member:
 - ["So23UIUserActivityRestoringP", "CustomTextField"]
 - !private ["So23UIUserActivityRestoringP", "DateFormatter"]
 - !private ["So23UIUserActivityRestoringP", "Event"]
+- ["So23UIUserActivityRestoringP", "FormViewController"]
 - !private ["So23UIUserActivityRestoringP", "Mode"]
 - ["So23UIUserActivityRestoringP", "NSCoder"]
 - !private ["So23UIUserActivityRestoringP", "NSLayoutConstraint"]
@@ -2552,12 +2632,14 @@ depends-member:
 - !private ["So23UIUserActivityRestoringP", "setValue"]
 - ["So23UIUserActivityRestoringP", "sex"]
 - ["So23UIUserActivityRestoringP", "sexList"]
+- !private ["So23UIUserActivityRestoringP", "showSymptomsViewController"]
 - !private ["So23UIUserActivityRestoringP", "sizeThatFits"]
 - !private ["So23UIUserActivityRestoringP", "snp"]
 - !private ["So23UIUserActivityRestoringP", "text"]
 - !private ["So23UIUserActivityRestoringP", "topAnchor"]
 - !private ["So23UIUserActivityRestoringP", "trailingAnchor"]
 - !private ["So23UIUserActivityRestoringP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So23UIUserActivityRestoringP", "viewController"]
 - ["So23UIUserActivityRestoringP", "weightLabel"]
 - ["So23UIUserActivityRestoringP", "weightTextField"]
 - ["So6UIViewC", "$__lazy_storage_$_iherbImageView"]
@@ -2568,6 +2650,7 @@ depends-member:
 - ["So6UIViewC", "CustomTextField"]
 - !private ["So6UIViewC", "DateFormatter"]
 - !private ["So6UIViewC", "Event"]
+- ["So6UIViewC", "FormViewController"]
 - !private ["So6UIViewC", "Mode"]
 - ["So6UIViewC", "NSCoder"]
 - !private ["So6UIViewC", "NSLayoutConstraint"]
@@ -2633,8 +2716,12 @@ depends-member:
 - !private ["So6UIViewC", "topAnchor"]
 - !private ["So6UIViewC", "trailingAnchor"]
 - !private ["So6UIViewC", "translatesAutoresizingMaskIntoConstraints"]
+- ["So6UIViewC", "viewController"]
 - ["So6UIViewC", "weightLabel"]
 - ["So6UIViewC", "weightTextField"]
+- ["So16UIViewControllerC", ""]
+- !private ["So16UIViewControllerC", "showSymptomsViewController"]
+- !private ["7SwiftUI4ViewP", "showSymptomsViewController"]
 - !private ["s14_ArrayProtocolP", "forEach"]
 - ["s14_ArrayProtocolP", "map"]
 - !private ["14CoreFoundation9_CFObjectP", "init"]
@@ -2721,6 +2808,7 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "setValue"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "sex"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "sexList"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "showSymptomsViewController"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "sizeThatFits"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "snp"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "string"]
@@ -2729,6 +2817,7 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "topAnchor"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "trailingAnchor"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewController"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "weightLabel"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "weightTextField"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "CGColor"]
@@ -2795,6 +2884,7 @@ depends-member:
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "setValue"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "sex"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "sexList"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "showSymptomsViewController"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "sizeThatFits"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "snp"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "string"]
@@ -2803,11 +2893,13 @@ depends-member:
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "topAnchor"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "trailingAnchor"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "viewController"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "weightLabel"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "weightTextField"]
 - !private ["s21_ObjectiveCBridgeableP", "forEach"]
 - !private ["s21_ObjectiveCBridgeableP", "init"]
 - ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "showSymptomsViewController"]
 - !private ["s21_ObjectiveCBridgeableP", "size"]
 - !private ["s21_ObjectiveCBridgeableP", "zero"]
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "CGColor"]
@@ -2873,6 +2965,7 @@ depends-member:
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "topAnchor"]
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "trailingAnchor"]
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "viewController"]
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "weightLabel"]
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "weightTextField"]
 depends-nominal:
@@ -2916,10 +3009,13 @@ depends-nominal:
 - !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
 - !private "s25ExpressibleByFloatLiteralP"
 - !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
 - !private "s32ExpressibleByStringInterpolationP"
 - !private "s26ExpressibleByStringLiteralP"
 - !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "11Supplements18FormViewControllerC"
 - "So11NSFormatterC"
+- !private "7SwiftUI7GestureP"
 - "SH"
 - "7SnapKit20LayoutConstraintItemP"
 - !private "s25LosslessStringConvertibleP"
@@ -2930,6 +3026,7 @@ depends-nominal:
 - "10Foundation19MutableDataProtocolP"
 - "So8NSCodingP"
 - !private "So9NSCopyingP"
+- !private "So26NSExtensionRequestHandlingP"
 - "So21NSItemProviderReadingP"
 - "So21NSItemProviderWritingP"
 - "So14NSLayoutAnchorC"
@@ -2941,6 +3038,7 @@ depends-nominal:
 - "So8NSObjectP"
 - "So14NSSecureCodingP"
 - !private "s9OptionSetP"
+- !private "Sq"
 - "Sk"
 - "Sm"
 - "SY"
@@ -2959,6 +3057,7 @@ depends-nominal:
 - "So21UIAppearanceContainerP"
 - "So8UIButtonC"
 - !private "So7UIColorC"
+- !private "So18UIContentContainerP"
 - "So30UIContentSizeCategoryAdjustingP"
 - "So32UIContextMenuInteractionDelegateP"
 - "So9UIControlC"
@@ -2980,6 +3079,7 @@ depends-nominal:
 - "So30UIResponderStandardEditActionsP"
 - "So18UISegmentedControlC"
 - "So35UISpringLoadedInteractionSupportingP"
+- !private "So16UIStateRestoringP"
 - "So15UITextDraggableP"
 - "So15UITextDroppableP"
 - "So11UITextFieldC"
@@ -2989,6 +3089,8 @@ depends-nominal:
 - "So18UITraitEnvironmentP"
 - "So23UIUserActivityRestoringP"
 - "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "7SwiftUI4ViewP"
 - "s14_ArrayProtocolP"
 - !private "14CoreFoundation9_CFObjectP"
 - !private "12CoreGraphics22_CGColorInitTrampolineP"
@@ -3012,6 +3114,7 @@ depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftUI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
@@ -3038,6 +3141,7 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/DeveloperToolsSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/CollectionViewPagingLayout/CollectionViewPagingLayout.framework/Modules/CollectionViewPagingLayout.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/LinearProgressView/LinearProgressView.framework/Modules/LinearProgressView.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/CalendarHeatmap/CalendarHeatmap.framework/Headers/CalendarHeatmap-umbrella.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/SwipeableTabBarController/SwipeableTabBarController.framework/Headers/SwipeableTabBarController-umbrella.h"
@@ -3051,6 +3155,7 @@ depends-external:
 - "/Users/sapientisat/Projects/Supplements/Supplements/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDAuthentication.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDSignInButton.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDGoogleUser.h"
+- "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/CalendarHeatmap/CalendarHeatmap.framework/Headers/CalendarHeatmap-Swift.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/SwipeableTabBarController/SwipeableTabBarController.framework/Headers/SwipeableTabBarController-Swift.h"
@@ -3059,6 +3164,7 @@ depends-external:
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/CollectionViewPagingLayout/CollectionViewPagingLayout.framework/Headers/CollectionViewPagingLayout-Swift.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/LinearProgressView/LinearProgressView.framework/Headers/LinearProgressView-Swift.h"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
 - "/Users/sapientisat/Projects/Supplements/Supplements/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Modules/module.modulemap"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/CalendarHeatmap/CalendarHeatmap.framework/Modules/module.modulemap"
@@ -3087,4 +3193,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/HealthKit.framework/Headers/HealthKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "b6f0613fc0f9452cb5fe82dfe2ce9275"
+interface-hash: "d775b72a1562b59b7e9a13bcc6a7dd39"

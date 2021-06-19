@@ -17,3 +17,12 @@ class FormModel {
     }
     
 }
+
+struct RowData: Codable {
+	let height: Int
+	let weight: Int
+	let city: String
+	let sex: String
+	let birthDate: String
+	var questions: [String: String] = [:]
+}

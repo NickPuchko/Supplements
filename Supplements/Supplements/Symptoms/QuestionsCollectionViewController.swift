@@ -66,11 +66,6 @@ class QuestionsCollectionViewController: UICollectionViewController {
 		}
 		pickerDelegate.answers = answers[indexPath.row]
 		pickerDelegate.cell = cell
-//		let startPointOrigin = CGPoint(
-//			x: cell.frame.midX,
-//			y: cell.frame.midY
-//		)
-//		let startPoint = cell.convert(startPointOrigin, to: view)
 		let container = UIView(frame: CGRect(x: 0, y: 0, width: 300, height: 300))
 		let label = UILabel()
 		label.textAlignment = .center
@@ -106,6 +101,7 @@ class QuestionsCollectionViewController: UICollectionViewController {
 class PopPickerDelegate: NSObject, UIPickerViewDelegate, UIPickerViewDataSource {
 	var answers: [String]
 	weak var cell: QuestionCell!
+	private lazy var model = (UIApplication.shared.delegate as! AppDelegate).symptomsModel
 
 	init(_ answers: [String]) {
 		self.answers = answers
@@ -126,6 +122,7 @@ class PopPickerDelegate: NSObject, UIPickerViewDelegate, UIPickerViewDataSource 
 	func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
 		if row != 0 {
 			cell.label.backgroundColor = Colors.lightGreen
+			model?.rowData.questions[cell.label.text!] = answers[row]
 		} else {
 			cell.label.backgroundColor = Colors.lightGray
 		}

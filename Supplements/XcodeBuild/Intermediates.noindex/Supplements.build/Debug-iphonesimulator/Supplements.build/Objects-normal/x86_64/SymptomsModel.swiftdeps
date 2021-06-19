@@ -16,31 +16,78 @@ provides-dynamic-lookup:
 - "loadPages"
 - "networkSerivce"
 - "pages"
+- "rowData"
+- "sendRowData"
 - "viewController"
 depends-top-level:
 - "=="
 - !private "Array"
 - "AssignmentPrecedence"
+- "CaseIterable"
 - "Codable"
-- !private "Dictionary"
 - "Element"
-- "FloatLiteralType"
+- !private "FloatLiteralType"
 - "Int"
-- "IntegerLiteralType"
+- !private "IntegerLiteralType"
 - "Page"
 - "PagesNetworkService"
+- "RowData"
 - "String"
 - "StringLiteralType"
 - "SymptomsModel"
 - "SymptomsViewController"
-- "UnicodeScalarType"
 - !private "_findStringSwitchCase"
 - !private "networkSerivce"
 - "print"
+- !private "rowData"
 - !private "~="
 depends-member:
 - !private ["SK", ""]
 - !private ["s7CVarArgP", "refresh"]
+- ["s12CaseIterableP", "=="]
+- ["s12CaseIterableP", "AllCases"]
+- ["s12CaseIterableP", "Default_AllCases"]
+- ["s12CaseIterableP", "Default_RawValue"]
+- ["s12CaseIterableP", "Element"]
+- ["s12CaseIterableP", "RawValue"]
+- ["s12CaseIterableP", ""]
+- ["s12CaseIterableP", "_Default_AllCases"]
+- ["s12CaseIterableP", "_Default_RawValue"]
+- !private ["s12CaseIterableP", "_findStringSwitchCase"]
+- ["s12CaseIterableP", "_rawHashValue"]
+- ["s12CaseIterableP", "allCases"]
+- !private ["s12CaseIterableP", "boron"]
+- !private ["s12CaseIterableP", "calcium"]
+- !private ["s12CaseIterableP", "choline"]
+- !private ["s12CaseIterableP", "chromium"]
+- ["s12CaseIterableP", "encode"]
+- !private ["s12CaseIterableP", "findStringSwitchCase"]
+- ["s12CaseIterableP", "hash"]
+- ["s12CaseIterableP", "hashValue"]
+- ["s12CaseIterableP", "init"]
+- !private ["s12CaseIterableP", "iodine"]
+- !private ["s12CaseIterableP", "iron"]
+- !private ["s12CaseIterableP", "lithium"]
+- !private ["s12CaseIterableP", "magnesium"]
+- !private ["s12CaseIterableP", "manganese"]
+- !private ["s12CaseIterableP", "molybdenum"]
+- !private ["s12CaseIterableP", "multimineral"]
+- !private ["s12CaseIterableP", "potassium"]
+- ["s12CaseIterableP", "rawValue"]
+- !private ["s12CaseIterableP", "selenium"]
+- !private ["s12CaseIterableP", "silver"]
+- !private ["s12CaseIterableP", "strontium"]
+- !private ["s12CaseIterableP", "trace"]
+- !private ["s12CaseIterableP", "vanadyl"]
+- !private ["s12CaseIterableP", "vitamin_a"]
+- !private ["s12CaseIterableP", "vitamin_b12"]
+- !private ["s12CaseIterableP", "vitamin_b2"]
+- !private ["s12CaseIterableP", "vitamin_b6"]
+- !private ["s12CaseIterableP", "vitamin_c"]
+- !private ["s12CaseIterableP", "vitamin_d3"]
+- !private ["s12CaseIterableP", "vitamin_e"]
+- !private ["s12CaseIterableP", "vitamin_k"]
+- !private ["s12CaseIterableP", "zinc"]
 - ["s9CodingKeyP", "=="]
 - !private ["s9CodingKeyP", ""]
 - ["s9CodingKeyP", "_rawHashValue"]
@@ -78,12 +125,20 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "refresh"]
 - ["s23CustomStringConvertibleP", "stringValue"]
 - ["Se", "=="]
+- ["Se", "AllCases"]
+- ["Se", "Default_AllCases"]
 - ["Se", "Default_RawValue"]
 - ["Se", "RawValue"]
 - ["Se", ""]
+- ["Se", "_Default_AllCases"]
 - ["Se", "_Default_RawValue"]
 - !private ["Se", "_findStringSwitchCase"]
 - ["Se", "_rawHashValue"]
+- ["Se", "allCases"]
+- !private ["Se", "boron"]
+- !private ["Se", "calcium"]
+- !private ["Se", "choline"]
+- !private ["Se", "chromium"]
 - ["Se", "encode"]
 - !private ["Se", "findStringSwitchCase"]
 - ["Se", "hash"]
@@ -91,23 +146,44 @@ depends-member:
 - !private ["Se", "header"]
 - !private ["Se", "index"]
 - ["Se", "init"]
+- !private ["Se", "iodine"]
+- !private ["Se", "iron"]
+- !private ["Se", "lithium"]
+- !private ["Se", "magnesium"]
+- !private ["Se", "manganese"]
+- !private ["Se", "molybdenum"]
+- !private ["Se", "multimineral"]
+- !private ["Se", "potassium"]
 - !private ["Se", "questions"]
 - ["Se", "rawValue"]
 - !private ["Se", "refresh"]
+- !private ["Se", "selenium"]
+- !private ["Se", "silver"]
+- !private ["Se", "strontium"]
+- !private ["Se", "trace"]
+- !private ["Se", "vanadyl"]
 - !private ["Se", "vitamin_a"]
+- !private ["Se", "vitamin_b12"]
 - !private ["Se", "vitamin_b2"]
 - !private ["Se", "vitamin_b6"]
 - !private ["Se", "vitamin_c"]
 - !private ["Se", "vitamin_d3"]
 - !private ["Se", "vitamin_e"]
+- !private ["Se", "vitamin_k"]
+- !private ["Se", "zinc"]
 - !private ["s7DecoderP", "container"]
 - ["11Supplements7ElementO", "=="]
+- ["11Supplements7ElementO", "AllCases"]
+- ["11Supplements7ElementO", "Default_AllCases"]
 - ["11Supplements7ElementO", "Default_RawValue"]
 - ["11Supplements7ElementO", "RawValue"]
+- ["11Supplements7ElementO", "String"]
 - ["11Supplements7ElementO", ""]
+- ["11Supplements7ElementO", "_Default_AllCases"]
 - ["11Supplements7ElementO", "_Default_RawValue"]
 - !private ["11Supplements7ElementO", "_findStringSwitchCase"]
 - ["11Supplements7ElementO", "_rawHashValue"]
+- ["11Supplements7ElementO", "allCases"]
 - ["11Supplements7ElementO", "boron"]
 - ["11Supplements7ElementO", "calcium"]
 - ["11Supplements7ElementO", "choline"]
@@ -142,12 +218,20 @@ depends-member:
 - ["11Supplements7ElementO", "vitamin_k"]
 - ["11Supplements7ElementO", "zinc"]
 - ["SE", "=="]
+- ["SE", "AllCases"]
+- ["SE", "Default_AllCases"]
 - ["SE", "Default_RawValue"]
 - ["SE", "RawValue"]
 - ["SE", ""]
+- ["SE", "_Default_AllCases"]
 - ["SE", "_Default_RawValue"]
 - !private ["SE", "_findStringSwitchCase"]
 - ["SE", "_rawHashValue"]
+- ["SE", "allCases"]
+- !private ["SE", "boron"]
+- !private ["SE", "calcium"]
+- !private ["SE", "choline"]
+- !private ["SE", "chromium"]
 - ["SE", "encode"]
 - !private ["SE", "findStringSwitchCase"]
 - ["SE", "hash"]
@@ -155,23 +239,47 @@ depends-member:
 - !private ["SE", "header"]
 - !private ["SE", "index"]
 - ["SE", "init"]
+- !private ["SE", "iodine"]
+- !private ["SE", "iron"]
+- !private ["SE", "lithium"]
+- !private ["SE", "magnesium"]
+- !private ["SE", "manganese"]
+- !private ["SE", "molybdenum"]
+- !private ["SE", "multimineral"]
+- !private ["SE", "potassium"]
 - !private ["SE", "questions"]
 - ["SE", "rawValue"]
 - !private ["SE", "refresh"]
+- !private ["SE", "selenium"]
+- !private ["SE", "silver"]
+- !private ["SE", "strontium"]
+- !private ["SE", "trace"]
+- !private ["SE", "vanadyl"]
 - !private ["SE", "vitamin_a"]
+- !private ["SE", "vitamin_b12"]
 - !private ["SE", "vitamin_b2"]
 - !private ["SE", "vitamin_b6"]
 - !private ["SE", "vitamin_c"]
 - !private ["SE", "vitamin_d3"]
 - !private ["SE", "vitamin_e"]
+- !private ["SE", "vitamin_k"]
+- !private ["SE", "zinc"]
 - !private ["s7EncoderP", "container"]
 - ["SQ", "=="]
+- ["SQ", "AllCases"]
+- ["SQ", "Default_AllCases"]
 - ["SQ", "Default_RawValue"]
 - ["SQ", "RawValue"]
 - ["SQ", ""]
+- ["SQ", "_Default_AllCases"]
 - ["SQ", "_Default_RawValue"]
 - !private ["SQ", "_findStringSwitchCase"]
 - ["SQ", "_rawHashValue"]
+- ["SQ", "allCases"]
+- !private ["SQ", "boron"]
+- !private ["SQ", "calcium"]
+- !private ["SQ", "choline"]
+- !private ["SQ", "chromium"]
 - ["SQ", "debugDescription"]
 - ["SQ", "description"]
 - ["SQ", "encode"]
@@ -181,20 +289,33 @@ depends-member:
 - ["SQ", "hashValue"]
 - ["SQ", "init"]
 - ["SQ", "intValue"]
+- !private ["SQ", "iodine"]
+- !private ["SQ", "iron"]
+- !private ["SQ", "lithium"]
+- !private ["SQ", "magnesium"]
+- !private ["SQ", "manganese"]
+- !private ["SQ", "molybdenum"]
+- !private ["SQ", "multimineral"]
+- !private ["SQ", "potassium"]
 - ["SQ", "rawValue"]
 - !private ["SQ", "refresh"]
+- !private ["SQ", "selenium"]
+- !private ["SQ", "silver"]
 - ["SQ", "stringValue"]
+- !private ["SQ", "strontium"]
 - !private ["SQ", "success"]
+- !private ["SQ", "trace"]
+- !private ["SQ", "vanadyl"]
 - !private ["SQ", "vitamin_a"]
+- !private ["SQ", "vitamin_b12"]
 - !private ["SQ", "vitamin_b2"]
 - !private ["SQ", "vitamin_b6"]
 - !private ["SQ", "vitamin_c"]
 - !private ["SQ", "vitamin_d3"]
 - !private ["SQ", "vitamin_e"]
+- !private ["SQ", "vitamin_k"]
+- !private ["SQ", "zinc"]
 - ["s25ExpressibleByArrayLiteralP", "init"]
-- !private ["s30ExpressibleByDictionaryLiteralP", "Key"]
-- !private ["s30ExpressibleByDictionaryLiteralP", "Value"]
-- !private ["s30ExpressibleByDictionaryLiteralP", "init"]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
 - !private ["s23ExpressibleByNilLiteralP", "refresh"]
 - !private ["s32ExpressibleByStringInterpolationP", ""]
@@ -202,12 +323,20 @@ depends-member:
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", ""]
 - !private ["7SwiftUI7GestureP", "refresh"]
 - ["SH", "=="]
+- ["SH", "AllCases"]
+- ["SH", "Default_AllCases"]
 - ["SH", "Default_RawValue"]
 - ["SH", "RawValue"]
 - ["SH", ""]
+- ["SH", "_Default_AllCases"]
 - ["SH", "_Default_RawValue"]
 - !private ["SH", "_findStringSwitchCase"]
 - ["SH", "_rawHashValue"]
+- ["SH", "allCases"]
+- !private ["SH", "boron"]
+- !private ["SH", "calcium"]
+- !private ["SH", "choline"]
+- !private ["SH", "chromium"]
 - ["SH", "debugDescription"]
 - ["SH", "description"]
 - ["SH", "encode"]
@@ -217,32 +346,49 @@ depends-member:
 - ["SH", "hashValue"]
 - ["SH", "init"]
 - ["SH", "intValue"]
+- !private ["SH", "iodine"]
+- !private ["SH", "iron"]
+- !private ["SH", "lithium"]
+- !private ["SH", "magnesium"]
+- !private ["SH", "manganese"]
+- !private ["SH", "molybdenum"]
+- !private ["SH", "multimineral"]
+- !private ["SH", "potassium"]
 - ["SH", "rawValue"]
 - !private ["SH", "refresh"]
+- !private ["SH", "selenium"]
+- !private ["SH", "silver"]
 - ["SH", "stringValue"]
+- !private ["SH", "strontium"]
 - !private ["SH", "success"]
+- !private ["SH", "trace"]
+- !private ["SH", "vanadyl"]
 - !private ["SH", "vitamin_a"]
+- !private ["SH", "vitamin_b12"]
 - !private ["SH", "vitamin_b2"]
 - !private ["SH", "vitamin_b6"]
 - !private ["SH", "vitamin_c"]
 - !private ["SH", "vitamin_d3"]
 - !private ["SH", "vitamin_e"]
+- !private ["SH", "vitamin_k"]
+- !private ["SH", "zinc"]
 - !private ["s6HasherV", "combine"]
 - !private ["s22KeyedDecodingContainerV", "decode"]
 - !private ["s30KeyedDecodingContainerProtocolP", "decode"]
 - !private ["s22KeyedEncodingContainerV", "encode"]
 - !private ["s30KeyedEncodingContainerProtocolP", "encode"]
 - !private ["s25LosslessStringConvertibleP", ""]
-- !private ["So8NSCodingP", ""]
+- ["So8NSCodingP", ""]
 - !private ["So8NSCodingP", "refresh"]
 - !private ["So26NSExtensionRequestHandlingP", "refresh"]
 - ["So8NSObjectC", ""]
 - !private ["So8NSObjectC", "refresh"]
-- !private ["So8NSObjectP", ""]
+- ["So8NSObjectP", ""]
 - !private ["So8NSObjectP", "refresh"]
 - ["11Supplements14NetworkServiceC", ""]
 - !private ["11Supplements14NetworkServiceC", "getPages"]
 - ["11Supplements14NetworkServiceC", "init"]
+- !private ["11Supplements14NetworkServiceC", "sendRowData"]
 - !private ["Sq", "refresh"]
 - ["11Supplements4PageV", "CodingKeys"]
 - ["11Supplements4PageV", "Element"]
@@ -256,31 +402,58 @@ depends-member:
 - ["11Supplements4PageV", "questions"]
 - !private ["11Supplements19PagesNetworkServiceC", "getPages"]
 - ["11Supplements19PagesNetworkServiceC", "init"]
+- !private ["11Supplements19PagesNetworkServiceC", "sendRowData"]
 - ["SY", "=="]
+- ["SY", "AllCases"]
+- ["SY", "Default_AllCases"]
 - ["SY", "Default_RawValue"]
 - ["SY", "RawValue"]
 - ["SY", ""]
+- ["SY", "_Default_AllCases"]
 - ["SY", "_Default_RawValue"]
 - !private ["SY", "_findStringSwitchCase"]
 - ["SY", "_rawHashValue"]
+- ["SY", "allCases"]
+- !private ["SY", "boron"]
+- !private ["SY", "calcium"]
+- !private ["SY", "choline"]
+- !private ["SY", "chromium"]
 - ["SY", "encode"]
 - !private ["SY", "findStringSwitchCase"]
 - ["SY", "hash"]
 - ["SY", "hashValue"]
 - ["SY", "init"]
+- !private ["SY", "iodine"]
+- !private ["SY", "iron"]
+- !private ["SY", "lithium"]
+- !private ["SY", "magnesium"]
+- !private ["SY", "manganese"]
+- !private ["SY", "molybdenum"]
+- !private ["SY", "multimineral"]
+- !private ["SY", "potassium"]
 - ["SY", "rawValue"]
+- !private ["SY", "selenium"]
+- !private ["SY", "silver"]
+- !private ["SY", "strontium"]
+- !private ["SY", "trace"]
+- !private ["SY", "vanadyl"]
 - !private ["SY", "vitamin_a"]
+- !private ["SY", "vitamin_b12"]
 - !private ["SY", "vitamin_b2"]
 - !private ["SY", "vitamin_b6"]
 - !private ["SY", "vitamin_c"]
 - !private ["SY", "vitamin_d3"]
 - !private ["SY", "vitamin_e"]
+- !private ["SY", "vitamin_k"]
+- !private ["SY", "zinc"]
+- !private ["11Supplements12RequestErrorO", ""]
 - !private ["s6ResultO", "failure"]
 - !private ["s6ResultO", "success"]
-- !private ["ST", ""]
+- ["ST", ""]
 - !private ["11Supplements13SymptomsModelC", "$__lazy_storage_$_networkSerivce"]
 - ["11Supplements13SymptomsModelC", "Page"]
 - ["11Supplements13SymptomsModelC", "PagesNetworkService"]
+- ["11Supplements13SymptomsModelC", "RowData"]
 - ["11Supplements13SymptomsModelC", "SymptomsViewController"]
 - ["11Supplements13SymptomsModelC", "deinit"]
 - ["11Supplements13SymptomsModelC", "init"]
@@ -288,6 +461,8 @@ depends-member:
 - !private ["11Supplements13SymptomsModelC", "networkSerivce"]
 - ["11Supplements13SymptomsModelC", "pages"]
 - !private ["11Supplements13SymptomsModelC", "print"]
+- ["11Supplements13SymptomsModelC", "rowData"]
+- ["11Supplements13SymptomsModelC", "sendRowData"]
 - ["11Supplements13SymptomsModelC", "viewController"]
 - !private ["11Supplements22SymptomsViewControllerC", "refresh"]
 - !private ["s16TextOutputStreamP", ""]
@@ -319,6 +494,7 @@ depends-member:
 depends-nominal:
 - !private "SK"
 - !private "s7CVarArgP"
+- "s12CaseIterableP"
 - "s9CodingKeyP"
 - !private "Sl"
 - !private "26CollectionViewPagingLayout0abcD8DelegateP"
@@ -333,7 +509,6 @@ depends-nominal:
 - !private "s7EncoderP"
 - "SQ"
 - "s25ExpressibleByArrayLiteralP"
-- !private "s30ExpressibleByDictionaryLiteralP"
 - !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
 - !private "s23ExpressibleByNilLiteralP"
 - !private "s32ExpressibleByStringInterpolationP"
@@ -347,17 +522,18 @@ depends-nominal:
 - !private "s22KeyedEncodingContainerV"
 - !private "s30KeyedEncodingContainerProtocolP"
 - !private "s25LosslessStringConvertibleP"
-- !private "So8NSCodingP"
+- "So8NSCodingP"
 - !private "So26NSExtensionRequestHandlingP"
 - "So8NSObjectC"
-- !private "So8NSObjectP"
+- "So8NSObjectP"
 - "11Supplements14NetworkServiceC"
 - !private "Sq"
 - "11Supplements4PageV"
 - "11Supplements19PagesNetworkServiceC"
 - "SY"
+- !private "11Supplements12RequestErrorO"
 - !private "s6ResultO"
-- !private "ST"
+- "ST"
 - "11Supplements13SymptomsModelC"
 - !private "11Supplements22SymptomsViewControllerC"
 - !private "s16TextOutputStreamP"
@@ -387,6 +563,7 @@ depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftUI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
@@ -413,6 +590,7 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/DeveloperToolsSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/CollectionViewPagingLayout/CollectionViewPagingLayout.framework/Modules/CollectionViewPagingLayout.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/LinearProgressView/LinearProgressView.framework/Modules/LinearProgressView.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/CalendarHeatmap/CalendarHeatmap.framework/Headers/CalendarHeatmap-umbrella.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/SwipeableTabBarController/SwipeableTabBarController.framework/Headers/SwipeableTabBarController-umbrella.h"
@@ -426,6 +604,7 @@ depends-external:
 - "/Users/sapientisat/Projects/Supplements/Supplements/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDAuthentication.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDSignInButton.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDGoogleUser.h"
+- "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/CalendarHeatmap/CalendarHeatmap.framework/Headers/CalendarHeatmap-Swift.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/SwipeableTabBarController/SwipeableTabBarController.framework/Headers/SwipeableTabBarController-Swift.h"
@@ -434,6 +613,7 @@ depends-external:
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/CollectionViewPagingLayout/CollectionViewPagingLayout.framework/Headers/CollectionViewPagingLayout-Swift.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/LinearProgressView/LinearProgressView.framework/Headers/LinearProgressView-Swift.h"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
 - "/Users/sapientisat/Projects/Supplements/Supplements/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Modules/module.modulemap"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/CalendarHeatmap/CalendarHeatmap.framework/Modules/module.modulemap"
@@ -462,4 +642,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/HealthKit.framework/Headers/HealthKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "6d4b035579701db5de9e7ff3ac1a0973"
+interface-hash: "1d98be8fab838cd474d1c416777a72f8"

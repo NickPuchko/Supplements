@@ -6,18 +6,19 @@ import GoogleSignIn
 
 class FormViewController: UIViewController {
     private lazy var model = FormModel(self)
-    private let buttonOnNext = UIButton()
     private let scrollView = UIScrollView()
     private let contentView = ContentView()
     
 	override func viewDidLoad() {
 		super.viewDidLoad()
+		contentView.viewController = self
         navigationController?.navigationBar.isHidden = true
         configureUI()
         view.backgroundColor = .white
         scrollView.isScrollEnabled = false
         NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillChange(notification:)), name: UIResponder.keyboardWillShowNotification, object: nil)
 	}
+
     private func configureUI() {
         
         contentView.translatesAutoresizingMaskIntoConstraints = false
@@ -58,4 +59,17 @@ extension FormViewController {
         scrollView.isScrollEnabled = false
         scrollView.scrollToTop(animated: true)
     }
+
+
+	@objc func showSymptomsViewController() {
+		var rowData = RowData(
+			height: Int(contentView.heightTextField.text!)!,
+			weight: Int(contentView.weightTextField.text!)!,
+			city: contentView.cityTextField.text!,
+			sex: contentView.sex.selectedSegmentIndex == 0 ? "male" : "female",
+			birthDate: contentView.birthDateTextField.text!,
+			questions: [:])
+		let symptomsViewController = SymptomsViewController(rowData)
+		navigationController?.pushViewController(symptomsViewController, animated: true)
+	}
 }
