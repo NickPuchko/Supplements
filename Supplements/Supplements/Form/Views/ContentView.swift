@@ -38,7 +38,7 @@ class ContentView: UIView {
         setUpCitySection()
         configureButton()
         addSubview(iherbImageView)
-        //view.addSubview(descriptionLabel)
+        backgroundColor = UIColor(patternImage: UIImage(named: "background")!)
         iherbImageView.frame = CGRect(x: 0, y: 0, width: 100, height: 30)
         
         iherbImageView.snp.makeConstraints { make in

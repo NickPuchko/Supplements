@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		73061464267DECD000591F27 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73061463267DECD000591F27 /* CustomTextField.swift */; };
 		73061468267E021900591F27 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73061467267E021900591F27 /* ContentView.swift */; };
+		7306146C267E2BDD00591F27 /* Extension+ScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7306146B267E2BDD00591F27 /* Extension+ScrollView.swift */; };
+		7306146F267E2C1500591F27 /* Enum+Sex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7306146E267E2C1500591F27 /* Enum+Sex.swift */; };
+		73061472267E389C00591F27 /* BlogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73061471267E389C00591F27 /* BlogViewController.swift */; };
+		73061474267E38A500591F27 /* BlogModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73061473267E38A500591F27 /* BlogModel.swift */; };
+		73061476267E3BF300591F27 /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73061475267E3BF300591F27 /* CustomCollectionViewCell.swift */; };
 		737D3456267D49F500E67EEF /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 737D3455267D49F500E67EEF /* TodayViewController.swift */; };
 		737D3458267D4A0100E67EEF /* TodayModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 737D3457267D4A0100E67EEF /* TodayModel.swift */; };
 		737D345A267D4A8300E67EEF /* PillsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 737D3459267D4A8300E67EEF /* PillsCell.swift */; };
@@ -43,6 +48,11 @@
 		0CD86E3BBE04267250714E44 /* Pods-Supplements.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Supplements.release.xcconfig"; path = "Target Support Files/Pods-Supplements/Pods-Supplements.release.xcconfig"; sourceTree = "<group>"; };
 		73061463267DECD000591F27 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		73061467267E021900591F27 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7306146B267E2BDD00591F27 /* Extension+ScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+ScrollView.swift"; sourceTree = "<group>"; };
+		7306146E267E2C1500591F27 /* Enum+Sex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Enum+Sex.swift"; sourceTree = "<group>"; };
+		73061471267E389C00591F27 /* BlogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogViewController.swift; sourceTree = "<group>"; };
+		73061473267E38A500591F27 /* BlogModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogModel.swift; sourceTree = "<group>"; };
+		73061475267E3BF300591F27 /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
 		737D3455267D49F500E67EEF /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
 		737D3457267D4A0100E67EEF /* TodayModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayModel.swift; sourceTree = "<group>"; };
 		737D3459267D4A8300E67EEF /* PillsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PillsCell.swift; sourceTree = "<group>"; };
@@ -114,6 +124,41 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		7306146A267E2BC000591F27 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				737D3460267D731200E67EEF /* Extension+Date.swift */,
+				7306146B267E2BDD00591F27 /* Extension+ScrollView.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		7306146D267E2C0900591F27 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				7306146E267E2C1500591F27 /* Enum+Sex.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		73061470267E387A00591F27 /* Blog */ = {
+			isa = PBXGroup;
+			children = (
+				73061471267E389C00591F27 /* BlogViewController.swift */,
+				73061473267E38A500591F27 /* BlogModel.swift */,
+				73061477267E3BF700591F27 /* Views */,
+			);
+			path = Blog;
+			sourceTree = "<group>";
+		};
+		73061477267E3BF700591F27 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				73061475267E3BF300591F27 /* CustomCollectionViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		737D3454267D49E500E67EEF /* Today */ = {
 			isa = PBXGroup;
 			children = (
@@ -160,8 +205,10 @@
 				AA851C72267D0DF700809A47 /* Login */,
 				AA851C6B267D0DE000809A47 /* Form */,
 				737D3454267D49E500E67EEF /* Today */,
+				7306146D267E2C0900591F27 /* Enums */,
+				73061470267E387A00591F27 /* Blog */,
+				7306146A267E2BC000591F27 /* Extensions */,
 				AA851C7A267D0EAB00809A47 /* Constants.swift */,
-				737D3460267D731200E67EEF /* Extension+Date.swift */,
 				AA851C47267D08D500809A47 /* Podfile */,
 				AA851C4B267D08D800809A47 /* Assets.xcassets */,
 				AA851C4D267D08D800809A47 /* LaunchScreen.storyboard */,
@@ -327,6 +374,7 @@
 				AA851C77267D0E1700809A47 /* LoginModel.swift in Sources */,
 				AA851CC0267D67F300809A47 /* QuestionsCollectionViewController.swift in Sources */,
 				AA851C76267D0E1700809A47 /* LoginViewController.swift in Sources */,
+				7306146C267E2BDD00591F27 /* Extension+ScrollView.swift in Sources */,
 				AA851C6F267D0DE800809A47 /* FormViewController.swift in Sources */,
 				73061464267DECD000591F27 /* CustomTextField.swift in Sources */,
 				737D3461267D731200E67EEF /* Extension+Date.swift in Sources */,
@@ -338,12 +386,17 @@
 				AA851CAE267D319300809A47 /* SymptomsModel.swift in Sources */,
 				737D3456267D49F500E67EEF /* TodayViewController.swift in Sources */,
 				737D345D267D4AC200E67EEF /* PillsHeaderVIew.swift in Sources */,
+				73061472267E389C00591F27 /* BlogViewController.swift in Sources */,
 				AA851C7E267D0F4900809A47 /* UserNetworkService.swift in Sources */,
+				7306146F267E2C1500591F27 /* Enum+Sex.swift in Sources */,
+				AA851CC8267D87BD00809A47 /* QuestionCell.swift in Sources */,
 				AA851CC3267D686400809A47 /* PagesNetworkService.swift in Sources */,
+				73061476267E3BF300591F27 /* CustomCollectionViewCell.swift in Sources */,
 				AA851C8E267D108B00809A47 /* Errors.swift in Sources */,
 				AA851CBD267D424800809A47 /* PageCell.swift in Sources */,
 				AA851CBD267D424800809A47 /* PageCell.swift in Sources */,
 				737D3458267D4A0100E67EEF /* TodayModel.swift in Sources */,
+				73061474267E38A500591F27 /* BlogModel.swift in Sources */,
 				AA851CAD267D319300809A47 /* SymptomsViewController.swift in Sources */,
 				737D345F267D640D00E67EEF /* tableViewModel.swift in Sources */,
 				AA851C7B267D0EAB00809A47 /* Constants.swift in Sources */,
