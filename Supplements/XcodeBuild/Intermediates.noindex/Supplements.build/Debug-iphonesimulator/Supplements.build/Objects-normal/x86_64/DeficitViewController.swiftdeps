@@ -28,6 +28,8 @@ depends-member:
 - ["s7CVarArgP", "self"]
 - !private ["s7CVarArgP", "setupDeficits"]
 - !private ["s7CVarArgP", "viewDidLoad"]
+- !private ["s12CaseIterableP", "magnesium"]
+- !private ["s12CaseIterableP", "vitamin_b12"]
 - !private ["s9CodingKeyP", ""]
 - !private ["s9CodingKeyP", "init"]
 - !private ["s9CodingKeyP", "intValue"]
@@ -259,6 +261,7 @@ depends-member:
 depends-nominal:
 - "SK"
 - "s7CVarArgP"
+- !private "s12CaseIterableP"
 - !private "s9CodingKeyP"
 - "Sl"
 - "SL"

@@ -24,8 +24,8 @@ depends-top-level:
 - "Bool"
 - !private "BooleanLiteralType"
 - "CastingPrecedence"
+- !private "ConstructureViewController"
 - !private "Data"
-- !private "DeficitViewController"
 - "Error"
 - !private "FloatLiteralType"
 - !private "FormViewController"
@@ -65,8 +65,8 @@ depends-member:
 - !private ["s18AdditiveArithmeticP", ""]
 - !private ["11Supplements11AppDelegateC", "BlogViewController"]
 - ["11Supplements11AppDelegateC", "Bool"]
+- !private ["11Supplements11AppDelegateC", "ConstructureViewController"]
 - !private ["11Supplements11AppDelegateC", "Data"]
-- !private ["11Supplements11AppDelegateC", "DeficitViewController"]
 - ["11Supplements11AppDelegateC", "Error"]
 - !private ["11Supplements11AppDelegateC", "FormViewController"]
 - ["11Supplements11AppDelegateC", "GIDGoogleUser"]
@@ -134,8 +134,8 @@ depends-member:
 - !private ["8CloudKit21CKRecordValueProtocolP", "init"]
 - !private ["s7CVarArgP", "$main"]
 - !private ["s7CVarArgP", "BlogViewController"]
+- !private ["s7CVarArgP", "ConstructureViewController"]
 - !private ["s7CVarArgP", "Data"]
-- !private ["s7CVarArgP", "DeficitViewController"]
 - !private ["s7CVarArgP", "FormViewController"]
 - !private ["s7CVarArgP", "GIDSignIn"]
 - !private ["s7CVarArgP", "GIDSignInErrorCode"]
@@ -226,11 +226,14 @@ depends-member:
 - !private ["7SnapKit25ConstraintRelatableTargetP", "rootViewController"]
 - !private ["7SnapKit25ConstraintRelatableTargetP", "shadowImage"]
 - !private ["7SnapKit25ConstraintRelatableTargetP", "tintColor"]
+- !private ["11Supplements26ConstructureViewControllerC", ""]
+- !private ["11Supplements26ConstructureViewControllerC", "init"]
+- !private ["11Supplements26ConstructureViewControllerC", "tabBarItem"]
 - !private ["10Foundation15ContiguousBytesP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "$main"]
 - !private ["s28CustomDebugStringConvertibleP", "BlogViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "ConstructureViewController"]
 - !private ["s28CustomDebugStringConvertibleP", "Data"]
-- !private ["s28CustomDebugStringConvertibleP", "DeficitViewController"]
 - !private ["s28CustomDebugStringConvertibleP", "FormViewController"]
 - !private ["s28CustomDebugStringConvertibleP", "GIDSignIn"]
 - !private ["s28CustomDebugStringConvertibleP", "GIDSignInErrorCode"]
@@ -320,8 +323,8 @@ depends-member:
 - !private ["s17CustomReflectableP", "white"]
 - !private ["s23CustomStringConvertibleP", "$main"]
 - !private ["s23CustomStringConvertibleP", "BlogViewController"]
+- !private ["s23CustomStringConvertibleP", "ConstructureViewController"]
 - !private ["s23CustomStringConvertibleP", "Data"]
-- !private ["s23CustomStringConvertibleP", "DeficitViewController"]
 - !private ["s23CustomStringConvertibleP", "FormViewController"]
 - !private ["s23CustomStringConvertibleP", "GIDSignIn"]
 - !private ["s23CustomStringConvertibleP", "GIDSignInErrorCode"]
@@ -415,9 +418,6 @@ depends-member:
 - !private ["Se", "white"]
 - !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
 - !private ["s26DefaultStringInterpolationV", "appendLiteral"]
-- !private ["11Supplements21DeficitViewControllerC", ""]
-- !private ["11Supplements21DeficitViewControllerC", "init"]
-- !private ["11Supplements21DeficitViewControllerC", "tabBarItem"]
 - !private ["SE", "clientID"]
 - !private ["SE", "delegate"]
 - !private ["SE", "email"]
@@ -434,8 +434,8 @@ depends-member:
 - !private ["SQ", "$main"]
 - !private ["SQ", "=="]
 - !private ["SQ", "BlogViewController"]
+- !private ["SQ", "ConstructureViewController"]
 - !private ["SQ", "Data"]
-- !private ["SQ", "DeficitViewController"]
 - !private ["SQ", "FormViewController"]
 - !private ["SQ", "GIDSignIn"]
 - !private ["SQ", "GIDSignInErrorCode"]
@@ -551,8 +551,8 @@ depends-member:
 - !private ["So9GIDSignInC", "sharedInstance"]
 - ["So17GIDSignInDelegateP", "$main"]
 - !private ["So17GIDSignInDelegateP", "BlogViewController"]
+- !private ["So17GIDSignInDelegateP", "ConstructureViewController"]
 - !private ["So17GIDSignInDelegateP", "Data"]
-- !private ["So17GIDSignInDelegateP", "DeficitViewController"]
 - !private ["So17GIDSignInDelegateP", "FormViewController"]
 - !private ["So17GIDSignInDelegateP", "GIDSignIn"]
 - !private ["So17GIDSignInDelegateP", "GIDSignInErrorCode"]
@@ -616,8 +616,8 @@ depends-member:
 - !private ["11Supplements10GoogleUserV", "init"]
 - !private ["SH", "$main"]
 - !private ["SH", "BlogViewController"]
+- !private ["SH", "ConstructureViewController"]
 - !private ["SH", "Data"]
-- !private ["SH", "DeficitViewController"]
 - !private ["SH", "FormViewController"]
 - !private ["SH", "GIDSignIn"]
 - !private ["SH", "GIDSignInErrorCode"]
@@ -764,8 +764,8 @@ depends-member:
 - !private ["So21NSItemProviderWritingP", "white"]
 - !private ["So8NSObjectC", "BlogViewController"]
 - ["So8NSObjectC", "Bool"]
+- !private ["So8NSObjectC", "ConstructureViewController"]
 - !private ["So8NSObjectC", "Data"]
-- !private ["So8NSObjectC", "DeficitViewController"]
 - ["So8NSObjectC", "Error"]
 - !private ["So8NSObjectC", "FormViewController"]
 - ["So8NSObjectC", "GIDGoogleUser"]
@@ -862,8 +862,8 @@ depends-member:
 - ["So8NSObjectP", "$main"]
 - !private ["So8NSObjectP", "BlogViewController"]
 - ["So8NSObjectP", "Bool"]
+- !private ["So8NSObjectP", "ConstructureViewController"]
 - !private ["So8NSObjectP", "Data"]
-- !private ["So8NSObjectP", "DeficitViewController"]
 - ["So8NSObjectP", "Error"]
 - !private ["So8NSObjectP", "FormViewController"]
 - ["So8NSObjectP", "GIDGoogleUser"]
@@ -1060,8 +1060,8 @@ depends-member:
 - ["So13UIApplicationC", "OpenURLOptionsKey"]
 - ["So21UIApplicationDelegateP", "$main"]
 - !private ["So21UIApplicationDelegateP", "BlogViewController"]
+- !private ["So21UIApplicationDelegateP", "ConstructureViewController"]
 - !private ["So21UIApplicationDelegateP", "Data"]
-- !private ["So21UIApplicationDelegateP", "DeficitViewController"]
 - !private ["So21UIApplicationDelegateP", "FormViewController"]
 - !private ["So21UIApplicationDelegateP", "GIDSignIn"]
 - !private ["So21UIApplicationDelegateP", "GIDSignInErrorCode"]
@@ -1196,8 +1196,8 @@ depends-member:
 - ["So30UIPasteConfigurationSupportingP", "$main"]
 - !private ["So30UIPasteConfigurationSupportingP", "BlogViewController"]
 - ["So30UIPasteConfigurationSupportingP", "Bool"]
+- !private ["So30UIPasteConfigurationSupportingP", "ConstructureViewController"]
 - !private ["So30UIPasteConfigurationSupportingP", "Data"]
-- !private ["So30UIPasteConfigurationSupportingP", "DeficitViewController"]
 - ["So30UIPasteConfigurationSupportingP", "Error"]
 - !private ["So30UIPasteConfigurationSupportingP", "FormViewController"]
 - ["So30UIPasteConfigurationSupportingP", "GIDGoogleUser"]
@@ -1266,8 +1266,8 @@ depends-member:
 - ["So30UIPasteConfigurationSupportingP", "window"]
 - !private ["So11UIResponderC", "BlogViewController"]
 - ["So11UIResponderC", "Bool"]
+- !private ["So11UIResponderC", "ConstructureViewController"]
 - !private ["So11UIResponderC", "Data"]
-- !private ["So11UIResponderC", "DeficitViewController"]
 - ["So11UIResponderC", "Error"]
 - !private ["So11UIResponderC", "FormViewController"]
 - ["So11UIResponderC", "GIDGoogleUser"]
@@ -1336,8 +1336,8 @@ depends-member:
 - ["So30UIResponderStandardEditActionsP", "$main"]
 - !private ["So30UIResponderStandardEditActionsP", "BlogViewController"]
 - ["So30UIResponderStandardEditActionsP", "Bool"]
+- !private ["So30UIResponderStandardEditActionsP", "ConstructureViewController"]
 - !private ["So30UIResponderStandardEditActionsP", "Data"]
-- !private ["So30UIResponderStandardEditActionsP", "DeficitViewController"]
 - ["So30UIResponderStandardEditActionsP", "Error"]
 - !private ["So30UIResponderStandardEditActionsP", "FormViewController"]
 - ["So30UIResponderStandardEditActionsP", "GIDGoogleUser"]
@@ -1466,8 +1466,8 @@ depends-member:
 - ["So23UIUserActivityRestoringP", "$main"]
 - !private ["So23UIUserActivityRestoringP", "BlogViewController"]
 - ["So23UIUserActivityRestoringP", "Bool"]
+- !private ["So23UIUserActivityRestoringP", "ConstructureViewController"]
 - !private ["So23UIUserActivityRestoringP", "Data"]
-- !private ["So23UIUserActivityRestoringP", "DeficitViewController"]
 - ["So23UIUserActivityRestoringP", "Error"]
 - !private ["So23UIUserActivityRestoringP", "FormViewController"]
 - ["So23UIUserActivityRestoringP", "GIDGoogleUser"]
@@ -1584,8 +1584,8 @@ depends-member:
 - !private ["s26_ExpressibleByImageLiteralP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "$main"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "BlogViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ConstructureViewController"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "Data"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "DeficitViewController"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "FormViewController"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "GIDSignIn"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "GIDSignInErrorCode"]
@@ -1661,8 +1661,8 @@ depends-member:
 - ["10Foundation27_KeyValueCodingAndObservingP", "window"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "$main"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "BlogViewController"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ConstructureViewController"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Data"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "DeficitViewController"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "FormViewController"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "GIDSignIn"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "GIDSignInErrorCode"]
@@ -1771,6 +1771,7 @@ depends-nominal:
 - "Sl"
 - "SL"
 - !private "7SnapKit25ConstraintRelatableTargetP"
+- !private "11Supplements26ConstructureViewControllerC"
 - !private "10Foundation15ContiguousBytesP"
 - "s28CustomDebugStringConvertibleP"
 - !private "s17CustomReflectableP"
@@ -1779,7 +1780,6 @@ depends-nominal:
 - !private "10Foundation12DataProtocolP"
 - !private "Se"
 - !private "s26DefaultStringInterpolationV"
-- !private "11Supplements21DeficitViewControllerC"
 - !private "SE"
 - "SQ"
 - !private "s5ErrorP"

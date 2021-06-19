@@ -38,6 +38,7 @@ depends-top-level:
 - !private "_findStringSwitchCase"
 - !private "networkSerivce"
 - "print"
+- !private "rowData"
 - !private "~="
 depends-member:
 - !private ["SK", ""]
@@ -322,6 +323,7 @@ depends-member:
 - ["11Supplements14NetworkServiceC", ""]
 - !private ["11Supplements14NetworkServiceC", "getPages"]
 - ["11Supplements14NetworkServiceC", "init"]
+- !private ["11Supplements14NetworkServiceC", "sendRowData"]
 - !private ["Sq", "refresh"]
 - ["11Supplements4PageV", "CodingKeys"]
 - ["11Supplements4PageV", "Element"]
@@ -335,6 +337,7 @@ depends-member:
 - ["11Supplements4PageV", "questions"]
 - !private ["11Supplements19PagesNetworkServiceC", "getPages"]
 - ["11Supplements19PagesNetworkServiceC", "init"]
+- !private ["11Supplements19PagesNetworkServiceC", "sendRowData"]
 - ["SY", "=="]
 - ["SY", "Default_RawValue"]
 - ["SY", "RawValue"]
@@ -374,6 +377,7 @@ depends-member:
 - !private ["SY", "vitamin_e"]
 - !private ["SY", "vitamin_k"]
 - !private ["SY", "zinc"]
+- !private ["11Supplements12RequestErrorO", ""]
 - !private ["s6ResultO", "failure"]
 - !private ["s6ResultO", "success"]
 - !private ["ST", ""]
@@ -457,6 +461,7 @@ depends-nominal:
 - "11Supplements4PageV"
 - "11Supplements19PagesNetworkServiceC"
 - "SY"
+- !private "11Supplements12RequestErrorO"
 - !private "s6ResultO"
 - !private "ST"
 - "11Supplements13SymptomsModelC"

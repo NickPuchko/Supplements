@@ -52,12 +52,13 @@ depends-top-level:
 - "self"
 - !private "view"
 depends-member:
-- !private ["s18AdditiveArithmeticP", ""]
+- ["s18AdditiveArithmeticP", ""]
 - !private ["s18AdditiveArithmeticP", "init"]
 - !private ["7SwiftUI10AnimatableP", "height"]
-- !private ["SK", ""]
+- ["SK", ""]
 - !private ["Sz", ""]
 - !private ["Sz", "init"]
+- !private ["So15CALayerDelegateP", ""]
 - !private ["So15CALayerDelegateP", "addGestureRecognizer"]
 - !private ["So15CALayerDelegateP", "addSubview"]
 - !private ["So15CALayerDelegateP", "backgroundColor"]
@@ -143,9 +144,9 @@ depends-member:
 - !private ["s9CodingKeyP", "init"]
 - !private ["s9CodingKeyP", "intValue"]
 - !private ["s9CodingKeyP", "stringValue"]
-- !private ["Sl", ""]
+- ["Sl", ""]
 - !private ["26CollectionViewPagingLayout0abcD8DelegateP", "init"]
-- !private ["SL", ""]
+- ["SL", ""]
 - !private ["SL", "init"]
 - !private ["7SnapKit24ConstraintConstantTargetP", ""]
 - !private ["7SnapKit24ConstraintConstantTargetP", "init"]
@@ -404,9 +405,10 @@ depends-member:
 - !private ["s30ExpressibleByDictionaryLiteralP", "Key"]
 - !private ["s30ExpressibleByDictionaryLiteralP", "Value"]
 - !private ["s30ExpressibleByDictionaryLiteralP", "init"]
-- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- ["s25ExpressibleByFloatLiteralP", ""]
 - !private ["s27ExpressibleByIntegerLiteralP", "IntegerLiteralType"]
-- !private ["s27ExpressibleByIntegerLiteralP", ""]
+- ["s27ExpressibleByIntegerLiteralP", ""]
 - !private ["s27ExpressibleByIntegerLiteralP", "init"]
 - !private ["s23ExpressibleByNilLiteralP", "addGestureRecognizer"]
 - !private ["s23ExpressibleByNilLiteralP", "addSubview"]
@@ -419,10 +421,11 @@ depends-member:
 - !private ["s23ExpressibleByNilLiteralP", "trailingAnchor"]
 - !private ["s23ExpressibleByNilLiteralP", "white"]
 - !private ["s23ExpressibleByNilLiteralP", "widthAnchor"]
-- !private ["s32ExpressibleByStringInterpolationP", ""]
-- !private ["s26ExpressibleByStringLiteralP", ""]
-- !private ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- ["s32ExpressibleByStringInterpolationP", ""]
+- ["s26ExpressibleByStringLiteralP", ""]
+- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
 - !private ["s17FixedWidthIntegerP", "init"]
+- ["SF", ""]
 - ["11Supplements9FormModelC", "init"]
 - !private ["11Supplements18FormViewControllerC", "$__lazy_storage_$_model"]
 - ["11Supplements18FormViewControllerC", "ContentView"]
@@ -547,7 +550,7 @@ depends-member:
 - !private ["7SnapKit20LayoutConstraintItemP", "viewController"]
 - !private ["7SnapKit20LayoutConstraintItemP", "weightTextField"]
 - !private ["7SnapKit20LayoutConstraintItemP", "widthAnchor"]
-- !private ["s25LosslessStringConvertibleP", ""]
+- ["s25LosslessStringConvertibleP", ""]
 - !private ["s25LosslessStringConvertibleP", "init"]
 - !private ["s10MirrorPathP", "init"]
 - ["So8NSCodingP", "$__lazy_storage_$_model"]
@@ -798,6 +801,7 @@ depends-member:
 - ["So8NSObjectP", "UIScrollView"]
 - !private ["So8NSObjectP", "UITapGestureRecognizer"]
 - ["So8NSObjectP", ""]
+- ["So8NSObjectP", "__lazy_storage_$_model"]
 - !private ["So8NSObjectP", "activate"]
 - !private ["So8NSObjectP", "activateConstraints"]
 - !private ["So8NSObjectP", "addGestureRecognizer"]
@@ -867,7 +871,7 @@ depends-member:
 - !private ["So14NSSecureCodingP", "white"]
 - !private ["So20NSNotificationCenterC", "addObserver"]
 - !private ["So20NSNotificationCenterC", "default"]
-- !private ["Sj", ""]
+- ["Sj", ""]
 - !private ["Sj", "init"]
 - !private ["Sq", "addGestureRecognizer"]
 - !private ["Sq", "addSubview"]
@@ -884,19 +888,20 @@ depends-member:
 - !private ["11Supplements7RowDataV", ""]
 - !private ["11Supplements7RowDataV", "init"]
 - !private ["s10SIMDScalarP", "init"]
-- !private ["ST", ""]
+- ["ST", ""]
 - !private ["SZ", "init"]
-- !private ["s13SignedNumericP", ""]
+- ["s13SignedNumericP", ""]
 - !private ["s13SignedNumericP", "init"]
-- !private ["Sx", ""]
+- ["Sx", ""]
 - !private ["Sx", "_step"]
 - !private ["Sx", "advanced"]
 - !private ["Sx", "distance"]
 - !private ["Sx", "init"]
 - !private ["11Supplements22SymptomsViewControllerC", ""]
 - !private ["11Supplements22SymptomsViewControllerC", "init"]
-- !private ["s16TextOutputStreamP", ""]
-- !private ["s20TextOutputStreamableP", ""]
+- ["s16TextOutputStreamP", ""]
+- ["s20TextOutputStreamableP", ""]
+- !private ["So29UIAccessibilityIdentificationP", ""]
 - !private ["So29UIAccessibilityIdentificationP", "addGestureRecognizer"]
 - !private ["So29UIAccessibilityIdentificationP", "addSubview"]
 - !private ["So29UIAccessibilityIdentificationP", "backgroundColor"]
@@ -921,6 +926,7 @@ depends-member:
 - !private ["So29UIAccessibilityIdentificationP", "viewController"]
 - !private ["So29UIAccessibilityIdentificationP", "weightTextField"]
 - !private ["So29UIAccessibilityIdentificationP", "widthAnchor"]
+- !private ["So12UIAppearanceP", ""]
 - !private ["So12UIAppearanceP", "addGestureRecognizer"]
 - !private ["So12UIAppearanceP", "addSubview"]
 - !private ["So12UIAppearanceP", "backgroundColor"]
@@ -1041,6 +1047,7 @@ depends-member:
 - ["So9UIControlC", ""]
 - !private ["So9UIControlC", "selectedSegmentIndex"]
 - !private ["So9UIControlC", "text"]
+- !private ["So17UICoordinateSpaceP", ""]
 - !private ["So17UICoordinateSpaceP", "addGestureRecognizer"]
 - !private ["So17UICoordinateSpaceP", "addSubview"]
 - !private ["So17UICoordinateSpaceP", "backgroundColor"]
@@ -1065,6 +1072,7 @@ depends-member:
 - !private ["So17UICoordinateSpaceP", "viewController"]
 - !private ["So17UICoordinateSpaceP", "weightTextField"]
 - !private ["So17UICoordinateSpaceP", "widthAnchor"]
+- !private ["So13UIDynamicItemP", ""]
 - !private ["So13UIDynamicItemP", "addGestureRecognizer"]
 - !private ["So13UIDynamicItemP", "addSubview"]
 - !private ["So13UIDynamicItemP", "backgroundColor"]
@@ -1143,6 +1151,7 @@ depends-member:
 - ["So18UIFocusEnvironmentP", "viewDidLoad"]
 - !private ["So18UIFocusEnvironmentP", "weightTextField"]
 - !private ["So18UIFocusEnvironmentP", "widthAnchor"]
+- !private ["So11UIFocusItemP", ""]
 - !private ["So11UIFocusItemP", "addGestureRecognizer"]
 - !private ["So11UIFocusItemP", "addSubview"]
 - !private ["So11UIFocusItemP", "backgroundColor"]
@@ -1207,6 +1216,7 @@ depends-member:
 - !private ["So21UIInputViewControllerC", "dismissKeyboard"]
 - !private ["So10UIKeyInputP", ""]
 - !private ["So10UIKeyInputP", "text"]
+- !private ["So24UILargeContentViewerItemP", ""]
 - !private ["So24UILargeContentViewerItemP", "addGestureRecognizer"]
 - !private ["So24UILargeContentViewerItemP", "addSubview"]
 - !private ["So24UILargeContentViewerItemP", "backgroundColor"]
@@ -1639,10 +1649,10 @@ depends-member:
 - !private ["s30_CustomPlaygroundQuickLookableP", "height"]
 - !private ["s30_CustomPlaygroundQuickLookableP", "init"]
 - !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
-- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
-- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
 - !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
-- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
 - !private ["s26_ExpressibleByColorLiteralP", "white"]
 - !private ["7SwiftUI18_FormatSpecifiableP", "init"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
@@ -1794,18 +1804,18 @@ depends-member:
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "weightTextField"]
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "widthAnchor"]
 depends-nominal:
-- !private "s18AdditiveArithmeticP"
+- "s18AdditiveArithmeticP"
 - !private "7SwiftUI10AnimatableP"
-- !private "SK"
+- "SK"
 - !private "Sz"
 - "So15CALayerDelegateP"
 - !private "So6CGRectV"
 - !private "8CloudKit21CKRecordValueProtocolP"
 - "s7CVarArgP"
 - !private "s9CodingKeyP"
-- !private "Sl"
+- "Sl"
 - !private "26CollectionViewPagingLayout0abcD8DelegateP"
-- !private "SL"
+- "SL"
 - !private "7SnapKit24ConstraintConstantTargetP"
 - !private "7SnapKit21ConstraintInsetTargetP"
 - !private "7SnapKit26ConstraintMultiplierTargetP"
@@ -1822,13 +1832,15 @@ depends-nominal:
 - "SQ"
 - !private "s25ExpressibleByArrayLiteralP"
 - !private "s30ExpressibleByDictionaryLiteralP"
-- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
-- !private "s27ExpressibleByIntegerLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s25ExpressibleByFloatLiteralP"
+- "s27ExpressibleByIntegerLiteralP"
 - !private "s23ExpressibleByNilLiteralP"
-- !private "s32ExpressibleByStringInterpolationP"
-- !private "s26ExpressibleByStringLiteralP"
-- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s32ExpressibleByStringInterpolationP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
 - !private "s17FixedWidthIntegerP"
+- "SF"
 - "11Supplements9FormModelC"
 - "11Supplements18FormViewControllerC"
 - !private "7SwiftUI7GestureP"
@@ -1836,7 +1848,7 @@ depends-nominal:
 - !private "Si"
 - !private "10SwiftyJSON17JSONSubscriptTypeP"
 - "7SnapKit20LayoutConstraintItemP"
-- !private "s25LosslessStringConvertibleP"
+- "s25LosslessStringConvertibleP"
 - !private "s10MirrorPathP"
 - "So8NSCodingP"
 - !private "So9NSCopyingP"
@@ -1852,17 +1864,17 @@ depends-nominal:
 - "So8NSObjectP"
 - !private "So14NSSecureCodingP"
 - !private "So20NSNotificationCenterC"
-- !private "Sj"
+- "Sj"
 - !private "Sq"
 - !private "11Supplements7RowDataV"
 - !private "s10SIMDScalarP"
-- !private "ST"
+- "ST"
 - !private "SZ"
-- !private "s13SignedNumericP"
-- !private "Sx"
+- "s13SignedNumericP"
+- "Sx"
 - !private "11Supplements22SymptomsViewControllerC"
-- !private "s16TextOutputStreamP"
-- !private "s20TextOutputStreamableP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
 - "So29UIAccessibilityIdentificationP"
 - "So12UIAppearanceP"
 - "So21UIAppearanceContainerP"
@@ -1909,10 +1921,10 @@ depends-nominal:
 - !private "7SwiftUI4ViewP"
 - !private "s30_CustomPlaygroundQuickLookableP"
 - !private "s35_ExpressibleByBuiltinBooleanLiteralP"
-- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
-- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
 - !private "s34_ExpressibleByBuiltinStringLiteralP"
-- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
 - !private "s26_ExpressibleByColorLiteralP"
 - !private "7SwiftUI18_FormatSpecifiableP"
 - !private "s35_HasCustomAnyHashableRepresentationP"

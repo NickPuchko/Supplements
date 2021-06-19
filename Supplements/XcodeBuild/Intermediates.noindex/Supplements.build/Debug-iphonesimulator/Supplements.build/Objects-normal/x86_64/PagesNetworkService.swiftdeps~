@@ -28,6 +28,7 @@ depends-top-level:
 - "Void"
 - !private "encoder"
 - !private "makeURL"
+- "print"
 depends-member:
 - !private ["9Alamofire0A8ExtendedP", "append"]
 - !private ["9Alamofire0A8ExtendedP", "map"]
@@ -238,6 +239,7 @@ depends-member:
 - ["11Supplements14NetworkServiceC", "getPages"]
 - ["11Supplements14NetworkServiceC", "init"]
 - !private ["11Supplements14NetworkServiceC", "makeURL"]
+- !private ["11Supplements14NetworkServiceC", "print"]
 - ["11Supplements14NetworkServiceC", "sendRowData"]
 - !private ["11Supplements4PageV", "CodingKeys"]
 - !private ["11Supplements4PageV", ""]
@@ -257,6 +259,7 @@ depends-member:
 - ["11Supplements19PagesNetworkServiceC", "getPages"]
 - ["11Supplements19PagesNetworkServiceC", "init"]
 - !private ["11Supplements19PagesNetworkServiceC", "makeURL"]
+- !private ["11Supplements19PagesNetworkServiceC", "print"]
 - ["11Supplements19PagesNetworkServiceC", "sendRowData"]
 - !private ["Sk", ""]
 - !private ["Sk", "append"]

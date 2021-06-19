@@ -2,6 +2,7 @@
 /Users/sapientisat/Projects/Supplements/Supplements/Supplements/Form/Views/ContentView.swift
 /Users/sapientisat/Projects/Supplements/Supplements/Supplements/Login/LoginModel.swift
 /Users/sapientisat/Projects/Supplements/Supplements/Supplements/Symptoms/QuestionsCollectionViewController.swift
+/Users/sapientisat/Projects/Supplements/Supplements/Supplements/Constructure/Views/ConstructureTableViewCell.swift
 /Users/sapientisat/Projects/Supplements/Supplements/Supplements/Login/LoginViewController.swift
 /Users/sapientisat/Projects/Supplements/Supplements/Supplements/Extensions/Extension+ScrollView.swift
 /Users/sapientisat/Projects/Supplements/Supplements/Supplements/Form/FormViewController.swift
@@ -13,6 +14,7 @@
 /Users/sapientisat/Projects/Supplements/Supplements/Supplements/Googleuser.swift
 /Users/sapientisat/Projects/Supplements/Supplements/Supplements/Form/FormModel.swift
 /Users/sapientisat/Projects/Supplements/Supplements/Supplements/Symptoms/SymptomsModel.swift
+/Users/sapientisat/Projects/Supplements/Supplements/Supplements/Constructure/ConstructureViewModel.swift
 /Users/sapientisat/Projects/Supplements/Supplements/Supplements/Today/TodayViewController.swift
 /Users/sapientisat/Projects/Supplements/Supplements/Supplements/Today/Views/PillsHeaderVIew.swift
 /Users/sapientisat/Projects/Supplements/Supplements/Supplements/Blog/BlogViewController.swift
@@ -23,10 +25,12 @@
 /Users/sapientisat/Projects/Supplements/Supplements/Supplements/Errors.swift
 /Users/sapientisat/Projects/Supplements/Supplements/Supplements/Deficit/DeficitModel.swift
 /Users/sapientisat/Projects/Supplements/Supplements/Supplements/Symptoms/PageCell.swift
+/Users/sapientisat/Projects/Supplements/Supplements/Supplements/Blog/Views/PickerTextField.swift
 /Users/sapientisat/Projects/Supplements/Supplements/Supplements/Today/TodayModel.swift
 /Users/sapientisat/Projects/Supplements/Supplements/Supplements/Blog/BlogModel.swift
 /Users/sapientisat/Projects/Supplements/Supplements/Supplements/Symptoms/SymptomsViewController.swift
 /Users/sapientisat/Projects/Supplements/Supplements/Supplements/Today/tableViewModel.swift
 /Users/sapientisat/Projects/Supplements/Supplements/Supplements/Constants.swift
 /Users/sapientisat/Projects/Supplements/Supplements/Supplements/Symptoms/QuestionCell.swift
+/Users/sapientisat/Projects/Supplements/Supplements/Supplements/Constructure/ConstructureViewController.swift
 /Users/sapientisat/Projects/Supplements/Supplements/Supplements/Today/Views/PillsCell.swift

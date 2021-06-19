@@ -244,6 +244,37 @@ SWIFT_CLASS("_TtC11Supplements18BlogViewController")
 - (UICollectionViewCell * _Nonnull)collectionView:(UICollectionView * _Nonnull)collectionView cellForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
 @end
 
+
+SWIFT_CLASS("_TtC11Supplements25ConstructureTableViewCell")
+@interface ConstructureTableViewCell : UITableViewCell
+- (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+- (void)layoutSubviews;
+- (void)prepareForReuse;
+@end
+
+
+SWIFT_CLASS("_TtC11Supplements26ConstructureViewController")
+@interface ConstructureViewController : UIViewController
+- (void)viewDidLoad;
+- (void)addButtonClick;
+- (void)analogButtonClick;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+@interface ConstructureViewController (SWIFT_EXTENSION(Supplements)) <UITableViewDelegate>
+@end
+
+@class UITableView;
+
+@interface ConstructureViewController (SWIFT_EXTENSION(Supplements)) <UITableViewDataSource>
+- (NSInteger)numberOfSectionsInTableView:(UITableView * _Nonnull)tableView SWIFT_WARN_UNUSED_RESULT;
+- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+@end
+
 @class UIDatePicker;
 @class UITextField;
 
@@ -320,6 +351,32 @@ SWIFT_CLASS("_TtC11Supplements8PageCell")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UITextPosition;
+
+SWIFT_CLASS("_TtC11Supplements15PickerTextField")
+@interface PickerTextField : UITextField
+- (void)doneButtontapped;
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (CGRect)caretRectForPosition:(UITextPosition * _Nonnull)position SWIFT_WARN_UNUSED_RESULT;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+- (CGRect)textRectForBounds:(CGRect)bounds SWIFT_WARN_UNUSED_RESULT;
+- (CGRect)placeholderRectForBounds:(CGRect)bounds SWIFT_WARN_UNUSED_RESULT;
+- (CGRect)editingRectForBounds:(CGRect)bounds SWIFT_WARN_UNUSED_RESULT;
+@end
+
+@class UIPickerView;
+
+@interface PickerTextField (SWIFT_EXTENSION(Supplements)) <UIPickerViewDelegate>
+- (NSString * _Nullable)pickerView:(UIPickerView * _Nonnull)pickerView titleForRow:(NSInteger)row forComponent:(NSInteger)component SWIFT_WARN_UNUSED_RESULT;
+@end
+
+
+@interface PickerTextField (SWIFT_EXTENSION(Supplements)) <UIPickerViewDataSource>
+- (NSInteger)numberOfComponentsInPickerView:(UIPickerView * _Nonnull)pickerView SWIFT_WARN_UNUSED_RESULT;
+- (NSInteger)pickerView:(UIPickerView * _Nonnull)pickerView numberOfRowsInComponent:(NSInteger)component SWIFT_WARN_UNUSED_RESULT;
+- (void)pickerView:(UIPickerView * _Nonnull)pickerView didSelectRow:(NSInteger)row inComponent:(NSInteger)component;
+@end
+
 
 SWIFT_CLASS("_TtC11Supplements9PillsCell")
 @interface PillsCell : UITableViewCell
@@ -336,7 +393,6 @@ SWIFT_CLASS("_TtC11Supplements15PillsHeaderView")
 - (void)layoutSubviews;
 @end
 
-@class UIPickerView;
 
 SWIFT_CLASS("_TtC11Supplements17PopPickerDelegate")
 @interface PopPickerDelegate : NSObject <UIPickerViewDataSource, UIPickerViewDelegate>
@@ -400,7 +456,6 @@ SWIFT_CLASS("_TtC11Supplements19TodayViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UITableView;
 
 @interface TodayViewController (SWIFT_EXTENSION(Supplements)) <UITableViewDelegate>
 - (UIView * _Nullable)tableView:(UITableView * _Nonnull)tableView viewForHeaderInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;

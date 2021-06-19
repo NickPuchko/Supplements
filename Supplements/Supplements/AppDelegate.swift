@@ -76,8 +76,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
 //			print(result)
 //		}
 
-		// TODO: check flag for opening symptoms for first time
-		if !isUserOld {
+		if isUserOld {
 			launch()
 		} else {
 			let welcomeScreen = FormViewController()
@@ -85,8 +84,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
 			  .navigationController?
 			  .pushViewController(welcomeScreen, animated: true)
 		}
-
-        
 	}
 
 	func launch() {
@@ -97,7 +94,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
 
 		let todayItem = UITabBarItem(title: "Сегодня", image: UIImage(named: "today"), tag: 0)
 		let blogItem = UITabBarItem(title: "Блог", image: UIImage(named: "blog"), tag: 1)
-		let deficitItem = UITabBarItem(title: "Дефициты", image: UIImage(named: "deficit"), tag: 2)
+		let deficitItem = UITabBarItem(title: "Добавки", image: UIImage(named: "deficit"), tag: 2)
 		let profileItem = UITabBarItem(title: "Профиль", image: UIImage(named: "profile"), tag: 3)
 
 		todayViewController.tabBarItem = todayItem
