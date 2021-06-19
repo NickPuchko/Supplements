@@ -18,6 +18,7 @@ class BlogViewController: UIViewController {
         collectionViewLayout: BlogViewController.createLayout()
     )
     private let headerLabel = UILabel()
+    private let searchTextField = PickerTextField()
     override func viewDidLoad() {
         super.viewDidLoad()
         navigationController?.navigationBar.isHidden = true
@@ -25,12 +26,14 @@ class BlogViewController: UIViewController {
         configureUI()
         
     }
+    
     private func configureUI() {
         view.addSubview(collectionView)
         collectionView.register(CustomCollectionViewCell.self, forCellWithReuseIdentifier: "CustomCollectionViewCell")
         collectionView.translatesAutoresizingMaskIntoConstraints = false
         collectionView.backgroundColor = .white
         collectionView.dataSource = self
+        
         //collectionView.frame = view.bounds
         NSLayoutConstraint.activate([
             collectionView.topAnchor.constraint(equalTo: view.topAnchor, constant: 150),
@@ -46,6 +49,28 @@ class BlogViewController: UIViewController {
         NSLayoutConstraint.activate([
             headerLabel.bottomAnchor.constraint(equalTo: collectionView.topAnchor, constant: -17),
             headerLabel.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 20)
+        ])
+        view.addSubview(searchTextField)
+        searchTextField.translatesAutoresizingMaskIntoConstraints = false
+        //searchTextField.isEnabled = false
+        searchTextField.rightView = UIImageView(image: UIImage(systemName: "magnifyingglass"))
+        searchTextField.rightViewMode = .always
+        searchTextField.pills = Element.allCases.map({$0.rawValue})
+        searchTextField.displayNameHandler = { item in
+            return item as? String ?? ""
+            
+        }
+        searchTextField.itemSelectionHandler = { index, item in
+            print(index , " ", item)
+            
+        }
+        NSLayoutConstraint.activate([
+            searchTextField.leadingAnchor.constraint(equalTo: headerLabel.trailingAnchor, constant: 30),
+            //searchTextField.trailingAnchor.constraint(lessThanOrEqualTo: view.trailingAnchor),
+            searchTextField.centerYAnchor.constraint(equalTo: headerLabel.centerYAnchor),
+            searchTextField.bottomAnchor.constraint(equalTo: collectionView.topAnchor, constant: -17),
+            searchTextField.widthAnchor.constraint(equalToConstant: view.frame.width - headerLabel.frame.width - 140),
+            searchTextField.heightAnchor.constraint(equalToConstant: 48)
         ])
     }
     static func createLayout() -> UICollectionViewCompositionalLayout {
