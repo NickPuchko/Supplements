@@ -9,5 +9,8 @@ target 'Supplements' do
   pod 'CollectionViewPagingLayout'
   pod 'Alamofire'
   pod 'LinearProgressView'
+  pod 'JTAppleCalendar'
+  pod 'FSCalendar'
+  pod 'CalendarHeatmap'
 
 end

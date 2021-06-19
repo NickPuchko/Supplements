@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		737D3456267D49F500E67EEF /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 737D3455267D49F500E67EEF /* TodayViewController.swift */; };
+		737D3458267D4A0100E67EEF /* TodayModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 737D3457267D4A0100E67EEF /* TodayModel.swift */; };
+		737D345A267D4A8300E67EEF /* PillsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 737D3459267D4A8300E67EEF /* PillsCell.swift */; };
+		737D345D267D4AC200E67EEF /* PillsHeaderVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 737D345C267D4AC200E67EEF /* PillsHeaderVIew.swift */; };
+		737D345F267D640D00E67EEF /* tableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 737D345E267D640C00E67EEF /* tableViewModel.swift */; };
+		737D3461267D731200E67EEF /* Extension+Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 737D3460267D731200E67EEF /* Extension+Date.swift */; };
 		9736DFB72DA0A0E3B453B90E /* Pods_Supplements.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEB40AEC1D0CC127476CA557 /* Pods_Supplements.framework */; };
 		AA851C46267D08D500809A47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA851C45267D08D500809A47 /* AppDelegate.swift */; };
 		AA851C48267D08D500809A47 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = AA851C47267D08D500809A47 /* Podfile */; };
@@ -28,6 +34,12 @@
 
 /* Begin PBXFileReference section */
 		0CD86E3BBE04267250714E44 /* Pods-Supplements.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Supplements.release.xcconfig"; path = "Target Support Files/Pods-Supplements/Pods-Supplements.release.xcconfig"; sourceTree = "<group>"; };
+		737D3455267D49F500E67EEF /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		737D3457267D4A0100E67EEF /* TodayModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayModel.swift; sourceTree = "<group>"; };
+		737D3459267D4A8300E67EEF /* PillsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PillsCell.swift; sourceTree = "<group>"; };
+		737D345C267D4AC200E67EEF /* PillsHeaderVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PillsHeaderVIew.swift; sourceTree = "<group>"; };
+		737D345E267D640C00E67EEF /* tableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableViewModel.swift; sourceTree = "<group>"; };
+		737D3460267D731200E67EEF /* Extension+Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Date.swift"; sourceTree = "<group>"; };
 		9DD6D524A431C1A687111B8C /* Pods-Supplements.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Supplements.debug.xcconfig"; path = "Target Support Files/Pods-Supplements/Pods-Supplements.debug.xcconfig"; sourceTree = "<group>"; };
 		AA851C42267D08D500809A47 /* Supplements.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Supplements.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA851C45267D08D500809A47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +91,26 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		737D3454267D49E500E67EEF /* Today */ = {
+			isa = PBXGroup;
+			children = (
+				737D3455267D49F500E67EEF /* TodayViewController.swift */,
+				737D345E267D640C00E67EEF /* tableViewModel.swift */,
+				737D3457267D4A0100E67EEF /* TodayModel.swift */,
+				737D345B267D4AA200E67EEF /* Views */,
+			);
+			path = Today;
+			sourceTree = "<group>";
+		};
+		737D345B267D4AA200E67EEF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				737D3459267D4A8300E67EEF /* PillsCell.swift */,
+				737D345C267D4AC200E67EEF /* PillsHeaderVIew.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		AA851C39267D08D500809A47 = {
 			isa = PBXGroup;
 			children = (
@@ -100,11 +132,13 @@
 		AA851C44267D08D500809A47 /* Supplements */ = {
 			isa = PBXGroup;
 			children = (
+				AA851C45267D08D500809A47 /* AppDelegate.swift */,
 				AA851CAA267D318700809A47 /* Symptoms */,
 				AA851C72267D0DF700809A47 /* Login */,
 				AA851C6B267D0DE000809A47 /* Form */,
-				AA851C45267D08D500809A47 /* AppDelegate.swift */,
+				737D3454267D49E500E67EEF /* Today */,
 				AA851C7A267D0EAB00809A47 /* Constants.swift */,
+				737D3460267D731200E67EEF /* Extension+Date.swift */,
 				AA851C47267D08D500809A47 /* Podfile */,
 				AA851C4B267D08D800809A47 /* Assets.xcassets */,
 				AA851C4D267D08D800809A47 /* LaunchScreen.storyboard */,
@@ -263,15 +297,21 @@
 				AA851C77267D0E1700809A47 /* LoginModel.swift in Sources */,
 				AA851C76267D0E1700809A47 /* LoginViewController.swift in Sources */,
 				AA851C6F267D0DE800809A47 /* FormViewController.swift in Sources */,
+				737D3461267D731200E67EEF /* Extension+Date.swift in Sources */,
 				AA851C46267D08D500809A47 /* AppDelegate.swift in Sources */,
 				AA851C8B267D101700809A47 /* Googleuser.swift in Sources */,
 				AA851C6E267D0DE800809A47 /* FormModel.swift in Sources */,
 				AA851CAE267D319300809A47 /* SymptomsModel.swift in Sources */,
+				737D3456267D49F500E67EEF /* TodayViewController.swift in Sources */,
+				737D345D267D4AC200E67EEF /* PillsHeaderVIew.swift in Sources */,
 				AA851C7E267D0F4900809A47 /* UserNetworkService.swift in Sources */,
 				AA851C8E267D108B00809A47 /* Errors.swift in Sources */,
 				AA851CBD267D424800809A47 /* QuestionCell.swift in Sources */,
+				737D3458267D4A0100E67EEF /* TodayModel.swift in Sources */,
 				AA851CAD267D319300809A47 /* SymptomsViewController.swift in Sources */,
+				737D345F267D640D00E67EEF /* tableViewModel.swift in Sources */,
 				AA851C7B267D0EAB00809A47 /* Constants.swift in Sources */,
+				737D345A267D4A8300E67EEF /* PillsCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,14 +452,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = LZ34WQHSPQ;
+				DEVELOPMENT_TEAM = YDJFMC7LFN;
 				INFOPLIST_FILE = Supplements/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = NickPuchko.Supplements;
+				PRODUCT_BUNDLE_IDENTIFIER = surik.Supplements;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -433,14 +473,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = LZ34WQHSPQ;
+				DEVELOPMENT_TEAM = YDJFMC7LFN;
 				INFOPLIST_FILE = Supplements/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = NickPuchko.Supplements;
+				PRODUCT_BUNDLE_IDENTIFIER = surik.Supplements;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
