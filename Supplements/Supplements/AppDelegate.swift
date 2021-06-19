@@ -60,7 +60,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
 //		userNetworkService.createUser(user: user.profile.name) { result in
 //			print(result)
 //		}
-        let symptomsViewController = FormViewController()
+        let symptomsViewController = BlogViewController()
 //        let vc2 = SecondViewController()
 //        let vc3 = ThirdViewController()
 //        let tabbarVC = UITabBarController()

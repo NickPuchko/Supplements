@@ -37,7 +37,6 @@ class TodayViewController: UIViewController {
     private lazy var model = TodayModel(self)
     private let containerView = UIView()
     private let pillsTableView = UITableView()
-    //private var calView = FSCalendar()
     lazy var calendarHeatMap: CalendarHeatmap = {
             var config = CalendarHeatmapConfig()
             config.backgroundColor = .white
@@ -65,22 +64,8 @@ class TodayViewController: UIViewController {
     }
     
     private func configureUI() {
-        
-//        calView.translatesAutoresizingMaskIntoConstraints = false
-//        calView.scrollEnabled = true
-//        calView.scrollDirection = .horizontal
-//        calView.delegate = self
-//        calView.dataSource = self
-//        calView.appearance.headerTitleColor = UIColor(red: 160/255, green: 226/255, blue: 159/255, alpha: 1)
-//        calView.appearance.weekdayTextColor = .black
-//
-//        calView.appearance.titleSelectionColor = UIColor(red: 169/255, green: 226/255, blue: 159/255, alpha: 1)
-//        calView.appearance.todayColor = UIColor(red: 169/255, green: 226/255, blue: 159/255, alpha: 1)
-//        calView.appearance.todaySelectionColor  = UIColor(red: 160/255, green: 226/255, blue: 159/255, alpha: 1)
-//        calView.backgroundColor = UIColor(red: 0.659, green: 0.878, blue: 0.388, alpha: 0.4)
-//        calView.layer.cornerRadius = 20
+        navigationController?.navigationBar.isHidden = true
         view.backgroundColor = .white
-        //calView.appearance.eventSelectionColor = UIColor.green
         pillsTableView.translatesAutoresizingMaskIntoConstraints = false
         pillsTableView.delegate = self
         pillsTableView.dataSource = self
@@ -121,7 +106,6 @@ extension TodayViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
         return 80
     }
-    //calen
 }
 extension TodayViewController: UITableViewDataSource {
     
