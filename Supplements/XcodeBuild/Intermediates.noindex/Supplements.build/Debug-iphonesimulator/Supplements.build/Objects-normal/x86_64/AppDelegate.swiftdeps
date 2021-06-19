@@ -16,7 +16,6 @@ provides-dynamic-lookup:
 - "userNetworkService"
 - "window"
 depends-top-level:
-- !private "!"
 - !private "=="
 - "AppDelegate"
 - !private "Array"

@@ -7,6 +7,7 @@ provides-member:
 - ["11Supplements21DeficitViewControllerC", ""]
 provides-dynamic-lookup:
 - "$__lazy_storage_$_model"
+- "imageView"
 - "model"
 - "setupDeficits"
 - "viewDidLoad"
@@ -17,16 +18,29 @@ depends-top-level:
 - "DeficitModel"
 - "DeficitViewController"
 - !private "FloatLiteralType"
+- "StringLiteralType"
+- "UIImage"
+- "UIImageView"
 - "UIViewController"
+- !private "imageView"
 - !private "model"
 - "self"
+- !private "view"
 depends-member:
 - ["SK", ""]
+- !private ["So15CALayerDelegateP", "addSubview"]
+- ["So15CALayerDelegateP", "init"]
 - ["s7CVarArgP", "DeficitModel"]
+- ["s7CVarArgP", "UIImage"]
+- ["s7CVarArgP", "UIImageView"]
 - ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "addSubview"]
+- !private ["s7CVarArgP", "imageView"]
+- ["s7CVarArgP", "init"]
 - !private ["s7CVarArgP", "model"]
 - ["s7CVarArgP", "self"]
 - !private ["s7CVarArgP", "setupDeficits"]
+- !private ["s7CVarArgP", "view"]
 - !private ["s7CVarArgP", "viewDidLoad"]
 - !private ["s12CaseIterableP", "magnesium"]
 - !private ["s12CaseIterableP", "vitamin_b12"]
@@ -36,18 +50,34 @@ depends-member:
 - !private ["s9CodingKeyP", "stringValue"]
 - ["Sl", ""]
 - ["SL", ""]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "addSubview"]
+- ["7SnapKit25ConstraintRelatableTargetP", "init"]
 - ["s28CustomDebugStringConvertibleP", "DeficitModel"]
+- ["s28CustomDebugStringConvertibleP", "UIImage"]
+- ["s28CustomDebugStringConvertibleP", "UIImageView"]
 - ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "addSubview"]
+- !private ["s28CustomDebugStringConvertibleP", "imageView"]
+- ["s28CustomDebugStringConvertibleP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "model"]
 - ["s28CustomDebugStringConvertibleP", "self"]
 - !private ["s28CustomDebugStringConvertibleP", "setupDeficits"]
+- !private ["s28CustomDebugStringConvertibleP", "view"]
 - !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s17CustomReflectableP", "addSubview"]
 - ["s23CustomStringConvertibleP", "DeficitModel"]
+- ["s23CustomStringConvertibleP", "UIImage"]
+- ["s23CustomStringConvertibleP", "UIImageView"]
 - ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "addSubview"]
+- !private ["s23CustomStringConvertibleP", "imageView"]
+- ["s23CustomStringConvertibleP", "init"]
 - !private ["s23CustomStringConvertibleP", "model"]
 - ["s23CustomStringConvertibleP", "self"]
 - !private ["s23CustomStringConvertibleP", "setupDeficits"]
+- !private ["s23CustomStringConvertibleP", "view"]
 - !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["Se", "addSubview"]
 - !private ["Se", "init"]
 - !private ["Se", "magnesium"]
 - !private ["Se", "vitamin_b12"]
@@ -59,213 +89,363 @@ depends-member:
 - !private ["11Supplements21DeficitViewControllerC", "$__lazy_storage_$_model"]
 - ["11Supplements21DeficitViewControllerC", "Deficit"]
 - ["11Supplements21DeficitViewControllerC", "DeficitModel"]
+- ["11Supplements21DeficitViewControllerC", "UIImage"]
+- ["11Supplements21DeficitViewControllerC", "UIImageView"]
 - ["11Supplements21DeficitViewControllerC", ""]
 - ["11Supplements21DeficitViewControllerC", "deinit"]
+- !private ["11Supplements21DeficitViewControllerC", "imageView"]
 - ["11Supplements21DeficitViewControllerC", "init"]
 - !private ["11Supplements21DeficitViewControllerC", "model"]
 - ["11Supplements21DeficitViewControllerC", "self"]
 - ["11Supplements21DeficitViewControllerC", "setupDeficits"]
+- !private ["11Supplements21DeficitViewControllerC", "view"]
 - ["11Supplements21DeficitViewControllerC", "viewDidLoad"]
 - !private ["11Supplements7ElementO", ""]
 - !private ["11Supplements7ElementO", "magnesium"]
 - !private ["11Supplements7ElementO", "vitamin_b12"]
+- !private ["SE", "addSubview"]
 - !private ["SE", "init"]
 - !private ["SE", "magnesium"]
 - !private ["SE", "vitamin_b12"]
 - !private ["SQ", "=="]
 - ["SQ", "DeficitModel"]
+- ["SQ", "UIImage"]
+- ["SQ", "UIImageView"]
 - ["SQ", ""]
+- !private ["SQ", "addSubview"]
+- !private ["SQ", "imageView"]
+- ["SQ", "init"]
 - !private ["SQ", "magnesium"]
 - !private ["SQ", "model"]
 - ["SQ", "self"]
 - !private ["SQ", "setupDeficits"]
+- !private ["SQ", "view"]
 - !private ["SQ", "viewDidLoad"]
 - !private ["SQ", "vitamin_b12"]
 - !private ["s25ExpressibleByArrayLiteralP", "init"]
 - ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s23ExpressibleByNilLiteralP", "addSubview"]
 - ["s32ExpressibleByStringInterpolationP", ""]
 - ["s26ExpressibleByStringLiteralP", ""]
 - ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["7SwiftUI7GestureP", "addSubview"]
 - !private ["11Supplements4GoodV", ""]
 - ["SH", "DeficitModel"]
+- ["SH", "UIImage"]
+- ["SH", "UIImageView"]
 - ["SH", ""]
+- !private ["SH", "addSubview"]
 - !private ["SH", "hash"]
 - !private ["SH", "hashValue"]
+- !private ["SH", "imageView"]
+- ["SH", "init"]
 - !private ["SH", "magnesium"]
 - !private ["SH", "model"]
 - ["SH", "self"]
 - !private ["SH", "setupDeficits"]
+- !private ["SH", "view"]
 - !private ["SH", "viewDidLoad"]
 - !private ["SH", "vitamin_b12"]
+- !private ["7SnapKit20LayoutConstraintItemP", "addSubview"]
+- ["7SnapKit20LayoutConstraintItemP", "init"]
 - ["s25LosslessStringConvertibleP", ""]
 - ["So8NSCodingP", "$__lazy_storage_$_model"]
 - ["So8NSCodingP", "Deficit"]
 - ["So8NSCodingP", "DeficitModel"]
+- ["So8NSCodingP", "UIImage"]
+- ["So8NSCodingP", "UIImageView"]
 - ["So8NSCodingP", ""]
 - ["So8NSCodingP", "__lazy_storage_$_model"]
+- !private ["So8NSCodingP", "addSubview"]
+- ["So8NSCodingP", "imageView"]
 - ["So8NSCodingP", "init"]
 - ["So8NSCodingP", "model"]
 - ["So8NSCodingP", "self"]
 - ["So8NSCodingP", "setupDeficits"]
+- !private ["So8NSCodingP", "view"]
 - ["So8NSCodingP", "viewDidLoad"]
 - ["So26NSExtensionRequestHandlingP", "$__lazy_storage_$_model"]
 - ["So26NSExtensionRequestHandlingP", "Deficit"]
 - ["So26NSExtensionRequestHandlingP", "DeficitModel"]
+- ["So26NSExtensionRequestHandlingP", "UIImage"]
+- ["So26NSExtensionRequestHandlingP", "UIImageView"]
 - ["So26NSExtensionRequestHandlingP", ""]
 - ["So26NSExtensionRequestHandlingP", "__lazy_storage_$_model"]
+- ["So26NSExtensionRequestHandlingP", "imageView"]
 - ["So26NSExtensionRequestHandlingP", "init"]
 - ["So26NSExtensionRequestHandlingP", "model"]
 - ["So26NSExtensionRequestHandlingP", "self"]
 - ["So26NSExtensionRequestHandlingP", "setupDeficits"]
+- !private ["So26NSExtensionRequestHandlingP", "view"]
 - ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- ["So21NSItemProviderReadingP", "init"]
+- ["So21NSItemProviderWritingP", "init"]
 - ["So8NSObjectC", "$__lazy_storage_$_model"]
 - ["So8NSObjectC", "Deficit"]
 - ["So8NSObjectC", "DeficitModel"]
+- ["So8NSObjectC", "UIImage"]
+- ["So8NSObjectC", "UIImageView"]
 - ["So8NSObjectC", ""]
 - ["So8NSObjectC", "__lazy_storage_$_model"]
+- !private ["So8NSObjectC", "addSubview"]
+- ["So8NSObjectC", "imageNamed"]
+- ["So8NSObjectC", "imageView"]
+- ["So8NSObjectC", "imageWithCGImage"]
+- ["So8NSObjectC", "imageWithCIImage"]
+- ["So8NSObjectC", "imageWithContentsOfFile"]
+- ["So8NSObjectC", "imageWithData"]
 - ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "jpegData"]
 - ["So8NSObjectC", "model"]
+- ["So8NSObjectC", "pngData"]
 - ["So8NSObjectC", "self"]
 - ["So8NSObjectC", "setupDeficits"]
+- ["So8NSObjectC", "systemImageNamed"]
+- !private ["So8NSObjectC", "view"]
 - ["So8NSObjectC", "viewDidLoad"]
 - ["So8NSObjectP", "$__lazy_storage_$_model"]
 - ["So8NSObjectP", "Deficit"]
 - ["So8NSObjectP", "DeficitModel"]
+- ["So8NSObjectP", "UIImage"]
+- ["So8NSObjectP", "UIImageView"]
 - ["So8NSObjectP", ""]
 - ["So8NSObjectP", "__lazy_storage_$_model"]
+- !private ["So8NSObjectP", "addSubview"]
+- ["So8NSObjectP", "imageNamed"]
+- ["So8NSObjectP", "imageView"]
+- ["So8NSObjectP", "imageWithCGImage"]
+- ["So8NSObjectP", "imageWithCIImage"]
+- ["So8NSObjectP", "imageWithContentsOfFile"]
+- ["So8NSObjectP", "imageWithData"]
 - ["So8NSObjectP", "init"]
+- ["So8NSObjectP", "jpegData"]
 - ["So8NSObjectP", "model"]
+- ["So8NSObjectP", "pngData"]
 - ["So8NSObjectP", "self"]
 - ["So8NSObjectP", "setupDeficits"]
+- ["So8NSObjectP", "systemImageNamed"]
+- !private ["So8NSObjectP", "view"]
 - ["So8NSObjectP", "viewDidLoad"]
+- ["So14NSSecureCodingP", "init"]
+- !private ["Sq", "addSubview"]
 - !private ["SY", "magnesium"]
 - !private ["SY", "vitamin_b12"]
 - ["ST", ""]
 - ["s16TextOutputStreamP", ""]
 - ["s20TextOutputStreamableP", ""]
+- ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "addSubview"]
+- ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So12UIAppearanceP", "addSubview"]
+- ["So12UIAppearanceP", "init"]
 - ["So21UIAppearanceContainerP", "$__lazy_storage_$_model"]
 - ["So21UIAppearanceContainerP", "Deficit"]
 - ["So21UIAppearanceContainerP", "DeficitModel"]
+- ["So21UIAppearanceContainerP", "UIImage"]
+- ["So21UIAppearanceContainerP", "UIImageView"]
 - ["So21UIAppearanceContainerP", ""]
 - ["So21UIAppearanceContainerP", "__lazy_storage_$_model"]
+- !private ["So21UIAppearanceContainerP", "addSubview"]
+- ["So21UIAppearanceContainerP", "imageView"]
 - ["So21UIAppearanceContainerP", "init"]
 - ["So21UIAppearanceContainerP", "model"]
 - ["So21UIAppearanceContainerP", "self"]
 - ["So21UIAppearanceContainerP", "setupDeficits"]
+- !private ["So21UIAppearanceContainerP", "view"]
 - ["So21UIAppearanceContainerP", "viewDidLoad"]
 - ["So18UIContentContainerP", "$__lazy_storage_$_model"]
 - ["So18UIContentContainerP", "Deficit"]
 - ["So18UIContentContainerP", "DeficitModel"]
+- ["So18UIContentContainerP", "UIImage"]
+- ["So18UIContentContainerP", "UIImageView"]
 - ["So18UIContentContainerP", ""]
 - ["So18UIContentContainerP", "__lazy_storage_$_model"]
+- ["So18UIContentContainerP", "imageView"]
 - ["So18UIContentContainerP", "init"]
 - ["So18UIContentContainerP", "model"]
 - ["So18UIContentContainerP", "self"]
 - ["So18UIContentContainerP", "setupDeficits"]
+- !private ["So18UIContentContainerP", "view"]
 - ["So18UIContentContainerP", "viewDidLoad"]
+- !private ["So17UICoordinateSpaceP", "addSubview"]
+- ["So17UICoordinateSpaceP", "init"]
+- !private ["So13UIDynamicItemP", "addSubview"]
+- ["So13UIDynamicItemP", "init"]
 - ["So18UIFocusEnvironmentP", "$__lazy_storage_$_model"]
 - ["So18UIFocusEnvironmentP", "Deficit"]
 - ["So18UIFocusEnvironmentP", "DeficitModel"]
+- ["So18UIFocusEnvironmentP", "UIImage"]
+- ["So18UIFocusEnvironmentP", "UIImageView"]
 - ["So18UIFocusEnvironmentP", ""]
 - ["So18UIFocusEnvironmentP", "__lazy_storage_$_model"]
+- !private ["So18UIFocusEnvironmentP", "addSubview"]
+- ["So18UIFocusEnvironmentP", "imageView"]
 - ["So18UIFocusEnvironmentP", "init"]
 - ["So18UIFocusEnvironmentP", "model"]
 - ["So18UIFocusEnvironmentP", "self"]
 - ["So18UIFocusEnvironmentP", "setupDeficits"]
+- !private ["So18UIFocusEnvironmentP", "view"]
 - ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So11UIFocusItemP", "addSubview"]
+- ["So11UIFocusItemP", "init"]
+- !private ["So20UIFocusItemContainerP", "addSubview"]
+- ["So20UIFocusItemContainerP", "init"]
+- ["So7UIImageC", "init"]
+- ["So11UIImageViewC", "init"]
+- ["So39UIItemProviderPresentationSizeProvidingP", "init"]
+- !private ["So24UILargeContentViewerItemP", "addSubview"]
+- ["So24UILargeContentViewerItemP", "init"]
 - ["So30UIPasteConfigurationSupportingP", "$__lazy_storage_$_model"]
 - ["So30UIPasteConfigurationSupportingP", "Deficit"]
 - ["So30UIPasteConfigurationSupportingP", "DeficitModel"]
+- ["So30UIPasteConfigurationSupportingP", "UIImage"]
+- ["So30UIPasteConfigurationSupportingP", "UIImageView"]
 - ["So30UIPasteConfigurationSupportingP", ""]
 - ["So30UIPasteConfigurationSupportingP", "__lazy_storage_$_model"]
+- !private ["So30UIPasteConfigurationSupportingP", "addSubview"]
+- ["So30UIPasteConfigurationSupportingP", "imageView"]
 - ["So30UIPasteConfigurationSupportingP", "init"]
 - ["So30UIPasteConfigurationSupportingP", "model"]
 - ["So30UIPasteConfigurationSupportingP", "self"]
 - ["So30UIPasteConfigurationSupportingP", "setupDeficits"]
+- !private ["So30UIPasteConfigurationSupportingP", "view"]
 - ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
 - ["So11UIResponderC", "$__lazy_storage_$_model"]
 - ["So11UIResponderC", "Deficit"]
 - ["So11UIResponderC", "DeficitModel"]
+- ["So11UIResponderC", "UIImage"]
+- ["So11UIResponderC", "UIImageView"]
 - ["So11UIResponderC", ""]
 - ["So11UIResponderC", "__lazy_storage_$_model"]
+- !private ["So11UIResponderC", "addSubview"]
+- ["So11UIResponderC", "imageView"]
 - ["So11UIResponderC", "init"]
 - ["So11UIResponderC", "model"]
 - ["So11UIResponderC", "self"]
 - ["So11UIResponderC", "setupDeficits"]
+- !private ["So11UIResponderC", "view"]
 - ["So11UIResponderC", "viewDidLoad"]
 - ["So30UIResponderStandardEditActionsP", "$__lazy_storage_$_model"]
 - ["So30UIResponderStandardEditActionsP", "Deficit"]
 - ["So30UIResponderStandardEditActionsP", "DeficitModel"]
+- ["So30UIResponderStandardEditActionsP", "UIImage"]
+- ["So30UIResponderStandardEditActionsP", "UIImageView"]
 - ["So30UIResponderStandardEditActionsP", ""]
 - ["So30UIResponderStandardEditActionsP", "__lazy_storage_$_model"]
+- !private ["So30UIResponderStandardEditActionsP", "addSubview"]
+- ["So30UIResponderStandardEditActionsP", "imageView"]
 - ["So30UIResponderStandardEditActionsP", "init"]
 - ["So30UIResponderStandardEditActionsP", "model"]
 - ["So30UIResponderStandardEditActionsP", "self"]
 - ["So30UIResponderStandardEditActionsP", "setupDeficits"]
+- !private ["So30UIResponderStandardEditActionsP", "view"]
 - ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
 - ["So16UIStateRestoringP", "$__lazy_storage_$_model"]
 - ["So16UIStateRestoringP", "Deficit"]
 - ["So16UIStateRestoringP", "DeficitModel"]
+- ["So16UIStateRestoringP", "UIImage"]
+- ["So16UIStateRestoringP", "UIImageView"]
 - ["So16UIStateRestoringP", ""]
 - ["So16UIStateRestoringP", "__lazy_storage_$_model"]
+- ["So16UIStateRestoringP", "imageView"]
 - ["So16UIStateRestoringP", "init"]
 - ["So16UIStateRestoringP", "model"]
 - ["So16UIStateRestoringP", "self"]
 - ["So16UIStateRestoringP", "setupDeficits"]
+- !private ["So16UIStateRestoringP", "view"]
 - ["So16UIStateRestoringP", "viewDidLoad"]
 - ["So18UITraitEnvironmentP", "$__lazy_storage_$_model"]
 - ["So18UITraitEnvironmentP", "Deficit"]
 - ["So18UITraitEnvironmentP", "DeficitModel"]
+- ["So18UITraitEnvironmentP", "UIImage"]
+- ["So18UITraitEnvironmentP", "UIImageView"]
 - ["So18UITraitEnvironmentP", ""]
 - ["So18UITraitEnvironmentP", "__lazy_storage_$_model"]
+- !private ["So18UITraitEnvironmentP", "addSubview"]
+- ["So18UITraitEnvironmentP", "imageView"]
 - ["So18UITraitEnvironmentP", "init"]
 - ["So18UITraitEnvironmentP", "model"]
 - ["So18UITraitEnvironmentP", "self"]
 - ["So18UITraitEnvironmentP", "setupDeficits"]
+- !private ["So18UITraitEnvironmentP", "view"]
 - ["So18UITraitEnvironmentP", "viewDidLoad"]
 - ["So23UIUserActivityRestoringP", "$__lazy_storage_$_model"]
 - ["So23UIUserActivityRestoringP", "Deficit"]
 - ["So23UIUserActivityRestoringP", "DeficitModel"]
+- ["So23UIUserActivityRestoringP", "UIImage"]
+- ["So23UIUserActivityRestoringP", "UIImageView"]
 - ["So23UIUserActivityRestoringP", ""]
 - ["So23UIUserActivityRestoringP", "__lazy_storage_$_model"]
+- !private ["So23UIUserActivityRestoringP", "addSubview"]
+- ["So23UIUserActivityRestoringP", "imageView"]
 - ["So23UIUserActivityRestoringP", "init"]
 - ["So23UIUserActivityRestoringP", "model"]
 - ["So23UIUserActivityRestoringP", "self"]
 - ["So23UIUserActivityRestoringP", "setupDeficits"]
+- !private ["So23UIUserActivityRestoringP", "view"]
 - ["So23UIUserActivityRestoringP", "viewDidLoad"]
+- ["So6UIViewC", ""]
+- !private ["So6UIViewC", "addSubview"]
+- ["So6UIViewC", "init"]
 - ["So16UIViewControllerC", "$__lazy_storage_$_model"]
 - ["So16UIViewControllerC", "Deficit"]
 - ["So16UIViewControllerC", "DeficitModel"]
+- ["So16UIViewControllerC", "UIImage"]
+- ["So16UIViewControllerC", "UIImageView"]
 - ["So16UIViewControllerC", ""]
 - ["So16UIViewControllerC", "__lazy_storage_$_model"]
+- ["So16UIViewControllerC", "imageView"]
 - ["So16UIViewControllerC", "init"]
 - ["So16UIViewControllerC", "model"]
 - ["So16UIViewControllerC", "self"]
 - ["So16UIViewControllerC", "setupDeficits"]
+- !private ["So16UIViewControllerC", "view"]
 - ["So16UIViewControllerC", "viewDidLoad"]
+- !private ["7SwiftUI4ViewP", "addSubview"]
 - ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
 - !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
 - ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- ["s26_ExpressibleByImageLiteralP", "init"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "DeficitModel"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "UIImage"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "UIImageView"]
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addSubview"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "imageView"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "model"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "self"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "setupDeficits"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "view"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "DeficitModel"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIImage"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIImageView"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "addSubview"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "imageView"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "model"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "self"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "setupDeficits"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "view"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "viewDidLoad"]
+- !private ["s21_ObjectiveCBridgeableP", "addSubview"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "addSubview"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", "init"]
 depends-nominal:
 - "SK"
+- "So15CALayerDelegateP"
 - "s7CVarArgP"
 - !private "s12CaseIterableP"
 - !private "s9CodingKeyP"
 - "Sl"
 - "SL"
+- "7SnapKit25ConstraintRelatableTargetP"
 - "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
 - "s23CustomStringConvertibleP"
 - !private "Se"
 - !private "11Supplements7DeficitV"
@@ -276,35 +456,60 @@ depends-nominal:
 - "SQ"
 - !private "s25ExpressibleByArrayLiteralP"
 - "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
 - "s32ExpressibleByStringInterpolationP"
 - "s26ExpressibleByStringLiteralP"
 - "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "7SwiftUI7GestureP"
 - !private "11Supplements4GoodV"
 - "SH"
+- "7SnapKit20LayoutConstraintItemP"
 - "s25LosslessStringConvertibleP"
 - "So8NSCodingP"
 - "So26NSExtensionRequestHandlingP"
+- "So21NSItemProviderReadingP"
+- "So21NSItemProviderWritingP"
 - "So8NSObjectC"
 - "So8NSObjectP"
+- "So14NSSecureCodingP"
+- !private "Sq"
 - !private "SY"
 - "ST"
 - "s16TextOutputStreamP"
 - "s20TextOutputStreamableP"
+- "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
 - "So21UIAppearanceContainerP"
 - "So18UIContentContainerP"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
 - "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So20UIFocusItemContainerP"
+- "So7UIImageC"
+- "So11UIImageViewC"
+- "So39UIItemProviderPresentationSizeProvidingP"
+- "So24UILargeContentViewerItemP"
 - "So30UIPasteConfigurationSupportingP"
 - "So11UIResponderC"
 - "So30UIResponderStandardEditActionsP"
 - "So16UIStateRestoringP"
 - "So18UITraitEnvironmentP"
 - "So23UIUserActivityRestoringP"
+- "So6UIViewC"
 - "So16UIViewControllerC"
+- !private "7SwiftUI4ViewP"
 - "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
 - !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
 - "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s26_ExpressibleByImageLiteralP"
 - "10Foundation27_KeyValueCodingAndObservingP"
 - "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- "s38__DefaultCustomPlaygroundQuickLookableP"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
@@ -388,4 +593,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/HealthKit.framework/Headers/HealthKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "6f79b6b3c230fb03d68856ea8d169434"
+interface-hash: "b9db3937322d3821927542f9d58098ec"

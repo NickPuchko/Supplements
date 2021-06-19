@@ -19,6 +19,17 @@ class DeficitModel {
 
 }
 
+struct Suggestion: Codable {
+	var medicines: [Medicine]
+}
+
+struct Medicine: Codable {
+	var element: Element
+	var ref: String // URL
+	var imageRef: String // image URL
+	var price: Double
+}
+
 struct Deficit: Codable {
 	var name: Element
 	var risk: Float
