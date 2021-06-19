@@ -15,7 +15,12 @@ enum Fonts {
 	static let SDGothicNeoLight = UIFont(name: "AppleSDGothicNeo-Light", size: UIFont.systemFontSize)!
 	static let SDGothicNeoBold = UIFont(name: "AppleSDGothicNeo-Bold", size: UIFont.systemFontSize)!
 	static let HelveticaNeue = UIFont(name: "HelveticaNeue", size: 16)
+}
 
+enum Colors {
+	static let lightGreen = UIColor(red: 155/255, green: 206/255, blue: 103/255, alpha: 1)
+	static let lightGray = UIColor(red: 221/255, green: 225/255, blue: 217/255, alpha: 1)
+	static let tightGray = UIColor(red: 221/255, green: 225/255, blue: 217/255, alpha: 1)
 }
 
 

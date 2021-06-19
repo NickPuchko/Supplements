@@ -2,14 +2,17 @@
 provides-top-level:
 - "Images"
 - "Fonts"
+- "Colors"
 - "InsetLabel"
 provides-nominal:
 - "11Supplements6ImagesO"
 - "11Supplements5FontsO"
+- "11Supplements6ColorsO"
 - "11Supplements10InsetLabelC"
 provides-member:
 - ["11Supplements6ImagesO", ""]
 - ["11Supplements5FontsO", ""]
+- ["11Supplements6ColorsO", ""]
 - ["11Supplements10InsetLabelC", ""]
 provides-dynamic-lookup:
 - "drawText"
@@ -18,9 +21,11 @@ provides-dynamic-lookup:
 depends-top-level:
 - !private "+"
 - !private "+="
+- "/"
 - "AssignmentPrecedence"
 - "CGRect"
 - "CGSize"
+- "Colors"
 - "FloatLiteralType"
 - "Fonts"
 - "Images"
@@ -28,6 +33,7 @@ depends-top-level:
 - "IntegerLiteralType"
 - "NSCoder"
 - "StringLiteralType"
+- "UIColor"
 - "UIEdgeInsets"
 - "UIFont"
 - "UILabel"
@@ -64,6 +70,9 @@ depends-member:
 - !private ["s7CVarArgP", "intrinsicContentSize"]
 - ["s7CVarArgP", "systemFontSize"]
 - ["Sl", ""]
+- ["11Supplements6ColorsO", "UIColor"]
+- ["11Supplements6ColorsO", "lightGray"]
+- ["11Supplements6ColorsO", "lightGreen"]
 - ["SL", ""]
 - !private ["7SnapKit24ConstraintConstantTargetP", ""]
 - !private ["7SnapKit24ConstraintConstantTargetP", "bottom"]
@@ -205,11 +214,22 @@ depends-member:
 - ["So8NSCodingP", "intrinsicContentSize"]
 - ["So9NSCopyingP", "init"]
 - ["So9NSCopyingP", "systemFontSize"]
+- ["So21NSItemProviderReadingP", "init"]
+- ["So21NSItemProviderWritingP", "init"]
 - ["So8NSObjectC", "CGRect"]
 - ["So8NSObjectC", "CGSize"]
 - ["So8NSObjectC", "NSCoder"]
 - ["So8NSObjectC", "UIEdgeInsets"]
 - ["So8NSObjectC", ""]
+- ["So8NSObjectC", "colorNamed"]
+- ["So8NSObjectC", "colorWithCGColor"]
+- ["So8NSObjectC", "colorWithCIColor"]
+- ["So8NSObjectC", "colorWithDisplayP3Red"]
+- ["So8NSObjectC", "colorWithDynamicProvider"]
+- ["So8NSObjectC", "colorWithHue"]
+- ["So8NSObjectC", "colorWithPatternImage"]
+- ["So8NSObjectC", "colorWithRed"]
+- ["So8NSObjectC", "colorWithWhite"]
 - ["So8NSObjectC", "drawText"]
 - ["So8NSObjectC", "drawTextInRect"]
 - !private ["So8NSObjectC", "fatalError"]
@@ -224,6 +244,15 @@ depends-member:
 - ["So8NSObjectP", "NSCoder"]
 - ["So8NSObjectP", "UIEdgeInsets"]
 - ["So8NSObjectP", ""]
+- ["So8NSObjectP", "colorNamed"]
+- ["So8NSObjectP", "colorWithCGColor"]
+- ["So8NSObjectP", "colorWithCIColor"]
+- ["So8NSObjectP", "colorWithDisplayP3Red"]
+- ["So8NSObjectP", "colorWithDynamicProvider"]
+- ["So8NSObjectP", "colorWithHue"]
+- ["So8NSObjectP", "colorWithPatternImage"]
+- ["So8NSObjectP", "colorWithRed"]
+- ["So8NSObjectP", "colorWithWhite"]
 - ["So8NSObjectP", "drawText"]
 - ["So8NSObjectP", "drawTextInRect"]
 - !private ["So8NSObjectP", "fatalError"]
@@ -233,6 +262,7 @@ depends-member:
 - ["So8NSObjectP", "inset"]
 - ["So8NSObjectP", "intrinsicContentSize"]
 - ["So8NSObjectP", "systemFontSize"]
+- ["So14NSSecureCodingP", "init"]
 - ["Sj", ""]
 - ["ST", ""]
 - ["s13SignedNumericP", ""]
@@ -276,6 +306,7 @@ depends-member:
 - ["So21UIAppearanceContainerP", "init"]
 - ["So21UIAppearanceContainerP", "inset"]
 - ["So21UIAppearanceContainerP", "intrinsicContentSize"]
+- ["So7UIColorC", "init"]
 - ["So30UIContentSizeCategoryAdjustingP", "CGRect"]
 - ["So30UIContentSizeCategoryAdjustingP", "CGSize"]
 - ["So30UIContentSizeCategoryAdjustingP", "NSCoder"]
@@ -443,6 +474,7 @@ depends-member:
 - ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
 - ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
 - ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- ["s26_ExpressibleByColorLiteralP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UIEdgeInsets"]
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "drawText"]
@@ -484,6 +516,7 @@ depends-nominal:
 - !private "So6CGSizeV"
 - "s7CVarArgP"
 - "Sl"
+- "11Supplements6ColorsO"
 - "SL"
 - !private "7SnapKit24ConstraintConstantTargetP"
 - !private "7SnapKit21ConstraintInsetTargetP"
@@ -511,8 +544,11 @@ depends-nominal:
 - !private "26CollectionViewPagingLayout18MultipliableToSelfP"
 - "So8NSCodingP"
 - "So9NSCopyingP"
+- "So21NSItemProviderReadingP"
+- "So21NSItemProviderWritingP"
 - "So8NSObjectC"
 - "So8NSObjectP"
+- "So14NSSecureCodingP"
 - "Sj"
 - "ST"
 - "s13SignedNumericP"
@@ -524,6 +560,7 @@ depends-nominal:
 - "So29UIAccessibilityIdentificationP"
 - "So12UIAppearanceP"
 - "So21UIAppearanceContainerP"
+- "So7UIColorC"
 - "So30UIContentSizeCategoryAdjustingP"
 - "So17UICoordinateSpaceP"
 - "So13UIDynamicItemP"
@@ -545,6 +582,7 @@ depends-nominal:
 - "s35_ExpressibleByBuiltinIntegerLiteralP"
 - "s34_ExpressibleByBuiltinStringLiteralP"
 - "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s26_ExpressibleByColorLiteralP"
 - "10Foundation27_KeyValueCodingAndObservingP"
 - "10Foundation37_KeyValueCodingAndObservingPublishingP"
 - !private "s21_ObjectiveCBridgeableP"
@@ -624,4 +662,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/HealthKit.framework/Headers/HealthKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "8e24f02341ddbb77f5108cd20e53b9ce"
+interface-hash: "92ae012629ee6aff89d3646564ddc94b"

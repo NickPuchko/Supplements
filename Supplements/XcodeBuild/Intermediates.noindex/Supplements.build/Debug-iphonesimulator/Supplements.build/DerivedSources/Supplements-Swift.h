@@ -227,13 +227,23 @@ SWIFT_CLASS("_TtC11Supplements11AppDelegate")
 @end
 
 @class NSCoder;
+
+SWIFT_CLASS("_TtC11Supplements15CustomTextField")
+@interface CustomTextField : UITextField
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+- (CGRect)textRectForBounds:(CGRect)bounds SWIFT_WARN_UNUSED_RESULT;
+- (CGRect)placeholderRectForBounds:(CGRect)bounds SWIFT_WARN_UNUSED_RESULT;
+- (CGRect)editingRectForBounds:(CGRect)bounds SWIFT_WARN_UNUSED_RESULT;
+@end
+
 @class NSBundle;
 
 SWIFT_CLASS("_TtC11Supplements18FormViewController")
 @interface FormViewController : UIViewController
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 - (void)viewDidLoad;
-- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
@@ -330,10 +340,10 @@ SWIFT_CLASS("_TtC11Supplements22SymptomsViewController")
 @end
 
 
-
 @interface SymptomsViewController (SWIFT_EXTENSION(Supplements)) <UICollectionViewDataSource>
 - (NSInteger)numberOfSectionsInCollectionView:(UICollectionView * _Nonnull)collectionView SWIFT_WARN_UNUSED_RESULT;
 @end
+
 
 
 @interface SymptomsViewController (SWIFT_EXTENSION(Supplements)) <UICollectionViewDelegate>
@@ -364,13 +374,6 @@ SWIFT_CLASS("_TtC11Supplements19TodayViewController")
 - (CGFloat)tableView:(UITableView * _Nonnull)tableView heightForHeaderInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
 @end
 
-
-@interface TodayViewController (SWIFT_EXTENSION(Supplements)) <UITableViewDataSource>
-- (NSInteger)numberOfSectionsInTableView:(UITableView * _Nonnull)tableView SWIFT_WARN_UNUSED_RESULT;
-- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
-- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
-@end
-
 @class UIColor;
 
 @interface TodayViewController (SWIFT_EXTENSION(Supplements)) <CalendarHeatmapDelegate>
@@ -378,6 +381,14 @@ SWIFT_CLASS("_TtC11Supplements19TodayViewController")
 - (UIColor * _Nonnull)colorForDateComponents:(NSDateComponents * _Nonnull)dateComponents SWIFT_WARN_UNUSED_RESULT;
 - (void)finishLoadCalendar;
 @end
+
+
+@interface TodayViewController (SWIFT_EXTENSION(Supplements)) <UITableViewDataSource>
+- (NSInteger)numberOfSectionsInTableView:(UITableView * _Nonnull)tableView SWIFT_WARN_UNUSED_RESULT;
+- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+@end
+
 
 #if __has_attribute(external_source_symbol)
 # pragma clang attribute pop

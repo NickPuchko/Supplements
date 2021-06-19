@@ -14,7 +14,7 @@ class QuestionCell: UICollectionViewCell {
 		label.font = Fonts.HelveticaNeue
 		label.layer.cornerRadius = 14
 		label.clipsToBounds = true
-		label.backgroundColor = UIColor(red: 221/255, green: 225/255, blue: 217/255, alpha: 1)
+		label.backgroundColor = Colors.tightGray
 		label.textColor = .white
 		label.layer.borderWidth = 0.5
 		label.layer.borderColor = UIColor.white.cgColor

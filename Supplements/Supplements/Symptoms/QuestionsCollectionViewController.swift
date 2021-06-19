@@ -125,9 +125,9 @@ class PopPickerDelegate: NSObject, UIPickerViewDelegate, UIPickerViewDataSource 
 
 	func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
 		if row != 0 {
-			cell.label.backgroundColor = UIColor(red: 155/255, green: 206/255, blue: 103/255, alpha: 1)
+			cell.label.backgroundColor = Colors.lightGreen
 		} else {
-			cell.label.backgroundColor = UIColor(red: 221/255, green: 225/255, blue: 217/255, alpha: 1)
+			cell.label.backgroundColor = Colors.lightGray
 		}
 	}
 }
