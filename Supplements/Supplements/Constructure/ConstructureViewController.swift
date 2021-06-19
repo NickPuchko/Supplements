@@ -94,11 +94,12 @@ extension ConstructureViewController: UITableViewDataSource {
         cell.percentageLabel.text = "80%"
         cell.descriptionLabel.text = "California Gold Nutrition, Gold C, витамин C, 1000 мг, 60 вегетарианских капсул"
         cell.addButton.addTarget(cell, action: #selector(cell.addButtonClick), for: .touchUpInside)
-        cell.selectionDelegate = self
+        cell.addDelegate = self
+        cell.analogDelegate = self
         cell.analogsButton.addTarget(cell, action: #selector(cell.analogButtonClick), for: .touchUpInside)
         return cell
     }
-    func method(cell: ConstructureTableViewCell) {
+    func addPrice(cell: ConstructureTableViewCell) {
         if cell.addButton.currentTitle == "Добавить" {
             price += Int(cell.priceLabel.text ?? "0") ?? 0
             priceLabel.text = String(price)
@@ -111,6 +112,9 @@ extension ConstructureViewController: UITableViewDataSource {
             cell.addButton.backgroundColor = UIColor(red: 174/255, green: 232/255, blue: 128/255, alpha: 1)
         }
         
+    }
+    func analogShow(cell: ConstructureTableViewCell) {
+        print("suka")
     }
     
 }

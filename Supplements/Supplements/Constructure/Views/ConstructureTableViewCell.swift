@@ -18,7 +18,8 @@ class ConstructureTableViewCell: UITableViewCell {
     var addButton = UIButton()
     var analogsButton = UIButton()
     var descriptionLabel = UILabel()
-    weak var selectionDelegate: ConstructureViewController!
+    weak var addDelegate: ConstructureViewController!
+    weak var analogDelegate: ConstructureViewController!
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         
         super.init(style: style, reuseIdentifier: reuseIdentifier)
@@ -112,10 +113,10 @@ class ConstructureTableViewCell: UITableViewCell {
         
     }
     @objc func addButtonClick() {
-        selectionDelegate.method(cell: self)
+        addDelegate.addPrice(cell: self)
     }
     @objc func analogButtonClick() {
-        print("123")
+        analogDelegate.analogShow(cell: self)
     }
     override func prepareForReuse() {
             super.prepareForReuse()
