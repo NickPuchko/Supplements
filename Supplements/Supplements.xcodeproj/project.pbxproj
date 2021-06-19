@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		73061464267DECD000591F27 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73061463267DECD000591F27 /* CustomTextField.swift */; };
 		737D3456267D49F500E67EEF /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 737D3455267D49F500E67EEF /* TodayViewController.swift */; };
 		737D3458267D4A0100E67EEF /* TodayModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 737D3457267D4A0100E67EEF /* TodayModel.swift */; };
 		737D345A267D4A8300E67EEF /* PillsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 737D3459267D4A8300E67EEF /* PillsCell.swift */; };
@@ -37,6 +38,7 @@
 
 /* Begin PBXFileReference section */
 		0CD86E3BBE04267250714E44 /* Pods-Supplements.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Supplements.release.xcconfig"; path = "Target Support Files/Pods-Supplements/Pods-Supplements.release.xcconfig"; sourceTree = "<group>"; };
+		73061463267DECD000591F27 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		737D3455267D49F500E67EEF /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
 		737D3457267D4A0100E67EEF /* TodayModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayModel.swift; sourceTree = "<group>"; };
 		737D3459267D4A8300E67EEF /* PillsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PillsCell.swift; sourceTree = "<group>"; };
@@ -161,6 +163,7 @@
 			children = (
 				AA851C6C267D0DE800809A47 /* FormModel.swift */,
 				AA851C6D267D0DE800809A47 /* FormViewController.swift */,
+				73061463267DECD000591F27 /* CustomTextField.swift */,
 			);
 			path = Form;
 			sourceTree = "<group>";
@@ -307,6 +310,7 @@
 				AA851CC0267D67F300809A47 /* QuestionsCollectionViewController.swift in Sources */,
 				AA851C76267D0E1700809A47 /* LoginViewController.swift in Sources */,
 				AA851C6F267D0DE800809A47 /* FormViewController.swift in Sources */,
+				73061464267DECD000591F27 /* CustomTextField.swift in Sources */,
 				737D3461267D731200E67EEF /* Extension+Date.swift in Sources */,
 				AA851C46267D08D500809A47 /* AppDelegate.swift in Sources */,
 				AA851C8B267D101700809A47 /* Googleuser.swift in Sources */,
@@ -319,7 +323,7 @@
 				AA851CC3267D686400809A47 /* PagesNetworkService.swift in Sources */,
 				AA851C8E267D108B00809A47 /* Errors.swift in Sources */,
 				AA851CBD267D424800809A47 /* PageCell.swift in Sources */,
-				AA851CBD267D424800809A47 /* QuestionCell.swift in Sources */,
+				AA851CBD267D424800809A47 /* PageCell.swift in Sources */,
 				737D3458267D4A0100E67EEF /* TodayModel.swift in Sources */,
 				AA851CAD267D319300809A47 /* SymptomsViewController.swift in Sources */,
 				737D345F267D640D00E67EEF /* tableViewModel.swift in Sources */,
