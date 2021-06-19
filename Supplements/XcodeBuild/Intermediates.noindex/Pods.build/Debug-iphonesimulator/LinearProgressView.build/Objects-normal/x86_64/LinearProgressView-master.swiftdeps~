@@ -1,5 +1,5 @@
 version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
 options: "01173b27d6441ceee47d6e882e3781bc"
-build_time: [1624060326, 737846000]
+build_time: [1624092289, 486645000]
 inputs:
   "/Users/sapientisat/Projects/Supplements/Supplements/Pods/LinearProgressView/Source/LinearProgressView.swift": [1624049855, 205592721]

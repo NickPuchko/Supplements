@@ -1,0 +1,11 @@
+framework module Popover {
+  umbrella header "Popover-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module Popover.Swift {
+    header "Popover-Swift.h"
+    requires objc
+}

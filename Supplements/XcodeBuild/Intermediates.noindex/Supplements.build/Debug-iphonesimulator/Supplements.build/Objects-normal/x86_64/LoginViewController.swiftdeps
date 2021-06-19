@@ -27,8 +27,6 @@ depends-top-level:
 - "self"
 - "view"
 depends-member:
-- ["SK", ""]
-- !private ["So15CALayerDelegateP", ""]
 - !private ["So15CALayerDelegateP", "addSubview"]
 - !private ["So15CALayerDelegateP", "backgroundColor"]
 - ["So15CALayerDelegateP", "init"]
@@ -54,8 +52,6 @@ depends-member:
 - !private ["s7CVarArgP", "style"]
 - !private ["s7CVarArgP", "view"]
 - !private ["s7CVarArgP", "viewDidLoad"]
-- ["Sl", ""]
-- ["SL", ""]
 - !private ["7SnapKit23ConstraintAttributesDSLP", "bottom"]
 - !private ["7SnapKit23ConstraintAttributesDSLP", "makeConstraints"]
 - !private ["7SnapKit28ConstraintBasicAttributesDSLP", ""]
@@ -159,14 +155,10 @@ depends-member:
 - !private ["SQ", "view"]
 - !private ["SQ", "viewDidLoad"]
 - !private ["SQ", "wide"]
-- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
 - !private ["s23ExpressibleByNilLiteralP", "addSubview"]
 - !private ["s23ExpressibleByNilLiteralP", "backgroundColor"]
 - !private ["s23ExpressibleByNilLiteralP", "black"]
 - !private ["s23ExpressibleByNilLiteralP", "safeAreaLayoutGuide"]
-- ["s32ExpressibleByStringInterpolationP", ""]
-- ["s26ExpressibleByStringLiteralP", ""]
-- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
 - !private ["So9GIDSignInC", "presentingViewController"]
 - !private ["So9GIDSignInC", "restorePreviousSignIn"]
 - ["So9GIDSignInC", "sharedInstance"]
@@ -220,7 +212,6 @@ depends-member:
 - ["11Supplements19LoginViewControllerC", "self"]
 - !private ["11Supplements19LoginViewControllerC", "view"]
 - ["11Supplements19LoginViewControllerC", "viewDidLoad"]
-- ["s25LosslessStringConvertibleP", ""]
 - ["So8NSCodingP", "$__lazy_storage_$_GIDService"]
 - ["So8NSCodingP", "$__lazy_storage_$_googleSignInButton"]
 - ["So8NSCodingP", "$__lazy_storage_$_model"]
@@ -322,17 +313,12 @@ depends-member:
 - !private ["Sq", "black"]
 - !private ["Sq", "safeAreaLayoutGuide"]
 - !private ["SY", "wide"]
-- ["ST", ""]
-- ["s16TextOutputStreamP", ""]
-- ["s20TextOutputStreamableP", ""]
-- !private ["So29UIAccessibilityIdentificationP", ""]
 - !private ["So29UIAccessibilityIdentificationP", "addSubview"]
 - !private ["So29UIAccessibilityIdentificationP", "backgroundColor"]
 - ["So29UIAccessibilityIdentificationP", "init"]
 - !private ["So29UIAccessibilityIdentificationP", "safeAreaLayoutGuide"]
 - !private ["So29UIAccessibilityIdentificationP", "snp"]
 - !private ["So29UIAccessibilityIdentificationP", "style"]
-- !private ["So12UIAppearanceP", ""]
 - !private ["So12UIAppearanceP", "addSubview"]
 - !private ["So12UIAppearanceP", "backgroundColor"]
 - ["So12UIAppearanceP", "init"]
@@ -387,14 +373,12 @@ depends-member:
 - ["So9UIControlC", "init"]
 - !private ["So9UIControlC", "snp"]
 - !private ["So9UIControlC", "style"]
-- !private ["So17UICoordinateSpaceP", ""]
 - !private ["So17UICoordinateSpaceP", "addSubview"]
 - !private ["So17UICoordinateSpaceP", "backgroundColor"]
 - ["So17UICoordinateSpaceP", "init"]
 - !private ["So17UICoordinateSpaceP", "safeAreaLayoutGuide"]
 - !private ["So17UICoordinateSpaceP", "snp"]
 - !private ["So17UICoordinateSpaceP", "style"]
-- !private ["So13UIDynamicItemP", ""]
 - !private ["So13UIDynamicItemP", "addSubview"]
 - !private ["So13UIDynamicItemP", "backgroundColor"]
 - ["So13UIDynamicItemP", "init"]
@@ -423,21 +407,18 @@ depends-member:
 - !private ["So18UIFocusEnvironmentP", "style"]
 - !private ["So18UIFocusEnvironmentP", "view"]
 - ["So18UIFocusEnvironmentP", "viewDidLoad"]
-- !private ["So11UIFocusItemP", ""]
 - !private ["So11UIFocusItemP", "addSubview"]
 - !private ["So11UIFocusItemP", "backgroundColor"]
 - ["So11UIFocusItemP", "init"]
 - !private ["So11UIFocusItemP", "safeAreaLayoutGuide"]
 - !private ["So11UIFocusItemP", "snp"]
 - !private ["So11UIFocusItemP", "style"]
-- !private ["So20UIFocusItemContainerP", ""]
 - !private ["So20UIFocusItemContainerP", "addSubview"]
 - !private ["So20UIFocusItemContainerP", "backgroundColor"]
 - ["So20UIFocusItemContainerP", "init"]
 - !private ["So20UIFocusItemContainerP", "safeAreaLayoutGuide"]
 - !private ["So20UIFocusItemContainerP", "snp"]
 - !private ["So20UIFocusItemContainerP", "style"]
-- !private ["So24UILargeContentViewerItemP", ""]
 - !private ["So24UILargeContentViewerItemP", "addSubview"]
 - !private ["So24UILargeContentViewerItemP", "backgroundColor"]
 - ["So24UILargeContentViewerItemP", "init"]
@@ -600,10 +581,8 @@ depends-member:
 - !private ["7SwiftUI4ViewP", "backgroundColor"]
 - !private ["7SwiftUI4ViewP", "black"]
 - !private ["7SwiftUI4ViewP", "safeAreaLayoutGuide"]
-- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
 - !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
-- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
-- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
 - !private ["s26_ExpressibleByColorLiteralP", "black"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "GIDService"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "GIDSignIn"]
@@ -654,11 +633,8 @@ depends-member:
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "snp"]
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "style"]
 depends-nominal:
-- "SK"
 - "So15CALayerDelegateP"
 - "s7CVarArgP"
-- "Sl"
-- "SL"
 - !private "7SnapKit23ConstraintAttributesDSLP"
 - !private "7SnapKit28ConstraintBasicAttributesDSLP"
 - !private "7SnapKit13ConstraintDSLP"
@@ -677,11 +653,7 @@ depends-nominal:
 - !private "Se"
 - !private "SE"
 - "SQ"
-- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
 - !private "s23ExpressibleByNilLiteralP"
-- "s32ExpressibleByStringInterpolationP"
-- "s26ExpressibleByStringLiteralP"
-- "s33ExpressibleByUnicodeScalarLiteralP"
 - "So9GIDSignInC"
 - "So15GIDSignInButtonC"
 - !private "So20GIDSignInButtonStyleV"
@@ -690,7 +662,6 @@ depends-nominal:
 - "7SnapKit20LayoutConstraintItemP"
 - "11Supplements10LoginModelC"
 - "11Supplements19LoginViewControllerC"
-- "s25LosslessStringConvertibleP"
 - "So8NSCodingP"
 - !private "So9NSCopyingP"
 - "So26NSExtensionRequestHandlingP"
@@ -701,9 +672,6 @@ depends-nominal:
 - !private "So14NSSecureCodingP"
 - !private "Sq"
 - !private "SY"
-- "ST"
-- "s16TextOutputStreamP"
-- "s20TextOutputStreamableP"
 - "So29UIAccessibilityIdentificationP"
 - "So12UIAppearanceP"
 - "So21UIAppearanceContainerP"
@@ -727,10 +695,8 @@ depends-nominal:
 - "So6UIViewC"
 - "So16UIViewControllerC"
 - !private "7SwiftUI4ViewP"
-- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
 - !private "s33_ExpressibleByBuiltinFloatLiteralP"
-- "s35_ExpressibleByBuiltinIntegerLiteralP"
-- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
 - !private "s26_ExpressibleByColorLiteralP"
 - "10Foundation27_KeyValueCodingAndObservingP"
 - "10Foundation37_KeyValueCodingAndObservingPublishingP"
@@ -751,18 +717,23 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/CalendarHeatmap/CalendarHeatmap.framework/Modules/CalendarHeatmap.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/Popover/Popover.framework/Modules/Popover.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/os.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UniformTypeIdentifiers.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CloudKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/HealthKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework/Modules/SnapKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/DeveloperToolsSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/CollectionViewPagingLayout/CollectionViewPagingLayout.framework/Modules/CollectionViewPagingLayout.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/LinearProgressView/LinearProgressView.framework/Modules/LinearProgressView.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/CalendarHeatmap/CalendarHeatmap.framework/Headers/CalendarHeatmap-umbrella.h"
+- "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/Popover/Popover.framework/Headers/Popover-umbrella.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework/Headers/SnapKit-umbrella.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/CollectionViewPagingLayout/CollectionViewPagingLayout.framework/Headers/CollectionViewPagingLayout-umbrella.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/LinearProgressView/LinearProgressView.framework/Headers/LinearProgressView-umbrella.h"
@@ -773,12 +744,16 @@ depends-external:
 - "/Users/sapientisat/Projects/Supplements/Supplements/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDSignInButton.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDGoogleUser.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/CalendarHeatmap/CalendarHeatmap.framework/Headers/CalendarHeatmap-Swift.h"
+- "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/Popover/Popover.framework/Headers/Popover-Swift.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework/Headers/SnapKit-Swift.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/CollectionViewPagingLayout/CollectionViewPagingLayout.framework/Headers/CollectionViewPagingLayout-Swift.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/LinearProgressView/LinearProgressView.framework/Headers/LinearProgressView-Swift.h"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/dyld.modulemap"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
 - "/Users/sapientisat/Projects/Supplements/Supplements/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Modules/module.modulemap"
+- "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/CalendarHeatmap/CalendarHeatmap.framework/Modules/module.modulemap"
+- "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/Popover/Popover.framework/Modules/module.modulemap"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework/Modules/module.modulemap"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/CollectionViewPagingLayout/CollectionViewPagingLayout.framework/Modules/module.modulemap"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/LinearProgressView/LinearProgressView.framework/Modules/module.modulemap"
@@ -799,6 +774,7 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UniformTypeIdentifiers.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/HealthKit.framework/Headers/HealthKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
 interface-hash: "41280ebabc48b98f6040773f44038142"

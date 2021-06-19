@@ -6,15 +6,20 @@
 //
 
 import UIKit
+import Popover
 
 private let reuseIdentifier = "Question"
 
 class QuestionsCollectionViewController: UICollectionViewController {
-	var questions: [String: [String]] = [:]
+	var questions: [String] = []
+	var answers: [[String]] = []
 	private var layout: UICollectionViewFlowLayout
+	private var pickerDelegate = PopPickerDelegate(["Не указано", "0", "1", "2", "3", "4", "5"])
+
 
 	init(questions: [String: [String]]) {
-		self.questions = questions
+		self.questions = [String](questions.keys)
+		answers = [[String]](questions.values)
 		layout = UICollectionViewFlowLayout()
 		super.init(collectionViewLayout: layout)
 	}
@@ -27,7 +32,7 @@ class QuestionsCollectionViewController: UICollectionViewController {
         super.viewDidLoad()
 		collectionView.backgroundColor = .clear
 		layout.estimatedItemSize = UICollectionViewFlowLayout.automaticSize
-        self.collectionView!.register(UICollectionViewCell.self, forCellWithReuseIdentifier: reuseIdentifier)
+        self.collectionView!.register(QuestionCell.self, forCellWithReuseIdentifier: reuseIdentifier)
 
         // Do any additional setup after loading the view.
     }
@@ -38,31 +43,14 @@ class QuestionsCollectionViewController: UICollectionViewController {
 
 
     override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-//		return questions.count
-		10
+		return questions.count
     }
 
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath)
-
-        let label = InsetLabel(inset: UIEdgeInsets(top: 10, left: 30, bottom: 10, right: 30))
-		label.font = Fonts.SDGothicNeoLight
-		label.layer.cornerRadius = 14
-		label.clipsToBounds = true
-		label.backgroundColor = UIColor(red: 1, green: 1, blue: 1, alpha: 0.2)
-		label.textColor = .white
-		label.layer.borderWidth = 0.5
-		label.layer.borderColor = UIColor.white.cgColor
-
-		cell.contentView.addSubview(label)
-		label.snp.makeConstraints { make in
-			make.top.left.equalToSuperview()
-			make.bottom.right.equalToSuperview()
-//			make.edges.equalToSuperview().inset(UIEdgeInsets(top: 10, left: 10, bottom: 10, right: 10))
+		guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath) as? QuestionCell else {
+			return UICollectionViewCell()
 		}
-
-
-		label.text = Int.random(in: 0...1) % 2 == 0 ? "Ухудшение сна" : "Анемия"
+		cell.label.text = questions[indexPath.row]
         return cell
     }
 
@@ -72,6 +60,74 @@ class QuestionsCollectionViewController: UICollectionViewController {
         return true
     }
 
+	override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+		guard let cell = collectionView.cellForItem(at: indexPath) as? QuestionCell else {
+			return
+		}
+		pickerDelegate.answers = answers[indexPath.row]
+		pickerDelegate.cell = cell
+//		let startPointOrigin = CGPoint(
+//			x: cell.frame.midX,
+//			y: cell.frame.midY
+//		)
+//		let startPoint = cell.convert(startPointOrigin, to: view)
+		let container = UIView(frame: CGRect(x: 0, y: 0, width: 300, height: 300))
+		let label = UILabel()
+		label.textAlignment = .center
+		label.numberOfLines = 2
+		label.text = questions[indexPath.row]
+		label.font = Fonts.HelveticaNeue
+		let picker = UIPickerView()
+		picker.delegate = pickerDelegate
+		picker.dataSource = pickerDelegate
+
+		container.addSubview(picker)
+		container.addSubview(label)
+		label.snp.makeConstraints { make in
+			make.top.equalToSuperview().offset(20)
+			make.left.equalToSuperview().offset(20)
+			make.right.equalToSuperview().offset(-20)
+		}
+		picker.snp.makeConstraints { make in
+			make.left.equalToSuperview().offset(10)
+			make.right.equalToSuperview().offset(-10)
+			make.bottom.equalToSuperview().offset(-20)
+			make.top.equalTo(label.snp.bottom).offset(20)
+		}
+
+		let popover = Popover(options: [.cornerRadius(10), .overlayBlur(.systemUltraThinMaterial), .type(.down)])
+		popover.show(container, fromView: cell)
+	}
 
 
+
+}
+
+class PopPickerDelegate: NSObject, UIPickerViewDelegate, UIPickerViewDataSource {
+	var answers: [String]
+	weak var cell: QuestionCell!
+
+	init(_ answers: [String]) {
+		self.answers = answers
+	}
+
+	func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
+		answers.count
+	}
+
+	func numberOfComponents(in pickerView: UIPickerView) -> Int {
+		1
+	}
+
+	func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
+		return answers[row]
+	}
+
+	func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
+		if row != 0 {
+			cell.label.backgroundColor = Colors.lightGreen
+		} else {
+			cell.label.backgroundColor = Colors.lightGray
+		}
+	}
 }
