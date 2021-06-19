@@ -59,7 +59,7 @@ struct Page: Codable {
 	let questions: [String: [String]]
 }
 
-enum Element: String, Codable {
+enum Element: String, Codable, CaseIterable {
 	case vitamin_a = "Витамин А",
 		 vitamin_b2 = "Витамин B2",
 		 vitamin_b6 = "Витамин B6",

@@ -18,7 +18,7 @@ class BlogViewController: UIViewController {
         collectionViewLayout: BlogViewController.createLayout()
     )
     private let headerLabel = UILabel()
-    private let searchTextField = CustomTextField()
+    private let searchTextField = PickerTextField()
     override func viewDidLoad() {
         super.viewDidLoad()
         navigationController?.navigationBar.isHidden = true
@@ -26,6 +26,7 @@ class BlogViewController: UIViewController {
         configureUI()
         
     }
+    
     private func configureUI() {
         view.addSubview(collectionView)
         collectionView.register(CustomCollectionViewCell.self, forCellWithReuseIdentifier: "CustomCollectionViewCell")
@@ -51,14 +52,24 @@ class BlogViewController: UIViewController {
         ])
         view.addSubview(searchTextField)
         searchTextField.translatesAutoresizingMaskIntoConstraints = false
-        searchTextField.isEnabled = false
-        
+        //searchTextField.isEnabled = false
+        searchTextField.rightView = UIImageView(image: UIImage(systemName: "magnifyingglass"))
+        searchTextField.rightViewMode = .always
+        searchTextField.pills = Element.allCases.map({$0.rawValue})
+        searchTextField.displayNameHandler = { item in
+            return item as? String ?? ""
+            
+        }
+        searchTextField.itemSelectionHandler = { index, item in
+            print(index , " ", item)
+            
+        }
         NSLayoutConstraint.activate([
-            searchTextField.leadingAnchor.constraint(equalTo: headerLabel.trailingAnchor, constant: 10),
+            searchTextField.leadingAnchor.constraint(equalTo: headerLabel.trailingAnchor, constant: 30),
             //searchTextField.trailingAnchor.constraint(lessThanOrEqualTo: view.trailingAnchor),
             searchTextField.centerYAnchor.constraint(equalTo: headerLabel.centerYAnchor),
             searchTextField.bottomAnchor.constraint(equalTo: collectionView.topAnchor, constant: -17),
-            searchTextField.widthAnchor.constraint(equalToConstant: view.frame.width - headerLabel.frame.width - 150),
+            searchTextField.widthAnchor.constraint(equalToConstant: view.frame.width - headerLabel.frame.width - 140),
             searchTextField.heightAnchor.constraint(equalToConstant: 48)
         ])
     }
