@@ -1,0 +1,183 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "JTACMonthLayoutProtocol"
+provides-nominal:
+- "15JTAppleCalendar23JTACMonthLayoutProtocolP"
+- "So26UICollectionViewFlowLayoutC"
+provides-member:
+- ["15JTAppleCalendar23JTACMonthLayoutProtocolP", ""]
+- ["So26UICollectionViewFlowLayoutC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AnyObject"
+- "CGFloat"
+- "JTACMonthLayoutProtocol"
+- "UICollectionView"
+- "UICollectionViewFlowLayout"
+- "UIEdgeInsets"
+depends-member:
+- ["So15CALayerDelegateP", "ScrollDirection"]
+- ["s7CVarArgP", "ScrollDirection"]
+- ["s7CVarArgP", "minimumInteritemSpacing"]
+- ["s7CVarArgP", "minimumLineSpacing"]
+- ["s7CVarArgP", "scrollDirection"]
+- ["s7CVarArgP", "sectionInset"]
+- ["s28CustomDebugStringConvertibleP", "ScrollDirection"]
+- ["s28CustomDebugStringConvertibleP", "minimumInteritemSpacing"]
+- ["s28CustomDebugStringConvertibleP", "minimumLineSpacing"]
+- ["s28CustomDebugStringConvertibleP", "scrollDirection"]
+- ["s28CustomDebugStringConvertibleP", "sectionInset"]
+- ["s23CustomStringConvertibleP", "ScrollDirection"]
+- ["s23CustomStringConvertibleP", "minimumInteritemSpacing"]
+- ["s23CustomStringConvertibleP", "minimumLineSpacing"]
+- ["s23CustomStringConvertibleP", "scrollDirection"]
+- ["s23CustomStringConvertibleP", "sectionInset"]
+- ["SQ", "ScrollDirection"]
+- ["SQ", ""]
+- ["SQ", "minimumInteritemSpacing"]
+- ["SQ", "minimumLineSpacing"]
+- ["SQ", "scrollDirection"]
+- ["SQ", "sectionInset"]
+- ["SH", "ScrollDirection"]
+- ["SH", "minimumInteritemSpacing"]
+- ["SH", "minimumLineSpacing"]
+- ["SH", "scrollDirection"]
+- ["SH", "sectionInset"]
+- ["15JTAppleCalendar23JTACMonthLayoutProtocolP", "CGFloat"]
+- ["15JTAppleCalendar23JTACMonthLayoutProtocolP", "UICollectionView"]
+- ["15JTAppleCalendar23JTACMonthLayoutProtocolP", "UIEdgeInsets"]
+- ["15JTAppleCalendar23JTACMonthLayoutProtocolP", ""]
+- ["15JTAppleCalendar23JTACMonthLayoutProtocolP", "minimumInteritemSpacing"]
+- ["15JTAppleCalendar23JTACMonthLayoutProtocolP", "minimumLineSpacing"]
+- ["15JTAppleCalendar23JTACMonthLayoutProtocolP", "scrollDirection"]
+- ["15JTAppleCalendar23JTACMonthLayoutProtocolP", "sectionInset"]
+- ["So8NSCodingP", "ScrollDirection"]
+- ["So8NSCodingP", ""]
+- ["So8NSCodingP", "minimumInteritemSpacing"]
+- ["So8NSCodingP", "minimumLineSpacing"]
+- ["So8NSCodingP", "scrollDirection"]
+- ["So8NSCodingP", "sectionInset"]
+- ["So8NSObjectC", "ScrollDirection"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "minimumInteritemSpacing"]
+- ["So8NSObjectC", "minimumLineSpacing"]
+- ["So8NSObjectC", "scrollDirection"]
+- ["So8NSObjectC", "sectionInset"]
+- ["So8NSObjectP", "ScrollDirection"]
+- ["So8NSObjectP", ""]
+- ["So8NSObjectP", "minimumInteritemSpacing"]
+- ["So8NSObjectP", "minimumLineSpacing"]
+- ["So8NSObjectP", "scrollDirection"]
+- ["So8NSObjectP", "sectionInset"]
+- ["So29UIAccessibilityIdentificationP", "ScrollDirection"]
+- ["So12UIAppearanceP", "ScrollDirection"]
+- ["So21UIAppearanceContainerP", "ScrollDirection"]
+- ["So16UICollectionViewC", "ScrollDirection"]
+- ["So26UICollectionViewFlowLayoutC", ""]
+- ["So26UICollectionViewFlowLayoutC", "minimumInteritemSpacing"]
+- ["So26UICollectionViewFlowLayoutC", "minimumLineSpacing"]
+- ["So26UICollectionViewFlowLayoutC", "scrollDirection"]
+- ["So26UICollectionViewFlowLayoutC", "sectionInset"]
+- ["So22UICollectionViewLayoutC", ""]
+- ["So22UICollectionViewLayoutC", "minimumInteritemSpacing"]
+- ["So22UICollectionViewLayoutC", "minimumLineSpacing"]
+- ["So22UICollectionViewLayoutC", "scrollDirection"]
+- ["So22UICollectionViewLayoutC", "sectionInset"]
+- ["So17UICoordinateSpaceP", "ScrollDirection"]
+- ["So23UIDataSourceTranslatingP", "ScrollDirection"]
+- ["So13UIDynamicItemP", "ScrollDirection"]
+- ["So18UIFocusEnvironmentP", "ScrollDirection"]
+- ["So18UIFocusEnvironmentP", ""]
+- ["So11UIFocusItemP", "ScrollDirection"]
+- ["So20UIFocusItemContainerP", "ScrollDirection"]
+- ["So20UIFocusItemContainerP", ""]
+- ["So30UIFocusItemScrollableContainerP", "ScrollDirection"]
+- ["So24UILargeContentViewerItemP", "ScrollDirection"]
+- ["So30UIPasteConfigurationSupportingP", "ScrollDirection"]
+- ["So11UIResponderC", "ScrollDirection"]
+- ["So30UIResponderStandardEditActionsP", "ScrollDirection"]
+- ["So12UIScrollViewC", "ScrollDirection"]
+- ["So35UISpringLoadedInteractionSupportingP", "ScrollDirection"]
+- ["So18UITraitEnvironmentP", "ScrollDirection"]
+- ["So23UIUserActivityRestoringP", "ScrollDirection"]
+- ["So6UIViewC", "ScrollDirection"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "ScrollDirection"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "minimumInteritemSpacing"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "minimumLineSpacing"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "scrollDirection"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "sectionInset"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ScrollDirection"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "minimumInteritemSpacing"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "minimumLineSpacing"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "scrollDirection"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "sectionInset"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", "ScrollDirection"]
+depends-nominal:
+- "So15CALayerDelegateP"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "SQ"
+- "SH"
+- "15JTAppleCalendar23JTACMonthLayoutProtocolP"
+- "So8NSCodingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So16UICollectionViewC"
+- "So26UICollectionViewFlowLayoutC"
+- "So22UICollectionViewLayoutC"
+- "So17UICoordinateSpaceP"
+- "So23UIDataSourceTranslatingP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So20UIFocusItemContainerP"
+- "So30UIFocusItemScrollableContainerP"
+- "So24UILargeContentViewerItemP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So12UIScrollViewC"
+- "So35UISpringLoadedInteractionSupportingP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/sapientisat/Projects/Supplements/Supplements/Pods/Target Support Files/JTAppleCalendar/JTAppleCalendar-umbrella.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Intermediates.noindex/Pods.build/Debug-iphonesimulator/JTAppleCalendar.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "adfb3ac88b309717f675f984702e3b73"

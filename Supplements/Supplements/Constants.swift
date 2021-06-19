@@ -14,6 +14,7 @@ enum Images {
 enum Fonts {
 	static let SDGothicNeoLight = UIFont(name: "AppleSDGothicNeo-Light", size: UIFont.systemFontSize)!
 	static let SDGothicNeoBold = UIFont(name: "AppleSDGothicNeo-Bold", size: UIFont.systemFontSize)!
+	static let HelveticaNeue = UIFont(name: "HelveticaNeue", size: 16)
 
 }
 

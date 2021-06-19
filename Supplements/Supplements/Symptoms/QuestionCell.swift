@@ -8,7 +8,25 @@
 import UIKit
 
 class QuestionCell: UICollectionViewCell {
-	private lazy var label = UILabel()
+	lazy var label = InsetLabel(inset: UIEdgeInsets(top: 10, left: 30, bottom: 10, right: 30))
+	override init(frame: CGRect) {
+		super.init(frame: .zero)
+		label.font = Fonts.HelveticaNeue
+		label.layer.cornerRadius = 14
+		label.clipsToBounds = true
+		label.backgroundColor = UIColor(red: 221/255, green: 225/255, blue: 217/255, alpha: 1)
+		label.textColor = .white
+		label.layer.borderWidth = 0.5
+		label.layer.borderColor = UIColor.white.cgColor
 
-
+		contentView.addSubview(label)
+		label.snp.makeConstraints { make in
+			make.top.left.equalToSuperview()
+			make.bottom.right.equalToSuperview()
+		}
+	}
+	
+	required init?(coder: NSCoder) {
+		fatalError("init(coder:) has not been implemented")
+	}
 }

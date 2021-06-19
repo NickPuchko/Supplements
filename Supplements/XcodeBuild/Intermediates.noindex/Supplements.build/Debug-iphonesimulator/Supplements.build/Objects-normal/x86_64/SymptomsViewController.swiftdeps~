@@ -43,7 +43,7 @@ depends-top-level:
 - "UICollectionViewDelegate"
 - !private "UIColor"
 - "UIViewController"
-- "collectionView"
+- !private "collectionView"
 - "layout"
 - !private "model"
 - "progressBar"
@@ -156,6 +156,7 @@ depends-member:
 - ["s7CVarArgP", "scrollViewWillBeginZooming"]
 - ["s7CVarArgP", "scrollViewWillEndDragging"]
 - ["s7CVarArgP", "self"]
+- !private ["s7CVarArgP", "setCurrentPage"]
 - !private ["s7CVarArgP", "setProgress"]
 - !private ["s7CVarArgP", "setupCollectionView"]
 - !private ["s7CVarArgP", "setupProgressbar"]
@@ -177,6 +178,7 @@ depends-member:
 - !private ["26CollectionViewPagingLayoutAAC", "currentPage"]
 - !private ["26CollectionViewPagingLayoutAAC", "delegate"]
 - ["26CollectionViewPagingLayoutAAC", "init"]
+- !private ["26CollectionViewPagingLayoutAAC", "setCurrentPage"]
 - !private ["26CollectionViewPagingLayoutAAC", "zPositionHandler"]
 - ["26CollectionViewPagingLayout0abcD8DelegateP", "CollectionViewPagingLayout"]
 - !private ["26CollectionViewPagingLayout0abcD8DelegateP", "Float"]
@@ -239,12 +241,15 @@ depends-member:
 - !private ["7SnapKit15ConstraintMakerC", "right"]
 - !private ["7SnapKit15ConstraintMakerC", "top"]
 - !private ["7SnapKit15ConstraintMakerC", "width"]
+- !private ["7SnapKit23ConstraintMakerEditableC", "dividedBy"]
 - !private ["7SnapKit23ConstraintMakerEditableC", "offset"]
 - !private ["7SnapKit25ConstraintMakerExtendableC", "equalTo"]
 - !private ["7SnapKit25ConstraintMakerExtendableC", "equalToSuperview"]
 - ["7SnapKit26ConstraintMakerFinalizableC", ""]
+- !private ["7SnapKit26ConstraintMakerFinalizableC", "dividedBy"]
 - !private ["7SnapKit26ConstraintMakerFinalizableC", "offset"]
 - ["7SnapKit27ConstraintMakerPriortizableC", ""]
+- !private ["7SnapKit27ConstraintMakerPriortizableC", "dividedBy"]
 - !private ["7SnapKit27ConstraintMakerPriortizableC", "offset"]
 - ["7SnapKit24ConstraintMakerRelatableC", ""]
 - !private ["7SnapKit24ConstraintMakerRelatableC", "equalTo"]
@@ -337,6 +342,7 @@ depends-member:
 - ["s28CustomDebugStringConvertibleP", "scrollViewWillBeginZooming"]
 - ["s28CustomDebugStringConvertibleP", "scrollViewWillEndDragging"]
 - ["s28CustomDebugStringConvertibleP", "self"]
+- !private ["s28CustomDebugStringConvertibleP", "setCurrentPage"]
 - !private ["s28CustomDebugStringConvertibleP", "setProgress"]
 - !private ["s28CustomDebugStringConvertibleP", "setupCollectionView"]
 - !private ["s28CustomDebugStringConvertibleP", "setupProgressbar"]
@@ -422,6 +428,7 @@ depends-member:
 - ["s23CustomStringConvertibleP", "scrollViewWillBeginZooming"]
 - ["s23CustomStringConvertibleP", "scrollViewWillEndDragging"]
 - ["s23CustomStringConvertibleP", "self"]
+- !private ["s23CustomStringConvertibleP", "setCurrentPage"]
 - !private ["s23CustomStringConvertibleP", "setProgress"]
 - !private ["s23CustomStringConvertibleP", "setupCollectionView"]
 - !private ["s23CustomStringConvertibleP", "setupProgressbar"]
@@ -520,6 +527,7 @@ depends-member:
 - ["SQ", "scrollViewWillBeginZooming"]
 - ["SQ", "scrollViewWillEndDragging"]
 - ["SQ", "self"]
+- !private ["SQ", "setCurrentPage"]
 - !private ["SQ", "setProgress"]
 - !private ["SQ", "setupCollectionView"]
 - !private ["SQ", "setupProgressbar"]
@@ -622,6 +630,7 @@ depends-member:
 - ["SH", "scrollViewWillBeginZooming"]
 - ["SH", "scrollViewWillEndDragging"]
 - ["SH", "self"]
+- !private ["SH", "setCurrentPage"]
 - !private ["SH", "setProgress"]
 - !private ["SH", "setupCollectionView"]
 - !private ["SH", "setupProgressbar"]
@@ -747,6 +756,7 @@ depends-member:
 - ["So8NSCodingP", "scrollViewWillBeginZooming"]
 - ["So8NSCodingP", "scrollViewWillEndDragging"]
 - ["So8NSCodingP", "self"]
+- !private ["So8NSCodingP", "setCurrentPage"]
 - !private ["So8NSCodingP", "setProgress"]
 - ["So8NSCodingP", "setupCollectionView"]
 - ["So8NSCodingP", "setupProgressbar"]
@@ -896,6 +906,7 @@ depends-member:
 - ["So8NSObjectC", "scrollViewWillBeginZooming"]
 - ["So8NSObjectC", "scrollViewWillEndDragging"]
 - ["So8NSObjectC", "self"]
+- !private ["So8NSObjectC", "setCurrentPage"]
 - !private ["So8NSObjectC", "setProgress"]
 - ["So8NSObjectC", "setupCollectionView"]
 - ["So8NSObjectC", "setupProgressbar"]
@@ -980,6 +991,7 @@ depends-member:
 - ["So8NSObjectP", "scrollViewWillBeginZooming"]
 - ["So8NSObjectP", "scrollViewWillEndDragging"]
 - ["So8NSObjectP", "self"]
+- !private ["So8NSObjectP", "setCurrentPage"]
 - !private ["So8NSObjectP", "setProgress"]
 - ["So8NSObjectP", "setupCollectionView"]
 - ["So8NSObjectP", "setupProgressbar"]
@@ -1323,6 +1335,7 @@ depends-member:
 - !private ["So22UICollectionViewLayoutC", "currentPage"]
 - !private ["So22UICollectionViewLayoutC", "delegate"]
 - ["So22UICollectionViewLayoutC", "init"]
+- !private ["So22UICollectionViewLayoutC", "setCurrentPage"]
 - !private ["So22UICollectionViewLayoutC", "zPositionHandler"]
 - !private ["So7UIColorC", "cgColor"]
 - !private ["So7UIColorC", "clear"]
@@ -2278,6 +2291,7 @@ depends-member:
 - ["10Foundation27_KeyValueCodingAndObservingP", "scrollViewWillBeginZooming"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "scrollViewWillEndDragging"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "self"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setCurrentPage"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "setProgress"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "setupCollectionView"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "setupProgressbar"]
@@ -2349,6 +2363,7 @@ depends-member:
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "scrollViewWillBeginZooming"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "scrollViewWillEndDragging"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "self"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "setCurrentPage"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "setProgress"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "setupCollectionView"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "setupProgressbar"]
@@ -2545,18 +2560,23 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/CalendarHeatmap/CalendarHeatmap.framework/Modules/CalendarHeatmap.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/Popover/Popover.framework/Modules/Popover.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/os.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UniformTypeIdentifiers.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CloudKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/HealthKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework/Modules/SnapKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/DeveloperToolsSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/CollectionViewPagingLayout/CollectionViewPagingLayout.framework/Modules/CollectionViewPagingLayout.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/LinearProgressView/LinearProgressView.framework/Modules/LinearProgressView.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/CalendarHeatmap/CalendarHeatmap.framework/Headers/CalendarHeatmap-umbrella.h"
+- "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/Popover/Popover.framework/Headers/Popover-umbrella.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework/Headers/SnapKit-umbrella.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/CollectionViewPagingLayout/CollectionViewPagingLayout.framework/Headers/CollectionViewPagingLayout-umbrella.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/LinearProgressView/LinearProgressView.framework/Headers/LinearProgressView-umbrella.h"
@@ -2567,12 +2587,16 @@ depends-external:
 - "/Users/sapientisat/Projects/Supplements/Supplements/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDSignInButton.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDGoogleUser.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/CalendarHeatmap/CalendarHeatmap.framework/Headers/CalendarHeatmap-Swift.h"
+- "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/Popover/Popover.framework/Headers/Popover-Swift.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework/Headers/SnapKit-Swift.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/CollectionViewPagingLayout/CollectionViewPagingLayout.framework/Headers/CollectionViewPagingLayout-Swift.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/LinearProgressView/LinearProgressView.framework/Headers/LinearProgressView-Swift.h"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/dyld.modulemap"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
 - "/Users/sapientisat/Projects/Supplements/Supplements/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Modules/module.modulemap"
+- "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/CalendarHeatmap/CalendarHeatmap.framework/Modules/module.modulemap"
+- "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/Popover/Popover.framework/Modules/module.modulemap"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework/Modules/module.modulemap"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/CollectionViewPagingLayout/CollectionViewPagingLayout.framework/Modules/module.modulemap"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/LinearProgressView/LinearProgressView.framework/Modules/module.modulemap"
@@ -2593,6 +2617,7 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UniformTypeIdentifiers.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/HealthKit.framework/Headers/HealthKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
 interface-hash: "befa67c57f3bf0601d4101882f86f0b1"

@@ -33,7 +33,8 @@
 		AA851CBD267D424800809A47 /* PageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA851CBC267D424800809A47 /* PageCell.swift */; };
 		AA851CC0267D67F300809A47 /* QuestionsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA851CBF267D67F300809A47 /* QuestionsCollectionViewController.swift */; };
 		AA851CC3267D686400809A47 /* PagesNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA851CC2267D686400809A47 /* PagesNetworkService.swift */; };
-		AA851CC8267D87BD00809A47 /* QuestionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA851CC7267D87BD00809A47 /* QuestionCell.swift */; };
+		AA851CD9267DE12B00809A47 /* HealthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA851CD8267DE12B00809A47 /* HealthService.swift */; };
+		AA851CEC267DFB4800809A47 /* QuestionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA851CEB267DFB4800809A47 /* QuestionCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,7 +67,8 @@
 		AA851CBC267D424800809A47 /* PageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageCell.swift; sourceTree = "<group>"; };
 		AA851CBF267D67F300809A47 /* QuestionsCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsCollectionViewController.swift; sourceTree = "<group>"; };
 		AA851CC2267D686400809A47 /* PagesNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagesNetworkService.swift; sourceTree = "<group>"; };
-		AA851CC7267D87BD00809A47 /* QuestionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionCell.swift; sourceTree = "<group>"; };
+		AA851CD8267DE12B00809A47 /* HealthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthService.swift; sourceTree = "<group>"; };
+		AA851CEB267DFB4800809A47 /* QuestionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionCell.swift; sourceTree = "<group>"; };
 		BEB40AEC1D0CC127476CA557 /* Pods_Supplements.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Supplements.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -154,6 +156,7 @@
 				AA851C60267D0B6B00809A47 /* credentials.plist */,
 				AA851C8A267D101700809A47 /* Googleuser.swift */,
 				AA851C8D267D108B00809A47 /* Errors.swift */,
+				AA851CD8267DE12B00809A47 /* HealthService.swift */,
 			);
 			path = Supplements;
 			sourceTree = "<group>";
@@ -186,7 +189,7 @@
 				AA851CBC267D424800809A47 /* PageCell.swift */,
 				AA851CBF267D67F300809A47 /* QuestionsCollectionViewController.swift */,
 				AA851CC2267D686400809A47 /* PagesNetworkService.swift */,
-				AA851CC7267D87BD00809A47 /* QuestionCell.swift */,
+				AA851CEB267DFB4800809A47 /* QuestionCell.swift */,
 			);
 			path = Symptoms;
 			sourceTree = "<group>";
@@ -312,6 +315,7 @@
 				AA851C6F267D0DE800809A47 /* FormViewController.swift in Sources */,
 				73061464267DECD000591F27 /* CustomTextField.swift in Sources */,
 				737D3461267D731200E67EEF /* Extension+Date.swift in Sources */,
+				AA851CD9267DE12B00809A47 /* HealthService.swift in Sources */,
 				AA851C46267D08D500809A47 /* AppDelegate.swift in Sources */,
 				AA851C8B267D101700809A47 /* Googleuser.swift in Sources */,
 				AA851C6E267D0DE800809A47 /* FormModel.swift in Sources */,
@@ -319,7 +323,6 @@
 				737D3456267D49F500E67EEF /* TodayViewController.swift in Sources */,
 				737D345D267D4AC200E67EEF /* PillsHeaderVIew.swift in Sources */,
 				AA851C7E267D0F4900809A47 /* UserNetworkService.swift in Sources */,
-				AA851CC8267D87BD00809A47 /* QuestionCell.swift in Sources */,
 				AA851CC3267D686400809A47 /* PagesNetworkService.swift in Sources */,
 				AA851C8E267D108B00809A47 /* Errors.swift in Sources */,
 				AA851CBD267D424800809A47 /* PageCell.swift in Sources */,
@@ -328,6 +331,7 @@
 				AA851CAD267D319300809A47 /* SymptomsViewController.swift in Sources */,
 				737D345F267D640D00E67EEF /* tableViewModel.swift in Sources */,
 				AA851C7B267D0EAB00809A47 /* Constants.swift in Sources */,
+				AA851CEC267DFB4800809A47 /* QuestionCell.swift in Sources */,
 				737D345A267D4A8300E67EEF /* PillsCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

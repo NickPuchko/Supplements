@@ -1,6 +1,6 @@
 version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
 options: "4a5b334583b3e2f2f732a379f63b0ea8"
-build_time: [1624060326, 738724000]
+build_time: [1624092289, 486856000]
 inputs:
   "/Users/sapientisat/Projects/Supplements/Supplements/Pods/CollectionViewPagingLayout/Lib/BlurEffectView.swift": [1624036110, 10283142]
   "/Users/sapientisat/Projects/Supplements/Supplements/Pods/CollectionViewPagingLayout/Lib/Utilities/CGFloat+Interpolate.swift": [1624036110, 14068577]
