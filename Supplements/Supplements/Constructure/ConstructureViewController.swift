@@ -13,8 +13,10 @@ class ConstructureViewController: UIViewController {
     private let imageView = UIImageView(image: UIImage(named: "background2"))
     private let tableView = UITableView()
     private let startCourse = UIButton()
+	private let restartCourse = UIButton()
     private var priceLabel = UILabel()
     private var price = 0
+
     override func viewDidLoad() {
         super.viewDidLoad()
         navigationController?.navigationBar.isHidden = true
@@ -37,8 +39,7 @@ class ConstructureViewController: UIViewController {
         startCourse.backgroundColor = UIColor(red: 116/255, green: 170/255, blue: 74/255, alpha: 1)
         startCourse.setTitle("Начать курс", for: .normal)
         startCourse.titleLabel?.font =  UIFont(name: "HelveticaNeue-Bold", size: 20)
-        
-        
+
         view.addSubview(priceLabel)
         priceLabel.translatesAutoresizingMaskIntoConstraints = false
         priceLabel.text = "\(price) р/мес"
@@ -48,13 +49,31 @@ class ConstructureViewController: UIViewController {
 		priceLabel.clipsToBounds = true
         
 
-        priceLabel.backgroundColor = UIColor(red: 1, green: 1, blue: 1, alpha: 0.3)
+        priceLabel.backgroundColor = UIColor(red: 1, green: 1, blue: 1, alpha: 0.4)
         NSLayoutConstraint.activate([
             priceLabel.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 40),
             priceLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor),
             priceLabel.heightAnchor.constraint(equalToConstant: 46),
             priceLabel.widthAnchor.constraint(equalToConstant: 160)
         ])
+
+		view.addSubview(restartCourse)
+		restartCourse.addTarget(self, action: #selector(startForm), for: .touchUpInside)
+		let restartImage = UIImage(systemName: "person")!
+		restartCourse.setImage(restartImage, for: .normal)
+		restartCourse.contentMode = .redraw
+		restartCourse.layer.cornerRadius = 14
+		restartCourse.clipsToBounds = true
+		restartCourse.tintColor = .white
+		restartCourse.translatesAutoresizingMaskIntoConstraints = false
+		restartCourse.backgroundColor = UIColor(red: 1, green: 1, blue: 1, alpha: 0.4)
+
+		NSLayoutConstraint.activate([
+			restartCourse.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 40),
+			restartCourse.leadingAnchor.constraint(equalTo: priceLabel.trailingAnchor, constant: 40),
+			restartCourse.widthAnchor.constraint(equalToConstant: 46),
+			restartCourse.heightAnchor.constraint(equalToConstant: 46)
+		])
 
 		if price == 0 {
 			startCourse.isEnabled = false
@@ -65,6 +84,11 @@ class ConstructureViewController: UIViewController {
 
 	@objc func openToday() {
 		(UIApplication.shared.delegate as! AppDelegate).tabBar.selectedIndex = 0
+	}
+
+	@objc func startForm() {
+		UserDefaults.standard.setValue(false, forKey: "isUserOld")
+		(UIApplication.shared.delegate as! AppDelegate).start()
 	}
 
     private func setUptableView() {

@@ -30,18 +30,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
 		GIDSignIn.sharedInstance().clientID = "14169133748-keukuh0ultekpscrahk14spl80gtsc1d.apps.googleusercontent.com"
 		GIDSignIn.sharedInstance().delegate = self
 		// Override point for customization after application launch.
+		start()
+		return true
+	}
+
+	func start() {
 		window = UIWindow(frame: UIScreen.main.bounds)
 		window?.backgroundColor = .white
 		let rootViewController = LoginViewController()
 		let navigationController = UINavigationController(rootViewController: rootViewController)
 		navigationController.navigationBar.prefersLargeTitles = true
 		window?.rootViewController = navigationController
-		let serice = PagesNetworkService()
-		serice.getPages { res in
-			print(res)
-		}
 		window?.makeKeyAndVisible()
-		return true
 	}
 
 	@available(iOS 9.0, *)
@@ -73,11 +73,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
 			self.user.image = UIImage(data: imageData)
 		}
 
-//		userNetworkService.createUser(user: user.profile.name) { result in
-//			print(result)
-//		}
-
-		if !isUserOld {
+		if isUserOld {
 			launch(with: nil)
 		} else {
 			let welcomeScreen = FormViewController()
