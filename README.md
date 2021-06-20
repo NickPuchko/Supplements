@@ -13,8 +13,7 @@
 ### Основной стек технологий (в этом репозитории):
 
 * Swift 5.4, UIKit
-* pod 'SnapKit' pod 'GoogleSignIn' pod 'Onboard' pod 'CollectionViewPagingLayout' pod 'Alamofire' pod 'LinearProgressView' pod 'JTAppleCalendar' 
-* pod 'CalendarHeatmap' pod 'Popover' pod 'SwipeableTabBarController' pod 'SwiftyJSON' pod 'FSCalendar'
+* pod 'SnapKit' pod 'GoogleSignIn' pod 'Onboard' pod 'CollectionViewPagingLayout' pod 'Alamofire' pod 'LinearProgressView' pod 'JTAppleCalendar' pod 'CalendarHeatmap' pod 'Popover' pod 'SwipeableTabBarController' pod 'SwiftyJSON' pod 'FSCalendar'
 
 ### Демо
 
