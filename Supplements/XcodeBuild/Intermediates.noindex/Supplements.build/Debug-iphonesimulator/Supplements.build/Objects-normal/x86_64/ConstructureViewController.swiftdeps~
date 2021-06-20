@@ -69,6 +69,7 @@ depends-top-level:
 - !private "restartCourse"
 - "self"
 - !private "setUptableView"
+- !private "sleep"
 - !private "startCourse"
 - !private "startForm"
 - !private "tableView"
@@ -235,6 +236,7 @@ depends-member:
 - !private ["s7CVarArgP", "setValue"]
 - !private ["s7CVarArgP", "shared"]
 - !private ["s7CVarArgP", "showsVerticalScrollIndicator"]
+- !private ["s7CVarArgP", "sleep"]
 - !private ["s7CVarArgP", "standard"]
 - !private ["s7CVarArgP", "start"]
 - !private ["s7CVarArgP", "startCourse"]
@@ -385,6 +387,7 @@ depends-member:
 - ["11Supplements26ConstructureViewControllerC", "sectionIndexTitlesForTableView"]
 - ["11Supplements26ConstructureViewControllerC", "self"]
 - !private ["11Supplements26ConstructureViewControllerC", "setUptableView"]
+- !private ["11Supplements26ConstructureViewControllerC", "sleep"]
 - !private ["11Supplements26ConstructureViewControllerC", "startCourse"]
 - ["11Supplements26ConstructureViewControllerC", "startForm"]
 - ["11Supplements26ConstructureViewControllerC", "tableView"]
@@ -486,6 +489,7 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "setValue"]
 - !private ["s28CustomDebugStringConvertibleP", "shared"]
 - !private ["s28CustomDebugStringConvertibleP", "showsVerticalScrollIndicator"]
+- !private ["s28CustomDebugStringConvertibleP", "sleep"]
 - !private ["s28CustomDebugStringConvertibleP", "standard"]
 - !private ["s28CustomDebugStringConvertibleP", "start"]
 - !private ["s28CustomDebugStringConvertibleP", "startCourse"]
@@ -615,6 +619,7 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "setValue"]
 - !private ["s23CustomStringConvertibleP", "shared"]
 - !private ["s23CustomStringConvertibleP", "showsVerticalScrollIndicator"]
+- !private ["s23CustomStringConvertibleP", "sleep"]
 - !private ["s23CustomStringConvertibleP", "standard"]
 - !private ["s23CustomStringConvertibleP", "start"]
 - !private ["s23CustomStringConvertibleP", "startCourse"]
@@ -759,6 +764,7 @@ depends-member:
 - !private ["SQ", "setValue"]
 - !private ["SQ", "shared"]
 - !private ["SQ", "showsVerticalScrollIndicator"]
+- !private ["SQ", "sleep"]
 - !private ["SQ", "standard"]
 - !private ["SQ", "start"]
 - !private ["SQ", "startCourse"]
@@ -927,6 +933,7 @@ depends-member:
 - !private ["SH", "setValue"]
 - !private ["SH", "shared"]
 - !private ["SH", "showsVerticalScrollIndicator"]
+- !private ["SH", "sleep"]
 - !private ["SH", "standard"]
 - !private ["SH", "start"]
 - !private ["SH", "startCourse"]
@@ -1130,6 +1137,7 @@ depends-member:
 - !private ["So8NSCodingP", "setTitle"]
 - ["So8NSCodingP", "setUptableView"]
 - !private ["So8NSCodingP", "showsVerticalScrollIndicator"]
+- !private ["So8NSCodingP", "sleep"]
 - ["So8NSCodingP", "startCourse"]
 - ["So8NSCodingP", "startForm"]
 - ["So8NSCodingP", "tableView"]
@@ -1230,6 +1238,7 @@ depends-member:
 - !private ["So26NSExtensionRequestHandlingP", "selectedIndex"]
 - ["So26NSExtensionRequestHandlingP", "self"]
 - ["So26NSExtensionRequestHandlingP", "setUptableView"]
+- !private ["So26NSExtensionRequestHandlingP", "sleep"]
 - ["So26NSExtensionRequestHandlingP", "startCourse"]
 - ["So26NSExtensionRequestHandlingP", "startForm"]
 - ["So26NSExtensionRequestHandlingP", "tableView"]
@@ -1420,6 +1429,7 @@ depends-member:
 - !private ["So8NSObjectC", "setValue"]
 - !private ["So8NSObjectC", "shared"]
 - !private ["So8NSObjectC", "showsVerticalScrollIndicator"]
+- !private ["So8NSObjectC", "sleep"]
 - !private ["So8NSObjectC", "standard"]
 - !private ["So8NSObjectC", "start"]
 - ["So8NSObjectC", "startCourse"]
@@ -1587,6 +1597,7 @@ depends-member:
 - !private ["So8NSObjectP", "setValue"]
 - !private ["So8NSObjectP", "shared"]
 - !private ["So8NSObjectP", "showsVerticalScrollIndicator"]
+- !private ["So8NSObjectP", "sleep"]
 - !private ["So8NSObjectP", "standard"]
 - ["So8NSObjectP", "start"]
 - ["So8NSObjectP", "startCourse"]
@@ -1904,6 +1915,7 @@ depends-member:
 - !private ["So21UIAppearanceContainerP", "setTitle"]
 - ["So21UIAppearanceContainerP", "setUptableView"]
 - !private ["So21UIAppearanceContainerP", "showsVerticalScrollIndicator"]
+- !private ["So21UIAppearanceContainerP", "sleep"]
 - ["So21UIAppearanceContainerP", "startCourse"]
 - ["So21UIAppearanceContainerP", "startForm"]
 - ["So21UIAppearanceContainerP", "tableView"]
@@ -2007,6 +2019,7 @@ depends-member:
 - !private ["So18UIContentContainerP", "selectedIndex"]
 - ["So18UIContentContainerP", "self"]
 - ["So18UIContentContainerP", "setUptableView"]
+- !private ["So18UIContentContainerP", "sleep"]
 - ["So18UIContentContainerP", "startCourse"]
 - ["So18UIContentContainerP", "startForm"]
 - ["So18UIContentContainerP", "tableView"]
@@ -2296,6 +2309,7 @@ depends-member:
 - !private ["So18UIFocusEnvironmentP", "setTitle"]
 - ["So18UIFocusEnvironmentP", "setUptableView"]
 - !private ["So18UIFocusEnvironmentP", "showsVerticalScrollIndicator"]
+- !private ["So18UIFocusEnvironmentP", "sleep"]
 - ["So18UIFocusEnvironmentP", "startCourse"]
 - ["So18UIFocusEnvironmentP", "startForm"]
 - ["So18UIFocusEnvironmentP", "tableView"]
@@ -2631,6 +2645,7 @@ depends-member:
 - ["So30UIPasteConfigurationSupportingP", "setUptableView"]
 - !private ["So30UIPasteConfigurationSupportingP", "shared"]
 - !private ["So30UIPasteConfigurationSupportingP", "showsVerticalScrollIndicator"]
+- !private ["So30UIPasteConfigurationSupportingP", "sleep"]
 - ["So30UIPasteConfigurationSupportingP", "start"]
 - ["So30UIPasteConfigurationSupportingP", "startCourse"]
 - ["So30UIPasteConfigurationSupportingP", "startForm"]
@@ -2750,6 +2765,7 @@ depends-member:
 - ["So11UIResponderC", "setUptableView"]
 - !private ["So11UIResponderC", "shared"]
 - !private ["So11UIResponderC", "showsVerticalScrollIndicator"]
+- !private ["So11UIResponderC", "sleep"]
 - !private ["So11UIResponderC", "start"]
 - ["So11UIResponderC", "startCourse"]
 - ["So11UIResponderC", "startForm"]
@@ -2869,6 +2885,7 @@ depends-member:
 - ["So30UIResponderStandardEditActionsP", "setUptableView"]
 - !private ["So30UIResponderStandardEditActionsP", "shared"]
 - !private ["So30UIResponderStandardEditActionsP", "showsVerticalScrollIndicator"]
+- !private ["So30UIResponderStandardEditActionsP", "sleep"]
 - ["So30UIResponderStandardEditActionsP", "start"]
 - ["So30UIResponderStandardEditActionsP", "startCourse"]
 - ["So30UIResponderStandardEditActionsP", "startForm"]
@@ -2957,6 +2974,7 @@ depends-member:
 - ["So20UIScrollViewDelegateP", "sectionIndexTitlesForTableView"]
 - ["So20UIScrollViewDelegateP", "self"]
 - ["So20UIScrollViewDelegateP", "setUptableView"]
+- !private ["So20UIScrollViewDelegateP", "sleep"]
 - ["So20UIScrollViewDelegateP", "startCourse"]
 - ["So20UIScrollViewDelegateP", "startForm"]
 - ["So20UIScrollViewDelegateP", "tableView"]
@@ -3049,6 +3067,7 @@ depends-member:
 - !private ["So16UIStateRestoringP", "selectedIndex"]
 - ["So16UIStateRestoringP", "self"]
 - ["So16UIStateRestoringP", "setUptableView"]
+- !private ["So16UIStateRestoringP", "sleep"]
 - ["So16UIStateRestoringP", "startCourse"]
 - ["So16UIStateRestoringP", "startForm"]
 - ["So16UIStateRestoringP", "tableView"]
@@ -3137,6 +3156,7 @@ depends-member:
 - ["So21UITableViewDataSourceP", "sectionIndexTitlesForTableView"]
 - ["So21UITableViewDataSourceP", "self"]
 - ["So21UITableViewDataSourceP", "setUptableView"]
+- !private ["So21UITableViewDataSourceP", "sleep"]
 - ["So21UITableViewDataSourceP", "startCourse"]
 - ["So21UITableViewDataSourceP", "startForm"]
 - ["So21UITableViewDataSourceP", "tableView"]
@@ -3194,6 +3214,7 @@ depends-member:
 - ["So19UITableViewDelegateP", "sectionIndexTitlesForTableView"]
 - ["So19UITableViewDelegateP", "self"]
 - ["So19UITableViewDelegateP", "setUptableView"]
+- !private ["So19UITableViewDelegateP", "sleep"]
 - ["So19UITableViewDelegateP", "startCourse"]
 - ["So19UITableViewDelegateP", "startForm"]
 - ["So19UITableViewDelegateP", "tableView"]
@@ -3299,6 +3320,7 @@ depends-member:
 - !private ["So18UITraitEnvironmentP", "setTitle"]
 - ["So18UITraitEnvironmentP", "setUptableView"]
 - !private ["So18UITraitEnvironmentP", "showsVerticalScrollIndicator"]
+- !private ["So18UITraitEnvironmentP", "sleep"]
 - ["So18UITraitEnvironmentP", "startCourse"]
 - ["So18UITraitEnvironmentP", "startForm"]
 - ["So18UITraitEnvironmentP", "tableView"]
@@ -3416,6 +3438,7 @@ depends-member:
 - ["So23UIUserActivityRestoringP", "setUptableView"]
 - !private ["So23UIUserActivityRestoringP", "shared"]
 - !private ["So23UIUserActivityRestoringP", "showsVerticalScrollIndicator"]
+- !private ["So23UIUserActivityRestoringP", "sleep"]
 - ["So23UIUserActivityRestoringP", "start"]
 - ["So23UIUserActivityRestoringP", "startCourse"]
 - ["So23UIUserActivityRestoringP", "startForm"]
@@ -3546,6 +3569,7 @@ depends-member:
 - !private ["So16UIViewControllerC", "selectedIndex"]
 - ["So16UIViewControllerC", "self"]
 - ["So16UIViewControllerC", "setUptableView"]
+- !private ["So16UIViewControllerC", "sleep"]
 - ["So16UIViewControllerC", "startCourse"]
 - ["So16UIViewControllerC", "startForm"]
 - ["So16UIViewControllerC", "tableView"]
@@ -3689,6 +3713,7 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "setValue"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "shared"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "showsVerticalScrollIndicator"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sleep"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "standard"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "start"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "startCourse"]
@@ -3803,6 +3828,7 @@ depends-member:
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "setValue"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "shared"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "showsVerticalScrollIndicator"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "sleep"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "standard"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "start"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "startCourse"]
@@ -4047,9 +4073,12 @@ depends-nominal:
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMIDI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftUI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMedia.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/simd.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
@@ -4059,7 +4088,9 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/AVFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreAudio.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/CalendarHeatmap/CalendarHeatmap.framework/Modules/CalendarHeatmap.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/SwipeableTabBarController/SwipeableTabBarController.framework/Modules/SwipeableTabBarController.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/Popover/Popover.framework/Modules/Popover.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
@@ -4076,6 +4107,7 @@ depends-external:
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/CollectionViewPagingLayout/CollectionViewPagingLayout.framework/Modules/CollectionViewPagingLayout.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/LinearProgressView/LinearProgressView.framework/Modules/LinearProgressView.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/Onboard/Onboard.framework/Headers/Onboard-umbrella.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/CalendarHeatmap/CalendarHeatmap.framework/Headers/CalendarHeatmap-umbrella.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/SwipeableTabBarController/SwipeableTabBarController.framework/Headers/SwipeableTabBarController-umbrella.h"
@@ -4088,6 +4120,8 @@ depends-external:
 - "/Users/sapientisat/Projects/Supplements/Supplements/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GoogleSignIn.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDAuthentication.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDSignInButton.h"
+- "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/Onboard/Onboard.framework/Headers/OnboardingViewController.h"
+- "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/Onboard/Onboard.framework/Headers/OnboardingContentViewController.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDGoogleUser.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
@@ -4099,6 +4133,7 @@ depends-external:
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/LinearProgressView/LinearProgressView.framework/Headers/LinearProgressView-Swift.h"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/dyld.modulemap"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
+- "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/Onboard/Onboard.framework/Modules/module.modulemap"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
 - "/Users/sapientisat/Projects/Supplements/Supplements/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Modules/module.modulemap"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/CalendarHeatmap/CalendarHeatmap.framework/Modules/module.modulemap"
@@ -4110,6 +4145,7 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/objc/ObjectiveC.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
@@ -4118,13 +4154,18 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/Darwin.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioTypes.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UniformTypeIdentifiers.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/AVKit.framework/Headers/AVKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/HealthKit.framework/Headers/HealthKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
 interface-hash: "9efdb56bb764ddffb78e6b3c69afb7be"

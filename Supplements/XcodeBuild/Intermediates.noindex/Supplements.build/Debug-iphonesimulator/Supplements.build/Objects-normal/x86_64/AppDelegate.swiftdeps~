@@ -61,7 +61,7 @@ depends-top-level:
 - "UIWindow"
 - "URL"
 - "User"
-- !private "UserDefaults"
+- "UserDefaults"
 - "UserNetworkService"
 - "Void"
 - !private "isColdStart"
@@ -217,6 +217,7 @@ depends-member:
 - !private ["s7CVarArgP", "pushViewController"]
 - !private ["s7CVarArgP", "rootViewController"]
 - !private ["s7CVarArgP", "selectedViewController"]
+- !private ["s7CVarArgP", "setValue"]
 - !private ["s7CVarArgP", "setViewControllers"]
 - !private ["s7CVarArgP", "shadowImage"]
 - !private ["s7CVarArgP", "sharedInstance"]
@@ -324,6 +325,7 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "pushViewController"]
 - !private ["s28CustomDebugStringConvertibleP", "rootViewController"]
 - !private ["s28CustomDebugStringConvertibleP", "selectedViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "setValue"]
 - !private ["s28CustomDebugStringConvertibleP", "setViewControllers"]
 - !private ["s28CustomDebugStringConvertibleP", "shadowImage"]
 - !private ["s28CustomDebugStringConvertibleP", "sharedInstance"]
@@ -424,6 +426,7 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "pushViewController"]
 - !private ["s23CustomStringConvertibleP", "rootViewController"]
 - !private ["s23CustomStringConvertibleP", "selectedViewController"]
+- !private ["s23CustomStringConvertibleP", "setValue"]
 - !private ["s23CustomStringConvertibleP", "setViewControllers"]
 - !private ["s23CustomStringConvertibleP", "shadowImage"]
 - !private ["s23CustomStringConvertibleP", "sharedInstance"]
@@ -547,6 +550,7 @@ depends-member:
 - !private ["SQ", "rawValue"]
 - !private ["SQ", "rootViewController"]
 - !private ["SQ", "selectedViewController"]
+- !private ["SQ", "setValue"]
 - !private ["SQ", "setViewControllers"]
 - !private ["SQ", "shadowImage"]
 - !private ["SQ", "sharedInstance"]
@@ -746,6 +750,7 @@ depends-member:
 - !private ["SH", "rawValue"]
 - !private ["SH", "rootViewController"]
 - !private ["SH", "selectedViewController"]
+- !private ["SH", "setValue"]
 - !private ["SH", "setViewControllers"]
 - !private ["SH", "shadowImage"]
 - !private ["SH", "sharedInstance"]
@@ -924,6 +929,7 @@ depends-member:
 - !private ["So8NSObjectC", "pushViewController"]
 - !private ["So8NSObjectC", "rootViewController"]
 - !private ["So8NSObjectC", "selectedViewController"]
+- !private ["So8NSObjectC", "setValue"]
 - !private ["So8NSObjectC", "setViewControllers"]
 - !private ["So8NSObjectC", "shadowImage"]
 - !private ["So8NSObjectC", "sharedInstance"]
@@ -1034,6 +1040,7 @@ depends-member:
 - !private ["So8NSObjectP", "pushViewController"]
 - !private ["So8NSObjectP", "rootViewController"]
 - !private ["So8NSObjectP", "selectedViewController"]
+- !private ["So8NSObjectP", "setValue"]
 - !private ["So8NSObjectP", "setViewControllers"]
 - !private ["So8NSObjectP", "shadowImage"]
 - !private ["So8NSObjectP", "sharedInstance"]
@@ -1738,6 +1745,7 @@ depends-member:
 - !private ["11Supplements4UserV", "image"]
 - !private ["11Supplements4UserV", "init"]
 - !private ["So14NSUserDefaultsC", "bool"]
+- !private ["So14NSUserDefaultsC", "setValue"]
 - !private ["So14NSUserDefaultsC", "standard"]
 - ["11Supplements18UserNetworkServiceC", "init"]
 - !private ["7SwiftUI4ViewP", "clientID"]
@@ -1829,6 +1837,7 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "pushViewController"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "rootViewController"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "selectedViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setValue"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "setViewControllers"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "shadowImage"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "sharedInstance"]
@@ -1914,6 +1923,7 @@ depends-member:
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "pushViewController"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "rootViewController"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "selectedViewController"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "setValue"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "setViewControllers"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "shadowImage"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "sharedInstance"]
