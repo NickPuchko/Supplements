@@ -23,7 +23,11 @@ provides-dynamic-lookup:
 - "tableView"
 - "viewDidLoad"
 depends-top-level:
+- !private "+="
+- !private "..<"
 - "/"
+- !private "<"
+- !private "=="
 - !private "??"
 - !private "Array"
 - "AssignmentPrecedence"
@@ -71,9 +75,12 @@ depends-top-level:
 - !private "~="
 depends-member:
 - ["s18AdditiveArithmeticP", ""]
+- !private ["s18AdditiveArithmeticP", "random"]
 - !private ["9Alamofire0A8ExtendedP", "main"]
 - !private ["9Alamofire0A8ExtendedP", "url"]
-- !private ["SK", ""]
+- ["SK", ""]
+- !private ["Sz", ""]
+- !private ["Sz", "random"]
 - !private ["So8NSBundleC", "main"]
 - !private ["So8NSBundleC", "url"]
 - !private ["So7CALayerC", "cornerRadius"]
@@ -111,11 +118,13 @@ depends-member:
 - !private ["So15CALayerDelegateP", "weekLabel"]
 - !private ["So13CAMediaTimingP", "cornerRadius"]
 - ["8CloudKit21CKRecordValueProtocolP", "init"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "random"]
 - !private ["s7CVarArgP", "Bundle"]
 - ["s7CVarArgP", "CalendarHeatmap"]
 - ["s7CVarArgP", "CalendarHeatmapConfig"]
 - ["s7CVarArgP", "Date"]
 - ["s7CVarArgP", "DateFormatter"]
+- !private ["s7CVarArgP", "Int"]
 - !private ["s7CVarArgP", "NSDictionary"]
 - !private ["s7CVarArgP", "NSLayoutConstraint"]
 - !private ["s7CVarArgP", "PillsCell"]
@@ -146,6 +155,7 @@ depends-member:
 - ["s7CVarArgP", "didSelectedAt"]
 - !private ["s7CVarArgP", "doseLabel"]
 - ["s7CVarArgP", "finishLoadCalendar"]
+- !private ["s7CVarArgP", "green"]
 - !private ["s7CVarArgP", "heightAnchor"]
 - !private ["s7CVarArgP", "image"]
 - ["s7CVarArgP", "indexPathForPreferredFocusedView"]
@@ -165,6 +175,7 @@ depends-member:
 - !private ["s7CVarArgP", "pillNameLabel"]
 - !private ["s7CVarArgP", "pillsTableView"]
 - !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "random"]
 - ["s7CVarArgP", "readHeatmap"]
 - !private ["s7CVarArgP", "register"]
 - !private ["s7CVarArgP", "rowHeight"]
@@ -229,6 +240,7 @@ depends-member:
 - ["15CalendarHeatmap0aB8DelegateP", "CalendarHeatmapConfig"]
 - ["15CalendarHeatmap0aB8DelegateP", "Date"]
 - ["15CalendarHeatmap0aB8DelegateP", "DateFormatter"]
+- !private ["15CalendarHeatmap0aB8DelegateP", "Int"]
 - !private ["15CalendarHeatmap0aB8DelegateP", "NSDictionary"]
 - !private ["15CalendarHeatmap0aB8DelegateP", "NSLayoutConstraint"]
 - !private ["15CalendarHeatmap0aB8DelegateP", "PillsCell"]
@@ -279,11 +291,18 @@ depends-member:
 - ["15CalendarHeatmap0aB8DelegateP", "viewDidLoad"]
 - ["15CalendarHeatmap0aB8DelegateP", "viewForZooming"]
 - ["15CalendarHeatmap0aB8DelegateP", "viewForZoomingInScrollView"]
-- !private ["Sl", ""]
+- ["Sl", ""]
 - ["Sl", "mapValues"]
 - !private ["Sl", "subscript"]
 - ["SL", ""]
 - ["SL", "init"]
+- !private ["SL", "random"]
+- !private ["7SnapKit24ConstraintConstantTargetP", ""]
+- !private ["7SnapKit24ConstraintConstantTargetP", "random"]
+- !private ["7SnapKit21ConstraintInsetTargetP", "random"]
+- !private ["7SnapKit26ConstraintMultiplierTargetP", "random"]
+- !private ["7SnapKit22ConstraintOffsetTargetP", "random"]
+- !private ["7SnapKit24ConstraintPriorityTargetP", "random"]
 - !private ["7SnapKit25ConstraintRelatableTargetP", "addSubview"]
 - !private ["7SnapKit25ConstraintRelatableTargetP", "backgroundColor"]
 - !private ["7SnapKit25ConstraintRelatableTargetP", "bottomAnchor"]
@@ -302,6 +321,7 @@ depends-member:
 - !private ["7SnapKit25ConstraintRelatableTargetP", "leadingAnchor"]
 - !private ["7SnapKit25ConstraintRelatableTargetP", "logoImageView"]
 - !private ["7SnapKit25ConstraintRelatableTargetP", "pillNameLabel"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "random"]
 - !private ["7SnapKit25ConstraintRelatableTargetP", "register"]
 - !private ["7SnapKit25ConstraintRelatableTargetP", "rowHeight"]
 - !private ["7SnapKit25ConstraintRelatableTargetP", "safeAreaLayoutGuide"]
@@ -316,6 +336,7 @@ depends-member:
 - ["s28CustomDebugStringConvertibleP", "CalendarHeatmapConfig"]
 - ["s28CustomDebugStringConvertibleP", "Date"]
 - ["s28CustomDebugStringConvertibleP", "DateFormatter"]
+- !private ["s28CustomDebugStringConvertibleP", "Int"]
 - !private ["s28CustomDebugStringConvertibleP", "NSDictionary"]
 - !private ["s28CustomDebugStringConvertibleP", "NSLayoutConstraint"]
 - !private ["s28CustomDebugStringConvertibleP", "PillsCell"]
@@ -347,6 +368,7 @@ depends-member:
 - ["s28CustomDebugStringConvertibleP", "didSelectedAt"]
 - !private ["s28CustomDebugStringConvertibleP", "doseLabel"]
 - ["s28CustomDebugStringConvertibleP", "finishLoadCalendar"]
+- !private ["s28CustomDebugStringConvertibleP", "green"]
 - !private ["s28CustomDebugStringConvertibleP", "heightAnchor"]
 - !private ["s28CustomDebugStringConvertibleP", "image"]
 - ["s28CustomDebugStringConvertibleP", "indexPathForPreferredFocusedView"]
@@ -412,6 +434,7 @@ depends-member:
 - !private ["s17CustomReflectableP", "leadingAnchor"]
 - ["s17CustomReflectableP", "mapValues"]
 - !private ["s17CustomReflectableP", "month"]
+- !private ["s17CustomReflectableP", "random"]
 - !private ["s17CustomReflectableP", "safeAreaLayoutGuide"]
 - !private ["s17CustomReflectableP", "subscript"]
 - !private ["s17CustomReflectableP", "trailingAnchor"]
@@ -422,6 +445,7 @@ depends-member:
 - ["s23CustomStringConvertibleP", "CalendarHeatmapConfig"]
 - ["s23CustomStringConvertibleP", "Date"]
 - ["s23CustomStringConvertibleP", "DateFormatter"]
+- !private ["s23CustomStringConvertibleP", "Int"]
 - !private ["s23CustomStringConvertibleP", "NSDictionary"]
 - !private ["s23CustomStringConvertibleP", "NSLayoutConstraint"]
 - !private ["s23CustomStringConvertibleP", "PillsCell"]
@@ -455,6 +479,7 @@ depends-member:
 - ["s23CustomStringConvertibleP", "didSelectedAt"]
 - !private ["s23CustomStringConvertibleP", "doseLabel"]
 - ["s23CustomStringConvertibleP", "finishLoadCalendar"]
+- !private ["s23CustomStringConvertibleP", "green"]
 - !private ["s23CustomStringConvertibleP", "heightAnchor"]
 - !private ["s23CustomStringConvertibleP", "image"]
 - ["s23CustomStringConvertibleP", "indexPathForPreferredFocusedView"]
@@ -475,6 +500,7 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "pillNameLabel"]
 - !private ["s23CustomStringConvertibleP", "pillsTableView"]
 - !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "random"]
 - ["s23CustomStringConvertibleP", "readHeatmap"]
 - !private ["s23CustomStringConvertibleP", "register"]
 - !private ["s23CustomStringConvertibleP", "rowHeight"]
@@ -526,6 +552,7 @@ depends-member:
 - !private ["Se", "leadingAnchor"]
 - ["Se", "mapValues"]
 - !private ["Se", "month"]
+- !private ["Se", "random"]
 - !private ["Se", "safeAreaLayoutGuide"]
 - !private ["Se", "subscript"]
 - !private ["Se", "trailingAnchor"]
@@ -542,6 +569,7 @@ depends-member:
 - !private ["SE", "leadingAnchor"]
 - ["SE", "mapValues"]
 - !private ["SE", "month"]
+- !private ["SE", "random"]
 - !private ["SE", "safeAreaLayoutGuide"]
 - !private ["SE", "subscript"]
 - !private ["SE", "trailingAnchor"]
@@ -552,6 +580,7 @@ depends-member:
 - ["SQ", "CalendarHeatmapConfig"]
 - ["SQ", "Date"]
 - ["SQ", "DateFormatter"]
+- !private ["SQ", "Int"]
 - !private ["SQ", "NSDictionary"]
 - !private ["SQ", "NSLayoutConstraint"]
 - !private ["SQ", "PillsCell"]
@@ -583,6 +612,7 @@ depends-member:
 - ["SQ", "didSelectedAt"]
 - !private ["SQ", "doseLabel"]
 - ["SQ", "finishLoadCalendar"]
+- !private ["SQ", "green"]
 - !private ["SQ", "heightAnchor"]
 - !private ["SQ", "image"]
 - ["SQ", "indexPathForPreferredFocusedView"]
@@ -603,6 +633,7 @@ depends-member:
 - !private ["SQ", "pillNameLabel"]
 - !private ["SQ", "pillsTableView"]
 - !private ["SQ", "print"]
+- !private ["SQ", "random"]
 - ["SQ", "readHeatmap"]
 - !private ["SQ", "register"]
 - !private ["SQ", "right"]
@@ -650,13 +681,14 @@ depends-member:
 - ["s30ExpressibleByDictionaryLiteralP", "init"]
 - ["s30ExpressibleByDictionaryLiteralP", "mapValues"]
 - !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
-- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
 - !private ["s25ExpressibleByFloatLiteralP", "FloatLiteralType"]
 - ["s25ExpressibleByFloatLiteralP", ""]
 - !private ["s25ExpressibleByFloatLiteralP", "init"]
 - ["s27ExpressibleByIntegerLiteralP", "IntegerLiteralType"]
 - ["s27ExpressibleByIntegerLiteralP", ""]
 - ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "random"]
 - !private ["s23ExpressibleByNilLiteralP", "addSubview"]
 - !private ["s23ExpressibleByNilLiteralP", "backgroundColor"]
 - !private ["s23ExpressibleByNilLiteralP", "leadingAnchor"]
@@ -664,10 +696,11 @@ depends-member:
 - !private ["s23ExpressibleByNilLiteralP", "trailingAnchor"]
 - !private ["s23ExpressibleByNilLiteralP", "white"]
 - !private ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
-- !private ["s32ExpressibleByStringInterpolationP", ""]
+- ["s32ExpressibleByStringInterpolationP", ""]
 - !private ["s32ExpressibleByStringInterpolationP", "init"]
-- !private ["s26ExpressibleByStringLiteralP", ""]
-- !private ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- ["s26ExpressibleByStringLiteralP", ""]
+- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["s17FixedWidthIntegerP", "random"]
 - ["SF", ""]
 - ["So11NSFormatterC", ""]
 - ["So11NSFormatterC", "init"]
@@ -683,6 +716,7 @@ depends-member:
 - ["SH", "CalendarHeatmapConfig"]
 - ["SH", "Date"]
 - ["SH", "DateFormatter"]
+- !private ["SH", "Int"]
 - !private ["SH", "NSDictionary"]
 - !private ["SH", "NSLayoutConstraint"]
 - !private ["SH", "PillsCell"]
@@ -714,6 +748,7 @@ depends-member:
 - ["SH", "didSelectedAt"]
 - !private ["SH", "doseLabel"]
 - ["SH", "finishLoadCalendar"]
+- !private ["SH", "green"]
 - !private ["SH", "heightAnchor"]
 - !private ["SH", "image"]
 - ["SH", "indexPathForPreferredFocusedView"]
@@ -734,6 +769,7 @@ depends-member:
 - !private ["SH", "pillNameLabel"]
 - !private ["SH", "pillsTableView"]
 - !private ["SH", "print"]
+- !private ["SH", "random"]
 - ["SH", "readHeatmap"]
 - !private ["SH", "register"]
 - !private ["SH", "rowHeight"]
@@ -772,6 +808,8 @@ depends-member:
 - !private ["SH", "weekLabel"]
 - ["SH", "white"]
 - !private ["SH", "year"]
+- !private ["Si", "random"]
+- !private ["10SwiftyJSON17JSONSubscriptTypeP", "random"]
 - !private ["7SnapKit20LayoutConstraintItemP", "addSubview"]
 - !private ["7SnapKit20LayoutConstraintItemP", "backgroundColor"]
 - !private ["7SnapKit20LayoutConstraintItemP", "bottomAnchor"]
@@ -799,7 +837,9 @@ depends-member:
 - !private ["7SnapKit20LayoutConstraintItemP", "trailingAnchor"]
 - !private ["7SnapKit20LayoutConstraintItemP", "translatesAutoresizingMaskIntoConstraints"]
 - !private ["7SnapKit20LayoutConstraintItemP", "weekLabel"]
-- !private ["s25LosslessStringConvertibleP", ""]
+- ["s25LosslessStringConvertibleP", ""]
+- !private ["s25LosslessStringConvertibleP", "random"]
+- !private ["s10MirrorPathP", "random"]
 - ["So8NSCodingP", "$__lazy_storage_$_calendarHeatMap"]
 - ["So8NSCodingP", "$__lazy_storage_$_data"]
 - ["So8NSCodingP", "$__lazy_storage_$_model"]
@@ -867,6 +907,7 @@ depends-member:
 - ["So8NSCodingP", "didSelectedAt"]
 - !private ["So8NSCodingP", "doseLabel"]
 - ["So8NSCodingP", "finishLoadCalendar"]
+- !private ["So8NSCodingP", "green"]
 - !private ["So8NSCodingP", "heightAnchor"]
 - !private ["So8NSCodingP", "image"]
 - ["So8NSCodingP", "indexPathForPreferredFocusedView"]
@@ -942,6 +983,7 @@ depends-member:
 - !private ["So9NSCopyingP", "constraintLessThanOrEqualToSystemSpacingAfterAnchor"]
 - !private ["So9NSCopyingP", "constraintLessThanOrEqualToSystemSpacingBelow"]
 - !private ["So9NSCopyingP", "constraintLessThanOrEqualToSystemSpacingBelowAnchor"]
+- !private ["So9NSCopyingP", "green"]
 - ["So9NSCopyingP", "init"]
 - ["So9NSCopyingP", "shortMonthSymbols"]
 - ["So9NSCopyingP", "systemFont"]
@@ -1018,9 +1060,11 @@ depends-member:
 - !private ["So17NSFastEnumerationP", "init"]
 - !private ["So20NSFetchRequestResultP", "init"]
 - !private ["So21NSItemProviderReadingP", "clear"]
+- !private ["So21NSItemProviderReadingP", "green"]
 - ["So21NSItemProviderReadingP", "init"]
 - ["So21NSItemProviderReadingP", "white"]
 - !private ["So21NSItemProviderWritingP", "clear"]
+- !private ["So21NSItemProviderWritingP", "green"]
 - ["So21NSItemProviderWritingP", "init"]
 - ["So21NSItemProviderWritingP", "white"]
 - ["So14NSLayoutAnchorC", ""]
@@ -1134,6 +1178,7 @@ depends-member:
 - ["So8NSObjectC", "didSelectedAt"]
 - !private ["So8NSObjectC", "doseLabel"]
 - ["So8NSObjectC", "finishLoadCalendar"]
+- !private ["So8NSObjectC", "green"]
 - !private ["So8NSObjectC", "heightAnchor"]
 - !private ["So8NSObjectC", "image"]
 - !private ["So8NSObjectC", "imageNamed"]
@@ -1286,6 +1331,7 @@ depends-member:
 - ["So8NSObjectP", "didSelectedAt"]
 - !private ["So8NSObjectP", "doseLabel"]
 - ["So8NSObjectP", "finishLoadCalendar"]
+- !private ["So8NSObjectP", "green"]
 - !private ["So8NSObjectP", "heightAnchor"]
 - !private ["So8NSObjectP", "image"]
 - !private ["So8NSObjectP", "imageNamed"]
@@ -1354,9 +1400,11 @@ depends-member:
 - ["So8NSObjectP", "white"]
 - !private ["So14NSSecureCodingP", "clear"]
 - !private ["So14NSSecureCodingP", "cornerRadius"]
+- !private ["So14NSSecureCodingP", "green"]
 - ["So14NSSecureCodingP", "init"]
 - ["So14NSSecureCodingP", "white"]
 - ["Sj", ""]
+- !private ["Sj", "random"]
 - !private ["s9OptionSetP", "right"]
 - !private ["Sq", "addSubview"]
 - !private ["Sq", "backgroundColor"]
@@ -1376,6 +1424,7 @@ depends-member:
 - ["10Foundation20ReferenceConvertibleP", "init"]
 - !private ["10Foundation20ReferenceConvertibleP", "month"]
 - !private ["10Foundation20ReferenceConvertibleP", "year"]
+- !private ["s10SIMDScalarP", "random"]
 - !private ["So30UICollectionViewScrollPositionV", "right"]
 - ["ST", ""]
 - !private ["ST", "init"]
@@ -1383,15 +1432,18 @@ depends-member:
 - !private ["ST", "subscript"]
 - !private ["s10SetAlgebraP", ""]
 - !private ["s10SetAlgebraP", "right"]
+- !private ["SZ", "random"]
 - ["s13SignedNumericP", ""]
+- !private ["s13SignedNumericP", "random"]
 - ["Sx", ""]
+- !private ["Sx", "random"]
 - !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
 - !private ["s27StringInterpolationProtocolP", "appendLiteral"]
 - !private ["s27StringInterpolationProtocolP", "init"]
-- !private ["s16TextOutputStreamP", ""]
+- ["s16TextOutputStreamP", ""]
 - !private ["s16TextOutputStreamP", "appendInterpolation"]
 - !private ["s16TextOutputStreamP", "appendLiteral"]
-- !private ["s20TextOutputStreamableP", ""]
+- ["s20TextOutputStreamableP", ""]
 - ["11Supplements10TodayModelC", "init"]
 - !private ["11Supplements19TodayViewControllerC", "$__lazy_storage_$_calendarHeatMap"]
 - !private ["11Supplements19TodayViewControllerC", "$__lazy_storage_$_data"]
@@ -1639,6 +1691,7 @@ depends-member:
 - !private ["So24UICollectionViewDelegateP", "trailingAnchor"]
 - !private ["So24UICollectionViewDelegateP", "translatesAutoresizingMaskIntoConstraints"]
 - !private ["So7UIColorC", "clear"]
+- !private ["So7UIColorC", "green"]
 - ["So7UIColorC", "init"]
 - ["So7UIColorC", "white"]
 - ["So18UIContentContainerP", "$__lazy_storage_$_calendarHeatMap"]
@@ -2333,6 +2386,7 @@ depends-member:
 - ["So20UIScrollViewDelegateP", "CalendarHeatmapConfig"]
 - ["So20UIScrollViewDelegateP", "Date"]
 - ["So20UIScrollViewDelegateP", "DateFormatter"]
+- !private ["So20UIScrollViewDelegateP", "Int"]
 - !private ["So20UIScrollViewDelegateP", "NSDictionary"]
 - !private ["So20UIScrollViewDelegateP", "NSLayoutConstraint"]
 - !private ["So20UIScrollViewDelegateP", "PillsCell"]
@@ -2497,6 +2551,7 @@ depends-member:
 - ["So21UITableViewDataSourceP", "CalendarHeatmapConfig"]
 - ["So21UITableViewDataSourceP", "Date"]
 - ["So21UITableViewDataSourceP", "DateFormatter"]
+- !private ["So21UITableViewDataSourceP", "Int"]
 - !private ["So21UITableViewDataSourceP", "NSDictionary"]
 - !private ["So21UITableViewDataSourceP", "NSLayoutConstraint"]
 - !private ["So21UITableViewDataSourceP", "PillsCell"]
@@ -2555,6 +2610,7 @@ depends-member:
 - ["So19UITableViewDelegateP", "CalendarHeatmapConfig"]
 - ["So19UITableViewDelegateP", "Date"]
 - ["So19UITableViewDelegateP", "DateFormatter"]
+- !private ["So19UITableViewDelegateP", "Int"]
 - !private ["So19UITableViewDelegateP", "NSDictionary"]
 - !private ["So19UITableViewDelegateP", "NSLayoutConstraint"]
 - !private ["So19UITableViewDelegateP", "PillsCell"]
@@ -2911,24 +2967,30 @@ depends-member:
 - !private ["7SwiftUI4ViewP", "trailingAnchor"]
 - !private ["7SwiftUI4ViewP", "white"]
 - ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "random"]
 - ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
-- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
 - !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
 - ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "random"]
 - ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
-- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
 - !private ["s26_ExpressibleByColorLiteralP", "clear"]
+- !private ["s26_ExpressibleByColorLiteralP", "green"]
 - ["s26_ExpressibleByColorLiteralP", "init"]
 - ["s26_ExpressibleByColorLiteralP", "white"]
 - !private ["s26_ExpressibleByImageLiteralP", "init"]
+- !private ["7SwiftUI18_FormatSpecifiableP", "random"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
 - ["s35_HasCustomAnyHashableRepresentationP", "mapValues"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "random"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "Bundle"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "CalendarHeatmap"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "CalendarHeatmapConfig"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "Date"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "DateFormatter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Int"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "NSDictionary"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "NSLayoutConstraint"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "PillsCell"]
@@ -2959,6 +3021,7 @@ depends-member:
 - ["10Foundation27_KeyValueCodingAndObservingP", "didSelectedAt"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "doseLabel"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "finishLoadCalendar"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "green"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "heightAnchor"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "image"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "indexPathForPreferredFocusedView"]
@@ -3018,6 +3081,7 @@ depends-member:
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "CalendarHeatmapConfig"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Date"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "DateFormatter"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Int"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "NSDictionary"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "NSLayoutConstraint"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "PillsCell"]
@@ -3048,6 +3112,7 @@ depends-member:
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "didSelectedAt"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "doseLabel"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "finishLoadCalendar"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "green"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "heightAnchor"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "image"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "indexPathForPreferredFocusedView"]
@@ -3115,6 +3180,7 @@ depends-member:
 - !private ["s21_ObjectiveCBridgeableP", "leadingAnchor"]
 - ["s21_ObjectiveCBridgeableP", "mapValues"]
 - !private ["s21_ObjectiveCBridgeableP", "month"]
+- !private ["s21_ObjectiveCBridgeableP", "random"]
 - !private ["s21_ObjectiveCBridgeableP", "safeAreaLayoutGuide"]
 - !private ["s21_ObjectiveCBridgeableP", "subscript"]
 - !private ["s21_ObjectiveCBridgeableP", "trailingAnchor"]
@@ -3150,7 +3216,8 @@ depends-member:
 depends-nominal:
 - "s18AdditiveArithmeticP"
 - !private "9Alamofire0A8ExtendedP"
-- !private "SK"
+- "SK"
+- !private "Sz"
 - !private "So8NSBundleC"
 - !private "So7CALayerC"
 - "So15CALayerDelegateP"
@@ -3162,6 +3229,11 @@ depends-nominal:
 - "15CalendarHeatmap0aB8DelegateP"
 - "Sl"
 - "SL"
+- !private "7SnapKit24ConstraintConstantTargetP"
+- !private "7SnapKit21ConstraintInsetTargetP"
+- !private "7SnapKit26ConstraintMultiplierTargetP"
+- !private "7SnapKit22ConstraintOffsetTargetP"
+- !private "7SnapKit24ConstraintPriorityTargetP"
 - "7SnapKit25ConstraintRelatableTargetP"
 - "s28CustomDebugStringConvertibleP"
 - "s17CustomReflectableP"
@@ -3176,19 +3248,23 @@ depends-nominal:
 - "SQ"
 - !private "s25ExpressibleByArrayLiteralP"
 - "s30ExpressibleByDictionaryLiteralP"
-- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
 - "s25ExpressibleByFloatLiteralP"
 - "s27ExpressibleByIntegerLiteralP"
 - !private "s23ExpressibleByNilLiteralP"
-- !private "s32ExpressibleByStringInterpolationP"
-- !private "s26ExpressibleByStringLiteralP"
-- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s32ExpressibleByStringInterpolationP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
 - "SF"
 - "So11NSFormatterC"
 - !private "7SwiftUI7GestureP"
 - "SH"
+- !private "Si"
+- !private "10SwiftyJSON17JSONSubscriptTypeP"
 - "7SnapKit20LayoutConstraintItemP"
-- !private "s25LosslessStringConvertibleP"
+- "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
 - "So8NSCodingP"
 - "So9NSCopyingP"
 - !private "So12NSDictionaryC"
@@ -3213,14 +3289,16 @@ depends-nominal:
 - !private "11Supplements15PillsHeaderViewC"
 - !private "SY"
 - "10Foundation20ReferenceConvertibleP"
+- !private "s10SIMDScalarP"
 - !private "So30UICollectionViewScrollPositionV"
 - "ST"
 - !private "s10SetAlgebraP"
+- !private "SZ"
 - "s13SignedNumericP"
 - "Sx"
 - !private "s27StringInterpolationProtocolP"
-- !private "s16TextOutputStreamP"
-- !private "s20TextOutputStreamableP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
 - "11Supplements10TodayModelC"
 - "11Supplements19TodayViewControllerC"
 - !private "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
@@ -3270,13 +3348,14 @@ depends-nominal:
 - !private "7SwiftUI4ViewP"
 - "s30_CustomPlaygroundQuickLookableP"
 - "s35_ExpressibleByBuiltinBooleanLiteralP"
-- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
 - !private "s33_ExpressibleByBuiltinFloatLiteralP"
 - "s35_ExpressibleByBuiltinIntegerLiteralP"
 - "s34_ExpressibleByBuiltinStringLiteralP"
-- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
 - "s26_ExpressibleByColorLiteralP"
 - !private "s26_ExpressibleByImageLiteralP"
+- !private "7SwiftUI18_FormatSpecifiableP"
 - "s35_HasCustomAnyHashableRepresentationP"
 - "10Foundation27_KeyValueCodingAndObservingP"
 - "10Foundation37_KeyValueCodingAndObservingPublishingP"
@@ -3286,6 +3365,7 @@ depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftUI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
@@ -3312,6 +3392,7 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/DeveloperToolsSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/CollectionViewPagingLayout/CollectionViewPagingLayout.framework/Modules/CollectionViewPagingLayout.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/LinearProgressView/LinearProgressView.framework/Modules/LinearProgressView.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/CalendarHeatmap/CalendarHeatmap.framework/Headers/CalendarHeatmap-umbrella.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/SwipeableTabBarController/SwipeableTabBarController.framework/Headers/SwipeableTabBarController-umbrella.h"
@@ -3325,6 +3406,7 @@ depends-external:
 - "/Users/sapientisat/Projects/Supplements/Supplements/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDAuthentication.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDSignInButton.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDGoogleUser.h"
+- "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/CalendarHeatmap/CalendarHeatmap.framework/Headers/CalendarHeatmap-Swift.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/SwipeableTabBarController/SwipeableTabBarController.framework/Headers/SwipeableTabBarController-Swift.h"
@@ -3333,6 +3415,7 @@ depends-external:
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/CollectionViewPagingLayout/CollectionViewPagingLayout.framework/Headers/CollectionViewPagingLayout-Swift.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/LinearProgressView/LinearProgressView.framework/Headers/LinearProgressView-Swift.h"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
 - "/Users/sapientisat/Projects/Supplements/Supplements/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Modules/module.modulemap"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/CalendarHeatmap/CalendarHeatmap.framework/Modules/module.modulemap"
@@ -3361,4 +3444,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/HealthKit.framework/Headers/HealthKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "7bddcbcf47e968f1c9e258523458fa9b"
+interface-hash: "f4397d3c7a27ffbfb8dcc452d0b4c9cd"

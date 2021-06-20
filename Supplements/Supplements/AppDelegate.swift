@@ -110,5 +110,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
 		tabBar.tabBar.shadowImage = UIImage()
 		window?.rootViewController = tabBar
 
+		let def = DeficitViewController()
+		tabBar.present(def, animated: true, completion: nil)
+
 	}
 }

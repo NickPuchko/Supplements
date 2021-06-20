@@ -40,7 +40,10 @@ depends-top-level:
 - !private "trailingAnchor"
 depends-member:
 - !private ["So28UITableViewCellAccessoryTypeV", "none"]
+- !private ["s18AdditiveArithmeticP", ""]
+- ["SK", ""]
 - ["So15CALayerDelegateP", "CellStyle"]
+- ["So15CALayerDelegateP", "NSCoder"]
 - !private ["So15CALayerDelegateP", "NSLayoutConstraint"]
 - ["So15CALayerDelegateP", "String"]
 - !private ["So15CALayerDelegateP", "UIColor"]
@@ -103,6 +106,8 @@ depends-member:
 - !private ["s7CVarArgP", "trailingAnchor"]
 - !private ["s7CVarArgP", "translatesAutoresizingMaskIntoConstraints"]
 - !private ["s7CVarArgP", "widthAnchor"]
+- ["Sl", ""]
+- ["SL", ""]
 - ["7SnapKit25ConstraintRelatableTargetP", "CellStyle"]
 - !private ["7SnapKit25ConstraintRelatableTargetP", "NSLayoutConstraint"]
 - !private ["7SnapKit25ConstraintRelatableTargetP", "UIColor"]
@@ -233,9 +238,16 @@ depends-member:
 - !private ["SQ", "translatesAutoresizingMaskIntoConstraints"]
 - !private ["SQ", "widthAnchor"]
 - !private ["s25ExpressibleByArrayLiteralP", "init"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s25ExpressibleByFloatLiteralP", ""]
 - !private ["s27ExpressibleByIntegerLiteralP", "IntegerLiteralType"]
+- !private ["s27ExpressibleByIntegerLiteralP", ""]
 - !private ["s27ExpressibleByIntegerLiteralP", "init"]
 - !private ["s23ExpressibleByNilLiteralP", "black"]
+- ["s32ExpressibleByStringInterpolationP", ""]
+- ["s26ExpressibleByStringLiteralP", ""]
+- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["SF", ""]
 - !private ["7SwiftUI7GestureP", "black"]
 - ["SH", "CellStyle"]
 - !private ["SH", "NSLayoutConstraint"]
@@ -299,7 +311,9 @@ depends-member:
 - !private ["7SnapKit20LayoutConstraintItemP", "trailingAnchor"]
 - !private ["7SnapKit20LayoutConstraintItemP", "translatesAutoresizingMaskIntoConstraints"]
 - !private ["7SnapKit20LayoutConstraintItemP", "widthAnchor"]
+- ["s25LosslessStringConvertibleP", ""]
 - ["So8NSCodingP", "CellStyle"]
+- ["So8NSCodingP", "NSCoder"]
 - !private ["So8NSCodingP", "NSLayoutConstraint"]
 - ["So8NSCodingP", "String"]
 - !private ["So8NSCodingP", "UIColor"]
@@ -417,6 +431,15 @@ depends-member:
 - !private ["So8NSObjectC", "bottomAnchor"]
 - !private ["So8NSObjectC", "centerYAnchor"]
 - !private ["So8NSObjectC", "clipsToBounds"]
+- !private ["So8NSObjectC", "colorNamed"]
+- !private ["So8NSObjectC", "colorWithCGColor"]
+- !private ["So8NSObjectC", "colorWithCIColor"]
+- !private ["So8NSObjectC", "colorWithDisplayP3Red"]
+- !private ["So8NSObjectC", "colorWithDynamicProvider"]
+- !private ["So8NSObjectC", "colorWithHue"]
+- !private ["So8NSObjectC", "colorWithPatternImage"]
+- !private ["So8NSObjectC", "colorWithRed"]
+- !private ["So8NSObjectC", "colorWithWhite"]
 - ["So8NSObjectC", "configureUI"]
 - !private ["So8NSObjectC", "constraint"]
 - !private ["So8NSObjectC", "constraintEqualToAnchor"]
@@ -440,6 +463,8 @@ depends-member:
 - ["So8NSObjectC", "doseLabel"]
 - !private ["So8NSObjectC", "fatalError"]
 - !private ["So8NSObjectC", "font"]
+- !private ["So8NSObjectC", "fontWithDescriptor"]
+- !private ["So8NSObjectC", "fontWithName"]
 - !private ["So8NSObjectC", "heightAnchor"]
 - ["So8NSObjectC", "init"]
 - ["So8NSObjectC", "lableDate"]
@@ -454,6 +479,7 @@ depends-member:
 - !private ["So8NSObjectC", "translatesAutoresizingMaskIntoConstraints"]
 - !private ["So8NSObjectC", "widthAnchor"]
 - ["So8NSObjectP", "CellStyle"]
+- ["So8NSObjectP", "NSCoder"]
 - !private ["So8NSObjectP", "NSLayoutConstraint"]
 - ["So8NSObjectP", "String"]
 - !private ["So8NSObjectP", "UIColor"]
@@ -470,6 +496,15 @@ depends-member:
 - !private ["So8NSObjectP", "bottomAnchor"]
 - !private ["So8NSObjectP", "centerYAnchor"]
 - !private ["So8NSObjectP", "clipsToBounds"]
+- !private ["So8NSObjectP", "colorNamed"]
+- !private ["So8NSObjectP", "colorWithCGColor"]
+- !private ["So8NSObjectP", "colorWithCIColor"]
+- !private ["So8NSObjectP", "colorWithDisplayP3Red"]
+- !private ["So8NSObjectP", "colorWithDynamicProvider"]
+- !private ["So8NSObjectP", "colorWithHue"]
+- !private ["So8NSObjectP", "colorWithPatternImage"]
+- !private ["So8NSObjectP", "colorWithRed"]
+- !private ["So8NSObjectP", "colorWithWhite"]
 - ["So8NSObjectP", "configureUI"]
 - !private ["So8NSObjectP", "constraint"]
 - !private ["So8NSObjectP", "constraintEqualToAnchor"]
@@ -493,6 +528,8 @@ depends-member:
 - ["So8NSObjectP", "doseLabel"]
 - !private ["So8NSObjectP", "fatalError"]
 - !private ["So8NSObjectP", "font"]
+- !private ["So8NSObjectP", "fontWithDescriptor"]
+- !private ["So8NSObjectP", "fontWithName"]
 - !private ["So8NSObjectP", "heightAnchor"]
 - ["So8NSObjectP", "init"]
 - ["So8NSObjectP", "lableDate"]
@@ -508,6 +545,7 @@ depends-member:
 - !private ["So8NSObjectP", "widthAnchor"]
 - !private ["So14NSSecureCodingP", "black"]
 - !private ["So14NSSecureCodingP", "init"]
+- !private ["Sj", ""]
 - !private ["Sq", "black"]
 - ["11Supplements9PillsCellC", "NSCoder"]
 - !private ["11Supplements9PillsCellC", "NSLayoutConstraint"]
@@ -533,6 +571,11 @@ depends-member:
 - ["11Supplements9PillsCellC", "prepareForReuse"]
 - !private ["11Supplements9PillsCellC", "trailingAnchor"]
 - !private ["SY", "none"]
+- ["ST", ""]
+- !private ["s13SignedNumericP", ""]
+- !private ["Sx", ""]
+- ["s16TextOutputStreamP", ""]
+- ["s20TextOutputStreamableP", ""]
 - !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "centerYAnchor"]
 - !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "clipsToBounds"]
 - !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "heightAnchor"]
@@ -543,6 +586,7 @@ depends-member:
 - !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "translatesAutoresizingMaskIntoConstraints"]
 - !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "widthAnchor"]
 - ["So29UIAccessibilityIdentificationP", "CellStyle"]
+- ["So29UIAccessibilityIdentificationP", "NSCoder"]
 - !private ["So29UIAccessibilityIdentificationP", "NSLayoutConstraint"]
 - ["So29UIAccessibilityIdentificationP", "String"]
 - !private ["So29UIAccessibilityIdentificationP", "UIColor"]
@@ -574,6 +618,7 @@ depends-member:
 - !private ["So29UIAccessibilityIdentificationP", "translatesAutoresizingMaskIntoConstraints"]
 - !private ["So29UIAccessibilityIdentificationP", "widthAnchor"]
 - ["So12UIAppearanceP", "CellStyle"]
+- ["So12UIAppearanceP", "NSCoder"]
 - !private ["So12UIAppearanceP", "NSLayoutConstraint"]
 - ["So12UIAppearanceP", "String"]
 - !private ["So12UIAppearanceP", "UIColor"]
@@ -605,6 +650,7 @@ depends-member:
 - !private ["So12UIAppearanceP", "translatesAutoresizingMaskIntoConstraints"]
 - !private ["So12UIAppearanceP", "widthAnchor"]
 - ["So21UIAppearanceContainerP", "CellStyle"]
+- ["So21UIAppearanceContainerP", "NSCoder"]
 - !private ["So21UIAppearanceContainerP", "NSLayoutConstraint"]
 - ["So21UIAppearanceContainerP", "String"]
 - !private ["So21UIAppearanceContainerP", "UIColor"]
@@ -649,6 +695,7 @@ depends-member:
 - !private ["So30UIContentSizeCategoryAdjustingP", "trailingAnchor"]
 - !private ["So30UIContentSizeCategoryAdjustingP", "translatesAutoresizingMaskIntoConstraints"]
 - ["So17UICoordinateSpaceP", "CellStyle"]
+- ["So17UICoordinateSpaceP", "NSCoder"]
 - !private ["So17UICoordinateSpaceP", "NSLayoutConstraint"]
 - ["So17UICoordinateSpaceP", "String"]
 - !private ["So17UICoordinateSpaceP", "UIColor"]
@@ -680,6 +727,7 @@ depends-member:
 - !private ["So17UICoordinateSpaceP", "translatesAutoresizingMaskIntoConstraints"]
 - !private ["So17UICoordinateSpaceP", "widthAnchor"]
 - ["So13UIDynamicItemP", "CellStyle"]
+- ["So13UIDynamicItemP", "NSCoder"]
 - !private ["So13UIDynamicItemP", "NSLayoutConstraint"]
 - ["So13UIDynamicItemP", "String"]
 - !private ["So13UIDynamicItemP", "UIColor"]
@@ -711,6 +759,7 @@ depends-member:
 - !private ["So13UIDynamicItemP", "translatesAutoresizingMaskIntoConstraints"]
 - !private ["So13UIDynamicItemP", "widthAnchor"]
 - ["So18UIFocusEnvironmentP", "CellStyle"]
+- ["So18UIFocusEnvironmentP", "NSCoder"]
 - !private ["So18UIFocusEnvironmentP", "NSLayoutConstraint"]
 - ["So18UIFocusEnvironmentP", "String"]
 - !private ["So18UIFocusEnvironmentP", "UIColor"]
@@ -742,6 +791,7 @@ depends-member:
 - !private ["So18UIFocusEnvironmentP", "translatesAutoresizingMaskIntoConstraints"]
 - !private ["So18UIFocusEnvironmentP", "widthAnchor"]
 - ["So11UIFocusItemP", "CellStyle"]
+- ["So11UIFocusItemP", "NSCoder"]
 - !private ["So11UIFocusItemP", "NSLayoutConstraint"]
 - ["So11UIFocusItemP", "String"]
 - !private ["So11UIFocusItemP", "UIColor"]
@@ -773,6 +823,7 @@ depends-member:
 - !private ["So11UIFocusItemP", "translatesAutoresizingMaskIntoConstraints"]
 - !private ["So11UIFocusItemP", "widthAnchor"]
 - ["So20UIFocusItemContainerP", "CellStyle"]
+- ["So20UIFocusItemContainerP", "NSCoder"]
 - !private ["So20UIFocusItemContainerP", "NSLayoutConstraint"]
 - ["So20UIFocusItemContainerP", "String"]
 - !private ["So20UIFocusItemContainerP", "UIColor"]
@@ -848,6 +899,7 @@ depends-member:
 - !private ["So7UILabelC", "trailingAnchor"]
 - !private ["So7UILabelC", "translatesAutoresizingMaskIntoConstraints"]
 - ["So24UILargeContentViewerItemP", "CellStyle"]
+- ["So24UILargeContentViewerItemP", "NSCoder"]
 - !private ["So24UILargeContentViewerItemP", "NSLayoutConstraint"]
 - ["So24UILargeContentViewerItemP", "String"]
 - !private ["So24UILargeContentViewerItemP", "UIColor"]
@@ -879,6 +931,7 @@ depends-member:
 - !private ["So24UILargeContentViewerItemP", "translatesAutoresizingMaskIntoConstraints"]
 - !private ["So24UILargeContentViewerItemP", "widthAnchor"]
 - ["So30UIPasteConfigurationSupportingP", "CellStyle"]
+- ["So30UIPasteConfigurationSupportingP", "NSCoder"]
 - !private ["So30UIPasteConfigurationSupportingP", "NSLayoutConstraint"]
 - ["So30UIPasteConfigurationSupportingP", "String"]
 - !private ["So30UIPasteConfigurationSupportingP", "UIColor"]
@@ -942,6 +995,7 @@ depends-member:
 - !private ["So11UIResponderC", "translatesAutoresizingMaskIntoConstraints"]
 - !private ["So11UIResponderC", "widthAnchor"]
 - ["So30UIResponderStandardEditActionsP", "CellStyle"]
+- ["So30UIResponderStandardEditActionsP", "NSCoder"]
 - !private ["So30UIResponderStandardEditActionsP", "NSLayoutConstraint"]
 - ["So30UIResponderStandardEditActionsP", "String"]
 - !private ["So30UIResponderStandardEditActionsP", "UIColor"]
@@ -996,6 +1050,7 @@ depends-member:
 - ["So15UITableViewCellC", "prepareForReuse"]
 - !private ["So15UITableViewCellC", "trailingAnchor"]
 - ["So18UITraitEnvironmentP", "CellStyle"]
+- ["So18UITraitEnvironmentP", "NSCoder"]
 - !private ["So18UITraitEnvironmentP", "NSLayoutConstraint"]
 - ["So18UITraitEnvironmentP", "String"]
 - !private ["So18UITraitEnvironmentP", "UIColor"]
@@ -1027,6 +1082,7 @@ depends-member:
 - !private ["So18UITraitEnvironmentP", "translatesAutoresizingMaskIntoConstraints"]
 - !private ["So18UITraitEnvironmentP", "widthAnchor"]
 - ["So23UIUserActivityRestoringP", "CellStyle"]
+- ["So23UIUserActivityRestoringP", "NSCoder"]
 - !private ["So23UIUserActivityRestoringP", "NSLayoutConstraint"]
 - ["So23UIUserActivityRestoringP", "String"]
 - !private ["So23UIUserActivityRestoringP", "UIColor"]
@@ -1091,8 +1147,10 @@ depends-member:
 - !private ["So6UIViewC", "widthAnchor"]
 - !private ["7SwiftUI4ViewP", "black"]
 - !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
-- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
 - !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
 - !private ["s26_ExpressibleByColorLiteralP", "black"]
 - !private ["s26_ExpressibleByColorLiteralP", "init"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "CellStyle"]
@@ -1191,8 +1249,12 @@ depends-member:
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "widthAnchor"]
 depends-nominal:
 - !private "So28UITableViewCellAccessoryTypeV"
+- !private "s18AdditiveArithmeticP"
+- "SK"
 - "So15CALayerDelegateP"
 - "s7CVarArgP"
+- "Sl"
+- "SL"
 - "7SnapKit25ConstraintRelatableTargetP"
 - "s28CustomDebugStringConvertibleP"
 - !private "s17CustomReflectableP"
@@ -1201,11 +1263,18 @@ depends-nominal:
 - !private "SE"
 - "SQ"
 - !private "s25ExpressibleByArrayLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
 - !private "s27ExpressibleByIntegerLiteralP"
 - !private "s23ExpressibleByNilLiteralP"
+- "s32ExpressibleByStringInterpolationP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "SF"
 - !private "7SwiftUI7GestureP"
 - "SH"
 - "7SnapKit20LayoutConstraintItemP"
+- "s25LosslessStringConvertibleP"
 - "So8NSCodingP"
 - !private "So9NSCopyingP"
 - !private "So21NSItemProviderReadingP"
@@ -1218,9 +1287,15 @@ depends-nominal:
 - "So8NSObjectC"
 - "So8NSObjectP"
 - !private "So14NSSecureCodingP"
+- !private "Sj"
 - !private "Sq"
 - "11Supplements9PillsCellC"
 - !private "SY"
+- "ST"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
 - "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
 - "So29UIAccessibilityIdentificationP"
 - "So12UIAppearanceP"
@@ -1246,8 +1321,10 @@ depends-nominal:
 - "So6UIViewC"
 - !private "7SwiftUI4ViewP"
 - !private "s35_ExpressibleByBuiltinBooleanLiteralP"
-- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
 - !private "s34_ExpressibleByBuiltinStringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
 - !private "s26_ExpressibleByColorLiteralP"
 - "10Foundation27_KeyValueCodingAndObservingP"
 - "10Foundation37_KeyValueCodingAndObservingPublishingP"
@@ -1257,6 +1334,7 @@ depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftUI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
@@ -1283,6 +1361,7 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/DeveloperToolsSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/CollectionViewPagingLayout/CollectionViewPagingLayout.framework/Modules/CollectionViewPagingLayout.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/LinearProgressView/LinearProgressView.framework/Modules/LinearProgressView.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/CalendarHeatmap/CalendarHeatmap.framework/Headers/CalendarHeatmap-umbrella.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/SwipeableTabBarController/SwipeableTabBarController.framework/Headers/SwipeableTabBarController-umbrella.h"
@@ -1296,6 +1375,7 @@ depends-external:
 - "/Users/sapientisat/Projects/Supplements/Supplements/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDAuthentication.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDSignInButton.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDGoogleUser.h"
+- "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/CalendarHeatmap/CalendarHeatmap.framework/Headers/CalendarHeatmap-Swift.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/SwipeableTabBarController/SwipeableTabBarController.framework/Headers/SwipeableTabBarController-Swift.h"
@@ -1304,6 +1384,7 @@ depends-external:
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/CollectionViewPagingLayout/CollectionViewPagingLayout.framework/Headers/CollectionViewPagingLayout-Swift.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/LinearProgressView/LinearProgressView.framework/Headers/LinearProgressView-Swift.h"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
 - "/Users/sapientisat/Projects/Supplements/Supplements/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Modules/module.modulemap"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/CalendarHeatmap/CalendarHeatmap.framework/Modules/module.modulemap"

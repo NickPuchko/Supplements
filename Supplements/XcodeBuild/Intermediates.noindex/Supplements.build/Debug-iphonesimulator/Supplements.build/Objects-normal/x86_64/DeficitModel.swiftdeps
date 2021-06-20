@@ -36,7 +36,7 @@ depends-top-level:
 - "Double"
 - "Element"
 - "Float"
-- !private "FloatLiteralType"
+- "FloatLiteralType"
 - "Good"
 - "Int"
 - !private "IntegerLiteralType"
@@ -66,6 +66,8 @@ depends-member:
 - ["11Supplements6AdviceO", "init"]
 - ["11Supplements6AdviceO", "rawValue"]
 - ["SK", ""]
+- ["s12CaseIterableP", "calcium"]
+- ["s12CaseIterableP", "copper"]
 - ["s9CodingKeyP", "=="]
 - !private ["s9CodingKeyP", ""]
 - ["s9CodingKeyP", "_rawHashValue"]
@@ -106,6 +108,8 @@ depends-member:
 - !private ["Se", "_findStringSwitchCase"]
 - ["Se", "_rawHashValue"]
 - !private ["Se", "average"]
+- ["Se", "calcium"]
+- ["Se", "copper"]
 - !private ["Se", "dangerous"]
 - !private ["Se", "element"]
 - ["Se", "encode"]
@@ -142,6 +146,8 @@ depends-member:
 - ["11Supplements12DeficitModelC", "init"]
 - ["11Supplements12DeficitModelC", "viewController"]
 - ["11Supplements7ElementO", ""]
+- ["11Supplements7ElementO", "calcium"]
+- ["11Supplements7ElementO", "copper"]
 - ["SE", "=="]
 - ["SE", "Default_RawValue"]
 - ["SE", "RawValue"]
@@ -150,6 +156,8 @@ depends-member:
 - !private ["SE", "_findStringSwitchCase"]
 - ["SE", "_rawHashValue"]
 - !private ["SE", "average"]
+- ["SE", "calcium"]
+- ["SE", "copper"]
 - !private ["SE", "dangerous"]
 - !private ["SE", "element"]
 - ["SE", "encode"]
@@ -175,6 +183,8 @@ depends-member:
 - !private ["SQ", "_findStringSwitchCase"]
 - ["SQ", "_rawHashValue"]
 - !private ["SQ", "average"]
+- ["SQ", "calcium"]
+- ["SQ", "copper"]
 - !private ["SQ", "dangerous"]
 - ["SQ", "debugDescription"]
 - ["SQ", "description"]
@@ -210,6 +220,8 @@ depends-member:
 - !private ["SH", "_findStringSwitchCase"]
 - ["SH", "_rawHashValue"]
 - !private ["SH", "average"]
+- ["SH", "calcium"]
+- ["SH", "copper"]
 - !private ["SH", "dangerous"]
 - ["SH", "debugDescription"]
 - ["SH", "description"]
@@ -253,6 +265,8 @@ depends-member:
 - !private ["SY", "_findStringSwitchCase"]
 - ["SY", "_rawHashValue"]
 - !private ["SY", "average"]
+- ["SY", "calcium"]
+- ["SY", "copper"]
 - !private ["SY", "dangerous"]
 - ["SY", "encode"]
 - !private ["SY", "findStringSwitchCase"]
@@ -271,12 +285,14 @@ depends-member:
 - ["s16TextOutputStreamP", ""]
 - ["s20TextOutputStreamableP", ""]
 - ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
 - ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
 - ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
 - ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
 depends-nominal:
 - "11Supplements6AdviceO"
 - "SK"
+- "s12CaseIterableP"
 - "s9CodingKeyP"
 - "Sl"
 - "SL"
@@ -312,6 +328,7 @@ depends-nominal:
 - "s16TextOutputStreamP"
 - "s20TextOutputStreamableP"
 - "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s33_ExpressibleByBuiltinFloatLiteralP"
 - "s35_ExpressibleByBuiltinIntegerLiteralP"
 - "s34_ExpressibleByBuiltinStringLiteralP"
 - "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
@@ -398,4 +415,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/HealthKit.framework/Headers/HealthKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "c24f688b68c62200b55b676bc0cb6e30"
+interface-hash: "e73d8cf586f67a552268411cfce5f74c"
