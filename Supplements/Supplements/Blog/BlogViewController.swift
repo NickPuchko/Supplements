@@ -17,6 +17,10 @@ class BlogViewController: UIViewController {
         frame: .zero,
         collectionViewLayout: BlogViewController.createLayout()
     )
+    var data = ["Ашваганда – лучшая добавка для управления стрессом", "Почему морской коллаген может стать вашим спасением",
+    "Пять признаков дефицита железа", "Грибные добавки в тренде для улучшения настроения", "Четыре полезных свойства пектина", "Могут ли липосомальные витамины быть более полезными?", "Семь подарков ко Дню матери своими руками из натуральных ингредиентов"]
+    var urls = ["https://ru.iherb.com/blog/ashwagandha-stress-support/1162", "https://ru.iherb.com/blog/marine-collagen-health-benefits/1287", "https://ru.iherb.com/blog/iron-deficiency/1107", "https://ru.iherb.com/blog/benefits-of-mushroom-supplements/1273", "https://ru.iherb.com/blog/5-health-benefits-of-pectin/1285",
+    "https://ru.iherb.com/blog/liposomal-vitamin-health-benefits/1252", "https://ru.iherb.com/blog/homemade-natural-mothers-day-gifts/382"]
     private let headerLabel = UILabel()
     private let searchTextField = PickerTextField()
     override func viewDidLoad() {
@@ -29,11 +33,12 @@ class BlogViewController: UIViewController {
     
     private func configureUI() {
         view.addSubview(collectionView)
+        view.isUserInteractionEnabled = true
         collectionView.register(CustomCollectionViewCell.self, forCellWithReuseIdentifier: "CustomCollectionViewCell")
         collectionView.translatesAutoresizingMaskIntoConstraints = false
         collectionView.backgroundColor = .white
         collectionView.dataSource = self
-        
+        collectionView.delegate = self
         //collectionView.frame = view.bounds
         NSLayoutConstraint.activate([
             collectionView.topAnchor.constraint(equalTo: view.topAnchor, constant: 150),
@@ -130,15 +135,37 @@ class BlogViewController: UIViewController {
         return UICollectionViewCompositionalLayout(section: section)
     }
 }
+extension BlogViewController: UICollectionViewDelegate, UITableViewDelegate {
+//    private func collectionView(_ collectionView: UICollectionView, didSelectRowAtIndexPath indexPath: IndexPath) {
+//
+//        var url : NSURL?
+//        url = NSURL(string: urls[indexPath.row])
+//        if url != nil{
+//            UIApplication.shared.openURL(url! as URL)
+//            }
+//    }
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        var url : NSURL?
+        url = NSURL(string: urls[indexPath.row])
+        if url != nil{
+            UIApplication.shared.openURL(url! as URL)
+            }
+    }
+}
 extension BlogViewController: UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         
-        return 40
+        return urls.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "CustomCollectionViewCell", for: indexPath)
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "CustomCollectionViewCell", for: indexPath) as! CustomCollectionViewCell
         
+        if data[indexPath.row].count > 15 {
+            cell.descriptionLabel.text = String(data[indexPath.row].prefix(10)) + "..."
+        } else {
+            cell.descriptionLabel.text = data[indexPath.row]
+        }
         return cell
     }
 }

@@ -138,11 +138,11 @@ extension ConstructureViewController: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "ConstructureTableViewCell", for: indexPath) as! ConstructureTableViewCell
-        cell.logoPillImageView.image = UIImage(named: "vitaminImage")
+        cell.logoPillImageView.image = UIImage(named: "vitaminImage2")
         cell.vitaminNameLabel.text = "Витамин С"
         cell.priceLabel.text = "1200"
         cell.percentageLabel.text = "80%"
-        var str = "California Gold Nutrition, Gold C, витамин C, 1000 мг, 60 вегетарианских капсул asdasdasd"
+        var str = "California Gold Nutrition, Gold C, витамин C, 1000 мг, 60 вегетарианских капсул"
         if str.count > 79 {
             str = String(str.prefix(79)) + "..."
         }
