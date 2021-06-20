@@ -31,7 +31,7 @@ class PickerTextField: UITextField {
         let toolbar = UIToolbar()
         toolbar.barStyle = .default
         toolbar.sizeToFit()
-        let doneButton = UIBarButtonItem(title: "Done", style: .plain, target: self, action: #selector(doneButtontapped))
+        let doneButton = UIBarButtonItem(title: "Готово", style: .plain, target: self, action: #selector(doneButtontapped))
         toolbar.setItems([doneButton], animated: false)
         self.inputAccessoryView = toolbar
         

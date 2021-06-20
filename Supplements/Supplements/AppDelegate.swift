@@ -16,6 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
 	var window: UIWindow?
 	let userNetworkService = UserNetworkService()
 	var user: User!
+	let tabBar = SwipeableTabBarController()
 	private var isUserOld: Bool {
 		if UserDefaults.standard.bool(forKey: "isUserOld") {
 			return true
@@ -76,8 +77,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
 //			print(result)
 //		}
 
-		if isUserOld {
-			launch()
+		if !isUserOld {
+			launch(with: nil)
 		} else {
 			let welcomeScreen = FormViewController()
 			(signIn.presentingViewController as? LoginViewController)?
@@ -86,7 +87,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
 		}
 	}
 
-	func launch() {
+	func launch(with deficits: [Deficit]?) {
 		let todayViewController = TodayViewController()
 		let blogViewController = BlogViewController()
 		let deficitViewController = ConstructureViewController()
@@ -101,7 +102,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
 		blogViewController.tabBarItem = blogItem
 		deficitViewController.tabBarItem = deficitItem
 		profileViewController.tabBarItem = profileItem
-		let tabBar = SwipeableTabBarController()
 		tabBar.setViewControllers([todayViewController, blogViewController, deficitViewController, profileViewController], animated: true)
 		tabBar.selectedViewController = deficitViewController
 		tabBar.tabBar.tintColor = .systemYellow
@@ -110,8 +110,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
 		tabBar.tabBar.shadowImage = UIImage()
 		window?.rootViewController = tabBar
 
-		let def = DeficitViewController()
-		tabBar.present(def, animated: true, completion: nil)
+		if let _ = deficits {
+			let def = DeficitViewController()
+			tabBar.present(def, animated: true, completion: nil)
+		}
 
 	}
 }

@@ -44,6 +44,7 @@ depends-member:
 - !private ["8CloudKit21CKRecordValueProtocolP", "map"]
 - !private ["s7CVarArgP", "append"]
 - !private ["s7CVarArgP", "map"]
+- !private ["s12CaseIterableP", "init"]
 - !private ["s9CodingKeyP", ""]
 - !private ["s9CodingKeyP", "init"]
 - !private ["s9CodingKeyP", "intValue"]
@@ -334,6 +335,7 @@ depends-nominal:
 - !private "SK"
 - !private "8CloudKit21CKRecordValueProtocolP"
 - !private "s7CVarArgP"
+- !private "s12CaseIterableP"
 - !private "s9CodingKeyP"
 - !private "Sl"
 - !private "SL"

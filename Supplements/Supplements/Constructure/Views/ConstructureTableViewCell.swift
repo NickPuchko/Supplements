@@ -72,10 +72,10 @@ class ConstructureTableViewCell: UITableViewCell {
         descriptionLabel.contentMode = .scaleAspectFit
         
         NSLayoutConstraint.activate([
-            descriptionLabel.leadingAnchor.constraint(equalTo: logoPillImageView.trailingAnchor, constant: 10),
+            descriptionLabel.leadingAnchor.constraint(greaterThanOrEqualTo: logoPillImageView.trailingAnchor, constant: 10),
             descriptionLabel.topAnchor.constraint(equalTo: logoPillImageView.topAnchor),
             descriptionLabel.widthAnchor.constraint(equalToConstant: contentView.frame.width - logoPillImageView.frame.width - 15),
-            descriptionLabel.trailingAnchor.constraint(equalTo: contentView.trailingAnchor, constant: -2)
+            descriptionLabel.trailingAnchor.constraint(equalTo: contentView.trailingAnchor, constant: -20)
         ])
         
         addSubview(percentageLabel)
@@ -108,10 +108,10 @@ class ConstructureTableViewCell: UITableViewCell {
             analogsButton.leadingAnchor.constraint(equalTo: addButton.trailingAnchor, constant: 12),
             analogsButton.topAnchor.constraint(equalTo: descriptionLabel.bottomAnchor, constant: 7),
             analogsButton.heightAnchor.constraint(equalToConstant: 20),
-            analogsButton.widthAnchor.constraint(equalToConstant: 66)
+            analogsButton.widthAnchor.constraint(equalToConstant: 66),
         ])
         NSLayoutConstraint.activate([
-            priceLabel.leadingAnchor.constraint(equalTo: analogsButton.trailingAnchor, constant: 12),
+            priceLabel.trailingAnchor.constraint(equalTo: percentageLabel.trailingAnchor, constant: -10),
             priceLabel.topAnchor.constraint(equalTo: analogsButton.topAnchor)
         ])
         

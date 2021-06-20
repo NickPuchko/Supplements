@@ -12,11 +12,11 @@ provides-dynamic-lookup:
 - "launch"
 - "sign"
 - "symptomsModel"
+- "tabBar"
 - "user"
 - "userNetworkService"
 - "window"
 depends-top-level:
-- !private "!"
 - !private "=="
 - "AppDelegate"
 - !private "Array"
@@ -27,6 +27,7 @@ depends-top-level:
 - "CastingPrecedence"
 - !private "ConstructureViewController"
 - !private "Data"
+- "Deficit"
 - !private "DeficitViewController"
 - "Error"
 - !private "FloatLiteralType"
@@ -42,7 +43,7 @@ depends-top-level:
 - !private "PagesNetworkService"
 - "String"
 - !private "StringLiteralType"
-- !private "SwipeableTabBarController"
+- "SwipeableTabBarController"
 - "SymptomsModel"
 - !private "TodayViewController"
 - "UIApplication"
@@ -62,6 +63,7 @@ depends-top-level:
 - !private "isUserOld"
 - !private "launch"
 - "print"
+- !private "tabBar"
 - !private "window"
 depends-member:
 - !private ["s18AdditiveArithmeticP", ""]
@@ -69,6 +71,7 @@ depends-member:
 - ["11Supplements11AppDelegateC", "Bool"]
 - !private ["11Supplements11AppDelegateC", "ConstructureViewController"]
 - !private ["11Supplements11AppDelegateC", "Data"]
+- ["11Supplements11AppDelegateC", "Deficit"]
 - !private ["11Supplements11AppDelegateC", "DeficitViewController"]
 - ["11Supplements11AppDelegateC", "Error"]
 - !private ["11Supplements11AppDelegateC", "FormViewController"]
@@ -80,7 +83,7 @@ depends-member:
 - !private ["11Supplements11AppDelegateC", "NSError"]
 - !private ["11Supplements11AppDelegateC", "PagesNetworkService"]
 - ["11Supplements11AppDelegateC", "String"]
-- !private ["11Supplements11AppDelegateC", "SwipeableTabBarController"]
+- ["11Supplements11AppDelegateC", "SwipeableTabBarController"]
 - ["11Supplements11AppDelegateC", "SymptomsModel"]
 - !private ["11Supplements11AppDelegateC", "TodayViewController"]
 - ["11Supplements11AppDelegateC", "UIApplication"]
@@ -117,6 +120,7 @@ depends-member:
 - ["11Supplements11AppDelegateC", "sign"]
 - ["11Supplements11AppDelegateC", "signIn"]
 - ["11Supplements11AppDelegateC", "symptomsModel"]
+- ["11Supplements11AppDelegateC", "tabBar"]
 - ["11Supplements11AppDelegateC", "user"]
 - ["11Supplements11AppDelegateC", "userNetworkService"]
 - ["11Supplements11AppDelegateC", "window"]
@@ -148,7 +152,7 @@ depends-member:
 - !private ["s7CVarArgP", "LoginViewController"]
 - ["s7CVarArgP", "OpenURLOptionsKey"]
 - !private ["s7CVarArgP", "PagesNetworkService"]
-- !private ["s7CVarArgP", "SwipeableTabBarController"]
+- ["s7CVarArgP", "SwipeableTabBarController"]
 - !private ["s7CVarArgP", "TodayViewController"]
 - !private ["s7CVarArgP", "UIColor"]
 - !private ["s7CVarArgP", "UIImage"]
@@ -184,7 +188,7 @@ depends-member:
 - !private ["s7CVarArgP", "email"]
 - !private ["s7CVarArgP", "handle"]
 - !private ["s7CVarArgP", "imageURL"]
-- !private ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "init"]
 - !private ["s7CVarArgP", "isUserOld"]
 - !private ["s7CVarArgP", "launch"]
 - ["s7CVarArgP", "main"]
@@ -248,7 +252,7 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "LoginViewController"]
 - ["s28CustomDebugStringConvertibleP", "OpenURLOptionsKey"]
 - !private ["s28CustomDebugStringConvertibleP", "PagesNetworkService"]
-- !private ["s28CustomDebugStringConvertibleP", "SwipeableTabBarController"]
+- ["s28CustomDebugStringConvertibleP", "SwipeableTabBarController"]
 - !private ["s28CustomDebugStringConvertibleP", "TodayViewController"]
 - !private ["s28CustomDebugStringConvertibleP", "UIColor"]
 - !private ["s28CustomDebugStringConvertibleP", "UIImage"]
@@ -285,7 +289,7 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "handle"]
 - !private ["s28CustomDebugStringConvertibleP", "image"]
 - !private ["s28CustomDebugStringConvertibleP", "imageURL"]
-- !private ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "isUserOld"]
 - !private ["s28CustomDebugStringConvertibleP", "launch"]
 - ["s28CustomDebugStringConvertibleP", "main"]
@@ -341,7 +345,7 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "LoginViewController"]
 - ["s23CustomStringConvertibleP", "OpenURLOptionsKey"]
 - !private ["s23CustomStringConvertibleP", "PagesNetworkService"]
-- !private ["s23CustomStringConvertibleP", "SwipeableTabBarController"]
+- ["s23CustomStringConvertibleP", "SwipeableTabBarController"]
 - !private ["s23CustomStringConvertibleP", "TodayViewController"]
 - !private ["s23CustomStringConvertibleP", "UIColor"]
 - !private ["s23CustomStringConvertibleP", "UIImage"]
@@ -379,7 +383,7 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "email"]
 - !private ["s23CustomStringConvertibleP", "handle"]
 - !private ["s23CustomStringConvertibleP", "imageURL"]
-- !private ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "init"]
 - !private ["s23CustomStringConvertibleP", "isUserOld"]
 - !private ["s23CustomStringConvertibleP", "launch"]
 - ["s23CustomStringConvertibleP", "main"]
@@ -457,7 +461,7 @@ depends-member:
 - ["SQ", "OpenURLOptionsKey"]
 - !private ["SQ", "PagesNetworkService"]
 - !private ["SQ", "RawValue"]
-- !private ["SQ", "SwipeableTabBarController"]
+- ["SQ", "SwipeableTabBarController"]
 - !private ["SQ", "TodayViewController"]
 - !private ["SQ", "UIColor"]
 - !private ["SQ", "UIImage"]
@@ -495,7 +499,7 @@ depends-member:
 - !private ["SQ", "hasNoAuthInKeychain"]
 - !private ["SQ", "image"]
 - !private ["SQ", "imageURL"]
-- !private ["SQ", "init"]
+- ["SQ", "init"]
 - !private ["SQ", "isUserOld"]
 - !private ["SQ", "launch"]
 - ["SQ", "main"]
@@ -573,7 +577,7 @@ depends-member:
 - !private ["So17GIDSignInDelegateP", "GoogleUser"]
 - !private ["So17GIDSignInDelegateP", "LoginViewController"]
 - !private ["So17GIDSignInDelegateP", "PagesNetworkService"]
-- !private ["So17GIDSignInDelegateP", "SwipeableTabBarController"]
+- ["So17GIDSignInDelegateP", "SwipeableTabBarController"]
 - !private ["So17GIDSignInDelegateP", "TodayViewController"]
 - !private ["So17GIDSignInDelegateP", "UIColor"]
 - !private ["So17GIDSignInDelegateP", "UIImage"]
@@ -607,6 +611,7 @@ depends-member:
 - ["So17GIDSignInDelegateP", "sign"]
 - ["So17GIDSignInDelegateP", "signIn"]
 - ["So17GIDSignInDelegateP", "symptomsModel"]
+- ["So17GIDSignInDelegateP", "tabBar"]
 - ["So17GIDSignInDelegateP", "user"]
 - ["So17GIDSignInDelegateP", "userNetworkService"]
 - ["So17GIDSignInDelegateP", "window"]
@@ -642,7 +647,7 @@ depends-member:
 - ["SH", "OpenURLOptionsKey"]
 - !private ["SH", "PagesNetworkService"]
 - !private ["SH", "RawValue"]
-- !private ["SH", "SwipeableTabBarController"]
+- ["SH", "SwipeableTabBarController"]
 - !private ["SH", "TodayViewController"]
 - !private ["SH", "UIColor"]
 - !private ["SH", "UIImage"]
@@ -682,7 +687,7 @@ depends-member:
 - !private ["SH", "hashValue"]
 - !private ["SH", "image"]
 - !private ["SH", "imageURL"]
-- !private ["SH", "init"]
+- ["SH", "init"]
 - !private ["SH", "isUserOld"]
 - !private ["SH", "launch"]
 - ["SH", "main"]
@@ -735,7 +740,7 @@ depends-member:
 - !private ["So8NSCodingP", "code"]
 - !private ["So8NSCodingP", "email"]
 - !private ["So8NSCodingP", "imageURL"]
-- !private ["So8NSCodingP", "init"]
+- ["So8NSCodingP", "init"]
 - !private ["So8NSCodingP", "makeKeyAndVisible"]
 - !private ["So8NSCodingP", "name"]
 - !private ["So8NSCodingP", "navigationBar"]
@@ -763,7 +768,7 @@ depends-member:
 - !private ["So9NSCopyingP", "white"]
 - !private ["So7NSErrorC", "code"]
 - !private ["So26NSExtensionRequestHandlingP", ""]
-- !private ["So26NSExtensionRequestHandlingP", "init"]
+- ["So26NSExtensionRequestHandlingP", "init"]
 - !private ["So26NSExtensionRequestHandlingP", "navigationBar"]
 - !private ["So26NSExtensionRequestHandlingP", "navigationController"]
 - !private ["So26NSExtensionRequestHandlingP", "present"]
@@ -784,6 +789,7 @@ depends-member:
 - ["So8NSObjectC", "Bool"]
 - !private ["So8NSObjectC", "ConstructureViewController"]
 - !private ["So8NSObjectC", "Data"]
+- ["So8NSObjectC", "Deficit"]
 - !private ["So8NSObjectC", "DeficitViewController"]
 - ["So8NSObjectC", "Error"]
 - !private ["So8NSObjectC", "FormViewController"]
@@ -797,7 +803,7 @@ depends-member:
 - ["So8NSObjectC", "OpenURLOptionsKey"]
 - !private ["So8NSObjectC", "PagesNetworkService"]
 - ["So8NSObjectC", "String"]
-- !private ["So8NSObjectC", "SwipeableTabBarController"]
+- ["So8NSObjectC", "SwipeableTabBarController"]
 - ["So8NSObjectC", "SymptomsModel"]
 - !private ["So8NSObjectC", "TodayViewController"]
 - ["So8NSObjectC", "UIApplication"]
@@ -872,7 +878,7 @@ depends-member:
 - ["So8NSObjectC", "symptomsModel"]
 - !private ["So8NSObjectC", "systemImageNamed"]
 - !private ["So8NSObjectC", "systemYellow"]
-- !private ["So8NSObjectC", "tabBar"]
+- ["So8NSObjectC", "tabBar"]
 - !private ["So8NSObjectC", "tabBarItem"]
 - !private ["So8NSObjectC", "tintColor"]
 - ["So8NSObjectC", "user"]
@@ -885,6 +891,7 @@ depends-member:
 - ["So8NSObjectP", "Bool"]
 - !private ["So8NSObjectP", "ConstructureViewController"]
 - !private ["So8NSObjectP", "Data"]
+- ["So8NSObjectP", "Deficit"]
 - !private ["So8NSObjectP", "DeficitViewController"]
 - ["So8NSObjectP", "Error"]
 - !private ["So8NSObjectP", "FormViewController"]
@@ -898,7 +905,7 @@ depends-member:
 - ["So8NSObjectP", "OpenURLOptionsKey"]
 - !private ["So8NSObjectP", "PagesNetworkService"]
 - ["So8NSObjectP", "String"]
-- !private ["So8NSObjectP", "SwipeableTabBarController"]
+- ["So8NSObjectP", "SwipeableTabBarController"]
 - ["So8NSObjectP", "SymptomsModel"]
 - !private ["So8NSObjectP", "TodayViewController"]
 - ["So8NSObjectP", "UIApplication"]
@@ -974,7 +981,7 @@ depends-member:
 - ["So8NSObjectP", "symptomsModel"]
 - !private ["So8NSObjectP", "systemImageNamed"]
 - !private ["So8NSObjectP", "systemYellow"]
-- !private ["So8NSObjectP", "tabBar"]
+- ["So8NSObjectP", "tabBar"]
 - !private ["So8NSObjectP", "tabBarItem"]
 - !private ["So8NSObjectP", "tintColor"]
 - ["So8NSObjectP", "user"]
@@ -1035,7 +1042,7 @@ depends-member:
 - !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
 - !private ["s27StringInterpolationProtocolP", "appendLiteral"]
 - !private ["s27StringInterpolationProtocolP", "init"]
-- !private ["25SwipeableTabBarControllerAAC", "init"]
+- ["25SwipeableTabBarControllerAAC", "init"]
 - !private ["25SwipeableTabBarControllerAAC", "present"]
 - !private ["25SwipeableTabBarControllerAAC", "selectedViewController"]
 - !private ["25SwipeableTabBarControllerAAC", "setViewControllers"]
@@ -1068,7 +1075,7 @@ depends-member:
 - !private ["So21UIAppearanceContainerP", ""]
 - !private ["So21UIAppearanceContainerP", "backgroundColor"]
 - !private ["So21UIAppearanceContainerP", "backgroundImage"]
-- !private ["So21UIAppearanceContainerP", "init"]
+- ["So21UIAppearanceContainerP", "init"]
 - !private ["So21UIAppearanceContainerP", "makeKeyAndVisible"]
 - !private ["So21UIAppearanceContainerP", "navigationBar"]
 - !private ["So21UIAppearanceContainerP", "navigationController"]
@@ -1095,7 +1102,7 @@ depends-member:
 - !private ["So21UIApplicationDelegateP", "GoogleUser"]
 - !private ["So21UIApplicationDelegateP", "LoginViewController"]
 - !private ["So21UIApplicationDelegateP", "PagesNetworkService"]
-- !private ["So21UIApplicationDelegateP", "SwipeableTabBarController"]
+- ["So21UIApplicationDelegateP", "SwipeableTabBarController"]
 - !private ["So21UIApplicationDelegateP", "TodayViewController"]
 - !private ["So21UIApplicationDelegateP", "UIColor"]
 - !private ["So21UIApplicationDelegateP", "UIImage"]
@@ -1129,6 +1136,7 @@ depends-member:
 - ["So21UIApplicationDelegateP", "sign"]
 - ["So21UIApplicationDelegateP", "signIn"]
 - ["So21UIApplicationDelegateP", "symptomsModel"]
+- ["So21UIApplicationDelegateP", "tabBar"]
 - ["So21UIApplicationDelegateP", "user"]
 - ["So21UIApplicationDelegateP", "userNetworkService"]
 - ["So21UIApplicationDelegateP", "window"]
@@ -1141,7 +1149,7 @@ depends-member:
 - !private ["So7UIColorC", "systemYellow"]
 - !private ["So7UIColorC", "white"]
 - !private ["So18UIContentContainerP", ""]
-- !private ["So18UIContentContainerP", "init"]
+- ["So18UIContentContainerP", "init"]
 - !private ["So18UIContentContainerP", "navigationBar"]
 - !private ["So18UIContentContainerP", "navigationController"]
 - !private ["So18UIContentContainerP", "present"]
@@ -1171,7 +1179,7 @@ depends-member:
 - !private ["So18UIFocusEnvironmentP", ""]
 - !private ["So18UIFocusEnvironmentP", "backgroundColor"]
 - !private ["So18UIFocusEnvironmentP", "backgroundImage"]
-- !private ["So18UIFocusEnvironmentP", "init"]
+- ["So18UIFocusEnvironmentP", "init"]
 - !private ["So18UIFocusEnvironmentP", "makeKeyAndVisible"]
 - !private ["So18UIFocusEnvironmentP", "navigationBar"]
 - !private ["So18UIFocusEnvironmentP", "navigationController"]
@@ -1203,7 +1211,7 @@ depends-member:
 - !private ["So20UIFocusItemContainerP", "rootViewController"]
 - !private ["So20UIFocusItemContainerP", "shadowImage"]
 - !private ["So20UIFocusItemContainerP", "tintColor"]
-- !private ["So27UIGestureRecognizerDelegateP", "init"]
+- ["So27UIGestureRecognizerDelegateP", "init"]
 - !private ["So27UIGestureRecognizerDelegateP", "present"]
 - !private ["So27UIGestureRecognizerDelegateP", "selectedViewController"]
 - !private ["So27UIGestureRecognizerDelegateP", "setViewControllers"]
@@ -1228,6 +1236,7 @@ depends-member:
 - ["So30UIPasteConfigurationSupportingP", "Bool"]
 - !private ["So30UIPasteConfigurationSupportingP", "ConstructureViewController"]
 - !private ["So30UIPasteConfigurationSupportingP", "Data"]
+- ["So30UIPasteConfigurationSupportingP", "Deficit"]
 - !private ["So30UIPasteConfigurationSupportingP", "DeficitViewController"]
 - ["So30UIPasteConfigurationSupportingP", "Error"]
 - !private ["So30UIPasteConfigurationSupportingP", "FormViewController"]
@@ -1241,7 +1250,7 @@ depends-member:
 - ["So30UIPasteConfigurationSupportingP", "OpenURLOptionsKey"]
 - !private ["So30UIPasteConfigurationSupportingP", "PagesNetworkService"]
 - ["So30UIPasteConfigurationSupportingP", "String"]
-- !private ["So30UIPasteConfigurationSupportingP", "SwipeableTabBarController"]
+- ["So30UIPasteConfigurationSupportingP", "SwipeableTabBarController"]
 - ["So30UIPasteConfigurationSupportingP", "SymptomsModel"]
 - !private ["So30UIPasteConfigurationSupportingP", "TodayViewController"]
 - ["So30UIPasteConfigurationSupportingP", "UIApplication"]
@@ -1291,7 +1300,7 @@ depends-member:
 - ["So30UIPasteConfigurationSupportingP", "sign"]
 - ["So30UIPasteConfigurationSupportingP", "signIn"]
 - ["So30UIPasteConfigurationSupportingP", "symptomsModel"]
-- !private ["So30UIPasteConfigurationSupportingP", "tabBar"]
+- ["So30UIPasteConfigurationSupportingP", "tabBar"]
 - !private ["So30UIPasteConfigurationSupportingP", "tabBarItem"]
 - !private ["So30UIPasteConfigurationSupportingP", "tintColor"]
 - ["So30UIPasteConfigurationSupportingP", "user"]
@@ -1301,6 +1310,7 @@ depends-member:
 - ["So11UIResponderC", "Bool"]
 - !private ["So11UIResponderC", "ConstructureViewController"]
 - !private ["So11UIResponderC", "Data"]
+- ["So11UIResponderC", "Deficit"]
 - !private ["So11UIResponderC", "DeficitViewController"]
 - ["So11UIResponderC", "Error"]
 - !private ["So11UIResponderC", "FormViewController"]
@@ -1314,7 +1324,7 @@ depends-member:
 - ["So11UIResponderC", "OpenURLOptionsKey"]
 - !private ["So11UIResponderC", "PagesNetworkService"]
 - ["So11UIResponderC", "String"]
-- !private ["So11UIResponderC", "SwipeableTabBarController"]
+- ["So11UIResponderC", "SwipeableTabBarController"]
 - ["So11UIResponderC", "SymptomsModel"]
 - !private ["So11UIResponderC", "TodayViewController"]
 - ["So11UIResponderC", "UIApplication"]
@@ -1363,7 +1373,7 @@ depends-member:
 - ["So11UIResponderC", "sign"]
 - ["So11UIResponderC", "signIn"]
 - ["So11UIResponderC", "symptomsModel"]
-- !private ["So11UIResponderC", "tabBar"]
+- ["So11UIResponderC", "tabBar"]
 - !private ["So11UIResponderC", "tabBarItem"]
 - !private ["So11UIResponderC", "tintColor"]
 - ["So11UIResponderC", "user"]
@@ -1374,6 +1384,7 @@ depends-member:
 - ["So30UIResponderStandardEditActionsP", "Bool"]
 - !private ["So30UIResponderStandardEditActionsP", "ConstructureViewController"]
 - !private ["So30UIResponderStandardEditActionsP", "Data"]
+- ["So30UIResponderStandardEditActionsP", "Deficit"]
 - !private ["So30UIResponderStandardEditActionsP", "DeficitViewController"]
 - ["So30UIResponderStandardEditActionsP", "Error"]
 - !private ["So30UIResponderStandardEditActionsP", "FormViewController"]
@@ -1387,7 +1398,7 @@ depends-member:
 - ["So30UIResponderStandardEditActionsP", "OpenURLOptionsKey"]
 - !private ["So30UIResponderStandardEditActionsP", "PagesNetworkService"]
 - ["So30UIResponderStandardEditActionsP", "String"]
-- !private ["So30UIResponderStandardEditActionsP", "SwipeableTabBarController"]
+- ["So30UIResponderStandardEditActionsP", "SwipeableTabBarController"]
 - ["So30UIResponderStandardEditActionsP", "SymptomsModel"]
 - !private ["So30UIResponderStandardEditActionsP", "TodayViewController"]
 - ["So30UIResponderStandardEditActionsP", "UIApplication"]
@@ -1437,7 +1448,7 @@ depends-member:
 - ["So30UIResponderStandardEditActionsP", "sign"]
 - ["So30UIResponderStandardEditActionsP", "signIn"]
 - ["So30UIResponderStandardEditActionsP", "symptomsModel"]
-- !private ["So30UIResponderStandardEditActionsP", "tabBar"]
+- ["So30UIResponderStandardEditActionsP", "tabBar"]
 - !private ["So30UIResponderStandardEditActionsP", "tabBarItem"]
 - !private ["So30UIResponderStandardEditActionsP", "tintColor"]
 - ["So30UIResponderStandardEditActionsP", "user"]
@@ -1454,7 +1465,7 @@ depends-member:
 - !private ["So35UISpringLoadedInteractionSupportingP", "shadowImage"]
 - !private ["So35UISpringLoadedInteractionSupportingP", "tintColor"]
 - !private ["So16UIStateRestoringP", ""]
-- !private ["So16UIStateRestoringP", "init"]
+- ["So16UIStateRestoringP", "init"]
 - !private ["So16UIStateRestoringP", "navigationBar"]
 - !private ["So16UIStateRestoringP", "navigationController"]
 - !private ["So16UIStateRestoringP", "present"]
@@ -1468,17 +1479,17 @@ depends-member:
 - !private ["So8UITabBarC", "shadowImage"]
 - !private ["So8UITabBarC", "tintColor"]
 - ["So18UITabBarControllerC", ""]
-- !private ["So18UITabBarControllerC", "init"]
+- ["So18UITabBarControllerC", "init"]
 - !private ["So18UITabBarControllerC", "present"]
 - !private ["So18UITabBarControllerC", "selectedViewController"]
 - !private ["So18UITabBarControllerC", "setViewControllers"]
 - !private ["So18UITabBarControllerC", "tabBar"]
-- !private ["So26UITabBarControllerDelegateP", "init"]
+- ["So26UITabBarControllerDelegateP", "init"]
 - !private ["So26UITabBarControllerDelegateP", "present"]
 - !private ["So26UITabBarControllerDelegateP", "selectedViewController"]
 - !private ["So26UITabBarControllerDelegateP", "setViewControllers"]
 - !private ["So26UITabBarControllerDelegateP", "tabBar"]
-- !private ["So16UITabBarDelegateP", "init"]
+- ["So16UITabBarDelegateP", "init"]
 - !private ["So16UITabBarDelegateP", "present"]
 - !private ["So16UITabBarDelegateP", "selectedViewController"]
 - !private ["So16UITabBarDelegateP", "setViewControllers"]
@@ -1492,7 +1503,7 @@ depends-member:
 - !private ["So18UITraitEnvironmentP", "backgroundColor"]
 - !private ["So18UITraitEnvironmentP", "backgroundImage"]
 - !private ["So18UITraitEnvironmentP", "bounds"]
-- !private ["So18UITraitEnvironmentP", "init"]
+- ["So18UITraitEnvironmentP", "init"]
 - !private ["So18UITraitEnvironmentP", "main"]
 - !private ["So18UITraitEnvironmentP", "makeKeyAndVisible"]
 - !private ["So18UITraitEnvironmentP", "navigationBar"]
@@ -1512,6 +1523,7 @@ depends-member:
 - ["So23UIUserActivityRestoringP", "Bool"]
 - !private ["So23UIUserActivityRestoringP", "ConstructureViewController"]
 - !private ["So23UIUserActivityRestoringP", "Data"]
+- ["So23UIUserActivityRestoringP", "Deficit"]
 - !private ["So23UIUserActivityRestoringP", "DeficitViewController"]
 - ["So23UIUserActivityRestoringP", "Error"]
 - !private ["So23UIUserActivityRestoringP", "FormViewController"]
@@ -1525,7 +1537,7 @@ depends-member:
 - ["So23UIUserActivityRestoringP", "OpenURLOptionsKey"]
 - !private ["So23UIUserActivityRestoringP", "PagesNetworkService"]
 - ["So23UIUserActivityRestoringP", "String"]
-- !private ["So23UIUserActivityRestoringP", "SwipeableTabBarController"]
+- ["So23UIUserActivityRestoringP", "SwipeableTabBarController"]
 - ["So23UIUserActivityRestoringP", "SymptomsModel"]
 - !private ["So23UIUserActivityRestoringP", "TodayViewController"]
 - ["So23UIUserActivityRestoringP", "UIApplication"]
@@ -1575,7 +1587,7 @@ depends-member:
 - ["So23UIUserActivityRestoringP", "sign"]
 - ["So23UIUserActivityRestoringP", "signIn"]
 - ["So23UIUserActivityRestoringP", "symptomsModel"]
-- !private ["So23UIUserActivityRestoringP", "tabBar"]
+- ["So23UIUserActivityRestoringP", "tabBar"]
 - !private ["So23UIUserActivityRestoringP", "tabBarItem"]
 - !private ["So23UIUserActivityRestoringP", "tintColor"]
 - ["So23UIUserActivityRestoringP", "user"]
@@ -1591,7 +1603,7 @@ depends-member:
 - !private ["So6UIViewC", "shadowImage"]
 - !private ["So6UIViewC", "tintColor"]
 - ["So16UIViewControllerC", ""]
-- !private ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "init"]
 - !private ["So16UIViewControllerC", "navigationBar"]
 - !private ["So16UIViewControllerC", "navigationController"]
 - !private ["So16UIViewControllerC", "present"]
@@ -1643,7 +1655,7 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "LoginViewController"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "OpenURLOptionsKey"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "PagesNetworkService"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "SwipeableTabBarController"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "SwipeableTabBarController"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "TodayViewController"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UIColor"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UIImage"]
@@ -1679,7 +1691,7 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "email"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "handle"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "imageURL"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "isUserOld"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "launch"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "main"]
@@ -1722,7 +1734,7 @@ depends-member:
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "LoginViewController"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "OpenURLOptionsKey"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "PagesNetworkService"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "SwipeableTabBarController"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "SwipeableTabBarController"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "TodayViewController"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIColor"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIImage"]
@@ -1758,7 +1770,7 @@ depends-member:
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "email"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "handle"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "imageURL"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isUserOld"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "launch"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "main"]
@@ -1862,7 +1874,7 @@ depends-nominal:
 - "So8NSCodingP"
 - !private "So9NSCopyingP"
 - !private "So7NSErrorC"
-- !private "So26NSExtensionRequestHandlingP"
+- "So26NSExtensionRequestHandlingP"
 - !private "So21NSItemProviderReadingP"
 - !private "So21NSItemProviderWritingP"
 - "So8NSObjectC"
@@ -1880,26 +1892,26 @@ depends-nominal:
 - !private "s13SignedNumericP"
 - !private "Sx"
 - !private "s27StringInterpolationProtocolP"
-- !private "25SwipeableTabBarControllerAAC"
+- "25SwipeableTabBarControllerAAC"
 - "s16TextOutputStreamP"
 - "s20TextOutputStreamableP"
 - !private "11Supplements19TodayViewControllerC"
 - !private "So29UIAccessibilityIdentificationP"
 - !private "So12UIAppearanceP"
-- !private "So21UIAppearanceContainerP"
+- "So21UIAppearanceContainerP"
 - "So13UIApplicationC"
 - "So21UIApplicationDelegateP"
 - "So9UIBarItemC"
 - !private "So16UIBarPositioningP"
 - !private "So26UICollectionViewDataSourceP"
 - !private "So7UIColorC"
-- !private "So18UIContentContainerP"
+- "So18UIContentContainerP"
 - !private "So17UICoordinateSpaceP"
 - !private "So13UIDynamicItemP"
-- !private "So18UIFocusEnvironmentP"
+- "So18UIFocusEnvironmentP"
 - !private "So11UIFocusItemP"
 - !private "So20UIFocusItemContainerP"
-- !private "So27UIGestureRecognizerDelegateP"
+- "So27UIGestureRecognizerDelegateP"
 - !private "So7UIImageC"
 - !private "So39UIItemProviderPresentationSizeProvidingP"
 - !private "So24UILargeContentViewerItemP"
@@ -1911,15 +1923,15 @@ depends-nominal:
 - !private "So8UIScreenC"
 - !private "So20UIScrollViewDelegateP"
 - !private "So35UISpringLoadedInteractionSupportingP"
-- !private "So16UIStateRestoringP"
+- "So16UIStateRestoringP"
 - !private "So8UITabBarC"
 - "So18UITabBarControllerC"
-- !private "So26UITabBarControllerDelegateP"
-- !private "So16UITabBarDelegateP"
+- "So26UITabBarControllerDelegateP"
+- "So16UITabBarDelegateP"
 - !private "So12UITabBarItemC"
 - !private "So21UITableViewDataSourceP"
 - !private "So19UITableViewDelegateP"
-- !private "So18UITraitEnvironmentP"
+- "So18UITraitEnvironmentP"
 - "So23UIUserActivityRestoringP"
 - "So6UIViewC"
 - "So16UIViewControllerC"
@@ -2022,4 +2034,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/HealthKit.framework/Headers/HealthKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "e6d43981bb21042a10dbf9b8ac2b2ef6"
+interface-hash: "87811e93830f7b03fb3d7f380f94b77d"

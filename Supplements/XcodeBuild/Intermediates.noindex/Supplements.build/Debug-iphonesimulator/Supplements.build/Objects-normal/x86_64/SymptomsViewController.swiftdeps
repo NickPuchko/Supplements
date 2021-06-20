@@ -33,6 +33,7 @@ depends-top-level:
 - "/"
 - !private "=="
 - "AppDelegate"
+- !private "Array"
 - "AssignmentPrecedence"
 - !private "BooleanLiteralType"
 - !private "CGRect"
@@ -782,6 +783,7 @@ depends-member:
 - !private ["So15UIControlEventsV", "touchUpInside"]
 - !private ["s25ExpressibleByArrayLiteralP", ""]
 - !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
 - !private ["s25ExpressibleByArrayLiteralP", "normal"]
 - !private ["s25ExpressibleByArrayLiteralP", "row"]
 - !private ["s25ExpressibleByArrayLiteralP", "subscript"]

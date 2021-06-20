@@ -169,6 +169,7 @@ depends-member:
 - !private ["s7CVarArgP", "values"]
 - !private ["s7CVarArgP", "white"]
 - ["s7CVarArgP", "zPosition"]
+- !private ["s12CaseIterableP", "rawValue"]
 - ["Sl", ""]
 - !private ["Sl", "append"]
 - !private ["Sl", "count"]
@@ -1882,6 +1883,7 @@ depends-nominal:
 - "So6CGSizeV"
 - !private "8CloudKit21CKRecordValueProtocolP"
 - "s7CVarArgP"
+- !private "s12CaseIterableP"
 - "Sl"
 - "SL"
 - !private "7SnapKit23ConstraintAttributesDSLP"

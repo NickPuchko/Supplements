@@ -45,12 +45,14 @@ class BlogViewController: UIViewController {
         headerLabel.font = UIFont(name: "HelveticaNeue-Bold", size: 20)
         headerLabel.textColor = .black
         headerLabel.translatesAutoresizingMaskIntoConstraints = false
-        headerLabel.text = "Новости"
+        headerLabel.text = "Статьи"
         NSLayoutConstraint.activate([
             headerLabel.bottomAnchor.constraint(equalTo: collectionView.topAnchor, constant: -17),
             headerLabel.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 20)
         ])
         view.addSubview(searchTextField)
+		searchTextField.textAlignment = .center
+		searchTextField.layer.cornerRadius = 12
         searchTextField.translatesAutoresizingMaskIntoConstraints = false
         //searchTextField.isEnabled = false
         searchTextField.rightView = UIImageView(image: UIImage(systemName: "magnifyingglass"))
