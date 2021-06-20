@@ -15,6 +15,10 @@
 * Swift 5.4, UIKit
 * pod 'SnapKit' pod 'GoogleSignIn' pod 'Onboard' pod 'CollectionViewPagingLayout' pod 'Alamofire' pod 'LinearProgressView' pod 'JTAppleCalendar' pod 'CalendarHeatmap' pod 'Popover' pod 'SwipeableTabBarController' pod 'SwiftyJSON' pod 'FSCalendar'
 
+### Писали
+@NickPuchko
+@surik316
+
 ### Демо
 
 
@@ -26,3 +30,4 @@
     *you're awesome*
 ### Backend
 https://github.com/GeniailBonehead/hack_iherb_backend
+
