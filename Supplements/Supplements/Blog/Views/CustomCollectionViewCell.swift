@@ -41,12 +41,7 @@ class CustomCollectionViewCell: UICollectionViewCell {
         UIImage(named: "image5"),
         UIImage(named: "image10"),
     ].compactMap({ $0 })
-    private let descriptionLabel: UILabel = {
-        let label = UILabel()
-        label.font = UIFont(name: "HelveticaNeue", size: 14)
-        label.textColor = .white
-        return label
-    }()
+    var descriptionLabel = UILabel()
     override init(frame: CGRect) {
         super.init(frame: .zero)
         contentView.addSubview(imageView)
@@ -54,6 +49,8 @@ class CustomCollectionViewCell: UICollectionViewCell {
         contentView.clipsToBounds =  true
         contentView.layer.cornerRadius = 10
         contentView.addSubview(descriptionLabel)
+        descriptionLabel.font = UIFont(name: "HelveticaNeue", size: 14)
+        descriptionLabel.textColor = .white
         descriptionLabel.text = "asdasdasdasd"
         descriptionLabel.translatesAutoresizingMaskIntoConstraints = false
         NSLayoutConstraint.activate([
