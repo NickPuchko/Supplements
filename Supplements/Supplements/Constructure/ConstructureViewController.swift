@@ -107,7 +107,11 @@ extension ConstructureViewController: UITableViewDataSource {
         cell.vitaminNameLabel.text = "Витамин С"
         cell.priceLabel.text = "1200"
         cell.percentageLabel.text = "80%"
-        cell.descriptionLabel.text = "California Gold Nutrition, Gold C, витамин C, 1000 мг, 60 вегетарианских капсул"
+        var str = "California Gold Nutrition, Gold C, витамин C, 1000 мг, 60 вегетарианских капсул asdasdasd"
+        if str.count > 79 {
+            str = String(str.prefix(79)) + "..."
+        }
+        cell.descriptionLabel.text = str
         cell.addButton.addTarget(cell, action: #selector(cell.addButtonClick), for: .touchUpInside)
         cell.addDelegate = self
         cell.analogDelegate = self
