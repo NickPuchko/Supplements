@@ -8,6 +8,7 @@
 import UIKit
 import GoogleSignIn
 import SwipeableTabBarController
+import Onboard
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
@@ -19,9 +20,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
 	let tabBar = SwipeableTabBarController()
 	private var isUserOld: Bool {
 		if UserDefaults.standard.bool(forKey: "isUserOld") {
-			return true
-		} else {
 			return false
+		} else {
+			return true
+		}
+	}
+
+	var isColdStart: Bool {
+		if UserDefaults.standard.bool(forKey: "isColdStart") {
+			return false
+		} else {
+			return true
 		}
 	}
 	
@@ -37,10 +46,45 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
 	func start() {
 		window = UIWindow(frame: UIScreen.main.bounds)
 		window?.backgroundColor = .white
-		let rootViewController = LoginViewController()
-		let navigationController = UINavigationController(rootViewController: rootViewController)
-		navigationController.navigationBar.prefersLargeTitles = true
-		window?.rootViewController = navigationController
+		if isColdStart {
+			let firstPage = OnboardingContentViewController(title: nil,
+															body: "Диагностируй свои симптомы и получай индивидуальные рекомендации",
+															image: UIImage(named: "on1"),
+															buttonText: "Продолжить") { () -> Void in
+
+				// do something here when users press the button, like ask for location services permissions, register for push notifications, connect to social media, or finish the onboarding process
+			}
+			firstPage.movesToNextViewController = true
+			firstPage.topPadding = 200
+			firstPage.underIconPadding = 100
+			let secondPage = OnboardingContentViewController(title: nil,
+															 body: "Собирай профилактический курс из совместимых добавок в соответствии со своим бюджетом",
+															 image: UIImage(named: "on2"),
+															 buttonText: "Продолжить") { () -> Void in
+
+			}
+			secondPage.movesToNextViewController = true
+			secondPage.topPadding = 200
+			secondPage.underIconPadding = 100
+			let thirdPage = OnboardingContentViewController(title: nil,
+															 body: "Отслеживай прогресс, не переставая узнавать свой организм лучше",
+															 image: UIImage(named: "on3"),
+															 buttonText: "Заполнить анкету") { () -> Void in
+				UserDefaults.standard.setValue(true, forKey: "isColdStart")
+				self.start()
+			}
+			thirdPage.topPadding = 200
+			thirdPage.underIconPadding = 100
+
+			let onboarding = OnboardingViewController(backgroundImage: UIImage(named: "first"), contents: [firstPage, secondPage, thirdPage])
+			window?.rootViewController = onboarding
+		} else {
+			let rootViewController = LoginViewController()
+			let navigationController = UINavigationController(rootViewController: rootViewController)
+			navigationController.navigationBar.prefersLargeTitles = true
+			window?.rootViewController = navigationController
+		}
+
 		window?.makeKeyAndVisible()
 	}
 

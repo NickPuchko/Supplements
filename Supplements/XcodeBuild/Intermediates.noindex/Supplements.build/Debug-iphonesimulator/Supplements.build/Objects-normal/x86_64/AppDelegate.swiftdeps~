@@ -8,9 +8,11 @@ provides-member:
 provides-dynamic-lookup:
 - "$main"
 - "application"
+- "isColdStart"
 - "isUserOld"
 - "launch"
 - "sign"
+- "start"
 - "symptomsModel"
 - "tabBar"
 - "user"
@@ -40,7 +42,8 @@ depends-top-level:
 - !private "IntegerLiteralType"
 - "LoginViewController"
 - "NSError"
-- !private "PagesNetworkService"
+- !private "OnboardingContentViewController"
+- !private "OnboardingViewController"
 - "String"
 - !private "StringLiteralType"
 - "SwipeableTabBarController"
@@ -60,9 +63,12 @@ depends-top-level:
 - "User"
 - !private "UserDefaults"
 - "UserNetworkService"
+- "Void"
+- !private "isColdStart"
 - !private "isUserOld"
 - !private "launch"
-- "print"
+- !private "print"
+- !private "start"
 - !private "tabBar"
 - !private "window"
 depends-member:
@@ -81,7 +87,8 @@ depends-member:
 - !private ["11Supplements11AppDelegateC", "GoogleUser"]
 - !private ["11Supplements11AppDelegateC", "LoginViewController"]
 - !private ["11Supplements11AppDelegateC", "NSError"]
-- !private ["11Supplements11AppDelegateC", "PagesNetworkService"]
+- !private ["11Supplements11AppDelegateC", "OnboardingContentViewController"]
+- !private ["11Supplements11AppDelegateC", "OnboardingViewController"]
 - ["11Supplements11AppDelegateC", "String"]
 - ["11Supplements11AppDelegateC", "SwipeableTabBarController"]
 - ["11Supplements11AppDelegateC", "SymptomsModel"]
@@ -98,6 +105,7 @@ depends-member:
 - ["11Supplements11AppDelegateC", "User"]
 - !private ["11Supplements11AppDelegateC", "UserDefaults"]
 - ["11Supplements11AppDelegateC", "UserNetworkService"]
+- !private ["11Supplements11AppDelegateC", "Void"]
 - ["11Supplements11AppDelegateC", ""]
 - ["11Supplements11AppDelegateC", "application"]
 - ["11Supplements11AppDelegateC", "applicationDidBecomeActive"]
@@ -113,12 +121,14 @@ depends-member:
 - ["11Supplements11AppDelegateC", "applicationWillTerminate"]
 - ["11Supplements11AppDelegateC", "deinit"]
 - ["11Supplements11AppDelegateC", "init"]
+- ["11Supplements11AppDelegateC", "isColdStart"]
 - !private ["11Supplements11AppDelegateC", "isUserOld"]
 - ["11Supplements11AppDelegateC", "launch"]
 - ["11Supplements11AppDelegateC", "main"]
 - !private ["11Supplements11AppDelegateC", "print"]
 - ["11Supplements11AppDelegateC", "sign"]
 - ["11Supplements11AppDelegateC", "signIn"]
+- ["11Supplements11AppDelegateC", "start"]
 - ["11Supplements11AppDelegateC", "symptomsModel"]
 - ["11Supplements11AppDelegateC", "tabBar"]
 - ["11Supplements11AppDelegateC", "user"]
@@ -150,8 +160,9 @@ depends-member:
 - !private ["s7CVarArgP", "GoogleUser"]
 - ["s7CVarArgP", "LaunchOptionsKey"]
 - !private ["s7CVarArgP", "LoginViewController"]
+- !private ["s7CVarArgP", "OnboardingContentViewController"]
+- !private ["s7CVarArgP", "OnboardingViewController"]
 - ["s7CVarArgP", "OpenURLOptionsKey"]
-- !private ["s7CVarArgP", "PagesNetworkService"]
 - ["s7CVarArgP", "SwipeableTabBarController"]
 - !private ["s7CVarArgP", "TodayViewController"]
 - !private ["s7CVarArgP", "UIColor"]
@@ -189,10 +200,12 @@ depends-member:
 - !private ["s7CVarArgP", "handle"]
 - !private ["s7CVarArgP", "imageURL"]
 - ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isColdStart"]
 - !private ["s7CVarArgP", "isUserOld"]
 - !private ["s7CVarArgP", "launch"]
 - ["s7CVarArgP", "main"]
 - !private ["s7CVarArgP", "makeKeyAndVisible"]
+- !private ["s7CVarArgP", "movesToNextViewController"]
 - !private ["s7CVarArgP", "name"]
 - !private ["s7CVarArgP", "navigationBar"]
 - !private ["s7CVarArgP", "navigationController"]
@@ -210,10 +223,13 @@ depends-member:
 - ["s7CVarArgP", "sign"]
 - ["s7CVarArgP", "signIn"]
 - !private ["s7CVarArgP", "standard"]
+- !private ["s7CVarArgP", "start"]
 - !private ["s7CVarArgP", "systemYellow"]
 - !private ["s7CVarArgP", "tabBar"]
 - !private ["s7CVarArgP", "tabBarItem"]
 - !private ["s7CVarArgP", "tintColor"]
+- !private ["s7CVarArgP", "topPadding"]
+- !private ["s7CVarArgP", "underIconPadding"]
 - !private ["s7CVarArgP", "user"]
 - !private ["s7CVarArgP", "userID"]
 - !private ["s7CVarArgP", "white"]
@@ -250,8 +266,9 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "GoogleUser"]
 - ["s28CustomDebugStringConvertibleP", "LaunchOptionsKey"]
 - !private ["s28CustomDebugStringConvertibleP", "LoginViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "OnboardingContentViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "OnboardingViewController"]
 - ["s28CustomDebugStringConvertibleP", "OpenURLOptionsKey"]
-- !private ["s28CustomDebugStringConvertibleP", "PagesNetworkService"]
 - ["s28CustomDebugStringConvertibleP", "SwipeableTabBarController"]
 - !private ["s28CustomDebugStringConvertibleP", "TodayViewController"]
 - !private ["s28CustomDebugStringConvertibleP", "UIColor"]
@@ -290,10 +307,12 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "image"]
 - !private ["s28CustomDebugStringConvertibleP", "imageURL"]
 - ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isColdStart"]
 - !private ["s28CustomDebugStringConvertibleP", "isUserOld"]
 - !private ["s28CustomDebugStringConvertibleP", "launch"]
 - ["s28CustomDebugStringConvertibleP", "main"]
 - !private ["s28CustomDebugStringConvertibleP", "makeKeyAndVisible"]
+- !private ["s28CustomDebugStringConvertibleP", "movesToNextViewController"]
 - !private ["s28CustomDebugStringConvertibleP", "name"]
 - !private ["s28CustomDebugStringConvertibleP", "navigationBar"]
 - !private ["s28CustomDebugStringConvertibleP", "navigationController"]
@@ -311,10 +330,13 @@ depends-member:
 - ["s28CustomDebugStringConvertibleP", "sign"]
 - ["s28CustomDebugStringConvertibleP", "signIn"]
 - !private ["s28CustomDebugStringConvertibleP", "standard"]
+- !private ["s28CustomDebugStringConvertibleP", "start"]
 - !private ["s28CustomDebugStringConvertibleP", "systemYellow"]
 - !private ["s28CustomDebugStringConvertibleP", "tabBar"]
 - !private ["s28CustomDebugStringConvertibleP", "tabBarItem"]
 - !private ["s28CustomDebugStringConvertibleP", "tintColor"]
+- !private ["s28CustomDebugStringConvertibleP", "topPadding"]
+- !private ["s28CustomDebugStringConvertibleP", "underIconPadding"]
 - !private ["s28CustomDebugStringConvertibleP", "user"]
 - !private ["s28CustomDebugStringConvertibleP", "userID"]
 - !private ["s28CustomDebugStringConvertibleP", "white"]
@@ -343,8 +365,9 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "GoogleUser"]
 - ["s23CustomStringConvertibleP", "LaunchOptionsKey"]
 - !private ["s23CustomStringConvertibleP", "LoginViewController"]
+- !private ["s23CustomStringConvertibleP", "OnboardingContentViewController"]
+- !private ["s23CustomStringConvertibleP", "OnboardingViewController"]
 - ["s23CustomStringConvertibleP", "OpenURLOptionsKey"]
-- !private ["s23CustomStringConvertibleP", "PagesNetworkService"]
 - ["s23CustomStringConvertibleP", "SwipeableTabBarController"]
 - !private ["s23CustomStringConvertibleP", "TodayViewController"]
 - !private ["s23CustomStringConvertibleP", "UIColor"]
@@ -384,10 +407,12 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "handle"]
 - !private ["s23CustomStringConvertibleP", "imageURL"]
 - ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isColdStart"]
 - !private ["s23CustomStringConvertibleP", "isUserOld"]
 - !private ["s23CustomStringConvertibleP", "launch"]
 - ["s23CustomStringConvertibleP", "main"]
 - !private ["s23CustomStringConvertibleP", "makeKeyAndVisible"]
+- !private ["s23CustomStringConvertibleP", "movesToNextViewController"]
 - !private ["s23CustomStringConvertibleP", "name"]
 - !private ["s23CustomStringConvertibleP", "navigationBar"]
 - !private ["s23CustomStringConvertibleP", "navigationController"]
@@ -405,10 +430,13 @@ depends-member:
 - ["s23CustomStringConvertibleP", "sign"]
 - ["s23CustomStringConvertibleP", "signIn"]
 - !private ["s23CustomStringConvertibleP", "standard"]
+- !private ["s23CustomStringConvertibleP", "start"]
 - !private ["s23CustomStringConvertibleP", "systemYellow"]
 - !private ["s23CustomStringConvertibleP", "tabBar"]
 - !private ["s23CustomStringConvertibleP", "tabBarItem"]
 - !private ["s23CustomStringConvertibleP", "tintColor"]
+- !private ["s23CustomStringConvertibleP", "topPadding"]
+- !private ["s23CustomStringConvertibleP", "underIconPadding"]
 - !private ["s23CustomStringConvertibleP", "user"]
 - !private ["s23CustomStringConvertibleP", "userID"]
 - !private ["s23CustomStringConvertibleP", "white"]
@@ -458,8 +486,9 @@ depends-member:
 - !private ["SQ", "GoogleUser"]
 - ["SQ", "LaunchOptionsKey"]
 - !private ["SQ", "LoginViewController"]
+- !private ["SQ", "OnboardingContentViewController"]
+- !private ["SQ", "OnboardingViewController"]
 - ["SQ", "OpenURLOptionsKey"]
-- !private ["SQ", "PagesNetworkService"]
 - !private ["SQ", "RawValue"]
 - ["SQ", "SwipeableTabBarController"]
 - !private ["SQ", "TodayViewController"]
@@ -500,10 +529,12 @@ depends-member:
 - !private ["SQ", "image"]
 - !private ["SQ", "imageURL"]
 - ["SQ", "init"]
+- !private ["SQ", "isColdStart"]
 - !private ["SQ", "isUserOld"]
 - !private ["SQ", "launch"]
 - ["SQ", "main"]
 - !private ["SQ", "makeKeyAndVisible"]
+- !private ["SQ", "movesToNextViewController"]
 - !private ["SQ", "name"]
 - !private ["SQ", "navigationBar"]
 - !private ["SQ", "navigationController"]
@@ -522,10 +553,13 @@ depends-member:
 - ["SQ", "sign"]
 - ["SQ", "signIn"]
 - !private ["SQ", "standard"]
+- !private ["SQ", "start"]
 - !private ["SQ", "systemYellow"]
 - !private ["SQ", "tabBar"]
 - !private ["SQ", "tabBarItem"]
 - !private ["SQ", "tintColor"]
+- !private ["SQ", "topPadding"]
+- !private ["SQ", "underIconPadding"]
 - !private ["SQ", "user"]
 - !private ["SQ", "userID"]
 - !private ["SQ", "white"]
@@ -535,7 +569,9 @@ depends-member:
 - !private ["s25ExpressibleByArrayLiteralP", "init"]
 - ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
 - !private ["s25ExpressibleByFloatLiteralP", ""]
+- !private ["s27ExpressibleByIntegerLiteralP", "IntegerLiteralType"]
 - !private ["s27ExpressibleByIntegerLiteralP", ""]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
 - !private ["s23ExpressibleByNilLiteralP", "clientID"]
 - !private ["s23ExpressibleByNilLiteralP", "delegate"]
 - !private ["s23ExpressibleByNilLiteralP", "email"]
@@ -576,7 +612,8 @@ depends-member:
 - !private ["So17GIDSignInDelegateP", "GIDSignInErrorCode"]
 - !private ["So17GIDSignInDelegateP", "GoogleUser"]
 - !private ["So17GIDSignInDelegateP", "LoginViewController"]
-- !private ["So17GIDSignInDelegateP", "PagesNetworkService"]
+- !private ["So17GIDSignInDelegateP", "OnboardingContentViewController"]
+- !private ["So17GIDSignInDelegateP", "OnboardingViewController"]
 - ["So17GIDSignInDelegateP", "SwipeableTabBarController"]
 - !private ["So17GIDSignInDelegateP", "TodayViewController"]
 - !private ["So17GIDSignInDelegateP", "UIColor"]
@@ -604,12 +641,14 @@ depends-member:
 - ["So17GIDSignInDelegateP", "applicationWillTerminate"]
 - ["So17GIDSignInDelegateP", "deinit"]
 - ["So17GIDSignInDelegateP", "init"]
+- ["So17GIDSignInDelegateP", "isColdStart"]
 - ["So17GIDSignInDelegateP", "isUserOld"]
 - ["So17GIDSignInDelegateP", "launch"]
 - ["So17GIDSignInDelegateP", "main"]
 - !private ["So17GIDSignInDelegateP", "print"]
 - ["So17GIDSignInDelegateP", "sign"]
 - ["So17GIDSignInDelegateP", "signIn"]
+- ["So17GIDSignInDelegateP", "start"]
 - ["So17GIDSignInDelegateP", "symptomsModel"]
 - ["So17GIDSignInDelegateP", "tabBar"]
 - ["So17GIDSignInDelegateP", "user"]
@@ -644,8 +683,9 @@ depends-member:
 - !private ["SH", "GoogleUser"]
 - ["SH", "LaunchOptionsKey"]
 - !private ["SH", "LoginViewController"]
+- !private ["SH", "OnboardingContentViewController"]
+- !private ["SH", "OnboardingViewController"]
 - ["SH", "OpenURLOptionsKey"]
-- !private ["SH", "PagesNetworkService"]
 - !private ["SH", "RawValue"]
 - ["SH", "SwipeableTabBarController"]
 - !private ["SH", "TodayViewController"]
@@ -688,10 +728,12 @@ depends-member:
 - !private ["SH", "image"]
 - !private ["SH", "imageURL"]
 - ["SH", "init"]
+- !private ["SH", "isColdStart"]
 - !private ["SH", "isUserOld"]
 - !private ["SH", "launch"]
 - ["SH", "main"]
 - !private ["SH", "makeKeyAndVisible"]
+- !private ["SH", "movesToNextViewController"]
 - !private ["SH", "name"]
 - !private ["SH", "navigationBar"]
 - !private ["SH", "navigationController"]
@@ -710,10 +752,13 @@ depends-member:
 - ["SH", "sign"]
 - ["SH", "signIn"]
 - !private ["SH", "standard"]
+- !private ["SH", "start"]
 - !private ["SH", "systemYellow"]
 - !private ["SH", "tabBar"]
 - !private ["SH", "tabBarItem"]
 - !private ["SH", "tintColor"]
+- !private ["SH", "topPadding"]
+- !private ["SH", "underIconPadding"]
 - !private ["SH", "user"]
 - !private ["SH", "userID"]
 - !private ["SH", "white"]
@@ -742,6 +787,7 @@ depends-member:
 - !private ["So8NSCodingP", "imageURL"]
 - ["So8NSCodingP", "init"]
 - !private ["So8NSCodingP", "makeKeyAndVisible"]
+- !private ["So8NSCodingP", "movesToNextViewController"]
 - !private ["So8NSCodingP", "name"]
 - !private ["So8NSCodingP", "navigationBar"]
 - !private ["So8NSCodingP", "navigationController"]
@@ -757,6 +803,8 @@ depends-member:
 - !private ["So8NSCodingP", "tabBar"]
 - !private ["So8NSCodingP", "tabBarItem"]
 - !private ["So8NSCodingP", "tintColor"]
+- !private ["So8NSCodingP", "topPadding"]
+- !private ["So8NSCodingP", "underIconPadding"]
 - !private ["So8NSCodingP", "userID"]
 - !private ["So8NSCodingP", "white"]
 - !private ["So9NSCopyingP", "clear"]
@@ -769,6 +817,7 @@ depends-member:
 - !private ["So7NSErrorC", "code"]
 - !private ["So26NSExtensionRequestHandlingP", ""]
 - ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "movesToNextViewController"]
 - !private ["So26NSExtensionRequestHandlingP", "navigationBar"]
 - !private ["So26NSExtensionRequestHandlingP", "navigationController"]
 - !private ["So26NSExtensionRequestHandlingP", "present"]
@@ -777,6 +826,8 @@ depends-member:
 - !private ["So26NSExtensionRequestHandlingP", "setViewControllers"]
 - !private ["So26NSExtensionRequestHandlingP", "tabBar"]
 - !private ["So26NSExtensionRequestHandlingP", "tabBarItem"]
+- !private ["So26NSExtensionRequestHandlingP", "topPadding"]
+- !private ["So26NSExtensionRequestHandlingP", "underIconPadding"]
 - !private ["So21NSItemProviderReadingP", "clear"]
 - !private ["So21NSItemProviderReadingP", "init"]
 - !private ["So21NSItemProviderReadingP", "systemYellow"]
@@ -800,8 +851,9 @@ depends-member:
 - ["So8NSObjectC", "LaunchOptionsKey"]
 - !private ["So8NSObjectC", "LoginViewController"]
 - !private ["So8NSObjectC", "NSError"]
+- !private ["So8NSObjectC", "OnboardingContentViewController"]
+- !private ["So8NSObjectC", "OnboardingViewController"]
 - ["So8NSObjectC", "OpenURLOptionsKey"]
-- !private ["So8NSObjectC", "PagesNetworkService"]
 - ["So8NSObjectC", "String"]
 - ["So8NSObjectC", "SwipeableTabBarController"]
 - ["So8NSObjectC", "SymptomsModel"]
@@ -818,6 +870,7 @@ depends-member:
 - ["So8NSObjectC", "User"]
 - !private ["So8NSObjectC", "UserDefaults"]
 - ["So8NSObjectC", "UserNetworkService"]
+- !private ["So8NSObjectC", "Void"]
 - ["So8NSObjectC", ""]
 - ["So8NSObjectC", "application"]
 - ["So8NSObjectC", "applicationDidBecomeActive"]
@@ -851,11 +904,13 @@ depends-member:
 - !private ["So8NSObjectC", "imageWithContentsOfFile"]
 - !private ["So8NSObjectC", "imageWithData"]
 - ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "isColdStart"]
 - ["So8NSObjectC", "isUserOld"]
 - !private ["So8NSObjectC", "jpegData"]
 - ["So8NSObjectC", "launch"]
 - ["So8NSObjectC", "main"]
 - !private ["So8NSObjectC", "makeKeyAndVisible"]
+- !private ["So8NSObjectC", "movesToNextViewController"]
 - !private ["So8NSObjectC", "name"]
 - !private ["So8NSObjectC", "navigationBar"]
 - !private ["So8NSObjectC", "navigationController"]
@@ -875,12 +930,15 @@ depends-member:
 - ["So8NSObjectC", "sign"]
 - ["So8NSObjectC", "signIn"]
 - !private ["So8NSObjectC", "standard"]
+- ["So8NSObjectC", "start"]
 - ["So8NSObjectC", "symptomsModel"]
 - !private ["So8NSObjectC", "systemImageNamed"]
 - !private ["So8NSObjectC", "systemYellow"]
 - ["So8NSObjectC", "tabBar"]
 - !private ["So8NSObjectC", "tabBarItem"]
 - !private ["So8NSObjectC", "tintColor"]
+- !private ["So8NSObjectC", "topPadding"]
+- !private ["So8NSObjectC", "underIconPadding"]
 - ["So8NSObjectC", "user"]
 - !private ["So8NSObjectC", "userID"]
 - ["So8NSObjectC", "userNetworkService"]
@@ -902,8 +960,9 @@ depends-member:
 - ["So8NSObjectP", "LaunchOptionsKey"]
 - !private ["So8NSObjectP", "LoginViewController"]
 - !private ["So8NSObjectP", "NSError"]
+- !private ["So8NSObjectP", "OnboardingContentViewController"]
+- !private ["So8NSObjectP", "OnboardingViewController"]
 - ["So8NSObjectP", "OpenURLOptionsKey"]
-- !private ["So8NSObjectP", "PagesNetworkService"]
 - ["So8NSObjectP", "String"]
 - ["So8NSObjectP", "SwipeableTabBarController"]
 - ["So8NSObjectP", "SymptomsModel"]
@@ -920,6 +979,7 @@ depends-member:
 - ["So8NSObjectP", "User"]
 - !private ["So8NSObjectP", "UserDefaults"]
 - ["So8NSObjectP", "UserNetworkService"]
+- !private ["So8NSObjectP", "Void"]
 - ["So8NSObjectP", ""]
 - ["So8NSObjectP", "application"]
 - ["So8NSObjectP", "applicationDidBecomeActive"]
@@ -954,11 +1014,13 @@ depends-member:
 - !private ["So8NSObjectP", "imageWithContentsOfFile"]
 - !private ["So8NSObjectP", "imageWithData"]
 - ["So8NSObjectP", "init"]
+- ["So8NSObjectP", "isColdStart"]
 - ["So8NSObjectP", "isUserOld"]
 - !private ["So8NSObjectP", "jpegData"]
 - ["So8NSObjectP", "launch"]
 - ["So8NSObjectP", "main"]
 - !private ["So8NSObjectP", "makeKeyAndVisible"]
+- !private ["So8NSObjectP", "movesToNextViewController"]
 - !private ["So8NSObjectP", "name"]
 - !private ["So8NSObjectP", "navigationBar"]
 - !private ["So8NSObjectP", "navigationController"]
@@ -978,12 +1040,15 @@ depends-member:
 - ["So8NSObjectP", "sign"]
 - ["So8NSObjectP", "signIn"]
 - !private ["So8NSObjectP", "standard"]
+- ["So8NSObjectP", "start"]
 - ["So8NSObjectP", "symptomsModel"]
 - !private ["So8NSObjectP", "systemImageNamed"]
 - !private ["So8NSObjectP", "systemYellow"]
 - ["So8NSObjectP", "tabBar"]
 - !private ["So8NSObjectP", "tabBarItem"]
 - !private ["So8NSObjectP", "tintColor"]
+- !private ["So8NSObjectP", "topPadding"]
+- !private ["So8NSObjectP", "underIconPadding"]
 - ["So8NSObjectP", "user"]
 - !private ["So8NSObjectP", "userID"]
 - ["So8NSObjectP", "userNetworkService"]
@@ -1000,9 +1065,14 @@ depends-member:
 - !private ["So14NSSecureCodingP", "userID"]
 - !private ["So14NSSecureCodingP", "white"]
 - ["11Supplements14NetworkServiceC", ""]
-- !private ["11Supplements14NetworkServiceC", "getPages"]
 - ["11Supplements14NetworkServiceC", "init"]
 - !private ["Sj", ""]
+- !private ["So31OnboardingContentViewControllerC", "init"]
+- !private ["So31OnboardingContentViewControllerC", "movesToNextViewController"]
+- !private ["So31OnboardingContentViewControllerC", "topPadding"]
+- !private ["So31OnboardingContentViewControllerC", "underIconPadding"]
+- !private ["So39OnboardingContentViewControllerDelegateP", "init"]
+- !private ["So24OnboardingViewControllerC", "init"]
 - !private ["Sq", "clientID"]
 - !private ["Sq", "delegate"]
 - !private ["Sq", "email"]
@@ -1015,8 +1085,6 @@ depends-member:
 - !private ["Sq", "systemYellow"]
 - !private ["Sq", "userID"]
 - !private ["Sq", "white"]
-- !private ["11Supplements19PagesNetworkServiceC", "getPages"]
-- !private ["11Supplements19PagesNetworkServiceC", "init"]
 - !private ["Sk", ""]
 - !private ["Sk", "init"]
 - !private ["Sm", ""]
@@ -1077,6 +1145,7 @@ depends-member:
 - !private ["So21UIAppearanceContainerP", "backgroundImage"]
 - ["So21UIAppearanceContainerP", "init"]
 - !private ["So21UIAppearanceContainerP", "makeKeyAndVisible"]
+- !private ["So21UIAppearanceContainerP", "movesToNextViewController"]
 - !private ["So21UIAppearanceContainerP", "navigationBar"]
 - !private ["So21UIAppearanceContainerP", "navigationController"]
 - !private ["So21UIAppearanceContainerP", "prefersLargeTitles"]
@@ -1089,6 +1158,8 @@ depends-member:
 - !private ["So21UIAppearanceContainerP", "tabBar"]
 - !private ["So21UIAppearanceContainerP", "tabBarItem"]
 - !private ["So21UIAppearanceContainerP", "tintColor"]
+- !private ["So21UIAppearanceContainerP", "topPadding"]
+- !private ["So21UIAppearanceContainerP", "underIconPadding"]
 - ["So13UIApplicationC", "LaunchOptionsKey"]
 - ["So13UIApplicationC", "OpenURLOptionsKey"]
 - ["So21UIApplicationDelegateP", "$main"]
@@ -1101,7 +1172,8 @@ depends-member:
 - !private ["So21UIApplicationDelegateP", "GIDSignInErrorCode"]
 - !private ["So21UIApplicationDelegateP", "GoogleUser"]
 - !private ["So21UIApplicationDelegateP", "LoginViewController"]
-- !private ["So21UIApplicationDelegateP", "PagesNetworkService"]
+- !private ["So21UIApplicationDelegateP", "OnboardingContentViewController"]
+- !private ["So21UIApplicationDelegateP", "OnboardingViewController"]
 - ["So21UIApplicationDelegateP", "SwipeableTabBarController"]
 - !private ["So21UIApplicationDelegateP", "TodayViewController"]
 - !private ["So21UIApplicationDelegateP", "UIColor"]
@@ -1129,12 +1201,14 @@ depends-member:
 - ["So21UIApplicationDelegateP", "applicationWillTerminate"]
 - ["So21UIApplicationDelegateP", "deinit"]
 - ["So21UIApplicationDelegateP", "init"]
+- ["So21UIApplicationDelegateP", "isColdStart"]
 - ["So21UIApplicationDelegateP", "isUserOld"]
 - ["So21UIApplicationDelegateP", "launch"]
 - ["So21UIApplicationDelegateP", "main"]
 - !private ["So21UIApplicationDelegateP", "print"]
 - ["So21UIApplicationDelegateP", "sign"]
 - ["So21UIApplicationDelegateP", "signIn"]
+- ["So21UIApplicationDelegateP", "start"]
 - ["So21UIApplicationDelegateP", "symptomsModel"]
 - ["So21UIApplicationDelegateP", "tabBar"]
 - ["So21UIApplicationDelegateP", "user"]
@@ -1150,6 +1224,7 @@ depends-member:
 - !private ["So7UIColorC", "white"]
 - !private ["So18UIContentContainerP", ""]
 - ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "movesToNextViewController"]
 - !private ["So18UIContentContainerP", "navigationBar"]
 - !private ["So18UIContentContainerP", "navigationController"]
 - !private ["So18UIContentContainerP", "present"]
@@ -1158,6 +1233,8 @@ depends-member:
 - !private ["So18UIContentContainerP", "setViewControllers"]
 - !private ["So18UIContentContainerP", "tabBar"]
 - !private ["So18UIContentContainerP", "tabBarItem"]
+- !private ["So18UIContentContainerP", "topPadding"]
+- !private ["So18UIContentContainerP", "underIconPadding"]
 - !private ["So17UICoordinateSpaceP", ""]
 - !private ["So17UICoordinateSpaceP", "backgroundColor"]
 - !private ["So17UICoordinateSpaceP", "backgroundImage"]
@@ -1181,6 +1258,7 @@ depends-member:
 - !private ["So18UIFocusEnvironmentP", "backgroundImage"]
 - ["So18UIFocusEnvironmentP", "init"]
 - !private ["So18UIFocusEnvironmentP", "makeKeyAndVisible"]
+- !private ["So18UIFocusEnvironmentP", "movesToNextViewController"]
 - !private ["So18UIFocusEnvironmentP", "navigationBar"]
 - !private ["So18UIFocusEnvironmentP", "navigationController"]
 - !private ["So18UIFocusEnvironmentP", "prefersLargeTitles"]
@@ -1193,6 +1271,8 @@ depends-member:
 - !private ["So18UIFocusEnvironmentP", "tabBar"]
 - !private ["So18UIFocusEnvironmentP", "tabBarItem"]
 - !private ["So18UIFocusEnvironmentP", "tintColor"]
+- !private ["So18UIFocusEnvironmentP", "topPadding"]
+- !private ["So18UIFocusEnvironmentP", "underIconPadding"]
 - !private ["So11UIFocusItemP", ""]
 - !private ["So11UIFocusItemP", "backgroundColor"]
 - !private ["So11UIFocusItemP", "backgroundImage"]
@@ -1231,6 +1311,8 @@ depends-member:
 - !private ["So22UINavigationControllerC", "init"]
 - !private ["So22UINavigationControllerC", "navigationBar"]
 - !private ["So22UINavigationControllerC", "pushViewController"]
+- !private ["So30UIPageViewControllerDataSourceP", "init"]
+- !private ["So28UIPageViewControllerDelegateP", "init"]
 - ["So30UIPasteConfigurationSupportingP", "$main"]
 - !private ["So30UIPasteConfigurationSupportingP", "BlogViewController"]
 - ["So30UIPasteConfigurationSupportingP", "Bool"]
@@ -1247,8 +1329,9 @@ depends-member:
 - ["So30UIPasteConfigurationSupportingP", "LaunchOptionsKey"]
 - !private ["So30UIPasteConfigurationSupportingP", "LoginViewController"]
 - !private ["So30UIPasteConfigurationSupportingP", "NSError"]
+- !private ["So30UIPasteConfigurationSupportingP", "OnboardingContentViewController"]
+- !private ["So30UIPasteConfigurationSupportingP", "OnboardingViewController"]
 - ["So30UIPasteConfigurationSupportingP", "OpenURLOptionsKey"]
-- !private ["So30UIPasteConfigurationSupportingP", "PagesNetworkService"]
 - ["So30UIPasteConfigurationSupportingP", "String"]
 - ["So30UIPasteConfigurationSupportingP", "SwipeableTabBarController"]
 - ["So30UIPasteConfigurationSupportingP", "SymptomsModel"]
@@ -1265,6 +1348,7 @@ depends-member:
 - ["So30UIPasteConfigurationSupportingP", "User"]
 - !private ["So30UIPasteConfigurationSupportingP", "UserDefaults"]
 - ["So30UIPasteConfigurationSupportingP", "UserNetworkService"]
+- !private ["So30UIPasteConfigurationSupportingP", "Void"]
 - ["So30UIPasteConfigurationSupportingP", ""]
 - ["So30UIPasteConfigurationSupportingP", "application"]
 - ["So30UIPasteConfigurationSupportingP", "applicationDidBecomeActive"]
@@ -1282,10 +1366,12 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "backgroundImage"]
 - ["So30UIPasteConfigurationSupportingP", "deinit"]
 - ["So30UIPasteConfigurationSupportingP", "init"]
+- ["So30UIPasteConfigurationSupportingP", "isColdStart"]
 - ["So30UIPasteConfigurationSupportingP", "isUserOld"]
 - ["So30UIPasteConfigurationSupportingP", "launch"]
 - ["So30UIPasteConfigurationSupportingP", "main"]
 - !private ["So30UIPasteConfigurationSupportingP", "makeKeyAndVisible"]
+- !private ["So30UIPasteConfigurationSupportingP", "movesToNextViewController"]
 - !private ["So30UIPasteConfigurationSupportingP", "navigationBar"]
 - !private ["So30UIPasteConfigurationSupportingP", "navigationController"]
 - !private ["So30UIPasteConfigurationSupportingP", "prefersLargeTitles"]
@@ -1299,10 +1385,13 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "shadowImage"]
 - ["So30UIPasteConfigurationSupportingP", "sign"]
 - ["So30UIPasteConfigurationSupportingP", "signIn"]
+- ["So30UIPasteConfigurationSupportingP", "start"]
 - ["So30UIPasteConfigurationSupportingP", "symptomsModel"]
 - ["So30UIPasteConfigurationSupportingP", "tabBar"]
 - !private ["So30UIPasteConfigurationSupportingP", "tabBarItem"]
 - !private ["So30UIPasteConfigurationSupportingP", "tintColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "topPadding"]
+- !private ["So30UIPasteConfigurationSupportingP", "underIconPadding"]
 - ["So30UIPasteConfigurationSupportingP", "user"]
 - ["So30UIPasteConfigurationSupportingP", "userNetworkService"]
 - ["So30UIPasteConfigurationSupportingP", "window"]
@@ -1321,8 +1410,9 @@ depends-member:
 - ["So11UIResponderC", "LaunchOptionsKey"]
 - !private ["So11UIResponderC", "LoginViewController"]
 - !private ["So11UIResponderC", "NSError"]
+- !private ["So11UIResponderC", "OnboardingContentViewController"]
+- !private ["So11UIResponderC", "OnboardingViewController"]
 - ["So11UIResponderC", "OpenURLOptionsKey"]
-- !private ["So11UIResponderC", "PagesNetworkService"]
 - ["So11UIResponderC", "String"]
 - ["So11UIResponderC", "SwipeableTabBarController"]
 - ["So11UIResponderC", "SymptomsModel"]
@@ -1339,6 +1429,7 @@ depends-member:
 - ["So11UIResponderC", "User"]
 - !private ["So11UIResponderC", "UserDefaults"]
 - ["So11UIResponderC", "UserNetworkService"]
+- !private ["So11UIResponderC", "Void"]
 - ["So11UIResponderC", ""]
 - ["So11UIResponderC", "application"]
 - ["So11UIResponderC", "applicationDidBecomeActive"]
@@ -1355,10 +1446,12 @@ depends-member:
 - !private ["So11UIResponderC", "backgroundColor"]
 - !private ["So11UIResponderC", "backgroundImage"]
 - ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "isColdStart"]
 - ["So11UIResponderC", "isUserOld"]
 - ["So11UIResponderC", "launch"]
 - ["So11UIResponderC", "main"]
 - !private ["So11UIResponderC", "makeKeyAndVisible"]
+- !private ["So11UIResponderC", "movesToNextViewController"]
 - !private ["So11UIResponderC", "navigationBar"]
 - !private ["So11UIResponderC", "navigationController"]
 - !private ["So11UIResponderC", "prefersLargeTitles"]
@@ -1372,10 +1465,13 @@ depends-member:
 - !private ["So11UIResponderC", "shadowImage"]
 - ["So11UIResponderC", "sign"]
 - ["So11UIResponderC", "signIn"]
+- ["So11UIResponderC", "start"]
 - ["So11UIResponderC", "symptomsModel"]
 - ["So11UIResponderC", "tabBar"]
 - !private ["So11UIResponderC", "tabBarItem"]
 - !private ["So11UIResponderC", "tintColor"]
+- !private ["So11UIResponderC", "topPadding"]
+- !private ["So11UIResponderC", "underIconPadding"]
 - ["So11UIResponderC", "user"]
 - ["So11UIResponderC", "userNetworkService"]
 - ["So11UIResponderC", "window"]
@@ -1395,8 +1491,9 @@ depends-member:
 - ["So30UIResponderStandardEditActionsP", "LaunchOptionsKey"]
 - !private ["So30UIResponderStandardEditActionsP", "LoginViewController"]
 - !private ["So30UIResponderStandardEditActionsP", "NSError"]
+- !private ["So30UIResponderStandardEditActionsP", "OnboardingContentViewController"]
+- !private ["So30UIResponderStandardEditActionsP", "OnboardingViewController"]
 - ["So30UIResponderStandardEditActionsP", "OpenURLOptionsKey"]
-- !private ["So30UIResponderStandardEditActionsP", "PagesNetworkService"]
 - ["So30UIResponderStandardEditActionsP", "String"]
 - ["So30UIResponderStandardEditActionsP", "SwipeableTabBarController"]
 - ["So30UIResponderStandardEditActionsP", "SymptomsModel"]
@@ -1413,6 +1510,7 @@ depends-member:
 - ["So30UIResponderStandardEditActionsP", "User"]
 - !private ["So30UIResponderStandardEditActionsP", "UserDefaults"]
 - ["So30UIResponderStandardEditActionsP", "UserNetworkService"]
+- !private ["So30UIResponderStandardEditActionsP", "Void"]
 - ["So30UIResponderStandardEditActionsP", ""]
 - ["So30UIResponderStandardEditActionsP", "application"]
 - ["So30UIResponderStandardEditActionsP", "applicationDidBecomeActive"]
@@ -1430,10 +1528,12 @@ depends-member:
 - !private ["So30UIResponderStandardEditActionsP", "backgroundImage"]
 - ["So30UIResponderStandardEditActionsP", "deinit"]
 - ["So30UIResponderStandardEditActionsP", "init"]
+- ["So30UIResponderStandardEditActionsP", "isColdStart"]
 - ["So30UIResponderStandardEditActionsP", "isUserOld"]
 - ["So30UIResponderStandardEditActionsP", "launch"]
 - ["So30UIResponderStandardEditActionsP", "main"]
 - !private ["So30UIResponderStandardEditActionsP", "makeKeyAndVisible"]
+- !private ["So30UIResponderStandardEditActionsP", "movesToNextViewController"]
 - !private ["So30UIResponderStandardEditActionsP", "navigationBar"]
 - !private ["So30UIResponderStandardEditActionsP", "navigationController"]
 - !private ["So30UIResponderStandardEditActionsP", "prefersLargeTitles"]
@@ -1447,10 +1547,13 @@ depends-member:
 - !private ["So30UIResponderStandardEditActionsP", "shadowImage"]
 - ["So30UIResponderStandardEditActionsP", "sign"]
 - ["So30UIResponderStandardEditActionsP", "signIn"]
+- ["So30UIResponderStandardEditActionsP", "start"]
 - ["So30UIResponderStandardEditActionsP", "symptomsModel"]
 - ["So30UIResponderStandardEditActionsP", "tabBar"]
 - !private ["So30UIResponderStandardEditActionsP", "tabBarItem"]
 - !private ["So30UIResponderStandardEditActionsP", "tintColor"]
+- !private ["So30UIResponderStandardEditActionsP", "topPadding"]
+- !private ["So30UIResponderStandardEditActionsP", "underIconPadding"]
 - ["So30UIResponderStandardEditActionsP", "user"]
 - ["So30UIResponderStandardEditActionsP", "userNetworkService"]
 - ["So30UIResponderStandardEditActionsP", "window"]
@@ -1466,6 +1569,7 @@ depends-member:
 - !private ["So35UISpringLoadedInteractionSupportingP", "tintColor"]
 - !private ["So16UIStateRestoringP", ""]
 - ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "movesToNextViewController"]
 - !private ["So16UIStateRestoringP", "navigationBar"]
 - !private ["So16UIStateRestoringP", "navigationController"]
 - !private ["So16UIStateRestoringP", "present"]
@@ -1474,6 +1578,8 @@ depends-member:
 - !private ["So16UIStateRestoringP", "setViewControllers"]
 - !private ["So16UIStateRestoringP", "tabBar"]
 - !private ["So16UIStateRestoringP", "tabBarItem"]
+- !private ["So16UIStateRestoringP", "topPadding"]
+- !private ["So16UIStateRestoringP", "underIconPadding"]
 - !private ["So8UITabBarC", "backgroundColor"]
 - !private ["So8UITabBarC", "backgroundImage"]
 - !private ["So8UITabBarC", "shadowImage"]
@@ -1506,6 +1612,7 @@ depends-member:
 - ["So18UITraitEnvironmentP", "init"]
 - !private ["So18UITraitEnvironmentP", "main"]
 - !private ["So18UITraitEnvironmentP", "makeKeyAndVisible"]
+- !private ["So18UITraitEnvironmentP", "movesToNextViewController"]
 - !private ["So18UITraitEnvironmentP", "navigationBar"]
 - !private ["So18UITraitEnvironmentP", "navigationController"]
 - !private ["So18UITraitEnvironmentP", "prefersLargeTitles"]
@@ -1518,6 +1625,8 @@ depends-member:
 - !private ["So18UITraitEnvironmentP", "tabBar"]
 - !private ["So18UITraitEnvironmentP", "tabBarItem"]
 - !private ["So18UITraitEnvironmentP", "tintColor"]
+- !private ["So18UITraitEnvironmentP", "topPadding"]
+- !private ["So18UITraitEnvironmentP", "underIconPadding"]
 - ["So23UIUserActivityRestoringP", "$main"]
 - !private ["So23UIUserActivityRestoringP", "BlogViewController"]
 - ["So23UIUserActivityRestoringP", "Bool"]
@@ -1534,8 +1643,9 @@ depends-member:
 - ["So23UIUserActivityRestoringP", "LaunchOptionsKey"]
 - !private ["So23UIUserActivityRestoringP", "LoginViewController"]
 - !private ["So23UIUserActivityRestoringP", "NSError"]
+- !private ["So23UIUserActivityRestoringP", "OnboardingContentViewController"]
+- !private ["So23UIUserActivityRestoringP", "OnboardingViewController"]
 - ["So23UIUserActivityRestoringP", "OpenURLOptionsKey"]
-- !private ["So23UIUserActivityRestoringP", "PagesNetworkService"]
 - ["So23UIUserActivityRestoringP", "String"]
 - ["So23UIUserActivityRestoringP", "SwipeableTabBarController"]
 - ["So23UIUserActivityRestoringP", "SymptomsModel"]
@@ -1552,6 +1662,7 @@ depends-member:
 - ["So23UIUserActivityRestoringP", "User"]
 - !private ["So23UIUserActivityRestoringP", "UserDefaults"]
 - ["So23UIUserActivityRestoringP", "UserNetworkService"]
+- !private ["So23UIUserActivityRestoringP", "Void"]
 - ["So23UIUserActivityRestoringP", ""]
 - ["So23UIUserActivityRestoringP", "application"]
 - ["So23UIUserActivityRestoringP", "applicationDidBecomeActive"]
@@ -1569,10 +1680,12 @@ depends-member:
 - !private ["So23UIUserActivityRestoringP", "backgroundImage"]
 - ["So23UIUserActivityRestoringP", "deinit"]
 - ["So23UIUserActivityRestoringP", "init"]
+- ["So23UIUserActivityRestoringP", "isColdStart"]
 - ["So23UIUserActivityRestoringP", "isUserOld"]
 - ["So23UIUserActivityRestoringP", "launch"]
 - ["So23UIUserActivityRestoringP", "main"]
 - !private ["So23UIUserActivityRestoringP", "makeKeyAndVisible"]
+- !private ["So23UIUserActivityRestoringP", "movesToNextViewController"]
 - !private ["So23UIUserActivityRestoringP", "navigationBar"]
 - !private ["So23UIUserActivityRestoringP", "navigationController"]
 - !private ["So23UIUserActivityRestoringP", "prefersLargeTitles"]
@@ -1586,10 +1699,13 @@ depends-member:
 - !private ["So23UIUserActivityRestoringP", "shadowImage"]
 - ["So23UIUserActivityRestoringP", "sign"]
 - ["So23UIUserActivityRestoringP", "signIn"]
+- ["So23UIUserActivityRestoringP", "start"]
 - ["So23UIUserActivityRestoringP", "symptomsModel"]
 - ["So23UIUserActivityRestoringP", "tabBar"]
 - !private ["So23UIUserActivityRestoringP", "tabBarItem"]
 - !private ["So23UIUserActivityRestoringP", "tintColor"]
+- !private ["So23UIUserActivityRestoringP", "topPadding"]
+- !private ["So23UIUserActivityRestoringP", "underIconPadding"]
 - ["So23UIUserActivityRestoringP", "user"]
 - ["So23UIUserActivityRestoringP", "userNetworkService"]
 - ["So23UIUserActivityRestoringP", "window"]
@@ -1604,6 +1720,7 @@ depends-member:
 - !private ["So6UIViewC", "tintColor"]
 - ["So16UIViewControllerC", ""]
 - ["So16UIViewControllerC", "init"]
+- !private ["So16UIViewControllerC", "movesToNextViewController"]
 - !private ["So16UIViewControllerC", "navigationBar"]
 - !private ["So16UIViewControllerC", "navigationController"]
 - !private ["So16UIViewControllerC", "present"]
@@ -1612,6 +1729,8 @@ depends-member:
 - !private ["So16UIViewControllerC", "setViewControllers"]
 - !private ["So16UIViewControllerC", "tabBar"]
 - !private ["So16UIViewControllerC", "tabBarItem"]
+- !private ["So16UIViewControllerC", "topPadding"]
+- !private ["So16UIViewControllerC", "underIconPadding"]
 - !private ["So8UIWindowC", "backgroundColor"]
 - !private ["So8UIWindowC", "init"]
 - !private ["So8UIWindowC", "makeKeyAndVisible"]
@@ -1653,8 +1772,9 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "GoogleUser"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "LaunchOptionsKey"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "LoginViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "OnboardingContentViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "OnboardingViewController"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "OpenURLOptionsKey"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "PagesNetworkService"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "SwipeableTabBarController"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "TodayViewController"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UIColor"]
@@ -1692,10 +1812,12 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "handle"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "imageURL"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isColdStart"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "isUserOld"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "launch"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "main"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "makeKeyAndVisible"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "movesToNextViewController"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "name"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "navigationBar"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "navigationController"]
@@ -1713,10 +1835,13 @@ depends-member:
 - ["10Foundation27_KeyValueCodingAndObservingP", "sign"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "signIn"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "standard"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "start"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "systemYellow"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "tabBar"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "tabBarItem"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "tintColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "topPadding"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "underIconPadding"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "user"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "userID"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "white"]
@@ -1732,8 +1857,9 @@ depends-member:
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "GoogleUser"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "LaunchOptionsKey"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "LoginViewController"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "OnboardingContentViewController"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "OnboardingViewController"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "OpenURLOptionsKey"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "PagesNetworkService"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "SwipeableTabBarController"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "TodayViewController"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIColor"]
@@ -1771,10 +1897,12 @@ depends-member:
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "handle"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "imageURL"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isColdStart"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isUserOld"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "launch"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "main"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "makeKeyAndVisible"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "movesToNextViewController"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "name"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "navigationBar"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "navigationController"]
@@ -1792,10 +1920,13 @@ depends-member:
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "sign"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "signIn"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "standard"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "start"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "systemYellow"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "tabBar"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "tabBarItem"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "tintColor"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "topPadding"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "underIconPadding"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "user"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "userID"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "white"]
@@ -1882,8 +2013,10 @@ depends-nominal:
 - !private "So14NSSecureCodingP"
 - "11Supplements14NetworkServiceC"
 - !private "Sj"
+- !private "So31OnboardingContentViewControllerC"
+- !private "So39OnboardingContentViewControllerDelegateP"
+- !private "So24OnboardingViewControllerC"
 - !private "Sq"
-- !private "11Supplements19PagesNetworkServiceC"
 - !private "Sk"
 - !private "Sm"
 - !private "SY"
@@ -1917,6 +2050,8 @@ depends-nominal:
 - !private "So24UILargeContentViewerItemP"
 - !private "So15UINavigationBarC"
 - !private "So22UINavigationControllerC"
+- !private "So30UIPageViewControllerDataSourceP"
+- !private "So28UIPageViewControllerDelegateP"
 - "So30UIPasteConfigurationSupportingP"
 - "So11UIResponderC"
 - "So30UIResponderStandardEditActionsP"
@@ -1954,9 +2089,12 @@ depends-nominal:
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMIDI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftUI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMedia.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/simd.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
@@ -1966,7 +2104,9 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/AVFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreAudio.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/CalendarHeatmap/CalendarHeatmap.framework/Modules/CalendarHeatmap.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/SwipeableTabBarController/SwipeableTabBarController.framework/Modules/SwipeableTabBarController.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/Popover/Popover.framework/Modules/Popover.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
@@ -1983,6 +2123,7 @@ depends-external:
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/CollectionViewPagingLayout/CollectionViewPagingLayout.framework/Modules/CollectionViewPagingLayout.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/LinearProgressView/LinearProgressView.framework/Modules/LinearProgressView.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/Onboard/Onboard.framework/Headers/Onboard-umbrella.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/CalendarHeatmap/CalendarHeatmap.framework/Headers/CalendarHeatmap-umbrella.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/SwipeableTabBarController/SwipeableTabBarController.framework/Headers/SwipeableTabBarController-umbrella.h"
@@ -1995,6 +2136,8 @@ depends-external:
 - "/Users/sapientisat/Projects/Supplements/Supplements/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GoogleSignIn.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDAuthentication.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDSignInButton.h"
+- "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/Onboard/Onboard.framework/Headers/OnboardingViewController.h"
+- "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/Onboard/Onboard.framework/Headers/OnboardingContentViewController.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDGoogleUser.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
@@ -2006,6 +2149,7 @@ depends-external:
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/LinearProgressView/LinearProgressView.framework/Headers/LinearProgressView-Swift.h"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/dyld.modulemap"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
+- "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/Onboard/Onboard.framework/Modules/module.modulemap"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
 - "/Users/sapientisat/Projects/Supplements/Supplements/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Modules/module.modulemap"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/CalendarHeatmap/CalendarHeatmap.framework/Modules/module.modulemap"
@@ -2017,6 +2161,7 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/objc/ObjectiveC.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
@@ -2025,13 +2170,18 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/Darwin.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioTypes.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UniformTypeIdentifiers.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/AVKit.framework/Headers/AVKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/HealthKit.framework/Headers/HealthKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "87811e93830f7b03fb3d7f380f94b77d"
+interface-hash: "76f153da434c51b95906d3ed6acb0ed9"
