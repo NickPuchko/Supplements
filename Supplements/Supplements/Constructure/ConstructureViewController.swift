@@ -59,7 +59,7 @@ class ConstructureViewController: UIViewController {
 
 		view.addSubview(restartCourse)
 		restartCourse.addTarget(self, action: #selector(startForm), for: .touchUpInside)
-		let restartImage = UIImage(systemName: "person")!
+		let restartImage = UIImage(systemName: "arrow.clockwise.heart")!
 		restartCourse.setImage(restartImage, for: .normal)
 		restartCourse.contentMode = .redraw
 		restartCourse.layer.cornerRadius = 14
