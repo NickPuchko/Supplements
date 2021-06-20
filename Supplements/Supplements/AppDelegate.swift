@@ -20,9 +20,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
 	let tabBar = SwipeableTabBarController()
 	private var isUserOld: Bool {
 		if UserDefaults.standard.bool(forKey: "isUserOld") {
-			return false
-		} else {
 			return true
+		} else {
+			return false
 		}
 	}
 
@@ -84,7 +84,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
 			navigationController.navigationBar.prefersLargeTitles = true
 			window?.rootViewController = navigationController
 		}
-
 		window?.makeKeyAndVisible()
 	}
 
