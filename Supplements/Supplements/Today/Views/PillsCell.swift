@@ -10,7 +10,6 @@ import UIKit
 
 class PillsCell: UITableViewCell {
     
-     var logoImageView = UIImageView()
      var pillNameLabel = UILabel()
      var doseLabel = UILabel()
      var lableDate = UILabel()
@@ -25,34 +24,25 @@ class PillsCell: UITableViewCell {
     }
     
     private func configureUI() {
-        self.addSubview(logoImageView)
         self.addSubview(pillNameLabel)
         self.addSubview(doseLabel)
         self.addSubview(lableDate)
-        logoImageView.translatesAutoresizingMaskIntoConstraints = false
         pillNameLabel.translatesAutoresizingMaskIntoConstraints = false
         doseLabel.translatesAutoresizingMaskIntoConstraints = false
         lableDate.translatesAutoresizingMaskIntoConstraints = false
         
-        logoImageView.clipsToBounds = true
         pillNameLabel.font = UIFont(name: "HelveticaNeue-Bold", size: 18)
         pillNameLabel.textColor = .black
         doseLabel.font = UIFont(name: "HelveticaNeue", size: 12)
         doseLabel.textColor = UIColor(red: 161/255, green: 178/255, blue: 161/255, alpha: 1)
         lableDate.sizeToFit()
         NSLayoutConstraint.activate([
-            logoImageView.centerYAnchor.constraint(equalTo: centerYAnchor),
-            logoImageView.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 20),
-            logoImageView.heightAnchor.constraint(equalToConstant: 54),
-            logoImageView.widthAnchor.constraint(equalTo: logoImageView.heightAnchor),
-        ])
-        NSLayoutConstraint.activate([
-            pillNameLabel.leadingAnchor.constraint(equalTo: logoImageView.trailingAnchor, constant: 14),
-            pillNameLabel.topAnchor.constraint(equalTo: logoImageView.topAnchor, constant: 10),
+			pillNameLabel.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: 14),
+            pillNameLabel.topAnchor.constraint(equalTo: contentView.topAnchor, constant: 15),
             pillNameLabel.heightAnchor.constraint(equalToConstant: 19),
         ])
         NSLayoutConstraint.activate([
-            doseLabel.leadingAnchor.constraint(equalTo: logoImageView.trailingAnchor, constant: 14),
+            doseLabel.leadingAnchor.constraint(equalTo: pillNameLabel.leadingAnchor),
             doseLabel.topAnchor.constraint(equalTo: pillNameLabel.bottomAnchor, constant: 4),
             doseLabel.heightAnchor.constraint(equalToConstant: 13),
         ])

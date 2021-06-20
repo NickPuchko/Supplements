@@ -48,6 +48,7 @@
 		AA851CF0267E024700809A47 /* UIImage+imageResize.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA851CEF267E024700809A47 /* UIImage+imageResize.swift */; };
 		AA851D14267E615500809A47 /* DeficitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA851D12267E615500809A47 /* DeficitModel.swift */; };
 		AA851D15267E615500809A47 /* DeficitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA851D13267E615500809A47 /* DeficitViewController.swift */; };
+		AA851D8F267EB7DB00809A47 /* DeficitTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA851D8E267EB7DB00809A47 /* DeficitTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -95,6 +96,7 @@
 		AA851CEF267E024700809A47 /* UIImage+imageResize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+imageResize.swift"; sourceTree = "<group>"; };
 		AA851D12267E615500809A47 /* DeficitModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeficitModel.swift; sourceTree = "<group>"; };
 		AA851D13267E615500809A47 /* DeficitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeficitViewController.swift; sourceTree = "<group>"; };
+		AA851D8E267EB7DB00809A47 /* DeficitTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeficitTableViewCell.swift; sourceTree = "<group>"; };
 		BEB40AEC1D0CC127476CA557 /* Pods_Supplements.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Supplements.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -293,6 +295,7 @@
 			children = (
 				AA851D12267E615500809A47 /* DeficitModel.swift */,
 				AA851D13267E615500809A47 /* DeficitViewController.swift */,
+				AA851D8E267EB7DB00809A47 /* DeficitTableViewCell.swift */,
 			);
 			path = Deficit;
 			sourceTree = "<group>";
@@ -432,6 +435,7 @@
 				737D3456267D49F500E67EEF /* TodayViewController.swift in Sources */,
 				737D345D267D4AC200E67EEF /* PillsHeaderVIew.swift in Sources */,
 				73061472267E389C00591F27 /* BlogViewController.swift in Sources */,
+				AA851D8F267EB7DB00809A47 /* DeficitTableViewCell.swift in Sources */,
 				AA851C7E267D0F4900809A47 /* UserNetworkService.swift in Sources */,
 				7306146F267E2C1500591F27 /* Enum+Sex.swift in Sources */,
 				AA851CC3267D686400809A47 /* PagesNetworkService.swift in Sources */,

@@ -11,7 +11,10 @@ import UIKit
 
 class DeficitModel {
 	weak var viewController: DeficitViewController!
-	var deficits: [Deficit] = []
+	var deficits: [Deficit] = [
+		.init(name: .calcium, risk: 0.75, good: nil),
+		.init(name: .copper, risk: 0.3, good: nil)
+	]
     
 	init(_ viewController: DeficitViewController) {
 		self.viewController = viewController
@@ -37,9 +40,9 @@ struct Deficit: Codable {
 
 	var advice: Advice {
 		switch risk {
-		case 0..<20:
+		case 0..<0.3:
 			return .fine
-		case 20..<50:
+		case 0.3..<0.6:
 			return .average
 		default:
 			return .dangerous

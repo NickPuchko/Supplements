@@ -22,6 +22,7 @@ provides-dynamic-lookup:
 depends-top-level:
 - !private "+"
 - !private "=="
+- !private "??"
 - !private "Array"
 - "AssignmentPrecedence"
 - !private "BooleanLiteralType"

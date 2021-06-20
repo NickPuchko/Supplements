@@ -23,6 +23,7 @@ depends-top-level:
 - "=="
 - !private "Array"
 - "AssignmentPrecedence"
+- "CaseIterable"
 - "Codable"
 - "Element"
 - !private "FloatLiteralType"
@@ -43,6 +44,50 @@ depends-top-level:
 depends-member:
 - !private ["SK", ""]
 - !private ["s7CVarArgP", "refresh"]
+- ["s12CaseIterableP", "=="]
+- ["s12CaseIterableP", "AllCases"]
+- ["s12CaseIterableP", "Default_AllCases"]
+- ["s12CaseIterableP", "Default_RawValue"]
+- ["s12CaseIterableP", "Element"]
+- ["s12CaseIterableP", "RawValue"]
+- ["s12CaseIterableP", ""]
+- ["s12CaseIterableP", "_Default_AllCases"]
+- ["s12CaseIterableP", "_Default_RawValue"]
+- !private ["s12CaseIterableP", "_findStringSwitchCase"]
+- ["s12CaseIterableP", "_rawHashValue"]
+- ["s12CaseIterableP", "allCases"]
+- !private ["s12CaseIterableP", "boron"]
+- !private ["s12CaseIterableP", "calcium"]
+- !private ["s12CaseIterableP", "choline"]
+- !private ["s12CaseIterableP", "chromium"]
+- ["s12CaseIterableP", "encode"]
+- !private ["s12CaseIterableP", "findStringSwitchCase"]
+- ["s12CaseIterableP", "hash"]
+- ["s12CaseIterableP", "hashValue"]
+- ["s12CaseIterableP", "init"]
+- !private ["s12CaseIterableP", "iodine"]
+- !private ["s12CaseIterableP", "iron"]
+- !private ["s12CaseIterableP", "lithium"]
+- !private ["s12CaseIterableP", "magnesium"]
+- !private ["s12CaseIterableP", "manganese"]
+- !private ["s12CaseIterableP", "molybdenum"]
+- !private ["s12CaseIterableP", "multimineral"]
+- !private ["s12CaseIterableP", "potassium"]
+- ["s12CaseIterableP", "rawValue"]
+- !private ["s12CaseIterableP", "selenium"]
+- !private ["s12CaseIterableP", "silver"]
+- !private ["s12CaseIterableP", "strontium"]
+- !private ["s12CaseIterableP", "trace"]
+- !private ["s12CaseIterableP", "vanadyl"]
+- !private ["s12CaseIterableP", "vitamin_a"]
+- !private ["s12CaseIterableP", "vitamin_b12"]
+- !private ["s12CaseIterableP", "vitamin_b2"]
+- !private ["s12CaseIterableP", "vitamin_b6"]
+- !private ["s12CaseIterableP", "vitamin_c"]
+- !private ["s12CaseIterableP", "vitamin_d3"]
+- !private ["s12CaseIterableP", "vitamin_e"]
+- !private ["s12CaseIterableP", "vitamin_k"]
+- !private ["s12CaseIterableP", "zinc"]
 - ["s9CodingKeyP", "=="]
 - !private ["s9CodingKeyP", ""]
 - ["s9CodingKeyP", "_rawHashValue"]
@@ -80,12 +125,16 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "refresh"]
 - ["s23CustomStringConvertibleP", "stringValue"]
 - ["Se", "=="]
+- ["Se", "AllCases"]
+- ["Se", "Default_AllCases"]
 - ["Se", "Default_RawValue"]
 - ["Se", "RawValue"]
 - ["Se", ""]
+- ["Se", "_Default_AllCases"]
 - ["Se", "_Default_RawValue"]
 - !private ["Se", "_findStringSwitchCase"]
 - ["Se", "_rawHashValue"]
+- ["Se", "allCases"]
 - !private ["Se", "boron"]
 - !private ["Se", "calcium"]
 - !private ["Se", "choline"]
@@ -124,13 +173,17 @@ depends-member:
 - !private ["Se", "zinc"]
 - !private ["s7DecoderP", "container"]
 - ["11Supplements7ElementO", "=="]
+- ["11Supplements7ElementO", "AllCases"]
+- ["11Supplements7ElementO", "Default_AllCases"]
 - ["11Supplements7ElementO", "Default_RawValue"]
 - ["11Supplements7ElementO", "RawValue"]
 - ["11Supplements7ElementO", "String"]
 - ["11Supplements7ElementO", ""]
+- ["11Supplements7ElementO", "_Default_AllCases"]
 - ["11Supplements7ElementO", "_Default_RawValue"]
 - !private ["11Supplements7ElementO", "_findStringSwitchCase"]
 - ["11Supplements7ElementO", "_rawHashValue"]
+- ["11Supplements7ElementO", "allCases"]
 - ["11Supplements7ElementO", "boron"]
 - ["11Supplements7ElementO", "calcium"]
 - ["11Supplements7ElementO", "choline"]
@@ -165,12 +218,16 @@ depends-member:
 - ["11Supplements7ElementO", "vitamin_k"]
 - ["11Supplements7ElementO", "zinc"]
 - ["SE", "=="]
+- ["SE", "AllCases"]
+- ["SE", "Default_AllCases"]
 - ["SE", "Default_RawValue"]
 - ["SE", "RawValue"]
 - ["SE", ""]
+- ["SE", "_Default_AllCases"]
 - ["SE", "_Default_RawValue"]
 - !private ["SE", "_findStringSwitchCase"]
 - ["SE", "_rawHashValue"]
+- ["SE", "allCases"]
 - !private ["SE", "boron"]
 - !private ["SE", "calcium"]
 - !private ["SE", "choline"]
@@ -209,12 +266,16 @@ depends-member:
 - !private ["SE", "zinc"]
 - !private ["s7EncoderP", "container"]
 - ["SQ", "=="]
+- ["SQ", "AllCases"]
+- ["SQ", "Default_AllCases"]
 - ["SQ", "Default_RawValue"]
 - ["SQ", "RawValue"]
 - ["SQ", ""]
+- ["SQ", "_Default_AllCases"]
 - ["SQ", "_Default_RawValue"]
 - !private ["SQ", "_findStringSwitchCase"]
 - ["SQ", "_rawHashValue"]
+- ["SQ", "allCases"]
 - !private ["SQ", "boron"]
 - !private ["SQ", "calcium"]
 - !private ["SQ", "choline"]
@@ -262,12 +323,16 @@ depends-member:
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", ""]
 - !private ["7SwiftUI7GestureP", "refresh"]
 - ["SH", "=="]
+- ["SH", "AllCases"]
+- ["SH", "Default_AllCases"]
 - ["SH", "Default_RawValue"]
 - ["SH", "RawValue"]
 - ["SH", ""]
+- ["SH", "_Default_AllCases"]
 - ["SH", "_Default_RawValue"]
 - !private ["SH", "_findStringSwitchCase"]
 - ["SH", "_rawHashValue"]
+- ["SH", "allCases"]
 - !private ["SH", "boron"]
 - !private ["SH", "calcium"]
 - !private ["SH", "choline"]
@@ -339,12 +404,16 @@ depends-member:
 - ["11Supplements19PagesNetworkServiceC", "init"]
 - !private ["11Supplements19PagesNetworkServiceC", "sendRowData"]
 - ["SY", "=="]
+- ["SY", "AllCases"]
+- ["SY", "Default_AllCases"]
 - ["SY", "Default_RawValue"]
 - ["SY", "RawValue"]
 - ["SY", ""]
+- ["SY", "_Default_AllCases"]
 - ["SY", "_Default_RawValue"]
 - !private ["SY", "_findStringSwitchCase"]
 - ["SY", "_rawHashValue"]
+- ["SY", "allCases"]
 - !private ["SY", "boron"]
 - !private ["SY", "calcium"]
 - !private ["SY", "choline"]
@@ -380,7 +449,7 @@ depends-member:
 - !private ["11Supplements12RequestErrorO", ""]
 - !private ["s6ResultO", "failure"]
 - !private ["s6ResultO", "success"]
-- !private ["ST", ""]
+- ["ST", ""]
 - !private ["11Supplements13SymptomsModelC", "$__lazy_storage_$_networkSerivce"]
 - ["11Supplements13SymptomsModelC", "Page"]
 - ["11Supplements13SymptomsModelC", "PagesNetworkService"]
@@ -425,6 +494,7 @@ depends-member:
 depends-nominal:
 - !private "SK"
 - !private "s7CVarArgP"
+- "s12CaseIterableP"
 - "s9CodingKeyP"
 - !private "Sl"
 - !private "26CollectionViewPagingLayout0abcD8DelegateP"
@@ -463,7 +533,7 @@ depends-nominal:
 - "SY"
 - !private "11Supplements12RequestErrorO"
 - !private "s6ResultO"
-- !private "ST"
+- "ST"
 - "11Supplements13SymptomsModelC"
 - !private "11Supplements22SymptomsViewControllerC"
 - !private "s16TextOutputStreamP"
@@ -572,4 +642,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/HealthKit.framework/Headers/HealthKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "5b5da4d97d776ba867a2fa5b275144ee"
+interface-hash: "1d98be8fab838cd474d1c416777a72f8"

@@ -250,6 +250,8 @@ SWIFT_CLASS("_TtC11Supplements25ConstructureTableViewCell")
 - (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 - (void)layoutSubviews;
+- (void)addButtonClick;
+- (void)analogButtonClick;
 - (void)prepareForReuse;
 @end
 
@@ -257,8 +259,7 @@ SWIFT_CLASS("_TtC11Supplements25ConstructureTableViewCell")
 SWIFT_CLASS("_TtC11Supplements26ConstructureViewController")
 @interface ConstructureViewController : UIViewController
 - (void)viewDidLoad;
-- (void)addButtonClick;
-- (void)analogButtonClick;
+- (void)openToday;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -308,11 +309,28 @@ SWIFT_CLASS("_TtC11Supplements15CustomTextField")
 @end
 
 
+SWIFT_CLASS("_TtC11Supplements20DeficitTableViewCell")
+@interface DeficitTableViewCell : UITableViewCell
+- (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
 SWIFT_CLASS("_TtC11Supplements21DeficitViewController")
 @interface DeficitViewController : UIViewController
 - (void)viewDidLoad;
+- (void)handleFindCourseTap;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+@interface DeficitViewController (SWIFT_EXTENSION(Supplements)) <UITableViewDataSource, UITableViewDelegate>
+- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (NSInteger)numberOfSectionsInTableView:(UITableView * _Nonnull)tableView SWIFT_WARN_UNUSED_RESULT;
+- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (CGFloat)tableView:(UITableView * _Nonnull)tableView heightForHeaderInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UIView * _Nullable)tableView:(UITableView * _Nonnull)tableView viewForHeaderInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
 @end
 
 
@@ -441,10 +459,10 @@ SWIFT_CLASS("_TtC11Supplements22SymptomsViewController")
 @end
 
 
-
 @interface SymptomsViewController (SWIFT_EXTENSION(Supplements)) <UICollectionViewDataSource>
 - (NSInteger)numberOfSectionsInCollectionView:(UICollectionView * _Nonnull)collectionView SWIFT_WARN_UNUSED_RESULT;
 @end
+
 
 
 @interface SymptomsViewController (SWIFT_EXTENSION(Supplements)) <UICollectionViewDelegate>
@@ -459,6 +477,13 @@ SWIFT_CLASS("_TtC11Supplements19TodayViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UIColor;
+
+@interface TodayViewController (SWIFT_EXTENSION(Supplements)) <CalendarHeatmapDelegate>
+- (UIColor * _Nonnull)colorForDateComponents:(NSDateComponents * _Nonnull)dateComponents SWIFT_WARN_UNUSED_RESULT;
+- (void)finishLoadCalendar;
+@end
+
 
 @interface TodayViewController (SWIFT_EXTENSION(Supplements)) <UITableViewDelegate>
 - (UIView * _Nullable)tableView:(UITableView * _Nonnull)tableView viewForHeaderInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
@@ -470,14 +495,6 @@ SWIFT_CLASS("_TtC11Supplements19TodayViewController")
 - (NSInteger)numberOfSectionsInTableView:(UITableView * _Nonnull)tableView SWIFT_WARN_UNUSED_RESULT;
 - (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
 - (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
-@end
-
-@class UIColor;
-
-@interface TodayViewController (SWIFT_EXTENSION(Supplements)) <CalendarHeatmapDelegate>
-- (void)didSelectedAtDateComponents:(NSDateComponents * _Nonnull)dateComponents;
-- (UIColor * _Nonnull)colorForDateComponents:(NSDateComponents * _Nonnull)dateComponents SWIFT_WARN_UNUSED_RESULT;
-- (void)finishLoadCalendar;
 @end
 
 

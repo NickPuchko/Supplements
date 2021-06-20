@@ -98,7 +98,7 @@ class SymptomsViewController: UIViewController {
 	@objc func showDeficits() {
 		model.sendRowData()
 		UserDefaults.standard.setValue(true, forKey: "isUserOld")
-		(UIApplication.shared.delegate as! AppDelegate).launch()
+		(UIApplication.shared.delegate as! AppDelegate).launch(with: [])
 	}
 
 	private func setupProgressbar() {

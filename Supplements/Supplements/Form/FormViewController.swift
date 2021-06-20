@@ -63,8 +63,8 @@ extension FormViewController {
 
 	@objc func showSymptomsViewController() {
 		var rowData = RowData(
-			height: Int(contentView.heightTextField.text!)!,
-			weight: Int(contentView.weightTextField.text!)!,
+			height: Int(contentView.heightTextField.text!) ?? 0,
+			weight: Int(contentView.weightTextField.text!) ?? 0,
 			city: contentView.cityTextField.text!,
 			sex: contentView.sex.selectedSegmentIndex == 0 ? "male" : "female",
 			birthDate: contentView.birthDateTextField.text!,

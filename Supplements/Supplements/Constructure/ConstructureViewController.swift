@@ -24,6 +24,7 @@ class ConstructureViewController: UIViewController {
         view.addSubview(tableView)
         imageView.translatesAutoresizingMaskIntoConstraints = false
         setUptableView()
+		startCourse.addTarget(self, action: #selector(openToday), for: .touchUpInside)
         startCourse.translatesAutoresizingMaskIntoConstraints = false
         view.addSubview(startCourse)
         NSLayoutConstraint.activate([
@@ -55,7 +56,17 @@ class ConstructureViewController: UIViewController {
             priceLabel.widthAnchor.constraint(equalToConstant: 160)
         ])
 
+		if price == 0 {
+			startCourse.isEnabled = false
+			startCourse.alpha = 0.5
+		}
+
     }
+
+	@objc func openToday() {
+		(UIApplication.shared.delegate as! AppDelegate).tabBar.selectedIndex = 0
+	}
+
     private func setUptableView() {
         tableView.translatesAutoresizingMaskIntoConstraints = false
 		tableView.backgroundColor = .clear
@@ -107,13 +118,18 @@ extension ConstructureViewController: UITableViewDataSource {
         cell.vitaminNameLabel.text = "Витамин С"
         cell.priceLabel.text = "1200"
         cell.percentageLabel.text = "80%"
-        cell.descriptionLabel.text = "California Gold Nutrition, Gold C, витамин C, 1000 мг, 60 вегетарианских капсул"
+        var str = "California Gold Nutrition, Gold C, витамин C, 1000 мг, 60 вегетарианских капсул asdasdasd"
+        if str.count > 79 {
+            str = String(str.prefix(79)) + "..."
+        }
+        cell.descriptionLabel.text = str
         cell.addButton.addTarget(cell, action: #selector(cell.addButtonClick), for: .touchUpInside)
         cell.addDelegate = self
         cell.analogDelegate = self
         cell.analogsButton.addTarget(cell, action: #selector(cell.analogButtonClick), for: .touchUpInside)
         return cell
     }
+
     func addPrice(cell: ConstructureTableViewCell) {
         if cell.addButton.currentTitle == "Добавить" {
             price += Int(cell.priceLabel.text ?? "0") ?? 0
@@ -126,10 +142,19 @@ extension ConstructureViewController: UITableViewDataSource {
             cell.addButton.setTitle("Добавить", for: .normal)
             cell.addButton.backgroundColor = UIColor(red: 174/255, green: 232/255, blue: 128/255, alpha: 1)
         }
+		UIView.animate(withDuration: 1) {
+			if self.price == 0 {
+				self.startCourse.isEnabled = false
+				self.startCourse.alpha = 0.5
+			} else {
+				self.startCourse.isEnabled = true
+				self.startCourse.alpha = 1
+			}
+		}
         
     }
     func analogShow(cell: ConstructureTableViewCell) {
-        print("suka")
+        print("nope")
     }
     
 }

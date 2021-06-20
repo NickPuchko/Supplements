@@ -42,7 +42,6 @@ depends-top-level:
 - !private "rowData"
 - !private "~="
 depends-member:
-- !private ["SK", ""]
 - !private ["s7CVarArgP", "refresh"]
 - ["s12CaseIterableP", "=="]
 - ["s12CaseIterableP", "AllCases"]
@@ -98,9 +97,7 @@ depends-member:
 - ["s9CodingKeyP", "init"]
 - ["s9CodingKeyP", "intValue"]
 - ["s9CodingKeyP", "stringValue"]
-- !private ["Sl", ""]
 - !private ["26CollectionViewPagingLayout0abcD8DelegateP", "refresh"]
-- !private ["SL", ""]
 - ["s28CustomDebugStringConvertibleP", "=="]
 - ["s28CustomDebugStringConvertibleP", ""]
 - ["s28CustomDebugStringConvertibleP", "_rawHashValue"]
@@ -316,11 +313,7 @@ depends-member:
 - !private ["SQ", "vitamin_k"]
 - !private ["SQ", "zinc"]
 - ["s25ExpressibleByArrayLiteralP", "init"]
-- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
 - !private ["s23ExpressibleByNilLiteralP", "refresh"]
-- !private ["s32ExpressibleByStringInterpolationP", ""]
-- !private ["s26ExpressibleByStringLiteralP", ""]
-- !private ["s33ExpressibleByUnicodeScalarLiteralP", ""]
 - !private ["7SwiftUI7GestureP", "refresh"]
 - ["SH", "=="]
 - ["SH", "AllCases"]
@@ -377,13 +370,10 @@ depends-member:
 - !private ["s30KeyedDecodingContainerProtocolP", "decode"]
 - !private ["s22KeyedEncodingContainerV", "encode"]
 - !private ["s30KeyedEncodingContainerProtocolP", "encode"]
-- !private ["s25LosslessStringConvertibleP", ""]
-- ["So8NSCodingP", ""]
 - !private ["So8NSCodingP", "refresh"]
 - !private ["So26NSExtensionRequestHandlingP", "refresh"]
-- ["So8NSObjectC", ""]
 - !private ["So8NSObjectC", "refresh"]
-- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", ""]
 - !private ["So8NSObjectP", "refresh"]
 - ["11Supplements14NetworkServiceC", ""]
 - !private ["11Supplements14NetworkServiceC", "getPages"]
@@ -465,15 +455,12 @@ depends-member:
 - ["11Supplements13SymptomsModelC", "sendRowData"]
 - ["11Supplements13SymptomsModelC", "viewController"]
 - !private ["11Supplements22SymptomsViewControllerC", "refresh"]
-- !private ["s16TextOutputStreamP", ""]
-- !private ["s20TextOutputStreamableP", ""]
 - !private ["So21UIAppearanceContainerP", "refresh"]
 - !private ["So26UICollectionViewDataSourceP", "refresh"]
 - !private ["So24UICollectionViewDelegateP", "refresh"]
 - !private ["So18UIContentContainerP", "refresh"]
 - !private ["So18UIFocusEnvironmentP", "refresh"]
 - !private ["So30UIPasteConfigurationSupportingP", "refresh"]
-- ["So11UIResponderC", ""]
 - !private ["So11UIResponderC", "refresh"]
 - !private ["So30UIResponderStandardEditActionsP", "refresh"]
 - !private ["So20UIScrollViewDelegateP", ""]
@@ -484,21 +471,16 @@ depends-member:
 - ["So16UIViewControllerC", ""]
 - !private ["So16UIViewControllerC", "refresh"]
 - !private ["7SwiftUI4ViewP", "refresh"]
-- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
 - !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
 - ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
-- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "refresh"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "refresh"]
 - !private ["s21_ObjectiveCBridgeableP", "refresh"]
 depends-nominal:
-- !private "SK"
 - !private "s7CVarArgP"
 - "s12CaseIterableP"
 - "s9CodingKeyP"
-- !private "Sl"
 - !private "26CollectionViewPagingLayout0abcD8DelegateP"
-- !private "SL"
 - "s28CustomDebugStringConvertibleP"
 - !private "s17CustomReflectableP"
 - "s23CustomStringConvertibleP"
@@ -509,11 +491,7 @@ depends-nominal:
 - !private "s7EncoderP"
 - "SQ"
 - "s25ExpressibleByArrayLiteralP"
-- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
 - !private "s23ExpressibleByNilLiteralP"
-- !private "s32ExpressibleByStringInterpolationP"
-- !private "s26ExpressibleByStringLiteralP"
-- !private "s33ExpressibleByUnicodeScalarLiteralP"
 - !private "7SwiftUI7GestureP"
 - "SH"
 - !private "s6HasherV"
@@ -521,11 +499,10 @@ depends-nominal:
 - !private "s30KeyedDecodingContainerProtocolP"
 - !private "s22KeyedEncodingContainerV"
 - !private "s30KeyedEncodingContainerProtocolP"
-- !private "s25LosslessStringConvertibleP"
-- "So8NSCodingP"
+- !private "So8NSCodingP"
 - !private "So26NSExtensionRequestHandlingP"
-- "So8NSObjectC"
-- "So8NSObjectP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
 - "11Supplements14NetworkServiceC"
 - !private "Sq"
 - "11Supplements4PageV"
@@ -536,15 +513,13 @@ depends-nominal:
 - "ST"
 - "11Supplements13SymptomsModelC"
 - !private "11Supplements22SymptomsViewControllerC"
-- !private "s16TextOutputStreamP"
-- !private "s20TextOutputStreamableP"
 - !private "So21UIAppearanceContainerP"
 - !private "So26UICollectionViewDataSourceP"
 - !private "So24UICollectionViewDelegateP"
 - !private "So18UIContentContainerP"
 - !private "So18UIFocusEnvironmentP"
 - !private "So30UIPasteConfigurationSupportingP"
-- "So11UIResponderC"
+- !private "So11UIResponderC"
 - !private "So30UIResponderStandardEditActionsP"
 - !private "So20UIScrollViewDelegateP"
 - !private "So16UIStateRestoringP"
@@ -552,10 +527,8 @@ depends-nominal:
 - !private "So23UIUserActivityRestoringP"
 - "So16UIViewControllerC"
 - !private "7SwiftUI4ViewP"
-- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
 - !private "s35_ExpressibleByBuiltinIntegerLiteralP"
 - "s34_ExpressibleByBuiltinStringLiteralP"
-- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
 - !private "10Foundation27_KeyValueCodingAndObservingP"
 - !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
 - !private "s21_ObjectiveCBridgeableP"

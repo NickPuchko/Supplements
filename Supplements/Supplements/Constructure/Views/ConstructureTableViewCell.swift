@@ -65,27 +65,24 @@ class ConstructureTableViewCell: UITableViewCell {
         ])
         self.addSubview(priceLabel)
         priceLabel.translatesAutoresizingMaskIntoConstraints = false
-        NSLayoutConstraint.activate([
-            priceLabel.trailingAnchor.constraint(equalTo: contentView.trailingAnchor, constant: -10),
-			priceLabel.topAnchor.constraint(equalTo: logoPillImageView.topAnchor)
-        ])
         self.addSubview(descriptionLabel)
         descriptionLabel.translatesAutoresizingMaskIntoConstraints = false
-        descriptionLabel.numberOfLines = 2
+        descriptionLabel.numberOfLines = 3
         descriptionLabel.textAlignment = .left
-        descriptionLabel.lineBreakMode = .byClipping
-        descriptionLabel.sizeToFit()
+        descriptionLabel.contentMode = .scaleAspectFit
+        
         NSLayoutConstraint.activate([
-            descriptionLabel.leadingAnchor.constraint(equalTo: logoPillImageView.trailingAnchor, constant: 10),
+            descriptionLabel.leadingAnchor.constraint(greaterThanOrEqualTo: logoPillImageView.trailingAnchor, constant: 10),
             descriptionLabel.topAnchor.constraint(equalTo: logoPillImageView.topAnchor),
-            descriptionLabel.trailingAnchor.constraint(equalTo: priceLabel.leadingAnchor, constant: -19)
+            descriptionLabel.widthAnchor.constraint(equalToConstant: contentView.frame.width - logoPillImageView.frame.width - 15),
+            descriptionLabel.trailingAnchor.constraint(equalTo: contentView.trailingAnchor, constant: -20)
         ])
         
         addSubview(percentageLabel)
         percentageLabel.translatesAutoresizingMaskIntoConstraints = false
         NSLayoutConstraint.activate([
-            percentageLabel.trailingAnchor.constraint(equalTo: contentView.trailingAnchor, constant: -23),
-            percentageLabel.topAnchor.constraint(equalTo: vitaminNameLabel.topAnchor),
+            percentageLabel.trailingAnchor.constraint(equalTo: contentView.trailingAnchor, constant: -40),
+            percentageLabel.topAnchor.constraint(equalTo: contentView.topAnchor, constant: 13),
         ])
         
         self.addSubview(addButton)
@@ -96,7 +93,7 @@ class ConstructureTableViewCell: UITableViewCell {
         addButton.layer.cornerRadius = 3
         NSLayoutConstraint.activate([
             addButton.leadingAnchor.constraint(equalTo: descriptionLabel.leadingAnchor),
-            addButton.topAnchor.constraint(equalTo: descriptionLabel.bottomAnchor, constant: 15),
+            addButton.topAnchor.constraint(equalTo: descriptionLabel.bottomAnchor, constant: 7),
             addButton.heightAnchor.constraint(equalToConstant: 20),
             addButton.widthAnchor.constraint(equalToConstant: 66)
         ])
@@ -109,9 +106,13 @@ class ConstructureTableViewCell: UITableViewCell {
         analogsButton.layer.cornerRadius = 3
         NSLayoutConstraint.activate([
             analogsButton.leadingAnchor.constraint(equalTo: addButton.trailingAnchor, constant: 12),
-            analogsButton.topAnchor.constraint(equalTo: descriptionLabel.bottomAnchor, constant: 15),
+            analogsButton.topAnchor.constraint(equalTo: descriptionLabel.bottomAnchor, constant: 7),
             analogsButton.heightAnchor.constraint(equalToConstant: 20),
-            analogsButton.widthAnchor.constraint(equalToConstant: 66)
+            analogsButton.widthAnchor.constraint(equalToConstant: 66),
+        ])
+        NSLayoutConstraint.activate([
+            priceLabel.trailingAnchor.constraint(equalTo: percentageLabel.trailingAnchor, constant: -10),
+            priceLabel.topAnchor.constraint(equalTo: analogsButton.topAnchor)
         ])
         
     }
