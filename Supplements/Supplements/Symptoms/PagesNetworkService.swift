@@ -56,7 +56,13 @@ class PagesNetworkService: NetworkService {
 			case .success(let data):
 				let json = JSON(data)
 
-				print(json)
+
+//				let toAddList = json["to_add"].arrayObject!.map { Element(rawValue: ($0 as? String ?? "")) ?? .vitamin_c }
+//				let notToAddList = json["not_to_add"].arrayObject!.map { Element(rawValue: ($0 as? String ?? "")) ?? .vitamin_c }
+//				var deficites: [Deficit] = json["показания"].arrayObject.map { name in
+//					return Deficit(name: Element(name as! String), risk: <#T##Float#>, good: <#T##Good?#>)
+//				}
+
 				completion(.success([]))
 
 			case .failure(_):

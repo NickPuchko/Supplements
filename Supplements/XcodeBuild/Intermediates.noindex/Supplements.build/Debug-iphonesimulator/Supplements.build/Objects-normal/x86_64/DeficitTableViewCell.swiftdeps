@@ -52,6 +52,7 @@ depends-member:
 - ["11Supplements6AdviceO", "dangerous"]
 - ["11Supplements6AdviceO", "fine"]
 - !private ["11Supplements6AdviceO", "rawValue"]
+- ["SK", ""]
 - !private ["SB", "rounded"]
 - !private ["Sz", ""]
 - !private ["Sz", "rounded"]
@@ -65,6 +66,7 @@ depends-member:
 - ["So15CALayerDelegateP", "Deficit"]
 - !private ["So15CALayerDelegateP", "Fonts"]
 - ["So15CALayerDelegateP", "LinearProgressView"]
+- ["So15CALayerDelegateP", "NSCoder"]
 - ["So15CALayerDelegateP", "String"]
 - !private ["So15CALayerDelegateP", "UIFont"]
 - ["So15CALayerDelegateP", "UILabel"]
@@ -138,8 +140,9 @@ depends-member:
 - !private ["s7CVarArgP", "textAlignment"]
 - !private ["s7CVarArgP", "trackColor"]
 - !private ["s12CaseIterableP", "rawValue"]
+- ["Sl", ""]
 - !private ["11Supplements6ColorsO", "tightGray"]
-- !private ["SL", ""]
+- ["SL", ""]
 - !private ["SL", "rounded"]
 - !private ["7SnapKit23ConstraintAttributesDSLP", "bottom"]
 - !private ["7SnapKit23ConstraintAttributesDSLP", "makeConstraints"]
@@ -321,6 +324,7 @@ depends-member:
 - !private ["11Supplements20DeficitTableViewCellC", "probLabel"]
 - !private ["11Supplements20DeficitTableViewCellC", "progress"]
 - ["11Supplements20DeficitTableViewCellC", "setup"]
+- !private ["11Supplements7ElementO", "RawValue"]
 - !private ["11Supplements7ElementO", ""]
 - !private ["11Supplements7ElementO", "rawValue"]
 - !private ["SE", "advice"]
@@ -373,6 +377,7 @@ depends-member:
 - !private ["SQ", "text"]
 - !private ["SQ", "textAlignment"]
 - !private ["SQ", "trackColor"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
 - !private ["s25ExpressibleByFloatLiteralP", ""]
 - !private ["s25ExpressibleByFloatLiteralP", "rounded"]
 - !private ["s27ExpressibleByIntegerLiteralP", "IntegerLiteralType"]
@@ -380,7 +385,10 @@ depends-member:
 - !private ["s27ExpressibleByIntegerLiteralP", "init"]
 - !private ["s27ExpressibleByIntegerLiteralP", "rounded"]
 - !private ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
+- ["s32ExpressibleByStringInterpolationP", ""]
 - !private ["s32ExpressibleByStringInterpolationP", "init"]
+- ["s26ExpressibleByStringLiteralP", ""]
+- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
 - !private ["s17FixedWidthIntegerP", "rounded"]
 - !private ["Sf", "rounded"]
 - !private ["SF", ""]
@@ -470,7 +478,7 @@ depends-member:
 - !private ["18LinearProgressViewAAC", "setProgress"]
 - !private ["18LinearProgressViewAAC", "snp"]
 - !private ["18LinearProgressViewAAC", "trackColor"]
-- !private ["s25LosslessStringConvertibleP", ""]
+- ["s25LosslessStringConvertibleP", ""]
 - !private ["s25LosslessStringConvertibleP", "rounded"]
 - !private ["s10MirrorPathP", "rounded"]
 - ["So8NSCodingP", "$__lazy_storage_$_adviceLabel"]
@@ -482,6 +490,7 @@ depends-member:
 - ["So8NSCodingP", "Deficit"]
 - !private ["So8NSCodingP", "Fonts"]
 - ["So8NSCodingP", "LinearProgressView"]
+- ["So8NSCodingP", "NSCoder"]
 - ["So8NSCodingP", "String"]
 - !private ["So8NSCodingP", "UIFont"]
 - ["So8NSCodingP", "UILabel"]
@@ -562,6 +571,8 @@ depends-member:
 - !private ["So8NSObjectC", "cornerRadius"]
 - !private ["So8NSObjectC", "fatalError"]
 - !private ["So8NSObjectC", "font"]
+- !private ["So8NSObjectC", "fontWithDescriptor"]
+- !private ["So8NSObjectC", "fontWithName"]
 - ["So8NSObjectC", "init"]
 - !private ["So8NSObjectC", "isCornersRounded"]
 - !private ["So8NSObjectC", "layer"]
@@ -590,6 +601,8 @@ depends-member:
 - ["So8NSObjectP", "Deficit"]
 - !private ["So8NSObjectP", "Fonts"]
 - ["So8NSObjectP", "LinearProgressView"]
+- ["So8NSObjectP", "NSCoder"]
+- ["So8NSObjectP", "String"]
 - !private ["So8NSObjectP", "UIFont"]
 - ["So8NSObjectP", "UILabel"]
 - ["So8NSObjectP", "UITableViewCell"]
@@ -608,6 +621,8 @@ depends-member:
 - !private ["So8NSObjectP", "cornerRadius"]
 - !private ["So8NSObjectP", "fatalError"]
 - !private ["So8NSObjectP", "font"]
+- !private ["So8NSObjectP", "fontWithDescriptor"]
+- !private ["So8NSObjectP", "fontWithName"]
 - ["So8NSObjectP", "init"]
 - !private ["So8NSObjectP", "isCornersRounded"]
 - !private ["So8NSObjectP", "layer"]
@@ -641,6 +656,7 @@ depends-member:
 - ["SY", "fine"]
 - !private ["SY", "rawValue"]
 - !private ["s10SIMDScalarP", "rounded"]
+- ["ST", ""]
 - !private ["SZ", "rounded"]
 - !private ["s13SignedNumericP", ""]
 - !private ["s13SignedNumericP", "rounded"]
@@ -649,8 +665,10 @@ depends-member:
 - !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
 - !private ["s27StringInterpolationProtocolP", "appendLiteral"]
 - !private ["s27StringInterpolationProtocolP", "init"]
+- ["s16TextOutputStreamP", ""]
 - !private ["s16TextOutputStreamP", "appendInterpolation"]
 - !private ["s16TextOutputStreamP", "appendLiteral"]
+- ["s20TextOutputStreamableP", ""]
 - !private ["s20TextOutputStreamableP", "rounded"]
 - ["So29UIAccessibilityIdentificationP", "$__lazy_storage_$_adviceLabel"]
 - ["So29UIAccessibilityIdentificationP", "$__lazy_storage_$_mainLabel"]
@@ -661,6 +679,7 @@ depends-member:
 - ["So29UIAccessibilityIdentificationP", "Deficit"]
 - !private ["So29UIAccessibilityIdentificationP", "Fonts"]
 - ["So29UIAccessibilityIdentificationP", "LinearProgressView"]
+- ["So29UIAccessibilityIdentificationP", "NSCoder"]
 - ["So29UIAccessibilityIdentificationP", "String"]
 - !private ["So29UIAccessibilityIdentificationP", "UIFont"]
 - ["So29UIAccessibilityIdentificationP", "UILabel"]
@@ -703,6 +722,7 @@ depends-member:
 - ["So12UIAppearanceP", "Deficit"]
 - !private ["So12UIAppearanceP", "Fonts"]
 - ["So12UIAppearanceP", "LinearProgressView"]
+- ["So12UIAppearanceP", "NSCoder"]
 - ["So12UIAppearanceP", "String"]
 - !private ["So12UIAppearanceP", "UIFont"]
 - ["So12UIAppearanceP", "UILabel"]
@@ -745,6 +765,7 @@ depends-member:
 - ["So21UIAppearanceContainerP", "Deficit"]
 - !private ["So21UIAppearanceContainerP", "Fonts"]
 - ["So21UIAppearanceContainerP", "LinearProgressView"]
+- ["So21UIAppearanceContainerP", "NSCoder"]
 - ["So21UIAppearanceContainerP", "String"]
 - !private ["So21UIAppearanceContainerP", "UIFont"]
 - ["So21UIAppearanceContainerP", "UILabel"]
@@ -797,6 +818,7 @@ depends-member:
 - ["So17UICoordinateSpaceP", "Deficit"]
 - !private ["So17UICoordinateSpaceP", "Fonts"]
 - ["So17UICoordinateSpaceP", "LinearProgressView"]
+- ["So17UICoordinateSpaceP", "NSCoder"]
 - ["So17UICoordinateSpaceP", "String"]
 - !private ["So17UICoordinateSpaceP", "UIFont"]
 - ["So17UICoordinateSpaceP", "UILabel"]
@@ -839,6 +861,7 @@ depends-member:
 - ["So13UIDynamicItemP", "Deficit"]
 - !private ["So13UIDynamicItemP", "Fonts"]
 - ["So13UIDynamicItemP", "LinearProgressView"]
+- ["So13UIDynamicItemP", "NSCoder"]
 - ["So13UIDynamicItemP", "String"]
 - !private ["So13UIDynamicItemP", "UIFont"]
 - ["So13UIDynamicItemP", "UILabel"]
@@ -881,6 +904,7 @@ depends-member:
 - ["So18UIFocusEnvironmentP", "Deficit"]
 - !private ["So18UIFocusEnvironmentP", "Fonts"]
 - ["So18UIFocusEnvironmentP", "LinearProgressView"]
+- ["So18UIFocusEnvironmentP", "NSCoder"]
 - ["So18UIFocusEnvironmentP", "String"]
 - !private ["So18UIFocusEnvironmentP", "UIFont"]
 - ["So18UIFocusEnvironmentP", "UILabel"]
@@ -923,6 +947,7 @@ depends-member:
 - ["So11UIFocusItemP", "Deficit"]
 - !private ["So11UIFocusItemP", "Fonts"]
 - ["So11UIFocusItemP", "LinearProgressView"]
+- ["So11UIFocusItemP", "NSCoder"]
 - ["So11UIFocusItemP", "String"]
 - !private ["So11UIFocusItemP", "UIFont"]
 - ["So11UIFocusItemP", "UILabel"]
@@ -965,6 +990,7 @@ depends-member:
 - ["So20UIFocusItemContainerP", "Deficit"]
 - !private ["So20UIFocusItemContainerP", "Fonts"]
 - ["So20UIFocusItemContainerP", "LinearProgressView"]
+- ["So20UIFocusItemContainerP", "NSCoder"]
 - ["So20UIFocusItemContainerP", "String"]
 - !private ["So20UIFocusItemContainerP", "UIFont"]
 - ["So20UIFocusItemContainerP", "UILabel"]
@@ -1044,6 +1070,7 @@ depends-member:
 - ["So24UILargeContentViewerItemP", "Deficit"]
 - !private ["So24UILargeContentViewerItemP", "Fonts"]
 - ["So24UILargeContentViewerItemP", "LinearProgressView"]
+- ["So24UILargeContentViewerItemP", "NSCoder"]
 - ["So24UILargeContentViewerItemP", "String"]
 - !private ["So24UILargeContentViewerItemP", "UIFont"]
 - ["So24UILargeContentViewerItemP", "UILabel"]
@@ -1086,6 +1113,8 @@ depends-member:
 - ["So30UIPasteConfigurationSupportingP", "Deficit"]
 - !private ["So30UIPasteConfigurationSupportingP", "Fonts"]
 - ["So30UIPasteConfigurationSupportingP", "LinearProgressView"]
+- ["So30UIPasteConfigurationSupportingP", "NSCoder"]
+- ["So30UIPasteConfigurationSupportingP", "String"]
 - !private ["So30UIPasteConfigurationSupportingP", "UIFont"]
 - ["So30UIPasteConfigurationSupportingP", "UILabel"]
 - ["So30UIPasteConfigurationSupportingP", "UITableViewCell"]
@@ -1170,6 +1199,8 @@ depends-member:
 - ["So30UIResponderStandardEditActionsP", "Deficit"]
 - !private ["So30UIResponderStandardEditActionsP", "Fonts"]
 - ["So30UIResponderStandardEditActionsP", "LinearProgressView"]
+- ["So30UIResponderStandardEditActionsP", "NSCoder"]
+- ["So30UIResponderStandardEditActionsP", "String"]
 - !private ["So30UIResponderStandardEditActionsP", "UIFont"]
 - ["So30UIResponderStandardEditActionsP", "UILabel"]
 - ["So30UIResponderStandardEditActionsP", "UITableViewCell"]
@@ -1241,6 +1272,7 @@ depends-member:
 - ["So18UITraitEnvironmentP", "Deficit"]
 - !private ["So18UITraitEnvironmentP", "Fonts"]
 - ["So18UITraitEnvironmentP", "LinearProgressView"]
+- ["So18UITraitEnvironmentP", "NSCoder"]
 - ["So18UITraitEnvironmentP", "String"]
 - !private ["So18UITraitEnvironmentP", "UIFont"]
 - ["So18UITraitEnvironmentP", "UILabel"]
@@ -1283,6 +1315,8 @@ depends-member:
 - ["So23UIUserActivityRestoringP", "Deficit"]
 - !private ["So23UIUserActivityRestoringP", "Fonts"]
 - ["So23UIUserActivityRestoringP", "LinearProgressView"]
+- ["So23UIUserActivityRestoringP", "NSCoder"]
+- ["So23UIUserActivityRestoringP", "String"]
 - !private ["So23UIUserActivityRestoringP", "UIFont"]
 - ["So23UIUserActivityRestoringP", "UILabel"]
 - ["So23UIUserActivityRestoringP", "UITableViewCell"]
@@ -1363,10 +1397,12 @@ depends-member:
 - !private ["s22_CVarArgPassedAsDoubleP", "rounded"]
 - !private ["s30_CustomPlaygroundQuickLookableP", "rounded"]
 - !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
 - !private ["s33_ExpressibleByBuiltinFloatLiteralP", "rounded"]
-- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
 - !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "rounded"]
 - !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
 - !private ["s26_ExpressibleByColorLiteralP", "init"]
 - !private ["s26_ExpressibleByColorLiteralP", "systemGreen"]
 - !private ["s26_ExpressibleByColorLiteralP", "systemOrange"]
@@ -1481,6 +1517,7 @@ depends-member:
 depends-nominal:
 - !private "s18AdditiveArithmeticP"
 - "11Supplements6AdviceO"
+- "SK"
 - !private "SB"
 - !private "Sz"
 - !private "So7CALayerC"
@@ -1489,8 +1526,9 @@ depends-nominal:
 - !private "8CloudKit21CKRecordValueProtocolP"
 - "s7CVarArgP"
 - !private "s12CaseIterableP"
+- "Sl"
 - !private "11Supplements6ColorsO"
-- !private "SL"
+- "SL"
 - !private "7SnapKit23ConstraintAttributesDSLP"
 - !private "7SnapKit28ConstraintBasicAttributesDSLP"
 - !private "7SnapKit24ConstraintConstantTargetP"
@@ -1517,9 +1555,12 @@ depends-nominal:
 - !private "11Supplements7ElementO"
 - "SE"
 - "SQ"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
 - !private "s25ExpressibleByFloatLiteralP"
 - !private "s27ExpressibleByIntegerLiteralP"
-- !private "s32ExpressibleByStringInterpolationP"
+- "s32ExpressibleByStringInterpolationP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
 - !private "s17FixedWidthIntegerP"
 - !private "Sf"
 - !private "SF"
@@ -1529,7 +1570,7 @@ depends-nominal:
 - !private "10SwiftyJSON17JSONSubscriptTypeP"
 - "7SnapKit20LayoutConstraintItemP"
 - "18LinearProgressViewAAC"
-- !private "s25LosslessStringConvertibleP"
+- "s25LosslessStringConvertibleP"
 - !private "s10MirrorPathP"
 - "So8NSCodingP"
 - !private "So9NSCopyingP"
@@ -1542,12 +1583,13 @@ depends-nominal:
 - !private "Sj"
 - "SY"
 - !private "s10SIMDScalarP"
+- "ST"
 - !private "SZ"
 - !private "s13SignedNumericP"
 - !private "Sx"
 - !private "s27StringInterpolationProtocolP"
-- !private "s16TextOutputStreamP"
-- !private "s20TextOutputStreamableP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
 - "So29UIAccessibilityIdentificationP"
 - "So12UIAppearanceP"
 - "So21UIAppearanceContainerP"
@@ -1574,9 +1616,11 @@ depends-nominal:
 - !private "s22_CVarArgPassedAsDoubleP"
 - !private "s30_CustomPlaygroundQuickLookableP"
 - !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
 - !private "s33_ExpressibleByBuiltinFloatLiteralP"
-- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
 - !private "s34_ExpressibleByBuiltinStringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
 - !private "s26_ExpressibleByColorLiteralP"
 - !private "7SwiftUI18_FormatSpecifiableP"
 - !private "s35_HasCustomAnyHashableRepresentationP"
@@ -1587,9 +1631,12 @@ depends-nominal:
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMIDI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftUI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMedia.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/simd.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
@@ -1599,7 +1646,9 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/AVFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreAudio.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/CalendarHeatmap/CalendarHeatmap.framework/Modules/CalendarHeatmap.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/SwipeableTabBarController/SwipeableTabBarController.framework/Modules/SwipeableTabBarController.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/Popover/Popover.framework/Modules/Popover.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
@@ -1616,6 +1665,7 @@ depends-external:
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/CollectionViewPagingLayout/CollectionViewPagingLayout.framework/Modules/CollectionViewPagingLayout.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/LinearProgressView/LinearProgressView.framework/Modules/LinearProgressView.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/Onboard/Onboard.framework/Headers/Onboard-umbrella.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/CalendarHeatmap/CalendarHeatmap.framework/Headers/CalendarHeatmap-umbrella.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/SwipeableTabBarController/SwipeableTabBarController.framework/Headers/SwipeableTabBarController-umbrella.h"
@@ -1628,6 +1678,8 @@ depends-external:
 - "/Users/sapientisat/Projects/Supplements/Supplements/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GoogleSignIn.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDAuthentication.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDSignInButton.h"
+- "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/Onboard/Onboard.framework/Headers/OnboardingViewController.h"
+- "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/Onboard/Onboard.framework/Headers/OnboardingContentViewController.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDGoogleUser.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
@@ -1639,6 +1691,7 @@ depends-external:
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/LinearProgressView/LinearProgressView.framework/Headers/LinearProgressView-Swift.h"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/dyld.modulemap"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
+- "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/Onboard/Onboard.framework/Modules/module.modulemap"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
 - "/Users/sapientisat/Projects/Supplements/Supplements/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Modules/module.modulemap"
 - "/Users/sapientisat/Projects/Supplements/Supplements/XcodeBuild/Products/Debug-iphonesimulator/CalendarHeatmap/CalendarHeatmap.framework/Modules/module.modulemap"
@@ -1650,6 +1703,7 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/objc/ObjectiveC.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
@@ -1658,13 +1712,18 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/Darwin.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioTypes.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UniformTypeIdentifiers.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/AVKit.framework/Headers/AVKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/HealthKit.framework/Headers/HealthKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
 interface-hash: "c7e4ff1daee5f2d4fe6740a12bd4d3d7"

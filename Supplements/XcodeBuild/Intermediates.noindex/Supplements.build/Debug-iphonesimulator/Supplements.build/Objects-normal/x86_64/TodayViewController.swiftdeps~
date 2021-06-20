@@ -65,6 +65,7 @@ depends-top-level:
 - !private "calendarHeatMap"
 - !private "configureUI"
 - !private "data"
+- !private "finishLoadCalendar"
 - !private "navigationController"
 - !private "pillsTableView"
 - "readHeatmap"

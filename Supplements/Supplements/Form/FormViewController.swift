@@ -62,7 +62,7 @@ extension FormViewController {
 
 
 	@objc func showSymptomsViewController() {
-		var rowData = RowData(
+		let rowData = RowData(
 			height: Int(contentView.heightTextField.text!) ?? 0,
 			weight: Int(contentView.weightTextField.text!) ?? 0,
 			city: contentView.cityTextField.text!,

@@ -65,6 +65,7 @@ class ContentView: UIView {
             birthDateLabel.topAnchor.constraint(equalTo: safeAreaLayoutGuide.topAnchor, constant: 60),
             birthDateLabel.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 17)
         ])
+		birthDateTextField.textAlignment = .center
         addSubview(birthDateTextField)
         NSLayoutConstraint.activate([
             birthDateTextField.topAnchor.constraint(equalTo: birthDateLabel.bottomAnchor, constant: 8),
@@ -86,7 +87,7 @@ class ContentView: UIView {
         ])
         birthDateTextField.isEnabled = false
     }
-    @objc func dueDateChanged(sender:UIDatePicker){
+    @objc func dueDateChanged(sender: UIDatePicker){
         let dateFormatter = DateFormatter()
         dateFormatter.dateStyle = .short
         dateFormatter.timeStyle = .none
@@ -119,6 +120,7 @@ class ContentView: UIView {
             heightLabel.topAnchor.constraint(equalTo: sex.bottomAnchor ,constant: 21),
             heightLabel.leadingAnchor.constraint(equalTo: sex.leadingAnchor)
         ])
+		heightTextField.keyboardType = .numberPad
         addSubview(heightTextField)
         NSLayoutConstraint.activate([
             heightTextField.topAnchor.constraint(equalTo: heightLabel.bottomAnchor, constant: 8),
@@ -135,6 +137,7 @@ class ContentView: UIView {
             weightLabel.topAnchor.constraint(equalTo: heightTextField.bottomAnchor ,constant: 21),
             weightLabel.leadingAnchor.constraint(equalTo: heightTextField.leadingAnchor)
         ])
+		weightTextField.keyboardType = .numberPad
         addSubview(weightTextField)
         NSLayoutConstraint.activate([
             weightTextField.topAnchor.constraint(equalTo: weightLabel.bottomAnchor, constant: 8),
