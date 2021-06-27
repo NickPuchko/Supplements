@@ -1,5 +1,0 @@
-version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
-options: "8f1359a4f6474dba3cebf8799b5dd028"
-build_time: [1624134863, 423683000]
-inputs:
-  "/Users/sapientisat/Projects/Supplements/Supplements/Pods/SwiftyJSON/Source/SwiftyJSON/SwiftyJSON.swift": [1624134856, 33943287]
